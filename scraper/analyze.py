@@ -584,6 +584,7 @@ EXCLUDE_MEMBERS = {
     "belen osorio", "belen osorio flores",
     "antonio saez", "antonio saez marin",
     "jesus gomez", "jesus gomez capi",
+    "amadeo gavilano",
 }
 
 
