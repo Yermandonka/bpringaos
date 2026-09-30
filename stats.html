@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BPringaos — el expediente</title>
+<meta name="description" content="El expediente estadístico completo, una barbaridad por pantalla.">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<meta property="og:title" content="BPringaos — el expediente">
+<meta property="og:description" content="20+ estadísticas de debate BP que nadie pidió, una por pantalla. Navega en horizontal como en las buenas dimensiones.">
+<meta property="og:image" content="https://bpringaos.com/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Space+Grotesk:wght@400;500;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body class="stats-page" data-person="german">
+
+<div id="loader" aria-hidden="true">
+  <div class="portal"><div class="portal-ring"></div><div class="portal-core"></div></div>
+  <p class="loader-txt">Materializando el expediente…</p>
+</div>
+
+<canvas id="dustCanvas" aria-hidden="true"></canvas>
+
+<header class="deck-top">
+  <a class="brand" href="index.html"><span class="brand-b">BP</span>ringaos</a>
+  <div class="deck-person" id="deckPerson">—</div>
+  <div class="deck-count" id="deckCount">1 / 1</div>
+</header>
+
+<main id="deck" class="deck" tabindex="0" aria-label="Estadísticas, navega en horizontal"><!-- slides por JS --></main>
+
+<div class="deck-ghost" id="deckGhost" aria-hidden="true">01</div>
+
+<nav class="deck-nav" aria-label="Navegación">
+  <button id="prevBtn" class="nav-arrow" aria-label="Anterior">←</button>
+  <div class="deck-dots" id="deckDots"></div>
+  <button id="nextBtn" class="nav-arrow" aria-label="Siguiente">→</button>
+</nav>
+
+<div class="deck-hint" id="deckHint">desliza / rueda / flechas →</div>
+
+<div id="tooltip" role="status" aria-hidden="true"></div>
+
+<script src="assets/stats.js" defer></script>
+</body>
+</html>

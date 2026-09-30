@@ -23,136 +23,48 @@
 <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Space+Grotesk:wght@400;500;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/style.css">
 </head>
-<body data-person="german">
+<body class="cover-page" data-person="german">
 
-<!-- Preloader portal -->
 <div id="loader" aria-hidden="true">
   <div class="portal"><div class="portal-ring"></div><div class="portal-core"></div></div>
   <p class="loader-txt">Abriendo portal a la dimensión C-137-BP…</p>
 </div>
 
-<!-- Progreso de scroll -->
-<div id="scrollbar" aria-hidden="true"></div>
-
-<header id="topnav">
-  <a class="brand" href="#top"><span class="brand-b">BP</span>ringaos</a>
-  <nav>
-    <a href="#stats">Números</a>
-    <a href="#evolucion">Evolución</a>
-    <a href="#camaras">Cámaras</a>
-    <a href="#mociones">Mociones</a>
-    <a href="#versus">Versus</a>
-  </nav>
-</header>
-
-<!-- HERO -->
 <section id="top" class="hero">
   <canvas id="portalCanvas" aria-hidden="true"></canvas>
   <div class="hero-inner">
-    <p class="hero-over reveal">estadísticas que nadie pidió · rigurosamente innecesarias</p>
+    <p class="hero-over reveal in">estadísticas que nadie pidió · rigurosamente innecesarias</p>
     <h1 class="glitch" data-text="BPRINGAOS">BPRINGAOS</h1>
-    <p class="hero-sub reveal"><span id="typewriter"></span><span class="caret">▌</span></p>
-    <div class="hero-cta reveal">
-      <a class="btn btn-primary" href="#stats">Enséñame la ciencia</a>
-      <a class="btn btn-ghost" href="#versus">Directo al Versus</a>
+    <p class="hero-sub"><span id="typewriter"></span><span class="caret">▌</span></p>
+    <p class="hero-note" id="heroMeta">—</p>
+
+    <div class="gates">
+      <a class="gate gate-g" href="stats.html?p=german">
+        <span class="gate-ring"></span>
+        <span class="gate-core">
+          <span class="gate-kicker">sujeto de pruebas nº1</span>
+          <span class="gate-name">Germán</span>
+          <span class="gate-sub">Mendonça Costa-Frossard</span>
+          <span class="gate-cta">cruzar el portal →</span>
+        </span>
+      </a>
+      <a class="gate gate-l" href="stats.html?p=lucia">
+        <span class="gate-ring"></span>
+        <span class="gate-core">
+          <span class="gate-kicker">sujeto de pruebas nº2</span>
+          <span class="gate-name">Lucía</span>
+          <span class="gate-sub">Vadillo</span>
+          <span class="gate-cta">cruzar el portal →</span>
+        </span>
+      </a>
     </div>
-    <p class="hero-note reveal" id="heroMeta">—</p>
+
+    <p class="hero-note foot-links">
+      Datos públicos de calicotab · <a href="https://github.com/Yermandonka/bpringaos">código</a> · hecho sin permiso del Consejo de Ricks
+    </p>
   </div>
-  <div class="scroll-hint" aria-hidden="true"><span></span></div>
 </section>
 
-<!-- SELECTOR -->
-<section class="selector-wrap" id="selector">
-  <div class="selector" role="tablist" aria-label="Elegir persona">
-    <button class="sel-btn active" data-sel="german" role="tab" aria-selected="true">Germán</button>
-    <button class="sel-btn" data-sel="lucia" role="tab" aria-selected="false">Lucía</button>
-    <span class="sel-pill" aria-hidden="true"></span>
-  </div>
-  <p class="selector-quip" id="selectorQuip">—</p>
-</section>
-
-<main>
-  <!-- STAT TILES -->
-  <section id="stats" class="section">
-    <h2 class="sec-title reveal"><span class="sec-kicker">§1 · los números</span>La ciencia no pregunta si quieres saberlo</h2>
-    <div class="tiles" id="tiles"><!-- JS --></div>
-  </section>
-
-  <!-- EVOLUCIÓN -->
-  <section id="evolucion" class="section">
-    <h2 class="sec-title reveal"><span class="sec-kicker">§2 · evolución</span>Speaks ronda a ronda, sin anestesia</h2>
-    <p class="sec-sub reveal">Cada punto es un discurso real ante jueces reales. La línea discontinua es la media del torneo: por encima, bien; por debajo, «es culpa del panel».</p>
-    <div class="chart-card reveal">
-      <div class="chart-legend" id="evoLegend"></div>
-      <div class="chart-scroll"><svg id="evoChart" role="img" aria-label="Evolución de speaker points ronda a ronda"></svg></div>
-      <button class="table-toggle" data-table="evoTable">Ver tabla (para tu yo de la dimensión aburrida)</button>
-      <div class="data-table" id="evoTable" hidden></div>
-    </div>
-  </section>
-
-  <!-- CÁMARAS -->
-  <section id="camaras" class="section">
-    <h2 class="sec-title reveal"><span class="sec-kicker">§3 · cámaras</span>¿Dónde haces más daño?</h2>
-    <p class="sec-sub reveal">Media de puntos de equipo por posición en la sala. 3 = primero, 0 = «los jueces no entendieron nada».</p>
-    <div class="room" id="room"><!-- JS --></div>
-  </section>
-
-  <!-- POSICIÓN -->
-  <section id="posicion" class="section">
-    <h2 class="sec-title reveal"><span class="sec-kicker">§4 · posición</span>¿Abres tú o abro yo?</h2>
-    <div class="pos-grid" id="posGrid"><!-- JS --></div>
-  </section>
-
-  <!-- RESULTADOS -->
-  <section id="resultados" class="section">
-    <h2 class="sec-title reveal"><span class="sec-kicker">§5 · resultados</span>El histograma de la verdad</h2>
-    <div class="chart-card reveal">
-      <div id="resultBars"><!-- JS --></div>
-    </div>
-  </section>
-
-  <!-- MOCIONES -->
-  <section id="mociones" class="section">
-    <h2 class="sec-title reveal"><span class="sec-kicker">§6 · mociones</span>Temas que se te dan bien (y los otros)</h2>
-    <p class="sec-sub reveal">Clasificación automática de cada moción por tema. Media de puntos de equipo por tema — con n pequeño, esto es astrología con pasos extra y lo sabes.</p>
-    <div class="chart-card reveal"><div id="topicBars"></div></div>
-  </section>
-
-  <!-- MEJOR / PEOR -->
-  <section id="extremos" class="section">
-    <h2 class="sec-title reveal"><span class="sec-kicker">§7 · extremos</span>El mejor discurso y el que no mencionamos</h2>
-    <div class="extremes" id="extremes"><!-- JS --></div>
-  </section>
-
-  <!-- COMPAÑEROS -->
-  <section id="mates" class="section">
-    <h2 class="sec-title reveal"><span class="sec-kicker">§8 · compañeros</span>Gente que ha debatido contigo y sobrevivió</h2>
-    <div class="mates" id="matesList"><!-- JS --></div>
-  </section>
-
-  <!-- VERSUS -->
-  <section id="versus" class="section versus-sec">
-    <h2 class="sec-title reveal"><span class="sec-kicker">§9 · versus</span><span class="vs-title">Germán <em>vs</em> Lucía</span></h2>
-    <p class="sec-sub reveal">Comparativa directa y rondas en la misma sala. Que gane el mejor multiverso.</p>
-    <div class="vs-board reveal" id="vsBoard"><!-- JS --></div>
-    <div class="h2h" id="h2hList"><!-- JS --></div>
-  </section>
-
-  <!-- TORNEOS -->
-  <section id="torneos" class="section">
-    <h2 class="sec-title reveal"><span class="sec-kicker">§10 · torneos</span>La gira interdimensional</h2>
-    <div class="tour-strip" id="tourStrip"><!-- JS --></div>
-  </section>
-</main>
-
-<footer>
-  <p class="foot-big">«Los speaks van y vienen, Morty. La vergüenza de una cuarta en AG es para siempre.»</p>
-  <p class="foot-small">Datos públicos de instancias Tabbycat en calicotab.com · <span id="footMeta">—</span></p>
-  <p class="foot-small">Hecho con ciencia, naranja y cero permiso del Consejo de Ricks · <a href="https://github.com/Yermandonka/bpringaos">código</a></p>
-</footer>
-
-<div id="tooltip" role="status" aria-hidden="true"></div>
-
-<script src="assets/app.js" defer></script>
+<script src="assets/cover.js" defer></script>
 </body>
 </html>
