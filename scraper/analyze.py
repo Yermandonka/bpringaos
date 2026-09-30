@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Cruza los JSON crudos de data/raw/ y produce data/stats.json con las
 estadísticas de las personas objetivo (matching difuso de nombres)."""
+import datetime
 import json
 import re
 import statistics
@@ -52,6 +53,10 @@ def norm(s):
 
 
 def matches(target, name):
+    # perfiles generados del roster: igualdad exacta de nombre (evita fusionar
+    # a personas distintas con el mismo nombre común)
+    if target.get("exact"):
+        return norm(name).strip() == target["exact"]
     n = " " + norm(name) + " "
     for token in target["required_all"]:
         if token not in n:
@@ -77,11 +82,39 @@ def pick_ballot(ballots):
     return (confirmed or ballots)[-1]
 
 
+# series y palabras que delatan un torneo ONLINE del circuito hispano
+ONLINE_NAME = re.compile(
+    r"virtual|online|on ?line|telematic|remoto|a distancia|"
+    r"craft|raptor|express|\bced\b|leon del sur|rosario open|cervantes|"
+    r"san agustin|estacional|invierno|otono|verano|primavera|"
+    r"panhispan|iberoamerican|hispanoamerican|copa hispana")
+# marcadores físicos en nombres de sede → presencial seguro
+PHYS_VENUE = re.compile(
+    r"aula|modul|edificio|facultad|campus|planta|\bpiso\b|pabellon|"
+    r"auditorio|paraninfo|salon de actos|colegio mayor|\bc m\b|"
+    r"seminario|anfiteatro|biblioteca|decanato|rectorado")
+# marcadores online en sedes
+ONLINE_VENUE = re.compile(r"zoom|meet|discord|jitsi|http|breakout|\bbo ?\d|sala virtual|meeting")
+
+
 def is_online(data):
-    names = " ".join(norm(v.get("name", "")) for v in (data.get("venues") or []))
-    tname = norm(data["tournament"].get("name", "")) + " " + norm(data["slug"])
-    if re.search(r"zoom|meet|discord|jitsi|http|sala virtual|craft", names + " " + tname):
+    venues = " ".join(norm(v.get("name", "")) for v in (data.get("venues") or []))
+    name = norm(data["tournament"].get("name", "")) + " " + norm(data["slug"])
+    # 1. señal explícita en el nombre
+    if "presencial" in name:
+        return False
+    if re.search(r"virtual|online|on ?line|telematic|remoto|a distancia", name):
         return True
+    # 2. sede física inequívoca → presencial
+    if PHYS_VENUE.search(venues):
+        return False
+    # 3. marcadores online en sedes
+    if ONLINE_VENUE.search(venues):
+        return True
+    # 4. series conocidas online por nombre
+    if ONLINE_NAME.search(name):
+        return True
+    # 5. por defecto, presencial (la mayoría del circuito BP lo es)
     return False
 
 
@@ -103,10 +136,9 @@ def load_tournaments():
     return out
 
 
-def build():
-    tournaments = load_tournaments()
+def build(targets, tournaments):
     people = {t["key"]: {"target": t, "rows": [], "elim_rows": [], "tournaments": {},
-                         "team_urls": {}, "breaks": []} for t in TARGETS}
+                         "team_urls": {}, "breaks": []} for t in targets}
     all_speaker_rows = 0
 
     for data in tournaments:
@@ -138,9 +170,10 @@ def build():
 
         target_speaker_urls = {}  # url -> person key
         for surl, s in speakers.items():
-            for t in TARGETS:
+            for t in targets:
                 if matches(t, s.get("name", "")):
                     target_speaker_urls[surl] = t["key"]
+                    break
 
         for rd in data.get("rounds_data") or []:
             seq = rd["seq"]
@@ -211,24 +244,41 @@ def build():
             my_teams = person["team_urls"].get(tslug)
             if not my_teams:
                 continue
-            broke_open = broke_novice = False
+            # por categoría (open/novato): guarda profundidad máxima y si fue campeón
+            cats = {}  # is_novice -> {"depth":int, "reached":str, "champion":bool}
             for rd in data.get("rounds_data") or []:
                 rnd = rounds_by_seq.get(rd["seq"], {})
                 if rnd.get("stage") != "E":
                     continue
-                appears = any(t.get("team") in my_teams
-                              for pr in (rd.get("pairings") or [])
-                              for t in (pr.get("teams") or []))
+                # ¿aparece el equipo de la persona en esta ronda elim?
+                my_sheet_win = None
+                appears = False
+                for pr in (rd.get("pairings") or []):
+                    if any(t.get("team") in my_teams for t in (pr.get("teams") or [])):
+                        appears = True
+                        # ¿ganó la ronda? (para detectar campeón en la final)
+                        b = pick_ballot(pr.get("ballots"))
+                        if b and b.get("result"):
+                            for sheet in b["result"].get("sheets", []):
+                                for st in sheet.get("teams", []):
+                                    if st.get("team") in my_teams:
+                                        my_sheet_win = (st.get("points") == 3) or bool(st.get("win"))
+                        break
                 if not appears:
                     continue
                 label = norm((rnd.get("name") or "") + " " + bc_names.get(rnd.get("break_category"), ""))
-                if re.search(r"novat|novice|novel|principiante|rookie|inicia", label):
-                    broke_novice = True
-                else:
-                    broke_open = True
-            for is_nov, hit in [(False, broke_open), (True, broke_novice)]:
-                if hit:
-                    person["breaks"].append({"t": tslug, "tname": tname, "date": tdate, "novice": is_nov})
+                is_nov = bool(re.search(r"novat|novice|novel|principiante|rookie|inicia", label))
+                depth, reached = elim_depth(label)
+                c = cats.setdefault(is_nov, {"depth": -1, "reached": "Eliminatorias", "champion": False})
+                if depth > c["depth"]:
+                    c["depth"], c["reached"] = depth, reached
+                # campeón: ganó la final
+                if depth >= 5 and my_sheet_win:
+                    c["champion"] = True
+            for is_nov, c in cats.items():
+                person["breaks"].append({"t": tslug, "tname": tname, "date": tdate,
+                                         "novice": is_nov, "reached": c["reached"],
+                                         "champion": c["champion"]})
 
         # percentil dentro del torneo
         if t_scores:
@@ -243,6 +293,21 @@ def build():
 
 def matches_name_not_anon(sp):
     return bool(sp.get("name")) and not sp.get("anonymous")
+
+
+def elim_depth(label):
+    """Profundidad de una ronda eliminatoria por su nombre → (rango, etiqueta)."""
+    if re.search(r"gran final|\bfinal\b|finalisima", label) and "semi" not in label:
+        return 5, "Final"
+    if "semi" in label:
+        return 4, "Semifinal"
+    if re.search(r"cuartos|cuarto de final|quarter", label):
+        return 3, "Cuartos"
+    if re.search(r"octavos|eighth|8vos|8avos", label):
+        return 2, "Octavos"
+    if re.search(r"dieciseis|16avos|doble octavo|partial", label):
+        return 1, "Dieciseisavos"
+    return 0, "Eliminatorias"
 
 
 def summarize(person):
@@ -385,21 +450,106 @@ def head_to_head(people):
     return h2h
 
 
+UCM_COM = re.compile(r"ucm[\s-]*com|comunicate")
+
+
+def build_roster(tournaments, days=365):
+    """Mapa de todos los que han debatido por UCM-COM en el último año."""
+    try:
+        today = datetime.date.today()
+    except Exception:
+        today = datetime.date(2026, 9, 30)
+    cutoff = (today - datetime.timedelta(days=days)).isoformat()
+    roster = {}  # nombre normalizado -> datos
+    for data in tournaments:
+        date = tournament_date(data)
+        if not date or date < cutoff:
+            continue
+        tname = data["tournament"]["name"]
+        online = is_online(data)
+        for tm in data.get("teams") or []:
+            ref = tm.get("short_name") or tm.get("reference") or ""
+            if not UCM_COM.search(norm(ref)):
+                continue
+            for sp in tm.get("speakers", []) or []:
+                name = sp.get("name")
+                if not name or sp.get("anonymous"):
+                    continue
+                key = norm(name)
+                d = roster.setdefault(key, {"name": name, "n_tournaments": 0, "teams": [],
+                                            "tournaments": set(), "last": None, "first": None})
+                if tname not in d["tournaments"]:
+                    d["tournaments"].add(tname)
+                    d["teams"].append({"tname": tname, "team": ref, "date": date, "online": online})
+                d["last"] = max(d["last"], date) if d["last"] else date
+                d["first"] = min(d["first"], date) if d["first"] else date
+    out = []
+    for d in roster.values():
+        out.append({"name": d["name"], "n_tournaments": len(d["tournaments"]),
+                    "teams": sorted(d["teams"], key=lambda x: x["date"]),
+                    "last": d["last"], "first": d["first"]})
+    out.sort(key=lambda x: (-x["n_tournaments"], x["name"]))
+    return {"since": cutoff, "count": len(out), "members": out}
+
+
+def slugify(name):
+    s = norm(name).strip().replace(" ", "-")
+    s = re.sub(r"-+", "-", s).strip("-")
+    return s[:48] or "x"
+
+
+def roster_targets(tournaments, curated):
+    """Un target por cada persona que representó a UCM-COM en el último año.
+    Los curados (Germán, Lucía) tienen prioridad y matching difuso propio."""
+    roster = build_roster(tournaments)
+    gen, seen_keys = [], {t["key"] for t in curated}
+    for m in roster["members"]:
+        # ¿es una persona ya curada? (matching difuso) → no duplicar
+        if any(matches(c, m["name"]) for c in curated):
+            continue
+        toks = norm(m["name"]).split()
+        # nombre + dos apellidos (>=3 tokens) para que la igualdad exacta no
+        # fusione a homónimos; los nombres de 2 tokens son demasiado ambiguos
+        if len(toks) < 3:
+            continue
+        key = slugify(m["name"])
+        if key in seen_keys:
+            continue
+        seen_keys.add(key)
+        gen.append({"key": key, "display": m["name"],
+                    "exact": norm(m["name"]).strip(),
+                    "required_all": [], "required_any": []})
+    return gen
+
+
 def main():
-    people, tournaments, nrows = build()
+    tournaments = load_tournaments()
+    targets = list(TARGETS) + roster_targets(tournaments, TARGETS)
+    people, _, nrows = build(targets, tournaments)
+
+    # solo incluimos perfiles con actividad real
+    summ = {}
+    for k, p in people.items():
+        s = summarize(p)
+        if s.get("n_rounds") or s.get("n_breaks") or s.get("n_elim_rounds"):
+            summ[k] = s
+
     stats = {
         "generated": True,
         "n_tournaments_scanned": len(tournaments),
+        "n_people": len(summ),
         "tournaments_scanned": [{"name": d["tournament"]["name"], "slug": d["slug"],
                                  "base": d["base"], "date": tournament_date(d), "online": is_online(d)}
                                 for d in tournaments],
-        "people": {k: summarize(p) for k, p in people.items()},
-        "h2h": head_to_head(people),
+        "people": summ,
+        "h2h": head_to_head(people) if "german" in people and "lucia" in people else [],
     }
     dest = ROOT / "data" / "stats.json"
     dest.write_text(json.dumps(stats, ensure_ascii=False, indent=1))
-    for k, p in people.items():
-        print(f"{k}: {len(p['rows'])} rondas prelim, {len(p['elim_rows'])} elim, {len(p['tournaments'])} torneos")
+    print(f"{len(summ)} perfiles (de {len(targets)} candidatos UCM-COM+curados)")
+    for k in ("german", "lucia"):
+        if k in summ:
+            print(f"  {k}: {summ[k]['n_rounds']} discursos, {summ[k]['n_tournaments']} torneos, {summ[k]['n_breaks']} breaks")
     print(f"stats.json escrito ({dest.stat().st_size//1024} KB), {len(tournaments)} torneos escaneados")
 
 

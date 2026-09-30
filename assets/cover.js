@@ -33,13 +33,16 @@
 
   const HUES = ["#ff7a1a", "#97ce4c", "#f0b429", "#e8620c", "#5fa32b", "#ffa04d"];
   fetch("data/stats.json", { cache: "no-store" }).then((r) => r.json()).then((d) => {
-    const speeches = Object.values(d.people || {}).reduce((a, p) => a + (p.n_rounds || 0), 0);
+    const np = d.n_people || Object.keys(d.people || {}).length;
     $("#heroMeta").textContent =
-      `${d.n_tournaments_scanned} torneos escaneados · ${speeches} discursos analizados · 0 permisos pedidos`;
+      `${d.n_tournaments_scanned} torneos escaneados · ${np} pringaos fichados · 0 permisos pedidos`;
 
     // construir la lista del menú
     const list = $("#menuList");
-    const people = Object.entries(d.people || {});
+    // Germán y Lucía primero; el resto por actividad (más discursos arriba)
+    const pin = { german: 2, lucia: 1 };
+    const people = Object.entries(d.people || {}).sort((a, b) =>
+      (pin[b[0]] || 0) - (pin[a[0]] || 0) || (b[1].n_rounds || 0) - (a[1].n_rounds || 0));
     people.forEach(([key, p], i) => {
       const a = document.createElement("a");
       a.className = "menu-row";

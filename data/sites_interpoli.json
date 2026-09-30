@@ -1,0 +1,29 @@
+[
+ {
+  "base": "https://interpoli2023.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "interpoli2023",
+    "name": "XI BP Interpoli (Valencia)"
+   }
+  ]
+ },
+ {
+  "base": "https://interpoli2024.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "xiiinterpoli",
+    "name": "XII BP Interpoli (Valencia)"
+   }
+  ]
+ },
+ {
+  "base": "https://xiiiinterpoli.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "xiii_interpoli",
+    "name": "XIII BP Interpoli (Valencia)"
+   }
+  ]
+ }
+]

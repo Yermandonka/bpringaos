@@ -4,12 +4,11 @@
 
   const COLORS = { german: "#e8620c", lucia: "#5fa32b" };
   const UI = { german: "#ff7a1a", lucia: "#97ce4c" };
+  const DEF_COL = "#e8620c", DEF_UI = "#ff7a1a";
   const ORD = { 3: "#f08326", 2: "#cf6410", 1: "#a1500e", 0: "#7a4012" };
   const POS_LABEL = { 3: "Primeros", 2: "Segundos", 1: "Terceros", 0: "Cuartos" };
   const RANK_TXT = ["4º", "3º", "2º", "1º"];
   const SIDE = { og: "Alta Gobierno", oo: "Alta Oposición", cg: "Baja Gobierno", co: "Baja Oposición" };
-  const NAMES = { german: "Germán", lucia: "Lucía" };
-  const FULL = { german: "Germán Mendonça Costa-Frossard", lucia: "Lucía Vadillo" };
 
   const $ = (s, el = document) => el.querySelector(s);
   const $$ = (s, el = document) => [...el.querySelectorAll(s)];
@@ -20,9 +19,6 @@
   };
   const reduced = matchMedia("(prefers-reduced-motion: reduce)").matches;
 
-  const person = new URLSearchParams(location.search).get("p") === "lucia" ? "lucia" : "german";
-  document.body.dataset.person = person;
-
   let DATA;
   try {
     DATA = await (await fetch("data/stats.json", { cache: "no-store" })).json();
@@ -30,10 +26,18 @@
     $("#loader .loader-txt").textContent = "El portal ha fallado. Esta dimensión no tiene datos.";
     throw e;
   }
+
+  const asked = new URLSearchParams(location.search).get("p");
+  const person = (asked && DATA.people[asked]) ? asked
+    : DATA.people.german ? "german" : Object.keys(DATA.people)[0];
+  document.body.dataset.person = person;
+
   const P = DATA.people[person] || {};
   const rows = (P.rows || []).filter((r) => r.score != null);
+  const FULL = P.display || "¿?";
+  const NAME = FULL.split(/\s+/)[0];
 
-  $("#deckPerson").textContent = FULL[person];
+  $("#deckPerson").textContent = FULL;
 
   const hideLoader = () => $("#loader").classList.add("done");
   setTimeout(hideLoader, 700);
@@ -81,9 +85,9 @@
       const teams = [...new Set((P.tournaments || []).map((t) => t.team).filter(Boolean))];
       el.innerHTML = `
         <div class="sl-center">
-          <div class="file-stamp">EXPEDIENTE BP-137/${person === "german" ? "G" : "L"}</div>
-          <h1 class="sl-mega">${NAMES[person]}</h1>
-          <p class="sl-sub">${FULL[person]}</p>
+          <div class="file-stamp">EXPEDIENTE BP-137/${(NAME[0] || "?").toUpperCase()}</div>
+          <h1 class="sl-mega">${NAME}</h1>
+          <p class="sl-sub">${FULL}</p>
           <div class="file-row">
             <div class="file-cell"><b data-count="${P.n_tournaments || 0}">0</b><span>torneos</span></div>
             <div class="file-cell"><b data-count="${P.n_rounds || 0}">0</b><span>discursos</span></div>
@@ -230,13 +234,16 @@
           <div class="brk-big"><span class="big up" data-count="${P.n_breaks_open || 0}">0</span><span class="brk-lab">open</span></div>
           <div class="brk-big"><span class="big" style="color:var(--accent)" data-count="${P.n_breaks_novice || 0}">0</span><span class="brk-lab">novatos</span></div>
         </div>
-        <div class="brk-list">` + (brk.length ? brk.map((b, i) =>
-          `<div class="brk-row ${b.novice ? "nov" : "op"}" style="transition-delay:${i * 90}ms">
-            <span class="brk-medal">${b.novice ? "🌱" : "🏆"}</span>
+        <div class="brk-list">` + (brk.length ? brk.map((b, i) => {
+          const medal = b.champion ? "👑" : b.novice ? "🌱" : "🏆";
+          return `<div class="brk-row ${b.novice ? "nov" : "op"} ${b.champion ? "champ" : ""}" style="transition-delay:${i * 90}ms">
+            <span class="brk-medal">${medal}</span>
             <span class="brk-t">${b.tname}</span>
+            <span class="brk-reached">${b.champion ? "CAMPEÓN" : (b.reached || "")}</span>
             <span class="brk-tag">${b.novice ? "NOVATOS" : "OPEN"}</span>
             <span class="brk-date">${b.date || ""}</span>
-          </div>`).join("")
+          </div>`;
+        }).join("")
           : '<p class="sl-quip">Aún sin breaks en los tabs. El primero siempre llega.</p>') + `</div>`;
     },
     enter: (el) => {
@@ -411,13 +418,12 @@
     id: "fin", kicker: "fin de la transmisión",
     title: noData ? "Vuelve cuando hayas debatido" : "Wubba lubba dub dub",
     build: (el) => {
-      const share = encodeURIComponent(`El expediente de ${NAMES[person]} en BPringaos es ciencia pura: https://bpringaos.com/stats.html?p=${person}`);
+      const share = encodeURIComponent(`El expediente de ${NAME} en BPringaos es ciencia pura: https://bpringaos.com/stats.html?p=${person}`);
       el.innerHTML = `<div class="sl-center">
         <p class="sl-quip">«Los speaks van y vienen, Morty. La vergüenza de una cuarta en AG es para siempre.»</p>
         <div class="fin-cta">
           <a class="btn btn-primary" href="https://wa.me/?text=${share}">Compartir por WhatsApp</a>
-          <a class="btn btn-ghost" href="stats.html?p=${person === "german" ? "lucia" : "german"}">Ver a ${NAMES[person === "german" ? "lucia" : "german"]}</a>
-          <a class="btn btn-ghost" href="index.html">Volver al portal</a>
+          <a class="btn btn-ghost" href="index.html">Ver a otro pringao</a>
         </div>
         <p class="hero-note">${DATA.n_tournaments_scanned} torneos indexados · datos públicos de calicotab · sin permiso del Consejo de Ricks</p>
       </div>`;
@@ -446,7 +452,7 @@
     const xs = (i) => m.l + (i + 0.5) * ((Wc - m.l - m.r) / rows.length);
     const lo = 55, hi = 85; // eje fijo para que se note el progreso
     const ys = (v) => m.t + (hi - Math.max(lo, Math.min(hi, v))) * ((Hc - m.t - m.b) / (hi - lo));
-    const col = COLORS[person], colUI = UI[person];
+    const col = COLORS[person] || DEF_COL, colUI = UI[person] || DEF_UI;
 
     // defs: gradiente del área + filtro de brillo
     const defs = mk("defs", {});
