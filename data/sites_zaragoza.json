@@ -1,0 +1,20 @@
+[
+ {
+  "base": "https://iiibpaduz.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "iiibpaduz",
+    "name": "III BP ADUZ (Zaragoza)"
+   }
+  ]
+ },
+ {
+  "base": "https://ivbpaduz.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "ivbpaduz",
+    "name": "IV BP ADUZ (Zaragoza)"
+   }
+  ]
+ }
+]

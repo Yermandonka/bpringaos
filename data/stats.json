@@ -1,6 +1,6 @@
 {
  "generated": true,
- "n_tournaments_scanned": 274,
+ "n_tournaments_scanned": 276,
  "n_people": 44,
  "tournaments_scanned": [
   {
@@ -865,6 +865,13 @@
    "online": false
   },
   {
+   "name": "III BP ADUZ",
+   "slug": "iiibpaduz",
+   "base": "https://iiibpaduz.calicotab.com",
+   "date": "2025-04-11",
+   "online": false
+  },
+  {
    "name": "BP Mendel 2024",
    "slug": "mendel24",
    "base": "https://iiibpmendel.calicotab.com",
@@ -897,6 +904,13 @@
    "slug": "xiiinterpoli",
    "base": "https://interpoli2024.calicotab.com",
    "date": "2024-10-18",
+   "online": false
+  },
+  {
+   "name": "IV BP ADUZ",
+   "slug": "ivbpaduz",
+   "base": "https://ivbpaduz.calicotab.com",
+   "date": "2026-04-10",
    "online": false
   },
   {
@@ -7286,14 +7300,23 @@
   },
   "juan-pablo-sanchez-barriga": {
    "display": "Juan Pablo Sánchez Barriga",
-   "n_tournaments": 2,
-   "n_rounds": 11,
+   "n_tournaments": 3,
+   "n_rounds": 17,
    "n_elim_rounds": 0,
-   "n_tournaments_6m": 0,
-   "n_rounds_6m": 0,
-   "breaks": [],
-   "n_breaks": 0,
-   "n_breaks_novice": 0,
+   "n_tournaments_6m": 1,
+   "n_rounds_6m": 6,
+   "breaks": [
+    {
+     "t": "ivbpaduz__ivbpaduz",
+     "tname": "IV BP ADUZ",
+     "date": "2026-04-10",
+     "novice": true,
+     "reached": "Final",
+     "champion": false
+    }
+   ],
+   "n_breaks": 1,
+   "n_breaks_novice": 1,
    "n_breaks_open": 0,
    "tournaments": [
     {
@@ -7309,6 +7332,13 @@
      "date": "2026-03-13",
      "online": false,
      "team": "UCM-COM Los patosos del break"
+    },
+    {
+     "slug": "ivbpaduz__ivbpaduz",
+     "name": "IV BP ADUZ",
+     "date": "2026-04-10",
+     "online": false,
+     "team": "UCM-COM Bad Ducky"
     }
    ],
    "rows": [
@@ -7564,11 +7594,149 @@
      "chair": "Malak Benchafii",
      "venue": "004",
      "t_avg": 73.83
+    },
+    {
+     "t": "ivbpaduz__ivbpaduz",
+     "tname": "IV BP ADUZ",
+     "date": "2026-04-10",
+     "online": false,
+     "round": "Ronda 1",
+     "seq": 1,
+     "stage": "P",
+     "side": "og",
+     "points": 3,
+     "win": false,
+     "position": 1,
+     "score": 74.0,
+     "iron": false,
+     "room_rank": 3,
+     "motion": "Asumiendo solo puede tomar esta decisión ahora mismo, EC, siendo Frieren, volvería al pasado.",
+     "topic": "psicología y salud mental",
+     "team": "UCM-COM Bad Ducky",
+     "mate": "Ainhoa Pereiras Mosquera",
+     "chair": "Paula Parajuá",
+     "venue": "Sala de Vistas",
+     "t_avg": 72.59
+    },
+    {
+     "t": "ivbpaduz__ivbpaduz",
+     "tname": "IV BP ADUZ",
+     "date": "2026-04-10",
+     "online": false,
+     "round": "Ronda 2",
+     "seq": 2,
+     "stage": "P",
+     "side": "oo",
+     "points": 0,
+     "win": false,
+     "position": 1,
+     "score": 67.0,
+     "iron": false,
+     "room_rank": 8,
+     "motion": "EC apoya la nueva forma del entender el valor artístico de la moda",
+     "topic": "ciencia y tecnología",
+     "team": "UCM-COM Bad Ducky",
+     "mate": "Ainhoa Pereiras Mosquera",
+     "chair": "Paula Parajuá",
+     "venue": "Aula 03",
+     "t_avg": 72.59
+    },
+    {
+     "t": "ivbpaduz__ivbpaduz",
+     "tname": "IV BP ADUZ",
+     "date": "2026-04-10",
+     "online": false,
+     "round": "Ronda 3",
+     "seq": 3,
+     "stage": "P",
+     "side": "cg",
+     "points": 1,
+     "win": false,
+     "position": 1,
+     "score": 71.0,
+     "iron": false,
+     "room_rank": 7,
+     "motion": "ECCQ la ISU debería prohibir y penalizar el método Tutberidze.",
+     "topic": "medios y cultura",
+     "team": "UCM-COM Bad Ducky",
+     "mate": "Ainhoa Pereiras Mosquera",
+     "chair": "Mario",
+     "venue": "Aula 01",
+     "t_avg": 72.59
+    },
+    {
+     "t": "ivbpaduz__ivbpaduz",
+     "tname": "IV BP ADUZ",
+     "date": "2026-04-10",
+     "online": false,
+     "round": "Ronda 4",
+     "seq": 4,
+     "stage": "P",
+     "side": "co",
+     "points": 2,
+     "win": false,
+     "position": 2,
+     "score": 71.0,
+     "iron": false,
+     "room_rank": 5,
+     "motion": "EC, siendo Fernanda, lucharía por su relación con Javi",
+     "topic": "psicología y salud mental",
+     "team": "UCM-COM Bad Ducky",
+     "mate": "Ainhoa Pereiras Mosquera",
+     "chair": "Isabella Vásquez",
+     "venue": "Sala de Comisiones",
+     "t_avg": 72.59
+    },
+    {
+     "t": "ivbpaduz__ivbpaduz",
+     "tname": "IV BP ADUZ",
+     "date": "2026-04-10",
+     "online": false,
+     "round": "Ronda 5",
+     "seq": 5,
+     "stage": "P",
+     "side": "oo",
+     "points": 3,
+     "win": false,
+     "position": 1,
+     "score": 74.0,
+     "iron": false,
+     "room_rank": 2,
+     "motion": "EC se opone a la existencia de Estados de Una Religión (El Vaticano, Israel...)",
+     "topic": "filosofía y ética",
+     "team": "UCM-COM Bad Ducky",
+     "mate": "Ainhoa Pereiras Mosquera",
+     "chair": "Estreya",
+     "venue": "Aula 2",
+     "t_avg": 72.59
+    },
+    {
+     "t": "ivbpaduz__ivbpaduz",
+     "tname": "IV BP ADUZ",
+     "date": "2026-04-10",
+     "online": false,
+     "round": "Ronda 6",
+     "seq": 6,
+     "stage": "P",
+     "side": "og",
+     "points": 0,
+     "win": false,
+     "position": 1,
+     "score": 73.0,
+     "iron": false,
+     "room_rank": 7,
+     "motion": "EC apoya la transición hacia modelos de guerra basados en unidades descentralizadas y tecnologías de alta precisión.",
+     "topic": "relaciones internacionales",
+     "team": "UCM-COM Bad Ducky",
+     "mate": "Ainhoa Pereiras Mosquera",
+     "chair": "Isabella Vásquez",
+     "venue": "Sala de Comisiones",
+     "t_avg": 72.59
     }
    ],
    "elim_rows": [],
-   "avg_speaks": 70.73,
-   "stdev": 1.96,
+   "avg_speaks": 71.06,
+   "stdev": 2.18,
    "best": {
     "t": "aquinassroncalli2026__aquinasronacalli2026",
     "tname": "Torneo de Debate Aquinas-Roncalli 2026",
@@ -7593,70 +7761,70 @@
     "t_avg": 70.4
    },
    "worst": {
-    "t": "aquinassroncalli2026__aquinasronacalli2026",
-    "tname": "Torneo de Debate Aquinas-Roncalli 2026",
-    "date": "2026-02-07",
+    "t": "ivbpaduz__ivbpaduz",
+    "tname": "IV BP ADUZ",
+    "date": "2026-04-10",
     "online": false,
-    "round": "Ronda 4",
-    "seq": 4,
+    "round": "Ronda 2",
+    "seq": 2,
     "stage": "P",
     "side": "oo",
     "points": 0,
     "win": false,
     "position": 1,
-    "score": 68.0,
+    "score": 67.0,
     "iron": false,
-    "room_rank": 7,
-    "motion": "EC, siendo el Frente Polisario, aumentaría drásticamente sus actos violentos de resistencia (e.g., captura de rehenes civiles, incursiones armadas en territorios ocupados, sabotaje de infraestructuras críticas, etc.)",
-    "topic": "relaciones internacionales",
-    "team": "UCM-COM Los Patosos",
+    "room_rank": 8,
+    "motion": "EC apoya la nueva forma del entender el valor artístico de la moda",
+    "topic": "ciencia y tecnología",
+    "team": "UCM-COM Bad Ducky",
     "mate": "Ainhoa Pereiras Mosquera",
-    "chair": "Andreu Garcia Raurell",
-    "venue": "3",
-    "t_avg": 70.4
+    "chair": "Paula Parajuá",
+    "venue": "Aula 03",
+    "t_avg": 72.59
    },
-   "avg_points": 1.45,
+   "avg_points": 1.47,
    "results_dist": {
-    "3": 3,
-    "2": 3,
-    "1": 1,
-    "0": 4
+    "3": 5,
+    "2": 4,
+    "1": 2,
+    "0": 6
    },
    "pos1": {
-    "n": 8,
-    "avg": 70.75
+    "n": 13,
+    "avg": 71.15
    },
    "pos2": {
-    "n": 3,
-    "avg": 70.67
+    "n": 4,
+    "avg": 70.75
    },
    "sides": {
     "og": {
      "label": "Alta Gobierno",
-     "n": 2,
-     "avg_points": 2,
-     "avg_speaks": 71.0,
-     "firsts": 1
+     "n": 4,
+     "avg_points": 1.75,
+     "avg_speaks": 72.25,
+     "firsts": 2
     },
     "oo": {
      "label": "Alta Oposición",
-     "n": 3,
-     "avg_points": 0.67,
-     "avg_speaks": 69.33,
-     "firsts": 0
+     "n": 5,
+     "avg_points": 1,
+     "avg_speaks": 69.8,
+     "firsts": 1
     },
     "cg": {
      "label": "Baja Gobierno",
-     "n": 3,
-     "avg_points": 2.67,
-     "avg_speaks": 72.67,
+     "n": 4,
+     "avg_points": 2.25,
+     "avg_speaks": 72.25,
      "firsts": 2
     },
     "co": {
      "label": "Baja Oposición",
-     "n": 3,
-     "avg_points": 0.67,
-     "avg_speaks": 70.0,
+     "n": 4,
+     "avg_points": 1,
+     "avg_speaks": 70.25,
      "firsts": 0
     }
    },
@@ -7667,14 +7835,14 @@
      "avg_speaks": 73.0
     },
     "filosofía y ética": {
-     "n": 3,
-     "avg_points": 1.67,
-     "avg_speaks": 71.33
+     "n": 4,
+     "avg_points": 2,
+     "avg_speaks": 72.0
     },
     "relaciones internacionales": {
-     "n": 2,
+     "n": 3,
      "avg_points": 0,
-     "avg_speaks": 69.0
+     "avg_speaks": 70.33
     },
     "economía": {
      "n": 2,
@@ -7690,6 +7858,21 @@
      "n": 1,
      "avg_points": 2,
      "avg_speaks": 70.0
+    },
+    "psicología y salud mental": {
+     "n": 2,
+     "avg_points": 2.5,
+     "avg_speaks": 72.5
+    },
+    "ciencia y tecnología": {
+     "n": 1,
+     "avg_points": 0,
+     "avg_speaks": 67.0
+    },
+    "medios y cultura": {
+     "n": 1,
+     "avg_points": 1,
+     "avg_speaks": 71.0
     }
    },
    "evolution": [
@@ -7704,20 +7887,26 @@
      "tname": "VII BP La Regenta",
      "avg": 70.5,
      "n": 6
+    },
+    {
+     "date": "2026-04-10",
+     "tname": "IV BP ADUZ",
+     "avg": 71.67,
+     "n": 6
     }
    ],
    "mates": [
     {
      "name": "Ainhoa Pereiras Mosquera",
-     "n": 11,
-     "avg_points": 1.45,
-     "avg_speaks": 70.73
+     "n": 17,
+     "avg_points": 1.47,
+     "avg_speaks": 71.06
     }
    ],
-   "vs_field": -1.54,
+   "vs_field": -1.32,
    "clutch": {
-    "avg_last_round": 70.0,
-    "delta": -0.73
+    "avg_last_round": 71.0,
+    "delta": -0.06
    },
    "streak_top2": 3,
    "env_online": {
@@ -7726,11 +7915,11 @@
     "avg_points": null
    },
    "env_presencial": {
-    "n": 11,
-    "avg_speaks": 70.73,
-    "avg_points": 1.45
+    "n": 17,
+    "avg_speaks": 71.06,
+    "avg_points": 1.47
    },
-   "avg_room_rank": 4.09,
+   "avg_room_rank": 4.53,
    "room_best_count": 1,
    "chairs": [
     [
@@ -7742,15 +7931,15 @@
      2
     ],
     [
+     "Paula Parajuá",
+     2
+    ],
+    [
+     "Isabella Vásquez",
+     2
+    ],
+    [
      "Natalia de la Puente 🪩",
-     1
-    ],
-    [
-     "Andreu Garcia Raurell",
-     1
-    ],
-    [
-     "Clara Domingo Vicente",
      1
     ]
    ]
@@ -22762,14 +22951,23 @@
   },
   "ainhoa-pereiras-mosquera": {
    "display": "Ainhoa Pereiras Mosquera",
-   "n_tournaments": 3,
-   "n_rounds": 16,
+   "n_tournaments": 4,
+   "n_rounds": 22,
    "n_elim_rounds": 0,
-   "n_tournaments_6m": 1,
-   "n_rounds_6m": 5,
-   "breaks": [],
-   "n_breaks": 0,
-   "n_breaks_novice": 0,
+   "n_tournaments_6m": 2,
+   "n_rounds_6m": 11,
+   "breaks": [
+    {
+     "t": "ivbpaduz__ivbpaduz",
+     "tname": "IV BP ADUZ",
+     "date": "2026-04-10",
+     "novice": true,
+     "reached": "Final",
+     "champion": false
+    }
+   ],
+   "n_breaks": 1,
+   "n_breaks_novice": 1,
    "n_breaks_open": 0,
    "tournaments": [
     {
@@ -22785,6 +22983,13 @@
      "date": "2026-03-13",
      "online": false,
      "team": "UCM-COM Los patosos del break"
+    },
+    {
+     "slug": "ivbpaduz__ivbpaduz",
+     "name": "IV BP ADUZ",
+     "date": "2026-04-10",
+     "online": false,
+     "team": "UCM-COM Bad Ducky"
     },
     {
      "slug": "vbpsepi__vbpsepi",
@@ -23049,6 +23254,144 @@
      "t_avg": 73.83
     },
     {
+     "t": "ivbpaduz__ivbpaduz",
+     "tname": "IV BP ADUZ",
+     "date": "2026-04-10",
+     "online": false,
+     "round": "Ronda 1",
+     "seq": 1,
+     "stage": "P",
+     "side": "og",
+     "points": 3,
+     "win": false,
+     "position": 2,
+     "score": 75.0,
+     "iron": false,
+     "room_rank": 1,
+     "motion": "Asumiendo solo puede tomar esta decisión ahora mismo, EC, siendo Frieren, volvería al pasado.",
+     "topic": "psicología y salud mental",
+     "team": "UCM-COM Bad Ducky",
+     "mate": "Juan Pablo Sánchez Barriga",
+     "chair": "Paula Parajuá",
+     "venue": "Sala de Vistas",
+     "t_avg": 72.59
+    },
+    {
+     "t": "ivbpaduz__ivbpaduz",
+     "tname": "IV BP ADUZ",
+     "date": "2026-04-10",
+     "online": false,
+     "round": "Ronda 2",
+     "seq": 2,
+     "stage": "P",
+     "side": "oo",
+     "points": 0,
+     "win": false,
+     "position": 2,
+     "score": 69.0,
+     "iron": false,
+     "room_rank": 5,
+     "motion": "EC apoya la nueva forma del entender el valor artístico de la moda",
+     "topic": "ciencia y tecnología",
+     "team": "UCM-COM Bad Ducky",
+     "mate": "Juan Pablo Sánchez Barriga",
+     "chair": "Paula Parajuá",
+     "venue": "Aula 03",
+     "t_avg": 72.59
+    },
+    {
+     "t": "ivbpaduz__ivbpaduz",
+     "tname": "IV BP ADUZ",
+     "date": "2026-04-10",
+     "online": false,
+     "round": "Ronda 3",
+     "seq": 3,
+     "stage": "P",
+     "side": "cg",
+     "points": 1,
+     "win": false,
+     "position": 2,
+     "score": 74.0,
+     "iron": false,
+     "room_rank": 4,
+     "motion": "ECCQ la ISU debería prohibir y penalizar el método Tutberidze.",
+     "topic": "medios y cultura",
+     "team": "UCM-COM Bad Ducky",
+     "mate": "Juan Pablo Sánchez Barriga",
+     "chair": "Mario",
+     "venue": "Aula 01",
+     "t_avg": 72.59
+    },
+    {
+     "t": "ivbpaduz__ivbpaduz",
+     "tname": "IV BP ADUZ",
+     "date": "2026-04-10",
+     "online": false,
+     "round": "Ronda 4",
+     "seq": 4,
+     "stage": "P",
+     "side": "co",
+     "points": 2,
+     "win": false,
+     "position": 1,
+     "score": 76.0,
+     "iron": false,
+     "room_rank": 1,
+     "motion": "EC, siendo Fernanda, lucharía por su relación con Javi",
+     "topic": "psicología y salud mental",
+     "team": "UCM-COM Bad Ducky",
+     "mate": "Juan Pablo Sánchez Barriga",
+     "chair": "Isabella Vásquez",
+     "venue": "Sala de Comisiones",
+     "t_avg": 72.59
+    },
+    {
+     "t": "ivbpaduz__ivbpaduz",
+     "tname": "IV BP ADUZ",
+     "date": "2026-04-10",
+     "online": false,
+     "round": "Ronda 5",
+     "seq": 5,
+     "stage": "P",
+     "side": "oo",
+     "points": 3,
+     "win": false,
+     "position": 2,
+     "score": 75.0,
+     "iron": false,
+     "room_rank": 1,
+     "motion": "EC se opone a la existencia de Estados de Una Religión (El Vaticano, Israel...)",
+     "topic": "filosofía y ética",
+     "team": "UCM-COM Bad Ducky",
+     "mate": "Juan Pablo Sánchez Barriga",
+     "chair": "Estreya",
+     "venue": "Aula 2",
+     "t_avg": 72.59
+    },
+    {
+     "t": "ivbpaduz__ivbpaduz",
+     "tname": "IV BP ADUZ",
+     "date": "2026-04-10",
+     "online": false,
+     "round": "Ronda 6",
+     "seq": 6,
+     "stage": "P",
+     "side": "og",
+     "points": 0,
+     "win": false,
+     "position": 2,
+     "score": 71.0,
+     "iron": false,
+     "room_rank": 8,
+     "motion": "EC apoya la transición hacia modelos de guerra basados en unidades descentralizadas y tecnologías de alta precisión.",
+     "topic": "relaciones internacionales",
+     "team": "UCM-COM Bad Ducky",
+     "mate": "Juan Pablo Sánchez Barriga",
+     "chair": "Isabella Vásquez",
+     "venue": "Sala de Comisiones",
+     "t_avg": 72.59
+    },
+    {
      "t": "vbpsepi__vbpsepi",
      "tname": "V BP SEPI",
      "date": "2026-06-12",
@@ -23165,8 +23508,8 @@
     }
    ],
    "elim_rows": [],
-   "avg_speaks": 71.56,
-   "stdev": 2.78,
+   "avg_speaks": 72.05,
+   "stdev": 2.82,
    "best": {
     "t": "aquinassroncalli2026__aquinasronacalli2026",
     "tname": "Torneo de Debate Aquinas-Roncalli 2026",
@@ -23213,48 +23556,48 @@
     "venue": "004",
     "t_avg": 73.83
    },
-   "avg_points": 1.31,
+   "avg_points": 1.36,
    "results_dist": {
-    "3": 3,
-    "2": 4,
-    "1": 4,
-    "0": 5
+    "3": 5,
+    "2": 5,
+    "1": 5,
+    "0": 7
    },
    "pos1": {
-    "n": 3,
-    "avg": 70.33
+    "n": 4,
+    "avg": 71.75
    },
    "pos2": {
-    "n": 13,
-    "avg": 71.85
+    "n": 18,
+    "avg": 72.11
    },
    "sides": {
     "og": {
      "label": "Alta Gobierno",
-     "n": 4,
-     "avg_points": 1.25,
-     "avg_speaks": 71.25,
-     "firsts": 1
+     "n": 6,
+     "avg_points": 1.33,
+     "avg_speaks": 71.83,
+     "firsts": 2
     },
     "oo": {
      "label": "Alta Oposición",
-     "n": 4,
-     "avg_points": 1,
-     "avg_speaks": 70.5,
-     "firsts": 0
+     "n": 6,
+     "avg_points": 1.17,
+     "avg_speaks": 71.0,
+     "firsts": 1
     },
     "cg": {
      "label": "Baja Gobierno",
-     "n": 4,
-     "avg_points": 2.25,
-     "avg_speaks": 73.75,
+     "n": 5,
+     "avg_points": 2,
+     "avg_speaks": 73.8,
      "firsts": 2
     },
     "co": {
      "label": "Baja Oposición",
-     "n": 4,
-     "avg_points": 0.75,
-     "avg_speaks": 70.75,
+     "n": 5,
+     "avg_points": 1,
+     "avg_speaks": 71.8,
      "firsts": 0
     }
    },
@@ -23265,14 +23608,14 @@
      "avg_speaks": 74.67
     },
     "filosofía y ética": {
-     "n": 5,
-     "avg_points": 1.4,
-     "avg_speaks": 71.6
+     "n": 6,
+     "avg_points": 1.67,
+     "avg_speaks": 72.17
     },
     "relaciones internacionales": {
-     "n": 2,
+     "n": 3,
      "avg_points": 0,
-     "avg_speaks": 68.5
+     "avg_speaks": 69.33
     },
     "economía": {
      "n": 2,
@@ -23289,15 +23632,25 @@
      "avg_points": 2,
      "avg_speaks": 70.0
     },
+    "psicología y salud mental": {
+     "n": 2,
+     "avg_points": 2.5,
+     "avg_speaks": 75.5
+    },
+    "ciencia y tecnología": {
+     "n": 1,
+     "avg_points": 0,
+     "avg_speaks": 69.0
+    },
+    "medios y cultura": {
+     "n": 2,
+     "avg_points": 1,
+     "avg_speaks": 73.5
+    },
     "otros": {
      "n": 1,
      "avg_points": 1,
      "avg_speaks": 74.0
-    },
-    "medios y cultura": {
-     "n": 1,
-     "avg_points": 1,
-     "avg_speaks": 73.0
     }
    },
    "evolution": [
@@ -23314,6 +23667,12 @@
      "n": 6
     },
     {
+     "date": "2026-04-10",
+     "tname": "IV BP ADUZ",
+     "avg": 73.33,
+     "n": 6
+    },
+    {
      "date": "2026-06-12",
      "tname": "V BP SEPI",
      "avg": 73.4,
@@ -23323,9 +23682,9 @@
    "mates": [
     {
      "name": "Juan Pablo Sánchez Barriga",
-     "n": 11,
-     "avg_points": 1.45,
-     "avg_speaks": 70.73
+     "n": 17,
+     "avg_points": 1.47,
+     "avg_speaks": 71.65
     },
     {
      "name": "Castro 🇨🇺",
@@ -23334,10 +23693,10 @@
      "avg_speaks": 73.4
     }
    ],
-   "vs_field": -1.49,
+   "vs_field": -0.88,
    "clutch": {
-    "avg_last_round": 69.67,
-    "delta": -1.89
+    "avg_last_round": 70.0,
+    "delta": -2.05
    },
    "streak_top2": 3,
    "env_online": {
@@ -23346,12 +23705,12 @@
     "avg_points": null
    },
    "env_presencial": {
-    "n": 16,
-    "avg_speaks": 71.56,
-    "avg_points": 1.31
+    "n": 22,
+    "avg_speaks": 72.05,
+    "avg_points": 1.36
    },
-   "avg_room_rank": 4.56,
-   "room_best_count": 3,
+   "avg_room_rank": 4.23,
+   "room_best_count": 6,
    "chairs": [
     [
      "Natalia Ruiz",
@@ -23362,15 +23721,15 @@
      2
     ],
     [
+     "Paula Parajuá",
+     2
+    ],
+    [
+     "Isabella Vásquez",
+     2
+    ],
+    [
      "Natalia de la Puente 🪩",
-     1
-    ],
-    [
-     "Andreu Garcia Raurell",
-     1
-    ],
-    [
-     "Clara Domingo Vicente",
      1
     ]
    ]
@@ -33364,11 +33723,11 @@
   },
   "javier-rodriguez-ruescas": {
    "display": "Javier Rodríguez Ruescas",
-   "n_tournaments": 13,
-   "n_rounds": 72,
+   "n_tournaments": 15,
+   "n_rounds": 84,
    "n_elim_rounds": 0,
-   "n_tournaments_6m": 1,
-   "n_rounds_6m": 4,
+   "n_tournaments_6m": 2,
+   "n_rounds_6m": 10,
    "breaks": [
     {
      "t": "viiibpurjc__viiibpurjc",
@@ -33377,11 +33736,19 @@
      "novice": true,
      "reached": "Final",
      "champion": false
+    },
+    {
+     "t": "ivbpaduz__ivbpaduz",
+     "tname": "IV BP ADUZ",
+     "date": "2026-04-10",
+     "novice": false,
+     "reached": "Final",
+     "champion": false
     }
    ],
-   "n_breaks": 1,
+   "n_breaks": 2,
    "n_breaks_novice": 1,
-   "n_breaks_open": 0,
+   "n_breaks_open": 1,
    "tournaments": [
     {
      "slug": "torneobpregenta__RegentaIV",
@@ -33466,6 +33833,20 @@
      "date": "2025-02-14",
      "online": false,
      "team": "UCM-COM IPPO Y TAKAMURA"
+    },
+    {
+     "slug": "iiibpaduz__iiibpaduz",
+     "name": "III BP ADUZ",
+     "date": "2025-04-11",
+     "online": false,
+     "team": "URJC-UCM-COM quinns aluxe"
+    },
+    {
+     "slug": "ivbpaduz__ivbpaduz",
+     "name": "IV BP ADUZ",
+     "date": "2026-04-10",
+     "online": false,
+     "team": "Marca Hispánica"
     },
     {
      "slug": "cnd2026__cnd2026",
@@ -35041,6 +35422,282 @@
      "t_avg": 72.35
     },
     {
+     "t": "iiibpaduz__iiibpaduz",
+     "tname": "III BP ADUZ",
+     "date": "2025-04-11",
+     "online": false,
+     "round": "Ronda 1",
+     "seq": 1,
+     "stage": "P",
+     "side": "cg",
+     "points": 2,
+     "win": false,
+     "position": 2,
+     "score": 75.0,
+     "iron": false,
+     "room_rank": 3,
+     "motion": "ECCQ el colectivo debería abandonar los esfuerzos para integrarse en el modelo tradicional de familia y volver a reclamar la libertad sexual y los modelos relacionales polígamos",
+     "topic": "feminismo y género",
+     "team": "URJC-UCM-COM quinns aluxe",
+     "mate": "Mery García",
+     "chair": "Carlos Torregrosa Marti",
+     "venue": "Aula 2",
+     "t_avg": 72.47
+    },
+    {
+     "t": "iiibpaduz__iiibpaduz",
+     "tname": "III BP ADUZ",
+     "date": "2025-04-11",
+     "online": false,
+     "round": "Ronda 2",
+     "seq": 2,
+     "stage": "P",
+     "side": "oo",
+     "points": 2,
+     "win": false,
+     "position": 1,
+     "score": 77.0,
+     "iron": false,
+     "room_rank": 4,
+     "motion": "Esta Casica prefiere utilizar el modelo A al B",
+     "topic": "rol / actor",
+     "team": "URJC-UCM-COM quinns aluxe",
+     "mate": "Mery García",
+     "chair": "Juninho Pernambucano",
+     "venue": "Salón de grados",
+     "t_avg": 72.47
+    },
+    {
+     "t": "iiibpaduz__iiibpaduz",
+     "tname": "III BP ADUZ",
+     "date": "2025-04-11",
+     "online": false,
+     "round": "Ronda 3",
+     "seq": 3,
+     "stage": "P",
+     "side": "co",
+     "points": 2,
+     "win": false,
+     "position": 1,
+     "score": 71.0,
+     "iron": false,
+     "room_rank": 3,
+     "motion": "ECCQ la política arancelaria de Trump beneficia a EEUU",
+     "topic": "economía",
+     "team": "URJC-UCM-COM quinns aluxe",
+     "mate": "Mery García",
+     "chair": "Greta Ángel",
+     "venue": "Aula Magna",
+     "t_avg": 72.47
+    },
+    {
+     "t": "iiibpaduz__iiibpaduz",
+     "tname": "III BP ADUZ",
+     "date": "2025-04-11",
+     "online": false,
+     "round": "Ronda 4",
+     "seq": 4,
+     "stage": "P",
+     "side": "og",
+     "points": 2,
+     "win": false,
+     "position": 1,
+     "score": 76.0,
+     "iron": false,
+     "room_rank": 4,
+     "motion": "EC prefiere un mundo en el que no exista la segunda fase (amor)",
+     "topic": "otros",
+     "team": "URJC-UCM-COM quinns aluxe",
+     "mate": "Mery García",
+     "chair": "Juninho Pernambucano",
+     "venue": "Sala de juntas",
+     "t_avg": 72.47
+    },
+    {
+     "t": "iiibpaduz__iiibpaduz",
+     "tname": "III BP ADUZ",
+     "date": "2025-04-11",
+     "online": false,
+     "round": "Ronda 5",
+     "seq": 5,
+     "stage": "P",
+     "side": "og",
+     "points": 0,
+     "win": false,
+     "position": 1,
+     "score": 71.0,
+     "iron": false,
+     "room_rank": 7,
+     "motion": "ECCQ España debería darle valor normativo a la jurisprudencia",
+     "topic": "otros",
+     "team": "URJC-UCM-COM quinns aluxe",
+     "mate": "Mery García",
+     "chair": "Juninho Pernambucano",
+     "venue": "Sala de comisiones",
+     "t_avg": 72.47
+    },
+    {
+     "t": "iiibpaduz__iiibpaduz",
+     "tname": "III BP ADUZ",
+     "date": "2025-04-11",
+     "online": false,
+     "round": "Ronda 6",
+     "seq": 6,
+     "stage": "P",
+     "side": "oo",
+     "points": 1,
+     "win": false,
+     "position": 1,
+     "score": 75.0,
+     "iron": false,
+     "room_rank": 5,
+     "motion": "EC prefiere un mundo en el que el ser humano medio viva naturalmente 240 años",
+     "topic": "otros",
+     "team": "URJC-UCM-COM quinns aluxe",
+     "mate": "Mery García",
+     "chair": "Carlos Torregrosa Marti",
+     "venue": "Sala Creatividad",
+     "t_avg": 72.47
+    },
+    {
+     "t": "ivbpaduz__ivbpaduz",
+     "tname": "IV BP ADUZ",
+     "date": "2026-04-10",
+     "online": false,
+     "round": "Ronda 1",
+     "seq": 1,
+     "stage": "P",
+     "side": "co",
+     "points": 3,
+     "win": false,
+     "position": 2,
+     "score": 74.0,
+     "iron": false,
+     "room_rank": 1,
+     "motion": "Asumiendo solo puede tomar esta decisión ahora mismo, EC, siendo Frieren, volvería al pasado.",
+     "topic": "psicología y salud mental",
+     "team": "Marca Hispánica",
+     "mate": "Ari Varela Gutiérrez",
+     "chair": "Aya Laftouh Zaidi",
+     "venue": "Aula 18",
+     "t_avg": 72.59
+    },
+    {
+     "t": "ivbpaduz__ivbpaduz",
+     "tname": "IV BP ADUZ",
+     "date": "2026-04-10",
+     "online": false,
+     "round": "Ronda 2",
+     "seq": 2,
+     "stage": "P",
+     "side": "og",
+     "points": 2,
+     "win": false,
+     "position": 2,
+     "score": 76.0,
+     "iron": false,
+     "room_rank": 3,
+     "motion": "EC apoya la nueva forma del entender el valor artístico de la moda",
+     "topic": "ciencia y tecnología",
+     "team": "Marca Hispánica",
+     "mate": "Ari Varela Gutiérrez",
+     "chair": "Paula Parajuá",
+     "venue": "Aula 03",
+     "t_avg": 72.59
+    },
+    {
+     "t": "ivbpaduz__ivbpaduz",
+     "tname": "IV BP ADUZ",
+     "date": "2026-04-10",
+     "online": false,
+     "round": "Ronda 3",
+     "seq": 3,
+     "stage": "P",
+     "side": "oo",
+     "points": 3,
+     "win": false,
+     "position": 2,
+     "score": 77.0,
+     "iron": false,
+     "room_rank": 1,
+     "motion": "ECCQ la ISU debería prohibir y penalizar el método Tutberidze.",
+     "topic": "medios y cultura",
+     "team": "Marca Hispánica",
+     "mate": "Ari Varela Gutiérrez",
+     "chair": "Isabella Vásquez",
+     "venue": "Salón de Grados",
+     "t_avg": 72.59
+    },
+    {
+     "t": "ivbpaduz__ivbpaduz",
+     "tname": "IV BP ADUZ",
+     "date": "2026-04-10",
+     "online": false,
+     "round": "Ronda 4",
+     "seq": 4,
+     "stage": "P",
+     "side": "cg",
+     "points": 0,
+     "win": false,
+     "position": 2,
+     "score": 78.0,
+     "iron": false,
+     "room_rank": 8,
+     "motion": "EC, siendo Fernanda, lucharía por su relación con Javi",
+     "topic": "psicología y salud mental",
+     "team": "Marca Hispánica",
+     "mate": "Ari Varela Gutiérrez",
+     "chair": "Horacio",
+     "venue": "Sala de Juntas",
+     "t_avg": 72.59
+    },
+    {
+     "t": "ivbpaduz__ivbpaduz",
+     "tname": "IV BP ADUZ",
+     "date": "2026-04-10",
+     "online": false,
+     "round": "Ronda 5",
+     "seq": 5,
+     "stage": "P",
+     "side": "og",
+     "points": 1,
+     "win": false,
+     "position": 2,
+     "score": 76.0,
+     "iron": false,
+     "room_rank": 7,
+     "motion": "EC se opone a la existencia de Estados de Una Religión (El Vaticano, Israel...)",
+     "topic": "filosofía y ética",
+     "team": "Marca Hispánica",
+     "mate": "Ari Varela Gutiérrez",
+     "chair": "Isabella Vásquez",
+     "venue": "Sala de Vistas",
+     "t_avg": 72.59
+    },
+    {
+     "t": "ivbpaduz__ivbpaduz",
+     "tname": "IV BP ADUZ",
+     "date": "2026-04-10",
+     "online": false,
+     "round": "Ronda 6",
+     "seq": 6,
+     "stage": "P",
+     "side": "co",
+     "points": 2,
+     "win": false,
+     "position": 2,
+     "score": 75.0,
+     "iron": false,
+     "room_rank": 2,
+     "motion": "EC apoya la transición hacia modelos de guerra basados en unidades descentralizadas y tecnologías de alta precisión.",
+     "topic": "relaciones internacionales",
+     "team": "Marca Hispánica",
+     "mate": "Ari Varela Gutiérrez",
+     "chair": "Mario",
+     "venue": "Aula 2",
+     "t_avg": 72.59
+    },
+    {
      "t": "cnd2026__cnd2026",
      "tname": "Campeonato Nacional de Debate BP 2026",
      "date": "2026-09-26",
@@ -35134,8 +35791,8 @@
     }
    ],
    "elim_rows": [],
-   "avg_speaks": 74.11,
-   "stdev": 2.8,
+   "avg_speaks": 74.25,
+   "stdev": 2.73,
    "best": {
     "t": "bpmendel__bpmendel",
     "tname": "II Torneo BP Mendel",
@@ -35182,71 +35839,71 @@
     "venue": "Reuniones de decanato",
     "t_avg": 72.35
    },
-   "avg_points": 1.43,
+   "avg_points": 1.46,
    "results_dist": {
-    "3": 15,
-    "2": 20,
-    "1": 18,
-    "0": 19
+    "3": 17,
+    "2": 26,
+    "1": 20,
+    "0": 21
    },
    "pos1": {
-    "n": 62,
-    "avg": 74.11
+    "n": 67,
+    "avg": 74.1
    },
    "pos2": {
-    "n": 10,
-    "avg": 74.1
+    "n": 17,
+    "avg": 74.82
    },
    "sides": {
     "og": {
      "label": "Alta Gobierno",
-     "n": 18,
-     "avg_points": 1.61,
-     "avg_speaks": 74.0,
+     "n": 22,
+     "avg_points": 1.55,
+     "avg_speaks": 74.14,
      "firsts": 5
     },
     "oo": {
      "label": "Alta Oposición",
-     "n": 17,
-     "avg_points": 1.35,
-     "avg_speaks": 74.53,
-     "firsts": 2
+     "n": 20,
+     "avg_points": 1.45,
+     "avg_speaks": 74.8,
+     "firsts": 3
     },
     "cg": {
      "label": "Baja Gobierno",
-     "n": 16,
-     "avg_points": 1.5,
-     "avg_speaks": 74.31,
+     "n": 18,
+     "avg_points": 1.44,
+     "avg_speaks": 74.56,
      "firsts": 5
     },
     "co": {
      "label": "Baja Oposición",
-     "n": 21,
-     "avg_points": 1.29,
-     "avg_speaks": 73.71,
-     "firsts": 3
+     "n": 24,
+     "avg_points": 1.42,
+     "avg_speaks": 73.67,
+     "firsts": 4
     }
    },
    "topics": {
     "feminismo y género": {
-     "n": 8,
-     "avg_points": 1.88,
-     "avg_speaks": 75.12
+     "n": 9,
+     "avg_points": 1.89,
+     "avg_speaks": 75.11
     },
     "otros": {
-     "n": 15,
-     "avg_points": 1.4,
-     "avg_speaks": 72.87
+     "n": 18,
+     "avg_points": 1.33,
+     "avg_speaks": 73.06
     },
     "economía": {
-     "n": 9,
-     "avg_points": 1.33,
-     "avg_speaks": 73.44
+     "n": 10,
+     "avg_points": 1.4,
+     "avg_speaks": 73.2
     },
     "medios y cultura": {
-     "n": 3,
-     "avg_points": 1.67,
-     "avg_speaks": 75.33
+     "n": 4,
+     "avg_points": 2,
+     "avg_speaks": 75.75
     },
     "medioambiente": {
      "n": 1,
@@ -35259,19 +35916,19 @@
      "avg_speaks": 74.0
     },
     "ciencia y tecnología": {
-     "n": 2,
-     "avg_points": 0.5,
-     "avg_speaks": 73.0
+     "n": 3,
+     "avg_points": 1,
+     "avg_speaks": 74.0
     },
     "filosofía y ética": {
-     "n": 6,
+     "n": 7,
      "avg_points": 1,
-     "avg_speaks": 73.5
+     "avg_speaks": 73.86
     },
     "psicología y salud mental": {
-     "n": 5,
-     "avg_points": 1.4,
-     "avg_speaks": 75.0
+     "n": 7,
+     "avg_points": 1.43,
+     "avg_speaks": 75.29
     },
     "religión": {
      "n": 6,
@@ -35279,14 +35936,14 @@
      "avg_speaks": 75.0
     },
     "relaciones internacionales": {
-     "n": 2,
+     "n": 3,
      "avg_points": 2,
-     "avg_speaks": 74.5
+     "avg_speaks": 74.67
     },
     "rol / actor": {
-     "n": 5,
+     "n": 6,
      "avg_points": 2,
-     "avg_speaks": 75.8
+     "avg_speaks": 76.0
     },
     "educación": {
      "n": 2,
@@ -35368,6 +36025,18 @@
      "n": 6
     },
     {
+     "date": "2025-04-11",
+     "tname": "III BP ADUZ",
+     "avg": 74.17,
+     "n": 6
+    },
+    {
+     "date": "2026-04-10",
+     "tname": "IV BP ADUZ",
+     "avg": 76.0,
+     "n": 6
+    },
+    {
      "date": "2026-09-26",
      "tname": "Campeonato Nacional de Debate BP 2026",
      "avg": 73.75,
@@ -35418,6 +36087,18 @@
      "avg_speaks": 71.17
     },
     {
+     "name": "Mery García",
+     "n": 6,
+     "avg_points": 1.5,
+     "avg_speaks": 74.17
+    },
+    {
+     "name": "Ari Varela Gutiérrez",
+     "n": 6,
+     "avg_points": 1.83,
+     "avg_speaks": 76.0
+    },
+    {
      "name": "Marc Ripol",
      "n": 5,
      "avg_points": 1.4,
@@ -35436,28 +36117,28 @@
      "avg_speaks": 75.6
     }
    ],
-   "vs_field": 0.17,
+   "vs_field": 0.51,
    "clutch": {
-    "avg_last_round": 74.23,
-    "delta": 0.12
+    "avg_last_round": 74.33,
+    "delta": 0.08
    },
-   "streak_top2": 5,
+   "streak_top2": 6,
    "env_online": {
     "n": 5,
     "avg_speaks": 74.4,
     "avg_points": 1.2
    },
    "env_presencial": {
-    "n": 67,
-    "avg_speaks": 74.09,
-    "avg_points": 1.45
+    "n": 79,
+    "avg_speaks": 74.24,
+    "avg_points": 1.48
    },
-   "avg_room_rank": 4.11,
-   "room_best_count": 12,
+   "avg_room_rank": 4.1,
+   "room_best_count": 14,
    "chairs": [
     [
      "Isabella Vásquez",
-     4
+     6
     ],
     [
      "Carlos Montero",
