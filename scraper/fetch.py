@@ -40,7 +40,7 @@ def fetch_tournament(base, slug):
     out["tournament"] = t
     for key, path in [
         ("rounds", "rounds"), ("motions", "motions"), ("teams", "teams"),
-        ("speakers", "speakers"), ("venues", "venues"),
+        ("speakers", "speakers"), ("venues", "venues"), ("adjudicators", "adjudicators"),
         ("team_standings", "teams/standings"), ("speaker_standings", "speakers/standings"),
         ("institutions", "institutions"),
     ]:

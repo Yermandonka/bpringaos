@@ -46,8 +46,10 @@
   const P = () => DATA.people[person];
 
   // ---------- preloader ----------
-  addEventListener("load", () => setTimeout(() => $("#loader").classList.add("done"), 500));
-  setTimeout(() => $("#loader").classList.add("done"), 3000); // por si acaso
+  const hideLoader = () => $("#loader").classList.add("done");
+  if (document.readyState === "complete") setTimeout(hideLoader, 400);
+  else addEventListener("load", () => setTimeout(hideLoader, 400));
+  setTimeout(hideLoader, 2500); // por si acaso
 
   // ---------- barra scroll + nav ----------
   addEventListener("scroll", () => {
