@@ -1,0 +1,19 @@
+[
+{"base":"https://cdc.calicotab.com","tournaments":[{"slug":"CMUGA23","name":"CMUGA 2023 (Guatemala)"}]},
+{"base":"https://cocledebatingchampionship.calicotab.com","tournaments":[{"slug":"cdc2024abierto","name":"Coclé Debating Championship 2024 (Panamá)"}]},
+{"base":"https://copaandresbellopresencialv.calicotab.com","tournaments":[{"slug":"vcabpresencial","name":"V Copa Andrés Bello Presencial (Venezuela)"}]},
+{"base":"https://copazedal.calicotab.com","tournaments":[{"slug":"copazedal","name":"Copa ZEDAL"}]},
+{"base":"https://ivcopacat.calicotab.com","tournaments":[{"slug":"ivcopacat","name":"IV Copa Catalunya"}]},
+{"base":"https://tadu.calicotab.com","tournaments":[{"slug":"tadu2024","name":"Torneo Agustino de Debate Universitario"}]},
+{"base":"https://ucabdebate.calicotab.com","tournaments":[{"slug":"vcab","name":"CAB Virtual V (Venezuela)"}]},
+{"base":"https://cimet2021.calicotab.com","tournaments":[{"slug":"CIMET","name":"CIMET Virtual 2021"},{"slug":"cimet-masters2021","name":"CIMET Masters 2021"}]},
+{"base":"https://tde2022.calicotab.com","tournaments":[{"slug":"tde","name":"Torneo de Debate Externadista (Colombia)"}]},
+{"base":"https://tdu.calicotab.com","tournaments":[{"slug":"tdu2026","name":"Torneo de Debate Uniandino 2026"}]},
+{"base":"https://tdu2024.calicotab.com","tournaments":[{"slug":"TDU2024","name":"Torneo de Debate Uniandino 2024"}]},
+{"base":"https://tdu2025.calicotab.com","tournaments":[{"slug":"tdu2025","name":"Torneo de Debate Uniandino 2025"}]},
+{"base":"https://tnde2022.calicotab.com","tournaments":[{"slug":"tnde2022","name":"TNDE Escolar 2022"}]},
+{"base":"https://tnde2024.calicotab.com","tournaments":[{"slug":"tnde2024","name":"Torneo de Debate Escolar 2024"}]},
+{"base":"https://cmude2023masters.calicotab.com","tournaments":[{"slug":"cmudemasters2023","name":"CMUDE Masters Panamá 2023"}]},
+{"base":"https://cab3.calicotab.com","tournaments":[{"slug":"cab3","name":"Copa Andrés Bello 2022"}]},
+{"base":"https://cmuga.calicotab.com","tournaments":[{"slug":"ligainterna2026","name":"CMUGA Liga Interna 2026 (Guatemala)"}]}
+]
