@@ -525,9 +525,9 @@
     const dotR = mob ? 7 : 5;
     const dots = rows.map((r, i) => {
       const dot = mk("circle", { cx: xs(i), cy: ys(r.score), r: reduced ? dotR : 0, fill: col, class: "evo-dot" });
-      const tipHTML = `<div class="tt-title">${r.score} speaks</div>
+      const tipHTML = `<div class="tt-title">${r.score} speaks${r.iron ? " 🔩" : ""}</div>
           <div class="tt-row">${r.tname} · ${r.round}</div>
-          <div class="tt-row">${SIDE[r.side] || r.side} · ${r.points != null ? RANK_TXT[r.points] : "?"} · ${r.position}º orador</div>
+          <div class="tt-row">${SIDE[r.side] || r.side} · ${r.points != null ? RANK_TXT[r.points] : "?"} · ${r.position}º orador${r.iron ? " · IRON (2 discursos)" : ""}</div>
           ${r.motion ? `<div class="tt-row" style="margin-top:4px">«${r.motion.slice(0, 110)}${r.motion.length > 110 ? "…" : ""}»</div>` : ""}`;
       dot.addEventListener("mousemove", (e) => showTip(tipHTML, e.clientX, e.clientY));
       dot.addEventListener("mouseleave", hideTip);

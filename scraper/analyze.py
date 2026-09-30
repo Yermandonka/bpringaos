@@ -232,21 +232,36 @@ def build(targets, tournaments):
                 for st in steams:
                     team = teams.get(st.get("team"), {})
                     speeches = st.get("speeches") or []
+                    # agrupar los discursos por orador para detectar irons
+                    # (una persona da los 2 discursos del equipo; el 2º va como ghost)
+                    by_spk = {}
                     for idx, sp in enumerate(speeches):
-                        key = target_speaker_urls.get(sp.get("speaker"))
+                        by_spk.setdefault(sp.get("speaker"), []).append((idx, sp))
+                    for spk_url, sps in by_spk.items():
+                        key = target_speaker_urls.get(spk_url)
                         if not key:
                             continue
+                        is_iron = len(sps) > 1
+                        # elegir SIEMPRE la mayor puntuación (ignorando el ghost del iron
+                        # salvo que fuese el único discurso con nota)
+                        scored = [(i, sp) for i, sp in sps if sp.get("score") is not None]
+                        real = [(i, sp) for i, sp in scored if not sp.get("ghost")]
+                        pool = real or scored
+                        if pool:
+                            best_idx, best_sp = max(pool, key=lambda x: x[1].get("score"))
+                            score = best_sp.get("score")
+                        else:
+                            best_idx, score = sps[0][0], None
                         mate = None
                         for tm_s in team.get("speakers", []):
-                            if tm_s.get("url") != sp.get("speaker") and matches_name_not_anon(tm_s):
+                            if tm_s.get("url") != spk_url and matches_name_not_anon(tm_s):
                                 mate = tm_s.get("name")
-                        score = sp.get("score")
                         row = {
                             "t": tslug, "tname": tname, "date": tdate, "online": online,
                             "round": rname, "seq": seq, "stage": stage,
                             "side": st.get("side"), "points": st.get("points"),
                             "win": st.get("win"),
-                            "position": idx + 1, "score": score,
+                            "position": best_idx + 1, "score": score, "iron": is_iron,
                             "room_rank": (sorted(room_scores, reverse=True).index(score) + 1) if score in room_scores else None,
                             "motion": mtext, "topic": mtopic,
                             "team": team.get("short_name") or team.get("reference"),
