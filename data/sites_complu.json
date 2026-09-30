@@ -1,0 +1,38 @@
+[
+ {
+  "base": "https://bpcomplu.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "vibpcomplu",
+    "name": "VI BP Complu (UCM)"
+   }
+  ]
+ },
+ {
+  "base": "https://iiibpcomplu.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "iiibpcomplu",
+    "name": "III BP Complu (UCM)"
+   }
+  ]
+ },
+ {
+  "base": "https://ivbpcomplu.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "ivbpcomplu",
+    "name": "IV BP Complu (UCM)"
+   }
+  ]
+ },
+ {
+  "base": "https://vbpcomplu.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "vbpcomplu",
+    "name": "V BP Complu (UCM)"
+   }
+  ]
+ }
+]

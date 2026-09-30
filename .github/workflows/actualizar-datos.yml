@@ -24,6 +24,11 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Auto-descubrir torneos nuevos (siguiente edición / año)
+        run: |
+          cd scraper
+          python3 discover_new.py || true
+
       - name: Descubrir instancias (fuerza bruta ligera + listas guardadas)
         run: |
           cd scraper

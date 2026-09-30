@@ -1,0 +1,42 @@
+[
+ {
+  "base": "https://nacionaluasbecuador2025.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "tnde2025",
+    "name": "Torneo Nacional de Debate Ecuador 2025"
+   },
+   {
+    "slug": "tnde2025dis",
+    "name": "Torneo Nacional de Debate Ecuador 2025 - Competencia de Discursos"
+   }
+  ]
+ },
+ {
+  "base": "https://precmudeuniandes2027.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "precmudeuniandes2026",
+    "name": "Pre Cmude Uniandes 2026"
+   }
+  ]
+ },
+ {
+  "base": "https://viiicampeonatoescolardebateesan.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "VIIICAMPEONATOESCOLARDEBATEESAN",
+    "name": "VIII CAMPEONATO ESCOLAR DEBATE ESAN"
+   }
+  ]
+ },
+ {
+  "base": "https://viprecmudeuam.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "viprecmudeuam",
+    "name": "VI PreCMUDE UAM"
+   }
+  ]
+ }
+]

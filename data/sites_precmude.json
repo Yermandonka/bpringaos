@@ -1,0 +1,20 @@
+[
+ {
+  "base": "https://vprecmudeuam.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "v_precmude",
+    "name": "V PreCMUDE UAM"
+   }
+  ]
+ },
+ {
+  "base": "https://precmudeuniandes2025.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "precmudeuniandes2025",
+    "name": "PreCMUDE Uniandes 2025"
+   }
+  ]
+ }
+]
