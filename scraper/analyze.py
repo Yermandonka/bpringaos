@@ -76,11 +76,30 @@ def same_person(a_toks, b_toks):
             and set(short) <= set(long))
 
 
+def match_member(member_toks, ambiguous, s_toks):
+    """Por defecto basta nombre + primer apellido. Si la persona tiene un tocayo
+    (mismo nombre y primer apellido, distinto segundo apellido) se exige que
+    coincida también el segundo apellido."""
+    if len(s_toks) < 2 or len(member_toks) < 2:
+        return False
+    if (s_toks[0], s_toks[1]) != (member_toks[0], member_toks[1]):
+        return False
+    if not ambiguous:
+        return True
+    # ambiguo → hace falta el 2º apellido; un nombre "pelado" (2 tokens) no basta
+    if len(member_toks) >= 3 and len(s_toks) >= 3:
+        return s_toks[2] == member_toks[2]
+    return s_toks == member_toks
+
+
 def matches(target, name):
-    # perfiles del roster: emparejar SOLO por variante exacta conocida (vistas en
-    # equipos UCM-COM puros); evita fusionar homónimos de otros clubes
-    if target.get("variants"):
-        return " ".join(name_tokens(name)) in target["variants"]
+    # perfiles del roster: nombre+1er apellido (o 2º apellido si hay tocayo);
+    # más alias-broma que no comparten tokens con el nombre real
+    if target.get("toks"):
+        nk = " ".join(name_tokens(name))
+        if nk in target.get("aliases", ()):
+            return True
+        return match_member(target["toks"], target.get("ambiguous", False), name_tokens(name))
     n = " " + norm(name) + " "
     for token in target["required_all"]:
         if token not in n:
@@ -516,6 +535,7 @@ ALIAS_TO_CANON = {
 EXCLUDE_MEMBERS = {
     "tomas aparicio", "tomas aparicio ayan",
     "natalia ruiz", "natalia ruiz beltran",
+    "belen osorio", "belen osorio flores",
 }
 
 
@@ -553,8 +573,9 @@ def ucm_members(tournaments, days=365):
                 if nkey in EXCLUDE_MEMBERS:
                     continue
                 seen.setdefault(nkey, clean_name(sp["name"]))
-    # nodos = cada variante vista; unir por same_person + alias manual
-    groups = []  # {"toks","display","variants":set}
+    # unir variantes de la misma persona; canónico = variante más completa;
+    # los alias-broma se fuerzan a su persona real y se guardan aparte
+    groups = []  # {"toks","display","aliases":set}
 
     def find_group(toks, force_canon=None):
         for g in groups:
@@ -569,24 +590,16 @@ def ucm_members(tournaments, days=365):
         canon = ALIAS_TO_CANON.get(nkey)
         g = find_group(toks, force_canon=canon)
         if g is None:
-            g = {"toks": toks, "display": canon or disp, "variants": set()}
+            g = {"toks": (name_tokens(canon) if canon else toks),
+                 "display": canon or disp, "aliases": set()}
             groups.append(g)
-        g["variants"].add(nkey)
-        # el canónico es la variante con más tokens (o el forzado por alias)
         if canon:
+            g["aliases"].add(nkey)   # nombre-broma → variante alias
             g["display"] = canon
+            if len(name_tokens(canon)) > len(g["toks"]):
+                g["toks"] = name_tokens(canon)
         elif len(toks) > len(g["toks"]):
             g["toks"], g["display"] = toks, disp
-    # asegurar que la variante canónica del alias está en el set aunque no se
-    # haya visto tal cual
-    for nkey, canon in ALIAS_TO_CANON.items():
-        for g in groups:
-            if norm(g["display"]) == norm(canon):
-                g["variants"].add(nkey)
-                ck = " ".join(name_tokens(canon))
-                g["variants"].add(ck)
-                if len(ck.split()) > len(g["toks"]):
-                    g["toks"] = ck.split()
     return cutoff, groups
 
 
@@ -596,28 +609,45 @@ def slugify(name):
     return s[:48] or "x"
 
 
+def homonym_index(tournaments):
+    """key2 (nombre, 1er apellido) → conjunto de 2os apellidos vistos en TODO el
+    dataset. Sirve para saber si una persona tiene tocayos (mismo nombre y primer
+    apellido pero distinto segundo apellido)."""
+    idx = {}
+    for data in tournaments:
+        for tm in data.get("teams") or []:
+            for sp in tm.get("speakers", []) or []:
+                toks = name_tokens(sp.get("name", ""))
+                if len(toks) < 2:
+                    continue
+                idx.setdefault((toks[0], toks[1]), set())
+                if len(toks) >= 3:
+                    idx[(toks[0], toks[1])].add(toks[2])
+    return idx
+
+
 def roster_targets(tournaments, curated):
-    """Un target por cada persona que representó a UCM-COM en el último año.
-    Los curados (Germán, Lucía) tienen prioridad y matching difuso propio.
-    Variantes (apodos, nº de apellidos) se unifican en un único perfil."""
+    """Un target por cada persona que representó a UCM-COM (equipos puros) en el
+    último año. Matching por nombre+1er apellido, salvo tocayos (→ 2º apellido)."""
     cutoff, groups = ucm_members(tournaments)
+    hidx = homonym_index(tournaments)
     gen, seen_keys = [], {t["key"] for t in curated}
     for g in groups:
-        # ¿es una persona ya curada? → no duplicar
-        if any(matches(c, g["display"]) for c in curated):
-            continue
-        # al menos nombre + apellido; el matching por variante exacta ya evita
-        # fusionar homónimos, así que 2 tokens es seguro para miembros reales
         if len(g["toks"]) < 2:
             continue
-        # además, las variantes curadas no deben crear un perfil aparte
-        if any(matches(c, v) for c in curated for v in g["variants"]):
+        # ¿es una persona ya curada (Germán/Lucía)? → no duplicar
+        if any(matches(c, g["display"]) for c in curated):
             continue
+        key2 = (g["toks"][0], g["toks"][1])
+        my_second = g["toks"][2] if len(g["toks"]) >= 3 else None
+        others = hidx.get(key2, set()) - ({my_second} if my_second else set())
+        ambiguous = len(others) > 0
         key = slugify(g["display"])
         if key in seen_keys:
             continue
         seen_keys.add(key)
-        gen.append({"key": key, "display": g["display"], "variants": g["variants"],
+        gen.append({"key": key, "display": g["display"], "toks": g["toks"],
+                    "ambiguous": ambiguous, "aliases": g["aliases"],
                     "required_all": [], "required_any": []})
     return gen
 
