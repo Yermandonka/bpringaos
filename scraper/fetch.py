@@ -42,7 +42,7 @@ def fetch_tournament(base, slug):
         ("rounds", "rounds"), ("motions", "motions"), ("teams", "teams"),
         ("speakers", "speakers"), ("venues", "venues"), ("adjudicators", "adjudicators"),
         ("team_standings", "teams/standings"), ("speaker_standings", "speakers/standings"),
-        ("institutions", "institutions"),
+        ("institutions", "institutions"), ("break_categories", "break-categories"),
     ]:
         out[key] = get(f"{api}/{path}")
     out["rounds_data"] = []

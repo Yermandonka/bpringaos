@@ -1,0 +1,92 @@
+name: Actualizar estadísticas
+
+# Reescanea calicotab y regenera data/stats.json.
+# Se ejecuta solo cada día, y también a mano desde la pestaña Actions.
+on:
+  schedule:
+    - cron: "0 5 * * *"   # cada día a las 05:00 UTC
+  workflow_dispatch: {}     # botón "Run workflow" manual
+
+permissions:
+  contents: write
+
+concurrency:
+  group: actualizar-datos
+  cancel-in-progress: false
+
+jobs:
+  actualizar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Descubrir instancias (fuerza bruta ligera + listas guardadas)
+        run: |
+          cd scraper
+          # combina todas las listas de sitios conocidas
+          python3 - <<'PY'
+          import json, glob, os
+          seen = {}
+          for f in glob.glob("../data/sites_*.json"):
+              try:
+                  for s in json.load(open(f)):
+                      base = s["base"].rstrip("/")
+                      d = seen.setdefault(base, {"base": base, "tournaments": {}})
+                      for t in s.get("tournaments", []):
+                          d["tournaments"][t["slug"]] = t
+              except Exception as e:
+                  print("skip", f, e)
+          out = [{"base": b, "tournaments": list(v["tournaments"].values())} for b, v in seen.items()]
+          json.dump(out, open("../data/sites_merged.json", "w"), ensure_ascii=False, indent=1)
+          print(len(out), "instancias combinadas")
+          PY
+
+      - name: Refrescar torneos con rondas nuevas
+        run: |
+          cd scraper
+          # vuelve a bajar solo torneos que puedan tener rondas nuevas (borra los de <60 días)
+          python3 - <<'PY'
+          import json, time, os, glob
+          from pathlib import Path
+          RAW = Path("../data/raw")
+          now = time.time()
+          refreshed = 0
+          for f in RAW.glob("*.json"):
+              try:
+                  d = json.loads(f.read_text())
+              except Exception:
+                  continue
+              # si el torneo es reciente (fetched hace poco no importa), forzamos refresco de los del año en curso
+              name = (d.get("tournament", {}) or {}).get("name", "") + d.get("slug", "")
+              if "2026" in name or "2025" in name:
+                  f.unlink(); refreshed += 1
+          print("marcados para refrescar:", refreshed)
+          PY
+          python3 fetch.py ../data/sites_merged.json || true
+
+      - name: Enriquecer (jueces + categorías de break)
+        run: |
+          cd scraper
+          python3 patch_adjudicators.py || true
+          python3 patch_breakcats.py || true
+
+      - name: Regenerar estadísticas
+        run: |
+          cd scraper
+          python3 analyze.py
+
+      - name: Commit si hay cambios
+        run: |
+          git config user.name "bpringaos-bot"
+          git config user.email "bot@bpringaos.com"
+          git add data/
+          if git diff --staged --quiet; then
+            echo "sin cambios en los datos"
+          else
+            git commit -m "Actualización automática de estadísticas ($(date -u +%Y-%m-%d))"
+            git push
+          fi

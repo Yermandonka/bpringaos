@@ -1906,6 +1906,41 @@
    "n_tournaments": 8,
    "n_rounds": 43,
    "n_elim_rounds": 0,
+   "breaks": [
+    {
+     "t": "aquinasroncalli2025__aquinasroncalli2025",
+     "tname": "Aquinas-Roncalli 2025",
+     "date": "2025-02-14",
+     "novice": false
+    },
+    {
+     "t": "vbpcomunicateucm__vbpcomunicate",
+     "tname": "V BP Comunícate",
+     "date": "2025-02-28",
+     "novice": true
+    },
+    {
+     "t": "bpmendel__ivbpmendel",
+     "tname": "IV BP Mendel",
+     "date": "2025-03-21",
+     "novice": true
+    },
+    {
+     "t": "torneodeotono2025__otono2025",
+     "tname": "Torneo de Otoño 2025",
+     "date": "2025-05-31",
+     "novice": false
+    },
+    {
+     "t": "xibpurjc__xibpurjc",
+     "tname": "XI BP URJC",
+     "date": "2025-11-14",
+     "novice": true
+    }
+   ],
+   "n_breaks": 5,
+   "n_breaks_novice": 3,
+   "n_breaks_open": 2,
    "tournaments": [
     {
      "slug": "aquinasroncalli2025__aquinasroncalli2025",
@@ -3201,6 +3236,29 @@
    "n_tournaments": 8,
    "n_rounds": 46,
    "n_elim_rounds": 0,
+   "breaks": [
+    {
+     "t": "iiibpmendel__mendel24",
+     "tname": "BP Mendel 2024",
+     "date": "2024-03-14",
+     "novice": true
+    },
+    {
+     "t": "bpeliasahuja__ahuja24",
+     "tname": "BP Elías Ahuja 2024",
+     "date": "2024-11-01",
+     "novice": false
+    },
+    {
+     "t": "xibpurjc__xibpurjc",
+     "tname": "XI BP URJC",
+     "date": "2025-11-14",
+     "novice": false
+    }
+   ],
+   "n_breaks": 3,
+   "n_breaks_novice": 1,
+   "n_breaks_open": 2,
    "tournaments": [
     {
      "slug": "iiibpmendel__mendel24",

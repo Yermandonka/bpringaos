@@ -87,7 +87,7 @@
           <div class="file-row">
             <div class="file-cell"><b data-count="${P.n_tournaments || 0}">0</b><span>torneos</span></div>
             <div class="file-cell"><b data-count="${P.n_rounds || 0}">0</b><span>discursos</span></div>
-            <div class="file-cell"><b data-count="${P.n_elim_rounds || 0}">0</b><span>rondas elim.</span></div>
+            <div class="file-cell"><b data-count="${P.n_breaks || 0}">0</b><span>breaks</span></div>
             <div class="file-cell"><b data-count="${(DATA.n_tournaments_scanned) || 0}">0</b><span>tabs escaneados</span></div>
           </div>
           <p class="sl-quip">${noData
@@ -215,6 +215,33 @@
     enter: (el) => {
       $$(".pos-card", el).forEach((c) => c.classList.add("in"));
       $$("[data-count]", el).forEach((b) => countUp(b, +b.dataset.count, 0, "×"));
+    },
+  });
+
+  // ---- breaks ----
+  add({
+    id: "breaks", kicker: "estadística · a eliminatorias",
+    title: "Breaks",
+    quip: "Veces que el equipo llegó a rondas eliminatorias. Los breaks de novatos cuentan aparte — todos empezamos siendo pringaos.",
+    build: (el) => {
+      const brk = P.breaks || [];
+      el.innerHTML = `<div class="breaks-head">
+          <div class="brk-big"><span class="big" data-count="${P.n_breaks || 0}">0</span><span class="brk-lab">breaks totales</span></div>
+          <div class="brk-big"><span class="big up" data-count="${P.n_breaks_open || 0}">0</span><span class="brk-lab">open</span></div>
+          <div class="brk-big"><span class="big" style="color:var(--accent)" data-count="${P.n_breaks_novice || 0}">0</span><span class="brk-lab">novatos</span></div>
+        </div>
+        <div class="brk-list">` + (brk.length ? brk.map((b, i) =>
+          `<div class="brk-row ${b.novice ? "nov" : "op"}" style="transition-delay:${i * 90}ms">
+            <span class="brk-medal">${b.novice ? "🌱" : "🏆"}</span>
+            <span class="brk-t">${b.tname}</span>
+            <span class="brk-tag">${b.novice ? "NOVATOS" : "OPEN"}</span>
+            <span class="brk-date">${b.date || ""}</span>
+          </div>`).join("")
+          : '<p class="sl-quip">Aún sin breaks en los tabs. El primero siempre llega.</p>') + `</div>`;
+    },
+    enter: (el) => {
+      $$("[data-count]", el).forEach((b) => countUp(b, +b.dataset.count));
+      $$(".brk-row", el).forEach((r) => r.classList.add("in"));
     },
   });
 

@@ -105,7 +105,8 @@ def load_tournaments():
 
 def build():
     tournaments = load_tournaments()
-    people = {t["key"]: {"target": t, "rows": [], "elim_rows": [], "tournaments": {}} for t in TARGETS}
+    people = {t["key"]: {"target": t, "rows": [], "elim_rows": [], "tournaments": {},
+                         "team_urls": {}, "breaks": []} for t in TARGETS}
     all_speaker_rows = 0
 
     for data in tournaments:
@@ -201,7 +202,33 @@ def build():
                             "name": tname, "date": tdate, "online": online,
                             "team": row["team"],
                         })
+                        person["team_urls"].setdefault(tslug, set()).add(st.get("team"))
                         all_speaker_rows += 1
+
+        # ---- breaks: aparición del equipo de la persona en rondas eliminatorias ----
+        bc_names = {b["url"]: b.get("name", "") for b in (data.get("break_categories") or [])}
+        for key, person in people.items():
+            my_teams = person["team_urls"].get(tslug)
+            if not my_teams:
+                continue
+            broke_open = broke_novice = False
+            for rd in data.get("rounds_data") or []:
+                rnd = rounds_by_seq.get(rd["seq"], {})
+                if rnd.get("stage") != "E":
+                    continue
+                appears = any(t.get("team") in my_teams
+                              for pr in (rd.get("pairings") or [])
+                              for t in (pr.get("teams") or []))
+                if not appears:
+                    continue
+                label = norm((rnd.get("name") or "") + " " + bc_names.get(rnd.get("break_category"), ""))
+                if re.search(r"novat|novice|novel|principiante|rookie|inicia", label):
+                    broke_novice = True
+                else:
+                    broke_open = True
+            for is_nov, hit in [(False, broke_open), (True, broke_novice)]:
+                if hit:
+                    person["breaks"].append({"t": tslug, "tname": tname, "date": tdate, "novice": is_nov})
 
         # percentil dentro del torneo
         if t_scores:
@@ -222,8 +249,12 @@ def summarize(person):
     rows = sorted(person["rows"], key=lambda r: (r["date"] or "", r["seq"]))
     scored = [r for r in rows if r["score"] is not None]
     scores = [r["score"] for r in scored]
+    breaks = sorted(person["breaks"], key=lambda b: b["date"] or "")
     out = {"display": person["target"]["display"], "n_tournaments": len(person["tournaments"]),
            "n_rounds": len(rows), "n_elim_rounds": len(person["elim_rows"]),
+           "breaks": breaks, "n_breaks": len(breaks),
+           "n_breaks_novice": sum(1 for b in breaks if b["novice"]),
+           "n_breaks_open": sum(1 for b in breaks if not b["novice"]),
            "tournaments": [dict(slug=k, **v) for k, v in sorted(person["tournaments"].items(), key=lambda kv: kv[1]["date"] or "")],
            "rows": rows, "elim_rows": person["elim_rows"]}
     if not scores:
