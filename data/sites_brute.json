@@ -1,0 +1,459 @@
+[
+ {
+  "base": "https://bpceu.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "bpceu",
+    "name": "III BP CEU"
+   }
+  ]
+ },
+ {
+  "base": "https://bpeliasahuja.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "ahuja23",
+    "name": "BP Elías Ahuja 2023"
+   },
+   {
+    "slug": "ahuja24",
+    "name": "BP Elías Ahuja 2024"
+   }
+  ]
+ },
+ {
+  "base": "https://bpmurcia.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "umu24",
+    "name": "BP UMU 2024"
+   },
+   {
+    "slug": "xbpmurcia2025",
+    "name": "X BP Ciudad de Murcia 2025"
+   }
+  ]
+ },
+ {
+  "base": "https://bpregenta.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "VRegenta",
+    "name": "V Torneo BP La Regenta en la Universidad de Oviedo"
+   },
+   {
+    "slug": "discursosbpregenta",
+    "name": "Discursos V Torneo BP La Regenta en la Universidad de Oviedo"
+   }
+  ]
+ },
+ {
+  "base": "https://bpuam.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "18",
+    "name": "BP UAM 2018"
+   }
+  ]
+ },
+ {
+  "base": "https://bpuam2022.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "bpuam2022",
+    "name": "BP UAM 2022"
+   }
+  ]
+ },
+ {
+  "base": "https://bpuam2023.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "bpuam2023",
+    "name": "BP UAM 2023"
+   }
+  ]
+ },
+ {
+  "base": "https://bpub.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "ivbpub",
+    "name": "IV BP Universitat de Barcelona"
+   }
+  ]
+ },
+ {
+  "base": "https://bpuned2025.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "uned2025",
+    "name": "BP UNED SEGOVIA-RETORIKA 2025"
+   }
+  ]
+ },
+ {
+  "base": "https://cmude2021.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "cmudeecuador2021",
+    "name": "Campeonato Mundial Universitario de Debate en Español Ecuador 2021"
+   }
+  ]
+ },
+ {
+  "base": "https://cmude2022.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "cmude2022respawn",
+    "name": "CMUDE Madrid 2022 Respaldo"
+   },
+   {
+    "slug": "cmude2022",
+    "name": "CMUDE Madrid 2022"
+   },
+   {
+    "slug": "masterscmude22",
+    "name": "Competencia de Masters del Campeonato Mundial de Debate Universitario en Español 2022"
+   }
+  ]
+ },
+ {
+  "base": "https://cmude2023.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "cmude2023",
+    "name": "Campeonato Mundial Universitario de Debate en Español - Panamá 2023"
+   }
+  ]
+ },
+ {
+  "base": "https://cmude2024.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "open",
+    "name": "Campeonato Mundial Universitario de Debate en Español 2024"
+   },
+   {
+    "slug": "masters",
+    "name": "Competencia de Masters"
+   },
+   {
+    "slug": "discursos",
+    "name": "Discursos"
+   }
+  ]
+ },
+ {
+  "base": "https://cmude2025.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "open",
+    "name": "Campeonato Mundial Universitario de Debate en Español 2025"
+   },
+   {
+    "slug": "masters",
+    "name": "Competencia de Masters 2025"
+   },
+   {
+    "slug": "discursos",
+    "name": "Competencia de Discursos 2025"
+   }
+  ]
+ },
+ {
+  "base": "https://cmudecraft2024.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "cmudecraft2025",
+    "name": "Torneo de Debate CMUDE CRAFT 2025"
+   }
+  ]
+ },
+ {
+  "base": "https://cmude2026.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "open",
+    "name": "Campeonato Mundial Universitario de Debate en Español 2026"
+   },
+   {
+    "slug": "discursos",
+    "name": "Competencia de Discursos 2026"
+   },
+   {
+    "slug": "masters",
+    "name": "Competencia de Masters 2026"
+   }
+  ]
+ },
+ {
+  "base": "https://iibpceu.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "IIBPCEU",
+    "name": "II BP CEU San Pablo"
+   }
+  ]
+ },
+ {
+  "base": "https://iibpub.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "IIBPUB",
+    "name": "II BP Universitat de Barcelona"
+   }
+  ]
+ },
+ {
+  "base": "https://ivbpceu.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "ivbpceu",
+    "name": "IV BP CEU"
+   }
+  ]
+ },
+ {
+  "base": "https://ivbpeliasahuja.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "ivbpeliasahuja",
+    "name": "IV Torneo BP Elías Ahúja"
+   }
+  ]
+ },
+ {
+  "base": "https://ixbpuam.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "ixbpuam",
+    "name": "IX BP UAM"
+   }
+  ]
+ },
+ {
+  "base": "https://toin2023.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "toin2023",
+    "name": "Torneo de Invierno 2023"
+   }
+  ]
+ },
+ {
+  "base": "https://tono2023.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "torneodenovates2023",
+    "name": "Torneo de Novates 2023"
+   }
+  ]
+ },
+ {
+  "base": "https://tono2026.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "open",
+    "name": "Torneo de Otoño 2026"
+   }
+  ]
+ },
+ {
+  "base": "https://tono2024.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "tono2024",
+    "name": "Torneo de Novates 2024"
+   },
+   {
+    "slug": "tonodiscursos2024",
+    "name": "Torneo de Novates - Discursos 2024"
+   }
+  ]
+ },
+ {
+  "base": "https://tono2025.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "tono2025",
+    "name": "Torneo de Novates 2025"
+   },
+   {
+    "slug": "discursos",
+    "name": "Torneo de Novates - Discursos 2025"
+   }
+  ]
+ },
+ {
+  "base": "https://torneobpregenta.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "RegentaIV",
+    "name": "Torneo BP la Regenta IV"
+   }
+  ]
+ },
+ {
+  "base": "https://torneodeinvierno2024.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "toin2024",
+    "name": "Torneo de Invierno 2024"
+   }
+  ]
+ },
+ {
+  "base": "https://torneodeinvierno2025.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "toin2025",
+    "name": "Torneo de Invierno 2025"
+   }
+  ]
+ },
+ {
+  "base": "https://torneodeotono2025.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "otono2025",
+    "name": "Torneo de Otoño 2025"
+   }
+  ]
+ },
+ {
+  "base": "https://torneodeotono2024.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "otono2024",
+    "name": "Torneo de Otoño 2024"
+   }
+  ]
+ },
+ {
+  "base": "https://vbpgranada.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "bpgranada2026",
+    "name": "V BP Ciudad de Granada"
+   }
+  ]
+ },
+ {
+  "base": "https://vbpub.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "vbpub",
+    "name": "V BP UB"
+   }
+  ]
+ },
+ {
+  "base": "https://vgaduab.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "vgaduab",
+    "name": "V BP GAD-UAB"
+   }
+  ]
+ },
+ {
+  "base": "https://vibpregenta.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "vibpregenta",
+    "name": "VI BP Regenta"
+   }
+  ]
+ },
+ {
+  "base": "https://vibpsalamanca.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "vibpsalamanca",
+    "name": "VI Torneo BP Salamanca"
+   }
+  ]
+ },
+ {
+  "base": "https://vigaduab.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "vigaduab",
+    "name": "VI BP GAD-UAB"
+   }
+  ]
+ },
+ {
+  "base": "https://viibpregenta.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "viibplaregenta",
+    "name": "VII BP La Regenta"
+   }
+  ]
+ },
+ {
+  "base": "https://viigaduab.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "viigaduab",
+    "name": "VII BP GAD-UAB"
+   }
+  ]
+ },
+ {
+  "base": "https://viiibpgaduab.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "viiigad-uab",
+    "name": "VIII Torneig GAD-UAB"
+   }
+  ]
+ },
+ {
+  "base": "https://viiibpurjc.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "viiibpurjc",
+    "name": "VIII BP URJC"
+   }
+  ]
+ },
+ {
+  "base": "https://viiieliasahuja.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "viiieliasahuja",
+    "name": "VIII TORNEO BP ELIAS AHUJA"
+   }
+  ]
+ },
+ {
+  "base": "https://xbpuam.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "xbpuam",
+    "name": "X BP UAM"
+   }
+  ]
+ },
+ {
+  "base": "https://xibpmurcia.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "xibpmurcia",
+    "name": "XI BP Murcia"
+   }
+  ]
+ },
+ {
+  "base": "https://xibpurjc.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "xibpurjc",
+    "name": "XI BP URJC"
+   }
+  ]
+ }
+]

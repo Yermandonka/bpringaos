@@ -1,0 +1,167 @@
+{
+ "generated": true,
+ "n_tournaments_scanned": 20,
+ "tournaments_scanned": [
+  {
+   "name": "V Torneo BP La Regenta en la Universidad de Oviedo",
+   "slug": "VRegenta",
+   "base": "https://bpregenta.calicotab.com",
+   "date": "2024-02-24",
+   "online": false
+  },
+  {
+   "name": "Discursos V Torneo BP La Regenta en la Universidad de Oviedo",
+   "slug": "discursosbpregenta",
+   "base": "https://bpregenta.calicotab.com",
+   "date": null,
+   "online": false
+  },
+  {
+   "name": "BP UNED SEGOVIA-RETORIKA 2024",
+   "slug": "bpuned2024",
+   "base": "https://bpunedsegoviaretorika.calicotab.com",
+   "date": "2024-01-01",
+   "online": false
+  },
+  {
+   "name": "Discursos",
+   "slug": "discursos",
+   "base": "https://cmude2024.calicotab.com",
+   "date": "2024-01-01",
+   "online": false
+  },
+  {
+   "name": "Competencia de Masters",
+   "slug": "masters",
+   "base": "https://cmude2024.calicotab.com",
+   "date": "2024-07-13",
+   "online": false
+  },
+  {
+   "name": "Competencia de Discursos 2026",
+   "slug": "discursos",
+   "base": "https://cmude2026.calicotab.com",
+   "date": "2026-01-01",
+   "online": false
+  },
+  {
+   "name": "Competencia de Masters 2026",
+   "slug": "masters",
+   "base": "https://cmude2026.calicotab.com",
+   "date": "2026-01-01",
+   "online": false
+  },
+  {
+   "name": "Torneo de Debate CMUDE CRAFT 2025",
+   "slug": "cmudecraft2025",
+   "base": "https://cmudecraft2024.calicotab.com",
+   "date": "2025-03-08",
+   "online": true
+  },
+  {
+   "name": "CMUDECraft v.2026 - Discursos",
+   "slug": "discursos",
+   "base": "https://cmudecraftii.calicotab.com",
+   "date": "2026-01-01",
+   "online": true
+  },
+  {
+   "name": "Torneo de Debate CMUDECraft v.2026",
+   "slug": "open",
+   "base": "https://cmudecraftii.calicotab.com",
+   "date": "2026-01-09",
+   "online": true
+  },
+  {
+   "name": "IV Torneo BP Elías Ahúja",
+   "slug": "ivbpeliasahuja",
+   "base": "https://ivbpeliasahuja.calicotab.com",
+   "date": "2021-11-06",
+   "online": false
+  },
+  {
+   "name": "IX BP UAM",
+   "slug": "ixbpuam",
+   "base": "https://ixbpuam.calicotab.com",
+   "date": "2024-10-26",
+   "online": false
+  },
+  {
+   "name": "Torneo Metropolitano de Debate 2021",
+   "slug": "tmd2021",
+   "base": "https://tmd2021.calicotab.com",
+   "date": "2021-01-01",
+   "online": false
+  },
+  {
+   "name": "Torneo Andino de Debate",
+   "slug": "debate",
+   "base": "https://torneoandino.calicotab.com",
+   "date": "2026-04-18",
+   "online": false
+  },
+  {
+   "name": "Torneo BP la Regenta IV",
+   "slug": "RegentaIV",
+   "base": "https://torneobpregenta.calicotab.com",
+   "date": null,
+   "online": false
+  },
+  {
+   "name": "Torneo Ucevista de BP Interuniversitario 2023",
+   "slug": "tubiducv2023",
+   "base": "https://tubi2023.calicotab.com",
+   "date": "2023-01-01",
+   "online": false
+  },
+  {
+   "name": "VI Torneo BP Salamanca",
+   "slug": "vibpsalamanca",
+   "base": "https://vibpsalamanca.calicotab.com",
+   "date": "2023-10-26",
+   "online": false
+  },
+  {
+   "name": "VI BP GAD-UAB",
+   "slug": "vigaduab",
+   "base": "https://vigaduab.calicotab.com",
+   "date": "2024-04-18",
+   "online": false
+  },
+  {
+   "name": "VIII TORNEO BP ELIAS AHUJA",
+   "slug": "viiieliasahuja",
+   "base": "https://viiieliasahuja.calicotab.com",
+   "date": "2025-10-31",
+   "online": false
+  },
+  {
+   "name": "Sexto Torneo Rosarista de Debate Colegios",
+   "slug": "vitrd-colegios",
+   "base": "https://vitrd.calicotab.com",
+   "date": null,
+   "online": false
+  }
+ ],
+ "people": {
+  "german": {
+   "display": "Germán Mendonça Costa-Frossard",
+   "n_tournaments": 0,
+   "n_rounds": 0,
+   "n_elim_rounds": 0,
+   "tournaments": [],
+   "rows": [],
+   "elim_rows": []
+  },
+  "lucia": {
+   "display": "Lucía Vadillo",
+   "n_tournaments": 0,
+   "n_rounds": 0,
+   "n_elim_rounds": 0,
+   "tournaments": [],
+   "rows": [],
+   "elim_rows": []
+  }
+ },
+ "h2h": []
+}
