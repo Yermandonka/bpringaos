@@ -30,6 +30,20 @@
   <p class="loader-txt">Abriendo portal a la dimensión C-137-BP…</p>
 </div>
 
+<button id="burger" aria-label="Abrir expedientes" aria-expanded="false">
+  <span></span><span></span><span></span>
+</button>
+
+<div id="menu" aria-hidden="true">
+  <div class="menu-inner">
+    <p class="menu-kicker">los expedientes</p>
+    <h2 class="menu-title">Elige a tu pringao</h2>
+    <input id="menuSearch" type="search" placeholder="buscar en el multiverso…" autocomplete="off">
+    <nav class="menu-list" id="menuList"><!-- JS --></nav>
+    <p class="menu-foot">¿No estás? Debate más y vuelve a intentarlo.</p>
+  </div>
+</div>
+
 <section id="top" class="hero">
   <canvas id="portalCanvas" aria-hidden="true"></canvas>
   <div class="hero-inner">
@@ -38,25 +52,8 @@
     <p class="hero-sub"><span id="typewriter"></span><span class="caret">▌</span></p>
     <p class="hero-note" id="heroMeta">—</p>
 
-    <div class="gates">
-      <a class="gate gate-g" href="stats.html?p=german">
-        <span class="gate-ring"></span>
-        <span class="gate-core">
-          <span class="gate-kicker">sujeto de pruebas nº1</span>
-          <span class="gate-name">Germán</span>
-          <span class="gate-sub">Mendonça Costa-Frossard</span>
-          <span class="gate-cta">cruzar el portal →</span>
-        </span>
-      </a>
-      <a class="gate gate-l" href="stats.html?p=lucia">
-        <span class="gate-ring"></span>
-        <span class="gate-core">
-          <span class="gate-kicker">sujeto de pruebas nº2</span>
-          <span class="gate-name">Lucía</span>
-          <span class="gate-sub">Vadillo</span>
-          <span class="gate-cta">cruzar el portal →</span>
-        </span>
-      </a>
+    <div class="hero-cta-wrap">
+      <button class="btn btn-primary btn-big" id="openMenuBtn">☰ &nbsp;Abrir los expedientes</button>
     </div>
 
     <p class="hero-note foot-links">

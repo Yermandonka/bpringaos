@@ -31,11 +31,52 @@
     })();
   })();
 
+  const HUES = ["#ff7a1a", "#97ce4c", "#f0b429", "#e8620c", "#5fa32b", "#ffa04d"];
   fetch("data/stats.json", { cache: "no-store" }).then((r) => r.json()).then((d) => {
     const speeches = Object.values(d.people || {}).reduce((a, p) => a + (p.n_rounds || 0), 0);
     $("#heroMeta").textContent =
       `${d.n_tournaments_scanned} torneos escaneados · ${speeches} discursos analizados · 0 permisos pedidos`;
+
+    // construir la lista del menú
+    const list = $("#menuList");
+    const people = Object.entries(d.people || {});
+    people.forEach(([key, p], i) => {
+      const a = document.createElement("a");
+      a.className = "menu-row";
+      a.href = `stats.html?p=${key}`;
+      a.style.setProperty("--pc", HUES[i % HUES.length]);
+      a.style.transitionDelay = `${80 + i * 70}ms`;
+      a.dataset.search = (p.display || key).toLowerCase();
+      a.innerHTML = `
+        <span class="menu-num">${String(i + 1).padStart(2, "0")}</span>
+        <span class="menu-name">${p.display || key}</span>
+        <span class="menu-meta">${p.n_tournaments || 0} torneos · ${p.n_rounds || 0} discursos · ${p.avg_speaks != null ? p.avg_speaks + " spk" : "sin datos"}</span>
+        <span class="menu-go">→</span>`;
+      list.appendChild(a);
+    });
+    if (people.length < 9) $("#menuSearch").style.display = "none";
   }).catch(() => {});
+
+  // ---------- menú hamburguesa ----------
+  const burger = $("#burger"), menu = $("#menu");
+  let menuOpen = false;
+  function setMenu(open) {
+    menuOpen = open;
+    burger.classList.toggle("open", open);
+    burger.setAttribute("aria-expanded", open);
+    menu.classList.toggle("open", open);
+    menu.setAttribute("aria-hidden", !open);
+    document.body.style.overflow = open ? "hidden" : "";
+    if (open) setTimeout(() => $("#menuSearch")?.focus({ preventScroll: true }), 400);
+  }
+  burger.addEventListener("click", () => setMenu(!menuOpen));
+  $("#openMenuBtn")?.addEventListener("click", () => setMenu(true));
+  addEventListener("keydown", (e) => { if (e.key === "Escape" && menuOpen) setMenu(false); });
+  $("#menuSearch")?.addEventListener("input", (e) => {
+    const q = e.target.value.trim().toLowerCase();
+    document.querySelectorAll(".menu-row").forEach((r) =>
+      r.classList.toggle("hidden", q && !r.dataset.search.includes(q)));
+  });
 
   // portal de partículas
   const cv = $("#portalCanvas");
