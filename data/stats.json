@@ -1,6 +1,6 @@
 {
  "generated": true,
- "n_tournaments_scanned": 287,
+ "n_tournaments_scanned": 288,
  "n_people": 44,
  "tournaments_scanned": [
   {
@@ -1905,6 +1905,13 @@
    "slug": "trd8uni",
    "base": "https://viiitrd.calicotab.com",
    "date": "2024-01-01",
+   "online": false
+  },
+  {
+   "name": "VII PreCMUDE UAM",
+   "slug": "viiprecmudeuam",
+   "base": "https://viiprecmudeuam.calicotab.com",
+   "date": "2025-06-27",
    "online": false
   },
   {
@@ -8023,8 +8030,8 @@
   },
   "jose-tomas-sanchez-galan": {
    "display": "José Tomás Sánchez Galán",
-   "n_tournaments": 22,
-   "n_rounds": 125,
+   "n_tournaments": 23,
+   "n_rounds": 131,
    "n_elim_rounds": 0,
    "n_tournaments_6m": 4,
    "n_rounds_6m": 22,
@@ -8143,6 +8150,13 @@
      "date": "2025-04-11",
      "online": false,
      "team": "Metoolilla y las 9 razones"
+    },
+    {
+     "slug": "viiprecmudeuam__viiprecmudeuam",
+     "name": "VII PreCMUDE UAM",
+     "date": "2025-06-27",
+     "online": false,
+     "team": "UCM-COM perros callejeros"
     },
     {
      "slug": "bpgranada2025__bpgranada2025",
@@ -9540,6 +9554,144 @@
      "chair": "Fernanda Roig",
      "venue": "sala 7",
      "t_avg": 72.87
+    },
+    {
+     "t": "viiprecmudeuam__viiprecmudeuam",
+     "tname": "VII PreCMUDE UAM",
+     "date": "2025-06-27",
+     "online": false,
+     "round": "Ronda 1",
+     "seq": 1,
+     "stage": "P",
+     "side": "oo",
+     "points": 0,
+     "win": false,
+     "position": 1,
+     "score": 75.0,
+     "iron": false,
+     "room_rank": 8,
+     "motion": "EC, como una persona aficionada mirandesa de larga duración, prefiere el modelo A sobre el B",
+     "topic": "economía",
+     "team": "UCM-COM perros callejeros",
+     "mate": "Ainhoa Díez Blanco",
+     "chair": "Santiago Ortiz García 🍸",
+     "venue": "Sala 08",
+     "t_avg": 75.77
+    },
+    {
+     "t": "viiprecmudeuam__viiprecmudeuam",
+     "tname": "VII PreCMUDE UAM",
+     "date": "2025-06-27",
+     "online": false,
+     "round": "Ronda 2",
+     "seq": 2,
+     "stage": "P",
+     "side": "cg",
+     "points": 1,
+     "win": false,
+     "position": 1,
+     "score": 72.0,
+     "iron": false,
+     "room_rank": 6,
+     "motion": "EC prefiere un mundo en el que las personas perciban su identidad como una unidad estable en el tiempo, en contraposición a un mundo en el que consideren que la identidad evoluciona y se transforma continuamente",
+     "topic": "otros",
+     "team": "UCM-COM perros callejeros",
+     "mate": "Ainhoa Díez Blanco",
+     "chair": "Juanjo García Amorós",
+     "venue": "Sala 01",
+     "t_avg": 75.77
+    },
+    {
+     "t": "viiprecmudeuam__viiprecmudeuam",
+     "tname": "VII PreCMUDE UAM",
+     "date": "2025-06-27",
+     "online": false,
+     "round": "Ronda 3",
+     "seq": 3,
+     "stage": "P",
+     "side": "co",
+     "points": 3,
+     "win": false,
+     "position": 1,
+     "score": 71.0,
+     "iron": false,
+     "room_rank": 3,
+     "motion": "ECCQ está en los intereses del pueblo puertorriqueño la independencia de Puerto Rico",
+     "topic": "filosofía y ética",
+     "team": "UCM-COM perros callejeros",
+     "mate": "Ainhoa Díez Blanco",
+     "chair": "Sandra Millán Palacios",
+     "venue": "Sala 07",
+     "t_avg": 75.77
+    },
+    {
+     "t": "viiprecmudeuam__viiprecmudeuam",
+     "tname": "VII PreCMUDE UAM",
+     "date": "2025-06-27",
+     "online": false,
+     "round": "Ronda 4",
+     "seq": 4,
+     "stage": "P",
+     "side": "og",
+     "points": 1,
+     "win": false,
+     "position": 2,
+     "score": 72.0,
+     "iron": false,
+     "room_rank": 5,
+     "motion": "EC lamenta la muerte de la figuración en el arte",
+     "topic": "educación",
+     "team": "UCM-COM perros callejeros",
+     "mate": "Ainhoa Díez Blanco",
+     "chair": "Juanjo García Amorós",
+     "venue": "Sala 04",
+     "t_avg": 75.77
+    },
+    {
+     "t": "viiprecmudeuam__viiprecmudeuam",
+     "tname": "VII PreCMUDE UAM",
+     "date": "2025-06-27",
+     "online": false,
+     "round": "Ronda 5",
+     "seq": 5,
+     "stage": "P",
+     "side": "cg",
+     "points": 2,
+     "win": false,
+     "position": 1,
+     "score": 73.0,
+     "iron": false,
+     "room_rank": 3,
+     "motion": "Asumiendo que son excluyentes, ECCQ la comunidad sanitaria debería impulsar el enfoque anatómico en lugar del enfoque socioeconómico",
+     "topic": "psicología y salud mental",
+     "team": "UCM-COM perros callejeros",
+     "mate": "Ainhoa Díez Blanco",
+     "chair": "Mario de la Hoz",
+     "venue": "Sala 05",
+     "t_avg": 75.77
+    },
+    {
+     "t": "viiprecmudeuam__viiprecmudeuam",
+     "tname": "VII PreCMUDE UAM",
+     "date": "2025-06-27",
+     "online": false,
+     "round": "Ronda 6",
+     "seq": 6,
+     "stage": "P",
+     "side": "og",
+     "points": 0,
+     "win": false,
+     "position": 2,
+     "score": 73.0,
+     "iron": false,
+     "room_rank": 5,
+     "motion": "EC lamenta el auge de la digitalización en el sistema financiero (Ej. billeteras digitales, creación de neobancos o euro digital)",
+     "topic": "economía",
+     "team": "UCM-COM perros callejeros",
+     "mate": "Ainhoa Díez Blanco",
+     "chair": "Javier Abellán",
+     "venue": "Sala 09",
+     "t_avg": 75.77
     },
     {
      "t": "bpgranada2025__bpgranada2025",
@@ -11107,8 +11259,8 @@
     }
    ],
    "elim_rows": [],
-   "avg_speaks": 74.84,
-   "stdev": 4.14,
+   "avg_speaks": 74.74,
+   "stdev": 4.08,
    "best": {
     "t": "bpcomplu__vibpcomplu",
     "tname": "VI BP COMPLU",
@@ -11155,66 +11307,66 @@
     "venue": "1.10 - The Face",
     "t_avg": 73.35
    },
-   "avg_points": 1.6,
+   "avg_points": 1.58,
    "results_dist": {
-    "3": 36,
-    "2": 32,
-    "1": 28,
-    "0": 29
+    "3": 37,
+    "2": 33,
+    "1": 30,
+    "0": 31
    },
    "pos1": {
-    "n": 57,
-    "avg": 73.95
+    "n": 61,
+    "avg": 73.87
    },
    "pos2": {
-    "n": 68,
-    "avg": 75.59
+    "n": 70,
+    "avg": 75.5
    },
    "sides": {
     "og": {
      "label": "Alta Gobierno",
-     "n": 30,
-     "avg_points": 1.93,
-     "avg_speaks": 75.8,
+     "n": 32,
+     "avg_points": 1.84,
+     "avg_speaks": 75.59,
      "firsts": 11
     },
     "oo": {
      "label": "Alta Oposición",
-     "n": 31,
-     "avg_points": 1.26,
-     "avg_speaks": 73.55,
+     "n": 32,
+     "avg_points": 1.22,
+     "avg_speaks": 73.59,
      "firsts": 6
     },
     "cg": {
      "label": "Baja Gobierno",
-     "n": 33,
-     "avg_points": 1.55,
-     "avg_speaks": 75.18,
+     "n": 35,
+     "avg_points": 1.54,
+     "avg_speaks": 75.03,
      "firsts": 6
     },
     "co": {
      "label": "Baja Oposición",
-     "n": 31,
-     "avg_points": 1.68,
-     "avg_speaks": 74.84,
-     "firsts": 13
+     "n": 32,
+     "avg_points": 1.72,
+     "avg_speaks": 74.72,
+     "firsts": 14
     }
    },
    "topics": {
     "otros": {
-     "n": 18,
-     "avg_points": 1.56,
-     "avg_speaks": 74.61
+     "n": 19,
+     "avg_points": 1.53,
+     "avg_speaks": 74.47
     },
     "economía": {
-     "n": 23,
-     "avg_points": 1.61,
-     "avg_speaks": 74.35
+     "n": 25,
+     "avg_points": 1.48,
+     "avg_speaks": 74.32
     },
     "psicología y salud mental": {
-     "n": 11,
-     "avg_points": 0.91,
-     "avg_speaks": 75.82
+     "n": 12,
+     "avg_points": 1,
+     "avg_speaks": 75.58
     },
     "relaciones internacionales": {
      "n": 6,
@@ -11252,9 +11404,9 @@
      "avg_speaks": 73.5
     },
     "filosofía y ética": {
-     "n": 10,
-     "avg_points": 1.9,
-     "avg_speaks": 76.5
+     "n": 11,
+     "avg_points": 2,
+     "avg_speaks": 76.0
     },
     "medioambiente": {
      "n": 1,
@@ -11262,9 +11414,9 @@
      "avg_speaks": 73.0
     },
     "educación": {
-     "n": 3,
-     "avg_points": 2,
-     "avg_speaks": 78.0
+     "n": 4,
+     "avg_points": 1.75,
+     "avg_speaks": 76.5
     }
    },
    "evolution": [
@@ -11326,6 +11478,12 @@
      "date": "2025-04-11",
      "tname": "XII TDAM",
      "avg": 75.33,
+     "n": 6
+    },
+    {
+     "date": "2025-06-27",
+     "tname": "VII PreCMUDE UAM",
+     "avg": 72.67,
      "n": 6
     },
     {
@@ -11451,6 +11609,12 @@
      "avg_speaks": 71.83
     },
     {
+     "name": "Ainhoa Díez Blanco",
+     "n": 6,
+     "avg_points": 1.17,
+     "avg_speaks": 72.67
+    },
+    {
      "name": "Maria José Lara Muñoz",
      "n": 6,
      "avg_points": 1.83,
@@ -11493,10 +11657,10 @@
      "avg_speaks": 78.4
     }
    ],
-   "vs_field": 0.96,
+   "vs_field": 0.78,
    "clutch": {
-    "avg_last_round": 74.82,
-    "delta": -0.02
+    "avg_last_round": 74.74,
+    "delta": -0.0
    },
    "streak_top2": 9,
    "env_online": {
@@ -11505,11 +11669,11 @@
     "avg_points": 1.76
    },
    "env_presencial": {
-    "n": 100,
-    "avg_speaks": 74.51,
-    "avg_points": 1.56
+    "n": 106,
+    "avg_speaks": 74.41,
+    "avg_points": 1.54
    },
-   "avg_room_rank": 3.86,
+   "avg_room_rank": 3.91,
    "room_best_count": 26,
    "chairs": [
     [
@@ -15226,8 +15390,8 @@
   },
   "jaime-rodriguez-sanchez-tabernero": {
    "display": "Jaime Rodríguez Sánchez-Tabernero",
-   "n_tournaments": 39,
-   "n_rounds": 224,
+   "n_tournaments": 40,
+   "n_rounds": 230,
    "n_elim_rounds": 0,
    "n_tournaments_6m": 2,
    "n_rounds_6m": 16,
@@ -15321,6 +15485,14 @@
      "champion": true
     },
     {
+     "t": "viiprecmudeuam__viiprecmudeuam",
+     "tname": "VII PreCMUDE UAM",
+     "date": "2025-06-27",
+     "novice": false,
+     "reached": "Semifinal",
+     "champion": false
+    },
+    {
      "t": "cmude2025__open",
      "tname": "Campeonato Mundial Universitario de Debate en Español 2025",
      "date": "2025-07-14",
@@ -15401,9 +15573,9 @@
      "champion": true
     }
    ],
-   "n_breaks": 21,
+   "n_breaks": 22,
    "n_breaks_novice": 0,
-   "n_breaks_open": 21,
+   "n_breaks_open": 22,
    "tournaments": [
     {
      "slug": "aquinasroncalli2022__Aquinas",
@@ -15593,6 +15765,13 @@
      "date": "2025-06-14",
      "online": false,
      "team": "CMU Mendel RT"
+    },
+    {
+     "slug": "viiprecmudeuam__viiprecmudeuam",
+     "name": "VII PreCMUDE UAM",
+     "date": "2025-06-27",
+     "online": false,
+     "team": "La Mendeleta"
     },
     {
      "slug": "cmude2025__open",
@@ -19108,6 +19287,144 @@
      "t_avg": 77.18
     },
     {
+     "t": "viiprecmudeuam__viiprecmudeuam",
+     "tname": "VII PreCMUDE UAM",
+     "date": "2025-06-27",
+     "online": false,
+     "round": "Ronda 1",
+     "seq": 1,
+     "stage": "P",
+     "side": "cg",
+     "points": 3,
+     "win": false,
+     "position": 1,
+     "score": 81.0,
+     "iron": false,
+     "room_rank": 1,
+     "motion": "EC, como una persona aficionada mirandesa de larga duración, prefiere el modelo A sobre el B",
+     "topic": "economía",
+     "team": "La Mendeleta",
+     "mate": "Ángel Trujillo",
+     "chair": "Pablo Ponce Sánchez",
+     "venue": "Sala 04",
+     "t_avg": 75.77
+    },
+    {
+     "t": "viiprecmudeuam__viiprecmudeuam",
+     "tname": "VII PreCMUDE UAM",
+     "date": "2025-06-27",
+     "online": false,
+     "round": "Ronda 2",
+     "seq": 2,
+     "stage": "P",
+     "side": "og",
+     "points": 2,
+     "win": false,
+     "position": 2,
+     "score": 79.0,
+     "iron": false,
+     "room_rank": 3,
+     "motion": "EC prefiere un mundo en el que las personas perciban su identidad como una unidad estable en el tiempo, en contraposición a un mundo en el que consideren que la identidad evoluciona y se transforma continuamente",
+     "topic": "otros",
+     "team": "La Mendeleta",
+     "mate": "Ángel Trujillo",
+     "chair": "Pablo Ponce Sánchez",
+     "venue": "Sala 03",
+     "t_avg": 75.77
+    },
+    {
+     "t": "viiprecmudeuam__viiprecmudeuam",
+     "tname": "VII PreCMUDE UAM",
+     "date": "2025-06-27",
+     "online": false,
+     "round": "Ronda 3",
+     "seq": 3,
+     "stage": "P",
+     "side": "oo",
+     "points": 1,
+     "win": false,
+     "position": 2,
+     "score": 78.0,
+     "iron": false,
+     "room_rank": 5,
+     "motion": "ECCQ está en los intereses del pueblo puertorriqueño la independencia de Puerto Rico",
+     "topic": "filosofía y ética",
+     "team": "La Mendeleta",
+     "mate": "Ángel Trujillo",
+     "chair": "Santiago Ortiz García 🍸",
+     "venue": "Sala 03",
+     "t_avg": 75.77
+    },
+    {
+     "t": "viiprecmudeuam__viiprecmudeuam",
+     "tname": "VII PreCMUDE UAM",
+     "date": "2025-06-27",
+     "online": false,
+     "round": "Ronda 4",
+     "seq": 4,
+     "stage": "P",
+     "side": "co",
+     "points": 0,
+     "win": false,
+     "position": 1,
+     "score": 77.0,
+     "iron": false,
+     "room_rank": 8,
+     "motion": "EC lamenta la muerte de la figuración en el arte",
+     "topic": "educación",
+     "team": "La Mendeleta",
+     "mate": "Ángel Trujillo",
+     "chair": "Santiago Ortiz García 🍸",
+     "venue": "Sala 01",
+     "t_avg": 75.77
+    },
+    {
+     "t": "viiprecmudeuam__viiprecmudeuam",
+     "tname": "VII PreCMUDE UAM",
+     "date": "2025-06-27",
+     "online": false,
+     "round": "Ronda 5",
+     "seq": 5,
+     "stage": "P",
+     "side": "og",
+     "points": 3,
+     "win": false,
+     "position": 2,
+     "score": 79.0,
+     "iron": false,
+     "room_rank": 1,
+     "motion": "Asumiendo que son excluyentes, ECCQ la comunidad sanitaria debería impulsar el enfoque anatómico en lugar del enfoque socioeconómico",
+     "topic": "psicología y salud mental",
+     "team": "La Mendeleta",
+     "mate": "Ángel Trujillo",
+     "chair": "Sam Rivadeneira 🩷",
+     "venue": "Sala 03",
+     "t_avg": 75.77
+    },
+    {
+     "t": "viiprecmudeuam__viiprecmudeuam",
+     "tname": "VII PreCMUDE UAM",
+     "date": "2025-06-27",
+     "online": false,
+     "round": "Ronda 6",
+     "seq": 6,
+     "stage": "P",
+     "side": "co",
+     "points": 3,
+     "win": false,
+     "position": 1,
+     "score": 82.0,
+     "iron": false,
+     "room_rank": 2,
+     "motion": "EC lamenta el auge de la digitalización en el sistema financiero (Ej. billeteras digitales, creación de neobancos o euro digital)",
+     "topic": "economía",
+     "team": "La Mendeleta",
+     "mate": "Ángel Trujillo",
+     "chair": "Juan Fernández y Zarza",
+     "venue": "Sala 02",
+     "t_avg": 75.77
+    },
+    {
      "t": "cmude2025__open",
      "tname": "Campeonato Mundial Universitario de Debate en Español 2025",
      "date": "2025-07-14",
@@ -20834,8 +21151,8 @@
     }
    ],
    "elim_rows": [],
-   "avg_speaks": 77.22,
-   "stdev": 3.4,
+   "avg_speaks": 77.28,
+   "stdev": 3.38,
    "best": {
     "t": "cnd2026__cnd2026",
     "tname": "Campeonato Nacional de Debate BP 2026",
@@ -20884,47 +21201,47 @@
    },
    "avg_points": 1.92,
    "results_dist": {
-    "3": 89,
-    "2": 59,
-    "1": 44,
-    "0": 32
+    "3": 92,
+    "2": 60,
+    "1": 45,
+    "0": 33
    },
    "pos1": {
-    "n": 98,
-    "avg": 76.54
+    "n": 101,
+    "avg": 76.64
    },
    "pos2": {
-    "n": 126,
-    "avg": 77.75
+    "n": 129,
+    "avg": 77.78
    },
    "sides": {
     "og": {
      "label": "Alta Gobierno",
-     "n": 59,
-     "avg_points": 2.05,
-     "avg_speaks": 77.15,
-     "firsts": 24
+     "n": 61,
+     "avg_points": 2.07,
+     "avg_speaks": 77.21,
+     "firsts": 25
     },
     "oo": {
      "label": "Alta Oposición",
-     "n": 58,
-     "avg_points": 1.69,
-     "avg_speaks": 77.29,
+     "n": 59,
+     "avg_points": 1.68,
+     "avg_speaks": 77.31,
      "firsts": 17
     },
     "cg": {
      "label": "Baja Gobierno",
-     "n": 56,
-     "avg_points": 2,
-     "avg_speaks": 77.54,
-     "firsts": 24
+     "n": 57,
+     "avg_points": 2.02,
+     "avg_speaks": 77.6,
+     "firsts": 25
     },
     "co": {
      "label": "Baja Oposición",
-     "n": 51,
-     "avg_points": 1.92,
-     "avg_speaks": 76.88,
-     "firsts": 24
+     "n": 53,
+     "avg_points": 1.91,
+     "avg_speaks": 76.98,
+     "firsts": 25
     }
    },
    "topics": {
@@ -20939,9 +21256,9 @@
      "avg_speaks": 76.94
     },
     "economía": {
-     "n": 40,
-     "avg_points": 1.73,
-     "avg_speaks": 76.85
+     "n": 42,
+     "avg_points": 1.79,
+     "avg_speaks": 77.07
     },
     "religión": {
      "n": 28,
@@ -20959,24 +21276,24 @@
      "avg_speaks": 76.11
     },
     "educación": {
-     "n": 9,
-     "avg_points": 1.89,
-     "avg_speaks": 76.56
+     "n": 10,
+     "avg_points": 1.7,
+     "avg_speaks": 76.6
     },
     "filosofía y ética": {
-     "n": 17,
-     "avg_points": 2.12,
+     "n": 18,
+     "avg_points": 2.06,
      "avg_speaks": 77.94
     },
     "otros": {
-     "n": 20,
-     "avg_points": 1.75,
-     "avg_speaks": 77.3
+     "n": 21,
+     "avg_points": 1.76,
+     "avg_speaks": 77.38
     },
     "psicología y salud mental": {
-     "n": 17,
-     "avg_points": 2.29,
-     "avg_speaks": 78.88
+     "n": 18,
+     "avg_points": 2.33,
+     "avg_speaks": 78.89
     },
     "ciencia y tecnología": {
      "n": 8,
@@ -21153,6 +21470,12 @@
      "n": 4
     },
     {
+     "date": "2025-06-27",
+     "tname": "VII PreCMUDE UAM",
+     "avg": 79.33,
+     "n": 6
+    },
+    {
      "date": "2025-07-14",
      "tname": "Campeonato Mundial Universitario de Debate en Español 2025",
      "avg": 79.22,
@@ -21228,9 +21551,9 @@
    "mates": [
     {
      "name": "Ángel Trujillo",
-     "n": 39,
-     "avg_points": 2.08,
-     "avg_speaks": 78.1
+     "n": 45,
+     "avg_points": 2.07,
+     "avg_speaks": 78.27
     },
     {
      "name": "Ángel Trujillo Rodríguez",
@@ -21371,10 +21694,10 @@
      "avg_speaks": 78.5
     }
    ],
-   "vs_field": 2.76,
+   "vs_field": 2.79,
    "clutch": {
-    "avg_last_round": 77.44,
-    "delta": 0.22
+    "avg_last_round": 77.55,
+    "delta": 0.27
    },
    "streak_top2": 16,
    "env_online": {
@@ -21383,12 +21706,12 @@
     "avg_points": 2.35
    },
    "env_presencial": {
-    "n": 184,
-    "avg_speaks": 76.87,
-    "avg_points": 1.82
+    "n": 190,
+    "avg_speaks": 76.95,
+    "avg_points": 1.83
    },
-   "avg_room_rank": 3.04,
-   "room_best_count": 75,
+   "avg_room_rank": 3.05,
+   "room_best_count": 77,
    "chairs": [
     [
      "Pedro Tomás",
@@ -34281,8 +34604,8 @@
   },
   "aitor-talavera-monte": {
    "display": "Aitor Talavera Monte",
-   "n_tournaments": 8,
-   "n_rounds": 36,
+   "n_tournaments": 9,
+   "n_rounds": 41,
    "n_elim_rounds": 0,
    "n_tournaments_6m": 2,
    "n_rounds_6m": 7,
@@ -34334,6 +34657,13 @@
      "date": "2024-11-01",
      "online": false,
      "team": "UCM-COM Los Poncios"
+    },
+    {
+     "slug": "viiprecmudeuam__viiprecmudeuam",
+     "name": "VII PreCMUDE UAM",
+     "date": "2025-06-27",
+     "online": false,
+     "team": "UCM-COM Randy Orton y John Cena"
     },
     {
      "slug": "viibpregenta__viibplaregenta",
@@ -34934,6 +35264,121 @@
      "t_avg": 74.26
     },
     {
+     "t": "viiprecmudeuam__viiprecmudeuam",
+     "tname": "VII PreCMUDE UAM",
+     "date": "2025-06-27",
+     "online": false,
+     "round": "Ronda 1",
+     "seq": 1,
+     "stage": "P",
+     "side": "cg",
+     "points": 2,
+     "win": false,
+     "position": 2,
+     "score": 75.0,
+     "iron": false,
+     "room_rank": 3,
+     "motion": "EC, como una persona aficionada mirandesa de larga duración, prefiere el modelo A sobre el B",
+     "topic": "economía",
+     "team": "UCM-COM Randy Orton y John Cena",
+     "mate": "Javi (Orton) Rodríguez",
+     "chair": "Anwar Damoun",
+     "venue": "Sala 01",
+     "t_avg": 75.77
+    },
+    {
+     "t": "viiprecmudeuam__viiprecmudeuam",
+     "tname": "VII PreCMUDE UAM",
+     "date": "2025-06-27",
+     "online": false,
+     "round": "Ronda 2",
+     "seq": 2,
+     "stage": "P",
+     "side": "co",
+     "points": 1,
+     "win": false,
+     "position": 2,
+     "score": 78.0,
+     "iron": false,
+     "room_rank": 6,
+     "motion": "EC prefiere un mundo en el que las personas perciban su identidad como una unidad estable en el tiempo, en contraposición a un mundo en el que consideren que la identidad evoluciona y se transforma continuamente",
+     "topic": "otros",
+     "team": "UCM-COM Randy Orton y John Cena",
+     "mate": "Javi (Orton) Rodríguez",
+     "chair": "Cristina Oñate",
+     "venue": "Sala 05",
+     "t_avg": 75.77
+    },
+    {
+     "t": "viiprecmudeuam__viiprecmudeuam",
+     "tname": "VII PreCMUDE UAM",
+     "date": "2025-06-27",
+     "online": false,
+     "round": "Ronda 3",
+     "seq": 3,
+     "stage": "P",
+     "side": "og",
+     "points": 2,
+     "win": false,
+     "position": 2,
+     "score": 74.0,
+     "iron": false,
+     "room_rank": 3,
+     "motion": "ECCQ está en los intereses del pueblo puertorriqueño la independencia de Puerto Rico",
+     "topic": "filosofía y ética",
+     "team": "UCM-COM Randy Orton y John Cena",
+     "mate": "Javi (Orton) Rodríguez",
+     "chair": "Juan Fernández y Zarza",
+     "venue": "Sala 09",
+     "t_avg": 75.77
+    },
+    {
+     "t": "viiprecmudeuam__viiprecmudeuam",
+     "tname": "VII PreCMUDE UAM",
+     "date": "2025-06-27",
+     "online": false,
+     "round": "Ronda 4",
+     "seq": 4,
+     "stage": "P",
+     "side": "oo",
+     "points": 0,
+     "win": false,
+     "position": 2,
+     "score": 71.0,
+     "iron": false,
+     "room_rank": 7,
+     "motion": "EC lamenta la muerte de la figuración en el arte",
+     "topic": "educación",
+     "team": "UCM-COM Randy Orton y John Cena",
+     "mate": "Javi (Orton) Rodríguez",
+     "chair": "Juanjo García Amorós",
+     "venue": "Sala 04",
+     "t_avg": 75.77
+    },
+    {
+     "t": "viiprecmudeuam__viiprecmudeuam",
+     "tname": "VII PreCMUDE UAM",
+     "date": "2025-06-27",
+     "online": false,
+     "round": "Ronda 5",
+     "seq": 5,
+     "stage": "P",
+     "side": "oo",
+     "points": 1,
+     "win": false,
+     "position": 2,
+     "score": 71.0,
+     "iron": false,
+     "room_rank": 6,
+     "motion": "Asumiendo que son excluyentes, ECCQ la comunidad sanitaria debería impulsar el enfoque anatómico en lugar del enfoque socioeconómico",
+     "topic": "psicología y salud mental",
+     "team": "UCM-COM Randy Orton y John Cena",
+     "mate": "Javi (Orton) Rodríguez",
+     "chair": "Sandra Millán Palacios",
+     "venue": "Sala 02",
+     "t_avg": 75.77
+    },
+    {
      "t": "viibpregenta__viibplaregenta",
      "tname": "VII BP La Regenta",
      "date": "2026-03-13",
@@ -35188,7 +35633,7 @@
     }
    ],
    "elim_rows": [],
-   "avg_speaks": 73.36,
+   "avg_speaks": 73.41,
    "stdev": 2.7,
    "best": {
     "t": "vbpsepi__vbpsepi",
@@ -35236,48 +35681,48 @@
     "venue": "A07 - Concepción Peña Pastor",
     "t_avg": 73.01
    },
-   "avg_points": 1.5,
+   "avg_points": 1.46,
    "results_dist": {
     "3": 9,
-    "2": 7,
-    "1": 13,
-    "0": 7
+    "2": 9,
+    "1": 15,
+    "0": 8
    },
    "pos1": {
     "n": 7,
     "avg": 73.57
    },
    "pos2": {
-    "n": 29,
-    "avg": 73.31
+    "n": 34,
+    "avg": 73.38
    },
    "sides": {
     "og": {
      "label": "Alta Gobierno",
-     "n": 11,
-     "avg_points": 1.55,
-     "avg_speaks": 73.82,
+     "n": 12,
+     "avg_points": 1.58,
+     "avg_speaks": 73.83,
      "firsts": 2
     },
     "oo": {
      "label": "Alta Oposición",
-     "n": 8,
-     "avg_points": 1.5,
-     "avg_speaks": 73.12,
+     "n": 10,
+     "avg_points": 1.3,
+     "avg_speaks": 72.7,
      "firsts": 2
     },
     "cg": {
      "label": "Baja Gobierno",
-     "n": 8,
-     "avg_points": 1.75,
-     "avg_speaks": 73.5,
+     "n": 9,
+     "avg_points": 1.78,
+     "avg_speaks": 73.67,
      "firsts": 3
     },
     "co": {
      "label": "Baja Oposición",
-     "n": 9,
-     "avg_points": 1.22,
-     "avg_speaks": 72.89,
+     "n": 10,
+     "avg_points": 1.2,
+     "avg_speaks": 73.4,
      "firsts": 2
     }
    },
@@ -35293,9 +35738,9 @@
      "avg_speaks": 75.67
     },
     "filosofía y ética": {
-     "n": 9,
-     "avg_points": 1.11,
-     "avg_speaks": 74.22
+     "n": 10,
+     "avg_points": 1.2,
+     "avg_speaks": 74.2
     },
     "política nacional": {
      "n": 5,
@@ -35308,14 +35753,14 @@
      "avg_speaks": 73.0
     },
     "economía": {
-     "n": 5,
+     "n": 6,
      "avg_points": 2,
-     "avg_speaks": 72.6
+     "avg_speaks": 73.0
     },
     "otros": {
-     "n": 3,
-     "avg_points": 1.67,
-     "avg_speaks": 73.33
+     "n": 4,
+     "avg_points": 1.5,
+     "avg_speaks": 74.5
     },
     "medios y cultura": {
      "n": 2,
@@ -35328,14 +35773,14 @@
      "avg_speaks": 74.0
     },
     "psicología y salud mental": {
-     "n": 2,
-     "avg_points": 0.5,
-     "avg_speaks": 73.0
+     "n": 3,
+     "avg_points": 0.67,
+     "avg_speaks": 72.33
     },
     "educación": {
-     "n": 1,
+     "n": 2,
      "avg_points": 0,
-     "avg_speaks": 72.0
+     "avg_speaks": 71.5
     }
    },
    "evolution": [
@@ -35367,6 +35812,12 @@
      "date": "2024-11-01",
      "tname": "BP Elías Ahuja 2024",
      "avg": 72.8,
+     "n": 5
+    },
+    {
+     "date": "2025-06-27",
+     "tname": "VII PreCMUDE UAM",
+     "avg": 73.8,
      "n": 5
     },
     {
@@ -35408,6 +35859,12 @@
      "avg_speaks": 71.33
     },
     {
+     "name": "Javi (Orton) Rodríguez",
+     "n": 5,
+     "avg_points": 1.2,
+     "avg_speaks": 73.8
+    },
+    {
      "name": "Sergio Mateos Martín",
      "n": 4,
      "avg_points": 2.5,
@@ -35426,10 +35883,10 @@
      "avg_speaks": 78.0
     }
    ],
-   "vs_field": -0.82,
+   "vs_field": -0.96,
    "clutch": {
-    "avg_last_round": 74.12,
-    "delta": 0.77
+    "avg_last_round": 73.78,
+    "delta": 0.37
    },
    "streak_top2": 3,
    "env_online": {
@@ -35438,11 +35895,11 @@
     "avg_points": null
    },
    "env_presencial": {
-    "n": 36,
-    "avg_speaks": 73.36,
-    "avg_points": 1.5
+    "n": 41,
+    "avg_speaks": 73.41,
+    "avg_points": 1.46
    },
-   "avg_room_rank": 4.72,
+   "avg_room_rank": 4.76,
    "room_best_count": 3,
    "chairs": [
     [
@@ -35469,8 +35926,8 @@
   },
   "javier-rodriguez-ruescas": {
    "display": "Javier Rodríguez Ruescas",
-   "n_tournaments": 15,
-   "n_rounds": 84,
+   "n_tournaments": 16,
+   "n_rounds": 90,
    "n_elim_rounds": 0,
    "n_tournaments_6m": 2,
    "n_rounds_6m": 10,
@@ -35586,6 +36043,13 @@
      "date": "2025-04-11",
      "online": false,
      "team": "URJC-UCM-COM quinns aluxe"
+    },
+    {
+     "slug": "viiprecmudeuam__viiprecmudeuam",
+     "name": "VII PreCMUDE UAM",
+     "date": "2025-06-27",
+     "online": false,
+     "team": "UCM-COM Randy Orton y John Cena"
     },
     {
      "slug": "ivbpaduz__ivbpaduz",
@@ -37306,6 +37770,144 @@
      "t_avg": 72.47
     },
     {
+     "t": "viiprecmudeuam__viiprecmudeuam",
+     "tname": "VII PreCMUDE UAM",
+     "date": "2025-06-27",
+     "online": false,
+     "round": "Ronda 1",
+     "seq": 1,
+     "stage": "P",
+     "side": "cg",
+     "points": 2,
+     "win": false,
+     "position": 1,
+     "score": 74.0,
+     "iron": false,
+     "room_rank": 4,
+     "motion": "EC, como una persona aficionada mirandesa de larga duración, prefiere el modelo A sobre el B",
+     "topic": "economía",
+     "team": "UCM-COM Randy Orton y John Cena",
+     "mate": "Aitor (Cena) Talavera",
+     "chair": "Anwar Damoun",
+     "venue": "Sala 01",
+     "t_avg": 75.77
+    },
+    {
+     "t": "viiprecmudeuam__viiprecmudeuam",
+     "tname": "VII PreCMUDE UAM",
+     "date": "2025-06-27",
+     "online": false,
+     "round": "Ronda 2",
+     "seq": 2,
+     "stage": "P",
+     "side": "co",
+     "points": 1,
+     "win": false,
+     "position": 1,
+     "score": 79.0,
+     "iron": false,
+     "room_rank": 5,
+     "motion": "EC prefiere un mundo en el que las personas perciban su identidad como una unidad estable en el tiempo, en contraposición a un mundo en el que consideren que la identidad evoluciona y se transforma continuamente",
+     "topic": "otros",
+     "team": "UCM-COM Randy Orton y John Cena",
+     "mate": "Aitor (Cena) Talavera",
+     "chair": "Cristina Oñate",
+     "venue": "Sala 05",
+     "t_avg": 75.77
+    },
+    {
+     "t": "viiprecmudeuam__viiprecmudeuam",
+     "tname": "VII PreCMUDE UAM",
+     "date": "2025-06-27",
+     "online": false,
+     "round": "Ronda 3",
+     "seq": 3,
+     "stage": "P",
+     "side": "og",
+     "points": 2,
+     "win": false,
+     "position": 1,
+     "score": 73.0,
+     "iron": false,
+     "room_rank": 4,
+     "motion": "ECCQ está en los intereses del pueblo puertorriqueño la independencia de Puerto Rico",
+     "topic": "filosofía y ética",
+     "team": "UCM-COM Randy Orton y John Cena",
+     "mate": "Aitor (Cena) Talavera",
+     "chair": "Juan Fernández y Zarza",
+     "venue": "Sala 09",
+     "t_avg": 75.77
+    },
+    {
+     "t": "viiprecmudeuam__viiprecmudeuam",
+     "tname": "VII PreCMUDE UAM",
+     "date": "2025-06-27",
+     "online": false,
+     "round": "Ronda 4",
+     "seq": 4,
+     "stage": "P",
+     "side": "oo",
+     "points": 0,
+     "win": false,
+     "position": 1,
+     "score": 71.0,
+     "iron": false,
+     "room_rank": 7,
+     "motion": "EC lamenta la muerte de la figuración en el arte",
+     "topic": "educación",
+     "team": "UCM-COM Randy Orton y John Cena",
+     "mate": "Aitor (Cena) Talavera",
+     "chair": "Juanjo García Amorós",
+     "venue": "Sala 04",
+     "t_avg": 75.77
+    },
+    {
+     "t": "viiprecmudeuam__viiprecmudeuam",
+     "tname": "VII PreCMUDE UAM",
+     "date": "2025-06-27",
+     "online": false,
+     "round": "Ronda 5",
+     "seq": 5,
+     "stage": "P",
+     "side": "oo",
+     "points": 1,
+     "win": false,
+     "position": 1,
+     "score": 72.0,
+     "iron": false,
+     "room_rank": 5,
+     "motion": "Asumiendo que son excluyentes, ECCQ la comunidad sanitaria debería impulsar el enfoque anatómico en lugar del enfoque socioeconómico",
+     "topic": "psicología y salud mental",
+     "team": "UCM-COM Randy Orton y John Cena",
+     "mate": "Aitor (Cena) Talavera",
+     "chair": "Sandra Millán Palacios",
+     "venue": "Sala 02",
+     "t_avg": 75.77
+    },
+    {
+     "t": "viiprecmudeuam__viiprecmudeuam",
+     "tname": "VII PreCMUDE UAM",
+     "date": "2025-06-27",
+     "online": false,
+     "round": "Ronda 6",
+     "seq": 6,
+     "stage": "P",
+     "side": "cg",
+     "points": 2,
+     "win": false,
+     "position": 1,
+     "score": 76.0,
+     "iron": true,
+     "room_rank": 2,
+     "motion": "EC lamenta el auge de la digitalización en el sistema financiero (Ej. billeteras digitales, creación de neobancos o euro digital)",
+     "topic": "economía",
+     "team": "UCM-COM Randy Orton y John Cena",
+     "mate": "Aitor (Cena) Talavera",
+     "chair": "Pablo Estévez Gutiérrez",
+     "venue": "Sala 07",
+     "t_avg": 75.77
+    },
+    {
      "t": "ivbpaduz__ivbpaduz",
      "tname": "IV BP ADUZ",
      "date": "2026-04-10",
@@ -37537,30 +38139,30 @@
     }
    ],
    "elim_rows": [],
-   "avg_speaks": 74.25,
+   "avg_speaks": 74.24,
    "stdev": 2.73,
    "best": {
-    "t": "bpmendel__bpmendel",
-    "tname": "II Torneo BP Mendel",
-    "date": "2023-03-17",
+    "t": "viiprecmudeuam__viiprecmudeuam",
+    "tname": "VII PreCMUDE UAM",
+    "date": "2025-06-27",
     "online": false,
-    "round": "Ronda 1",
-    "seq": 1,
+    "round": "Ronda 2",
+    "seq": 2,
     "stage": "P",
-    "side": "cg",
-    "points": 3,
+    "side": "co",
+    "points": 1,
     "win": false,
     "position": 1,
-    "score": 78.0,
+    "score": 79.0,
     "iron": false,
-    "room_rank": 1,
-    "motion": "EC, como un delegado del partido republicano, votaría a Trump como candidato a la Presidencia en las elecciones de 2024.",
-    "topic": "feminismo y género",
-    "team": "UCM-COM A",
-    "mate": "Marc Ripol",
-    "chair": "Ángel Trujillo",
-    "venue": "Sala 3",
-    "t_avg": 74.4
+    "room_rank": 5,
+    "motion": "EC prefiere un mundo en el que las personas perciban su identidad como una unidad estable en el tiempo, en contraposición a un mundo en el que consideren que la identidad evoluciona y se transforma continuamente",
+    "topic": "otros",
+    "team": "UCM-COM Randy Orton y John Cena",
+    "mate": "Aitor (Cena) Talavera",
+    "chair": "Cristina Oñate",
+    "venue": "Sala 05",
+    "t_avg": 75.77
    },
    "worst": {
     "t": "bpmurcia__xbpmurcia2025",
@@ -37588,13 +38190,13 @@
    "avg_points": 1.46,
    "results_dist": {
     "3": 17,
-    "2": 26,
-    "1": 20,
-    "0": 21
+    "2": 29,
+    "1": 22,
+    "0": 22
    },
    "pos1": {
-    "n": 67,
-    "avg": 74.1
+    "n": 73,
+    "avg": 74.11
    },
    "pos2": {
     "n": 17,
@@ -37603,30 +38205,30 @@
    "sides": {
     "og": {
      "label": "Alta Gobierno",
-     "n": 22,
-     "avg_points": 1.55,
-     "avg_speaks": 74.14,
+     "n": 23,
+     "avg_points": 1.57,
+     "avg_speaks": 74.09,
      "firsts": 5
     },
     "oo": {
      "label": "Alta Oposición",
-     "n": 20,
-     "avg_points": 1.45,
-     "avg_speaks": 74.8,
+     "n": 22,
+     "avg_points": 1.36,
+     "avg_speaks": 74.5,
      "firsts": 3
     },
     "cg": {
      "label": "Baja Gobierno",
-     "n": 18,
-     "avg_points": 1.44,
-     "avg_speaks": 74.56,
+     "n": 20,
+     "avg_points": 1.5,
+     "avg_speaks": 74.6,
      "firsts": 5
     },
     "co": {
      "label": "Baja Oposición",
-     "n": 24,
-     "avg_points": 1.42,
-     "avg_speaks": 73.67,
+     "n": 25,
+     "avg_points": 1.4,
+     "avg_speaks": 73.88,
      "firsts": 4
     }
    },
@@ -37637,14 +38239,14 @@
      "avg_speaks": 75.11
     },
     "otros": {
-     "n": 18,
-     "avg_points": 1.33,
-     "avg_speaks": 73.06
+     "n": 19,
+     "avg_points": 1.32,
+     "avg_speaks": 73.37
     },
     "economía": {
-     "n": 10,
-     "avg_points": 1.4,
-     "avg_speaks": 73.2
+     "n": 12,
+     "avg_points": 1.5,
+     "avg_speaks": 73.5
     },
     "medios y cultura": {
      "n": 4,
@@ -37667,14 +38269,14 @@
      "avg_speaks": 74.0
     },
     "filosofía y ética": {
-     "n": 7,
-     "avg_points": 1,
-     "avg_speaks": 73.86
+     "n": 8,
+     "avg_points": 1.12,
+     "avg_speaks": 73.75
     },
     "psicología y salud mental": {
-     "n": 7,
-     "avg_points": 1.43,
-     "avg_speaks": 75.29
+     "n": 8,
+     "avg_points": 1.38,
+     "avg_speaks": 74.88
     },
     "religión": {
      "n": 6,
@@ -37692,9 +38294,9 @@
      "avg_speaks": 76.0
     },
     "educación": {
-     "n": 2,
-     "avg_points": 1,
-     "avg_speaks": 74.5
+     "n": 3,
+     "avg_points": 0.67,
+     "avg_speaks": 73.33
     }
    },
    "evolution": [
@@ -37777,6 +38379,12 @@
      "n": 6
     },
     {
+     "date": "2025-06-27",
+     "tname": "VII PreCMUDE UAM",
+     "avg": 74.17,
+     "n": 6
+    },
+    {
      "date": "2026-04-10",
      "tname": "IV BP ADUZ",
      "avg": 76.0,
@@ -37839,6 +38447,12 @@
      "avg_speaks": 74.17
     },
     {
+     "name": "Aitor (Cena) Talavera",
+     "n": 6,
+     "avg_points": 1.33,
+     "avg_speaks": 74.17
+    },
+    {
      "name": "Ari Varela Gutiérrez",
      "n": 6,
      "avg_points": 1.83,
@@ -37863,10 +38477,10 @@
      "avg_speaks": 75.6
     }
    ],
-   "vs_field": 0.51,
+   "vs_field": 0.37,
    "clutch": {
-    "avg_last_round": 74.33,
-    "delta": 0.08
+    "avg_last_round": 74.44,
+    "delta": 0.2
    },
    "streak_top2": 6,
    "env_online": {
@@ -37875,11 +38489,11 @@
     "avg_points": 1.2
    },
    "env_presencial": {
-    "n": 79,
+    "n": 85,
     "avg_speaks": 74.24,
-    "avg_points": 1.48
+    "avg_points": 1.47
    },
-   "avg_room_rank": 4.1,
+   "avg_room_rank": 4.12,
    "room_best_count": 14,
    "chairs": [
     [
@@ -38355,8 +38969,8 @@
   },
   "fernanda-roig-angeles": {
    "display": "Fernanda Roig Ángeles",
-   "n_tournaments": 32,
-   "n_rounds": 197,
+   "n_tournaments": 33,
+   "n_rounds": 203,
    "n_elim_rounds": 0,
    "n_tournaments_6m": 3,
    "n_rounds_6m": 17,
@@ -38692,6 +39306,13 @@
      "date": "2025-02-28",
      "online": false,
      "team": "Comunícate-Indalo"
+    },
+    {
+     "slug": "viiprecmudeuam__viiprecmudeuam",
+     "name": "VII PreCMUDE UAM",
+     "date": "2025-06-27",
+     "online": false,
+     "team": "UCM-COM DF"
     },
     {
      "slug": "bpgranada2025__bpgranada2025",
@@ -42379,6 +43000,144 @@
      "t_avg": 74.91
     },
     {
+     "t": "viiprecmudeuam__viiprecmudeuam",
+     "tname": "VII PreCMUDE UAM",
+     "date": "2025-06-27",
+     "online": false,
+     "round": "Ronda 1",
+     "seq": 1,
+     "stage": "P",
+     "side": "co",
+     "points": 3,
+     "win": false,
+     "position": 2,
+     "score": 76.0,
+     "iron": false,
+     "room_rank": 1,
+     "motion": "EC, como una persona aficionada mirandesa de larga duración, prefiere el modelo A sobre el B",
+     "topic": "economía",
+     "team": "UCM-COM DF",
+     "mate": "Diego Gálvez López",
+     "chair": "Sam Rivadeneira 🩷",
+     "venue": "Sala 06",
+     "t_avg": 75.77
+    },
+    {
+     "t": "viiprecmudeuam__viiprecmudeuam",
+     "tname": "VII PreCMUDE UAM",
+     "date": "2025-06-27",
+     "online": false,
+     "round": "Ronda 2",
+     "seq": 2,
+     "stage": "P",
+     "side": "oo",
+     "points": 1,
+     "win": false,
+     "position": 1,
+     "score": 78.0,
+     "iron": false,
+     "room_rank": 5,
+     "motion": "EC prefiere un mundo en el que las personas perciban su identidad como una unidad estable en el tiempo, en contraposición a un mundo en el que consideren que la identidad evoluciona y se transforma continuamente",
+     "topic": "otros",
+     "team": "UCM-COM DF",
+     "mate": "Diego Gálvez López",
+     "chair": "Santiago Ortiz García 🍸",
+     "venue": "Sala 04",
+     "t_avg": 75.77
+    },
+    {
+     "t": "viiprecmudeuam__viiprecmudeuam",
+     "tname": "VII PreCMUDE UAM",
+     "date": "2025-06-27",
+     "online": false,
+     "round": "Ronda 3",
+     "seq": 3,
+     "stage": "P",
+     "side": "cg",
+     "points": 2,
+     "win": false,
+     "position": 2,
+     "score": 75.0,
+     "iron": false,
+     "room_rank": 3,
+     "motion": "ECCQ está en los intereses del pueblo puertorriqueño la independencia de Puerto Rico",
+     "topic": "filosofía y ética",
+     "team": "UCM-COM DF",
+     "mate": "Diego Gálvez López",
+     "chair": "Sam Rivadeneira 🩷",
+     "venue": "Sala 02",
+     "t_avg": 75.77
+    },
+    {
+     "t": "viiprecmudeuam__viiprecmudeuam",
+     "tname": "VII PreCMUDE UAM",
+     "date": "2025-06-27",
+     "online": false,
+     "round": "Ronda 4",
+     "seq": 4,
+     "stage": "P",
+     "side": "og",
+     "points": 1,
+     "win": false,
+     "position": 2,
+     "score": 78.0,
+     "iron": false,
+     "room_rank": 5,
+     "motion": "EC lamenta la muerte de la figuración en el arte",
+     "topic": "educación",
+     "team": "UCM-COM DF",
+     "mate": "Diego Gálvez López",
+     "chair": "Santiago Ortiz García 🍸",
+     "venue": "Sala 01",
+     "t_avg": 75.77
+    },
+    {
+     "t": "viiprecmudeuam__viiprecmudeuam",
+     "tname": "VII PreCMUDE UAM",
+     "date": "2025-06-27",
+     "online": false,
+     "round": "Ronda 5",
+     "seq": 5,
+     "stage": "P",
+     "side": "cg",
+     "points": 2,
+     "win": false,
+     "position": 2,
+     "score": 80.0,
+     "iron": false,
+     "room_rank": 2,
+     "motion": "Asumiendo que son excluyentes, ECCQ la comunidad sanitaria debería impulsar el enfoque anatómico en lugar del enfoque socioeconómico",
+     "topic": "psicología y salud mental",
+     "team": "UCM-COM DF",
+     "mate": "Diego Gálvez López",
+     "chair": "Santiago Ortiz García 🍸",
+     "venue": "Sala 09",
+     "t_avg": 75.77
+    },
+    {
+     "t": "viiprecmudeuam__viiprecmudeuam",
+     "tname": "VII PreCMUDE UAM",
+     "date": "2025-06-27",
+     "online": false,
+     "round": "Ronda 6",
+     "seq": 6,
+     "stage": "P",
+     "side": "og",
+     "points": 1,
+     "win": false,
+     "position": 2,
+     "score": 78.0,
+     "iron": false,
+     "room_rank": 4,
+     "motion": "EC lamenta el auge de la digitalización en el sistema financiero (Ej. billeteras digitales, creación de neobancos o euro digital)",
+     "topic": "economía",
+     "team": "UCM-COM DF",
+     "mate": "Diego Gálvez López",
+     "chair": "Juan Fernández y Zarza",
+     "venue": "Sala 02",
+     "t_avg": 75.77
+    },
+    {
      "t": "bpgranada2025__bpgranada2025",
      "tname": "IV BP Ciudad de Granada",
      "date": "2025-10-10",
@@ -43278,7 +44037,7 @@
    ],
    "elim_rows": [],
    "avg_speaks": 77.57,
-   "stdev": 2.19,
+   "stdev": 2.18,
    "best": {
     "t": "bpmurcia__umu24",
     "tname": "BP UMU 2024",
@@ -43327,47 +44086,47 @@
    },
    "avg_points": 1.9,
    "results_dist": {
-    "3": 76,
-    "2": 54,
-    "1": 39,
+    "3": 77,
+    "2": 56,
+    "1": 42,
     "0": 28
    },
    "pos1": {
-    "n": 152,
+    "n": 153,
     "avg": 77.8
    },
    "pos2": {
-    "n": 43,
-    "avg": 76.86
+    "n": 48,
+    "avg": 76.92
    },
    "sides": {
     "og": {
      "label": "Alta Gobierno",
-     "n": 43,
-     "avg_points": 2.07,
-     "avg_speaks": 77.58,
+     "n": 45,
+     "avg_points": 2.02,
+     "avg_speaks": 77.6,
      "firsts": 18
     },
     "oo": {
      "label": "Alta Oposición",
-     "n": 49,
-     "avg_points": 1.86,
-     "avg_speaks": 77.27,
+     "n": 50,
+     "avg_points": 1.84,
+     "avg_speaks": 77.28,
      "firsts": 14
     },
     "cg": {
      "label": "Baja Gobierno",
-     "n": 47,
+     "n": 49,
      "avg_points": 2.04,
-     "avg_speaks": 77.85,
+     "avg_speaks": 77.84,
      "firsts": 22
     },
     "co": {
      "label": "Baja Oposición",
-     "n": 55,
-     "avg_points": 1.76,
-     "avg_speaks": 77.67,
-     "firsts": 22
+     "n": 56,
+     "avg_points": 1.79,
+     "avg_speaks": 77.64,
+     "firsts": 23
     }
    },
    "topics": {
@@ -43377,14 +44136,14 @@
      "avg_speaks": 77.32
     },
     "otros": {
-     "n": 45,
-     "avg_points": 1.84,
-     "avg_speaks": 77.33
+     "n": 46,
+     "avg_points": 1.83,
+     "avg_speaks": 77.35
     },
     "economía": {
-     "n": 27,
+     "n": 29,
      "avg_points": 1.93,
-     "avg_speaks": 77.74
+     "avg_speaks": 77.69
     },
     "medios y cultura": {
      "n": 10,
@@ -43402,14 +44161,14 @@
      "avg_speaks": 78.0
     },
     "educación": {
-     "n": 7,
-     "avg_points": 2,
-     "avg_speaks": 76.0
+     "n": 8,
+     "avg_points": 1.88,
+     "avg_speaks": 76.25
     },
     "filosofía y ética": {
-     "n": 14,
-     "avg_points": 2.21,
-     "avg_speaks": 78.0
+     "n": 15,
+     "avg_points": 2.2,
+     "avg_speaks": 77.8
     },
     "ciencia y tecnología": {
      "n": 8,
@@ -43432,9 +44191,9 @@
      "avg_speaks": 78.29
     },
     "psicología y salud mental": {
-     "n": 9,
-     "avg_points": 1.89,
-     "avg_speaks": 78.67
+     "n": 10,
+     "avg_points": 1.9,
+     "avg_speaks": 78.8
     }
    },
    "evolution": [
@@ -43583,6 +44342,12 @@
      "n": 6
     },
     {
+     "date": "2025-06-27",
+     "tname": "VII PreCMUDE UAM",
+     "avg": 77.5,
+     "n": 6
+    },
+    {
      "date": "2025-10-10",
      "tname": "IV BP Ciudad de Granada",
      "avg": 78.17,
@@ -43717,6 +44482,12 @@
      "avg_speaks": 78.33
     },
     {
+     "name": "Diego Gálvez López",
+     "n": 6,
+     "avg_points": 1.67,
+     "avg_speaks": 77.5
+    },
+    {
      "name": "José Cenizo",
      "n": 6,
      "avg_points": 2,
@@ -43759,10 +44530,10 @@
      "avg_speaks": 76.33
     }
    ],
-   "vs_field": 3.23,
+   "vs_field": 3.19,
    "clutch": {
-    "avg_last_round": 77.47,
-    "delta": -0.1
+    "avg_last_round": 77.48,
+    "delta": -0.09
    },
    "streak_top2": 14,
    "env_online": {
@@ -43771,12 +44542,12 @@
     "avg_points": 2
    },
    "env_presencial": {
-    "n": 181,
+    "n": 187,
     "avg_speaks": 77.49,
-    "avg_points": 1.9
+    "avg_points": 1.89
    },
-   "avg_room_rank": 3.04,
-   "room_best_count": 54,
+   "avg_room_rank": 3.05,
+   "room_best_count": 55,
    "chairs": [
     [
      "Angel Moreno Huaccha",
@@ -52318,8 +53089,8 @@
   },
   "diego-galvez-lopez": {
    "display": "Diego Gálvez López",
-   "n_tournaments": 21,
-   "n_rounds": 116,
+   "n_tournaments": 22,
+   "n_rounds": 122,
    "n_elim_rounds": 0,
    "n_tournaments_6m": 2,
    "n_rounds_6m": 11,
@@ -52515,6 +53286,13 @@
      "date": "2025-06-14",
      "online": false,
      "team": "UCM-COM DJ"
+    },
+    {
+     "slug": "viiprecmudeuam__viiprecmudeuam",
+     "name": "VII PreCMUDE UAM",
+     "date": "2025-06-27",
+     "online": false,
+     "team": "UCM-COM DF"
     },
     {
      "slug": "cmude2025__open",
@@ -54139,6 +54917,144 @@
      "t_avg": 77.18
     },
     {
+     "t": "viiprecmudeuam__viiprecmudeuam",
+     "tname": "VII PreCMUDE UAM",
+     "date": "2025-06-27",
+     "online": false,
+     "round": "Ronda 1",
+     "seq": 1,
+     "stage": "P",
+     "side": "co",
+     "points": 3,
+     "win": false,
+     "position": 1,
+     "score": 76.0,
+     "iron": false,
+     "room_rank": 1,
+     "motion": "EC, como una persona aficionada mirandesa de larga duración, prefiere el modelo A sobre el B",
+     "topic": "economía",
+     "team": "UCM-COM DF",
+     "mate": "Fernanda Roig Angeles",
+     "chair": "Sam Rivadeneira 🩷",
+     "venue": "Sala 06",
+     "t_avg": 75.77
+    },
+    {
+     "t": "viiprecmudeuam__viiprecmudeuam",
+     "tname": "VII PreCMUDE UAM",
+     "date": "2025-06-27",
+     "online": false,
+     "round": "Ronda 2",
+     "seq": 2,
+     "stage": "P",
+     "side": "oo",
+     "points": 1,
+     "win": false,
+     "position": 2,
+     "score": 78.0,
+     "iron": false,
+     "room_rank": 5,
+     "motion": "EC prefiere un mundo en el que las personas perciban su identidad como una unidad estable en el tiempo, en contraposición a un mundo en el que consideren que la identidad evoluciona y se transforma continuamente",
+     "topic": "otros",
+     "team": "UCM-COM DF",
+     "mate": "Fernanda Roig Angeles",
+     "chair": "Santiago Ortiz García 🍸",
+     "venue": "Sala 04",
+     "t_avg": 75.77
+    },
+    {
+     "t": "viiprecmudeuam__viiprecmudeuam",
+     "tname": "VII PreCMUDE UAM",
+     "date": "2025-06-27",
+     "online": false,
+     "round": "Ronda 3",
+     "seq": 3,
+     "stage": "P",
+     "side": "cg",
+     "points": 2,
+     "win": false,
+     "position": 1,
+     "score": 75.0,
+     "iron": false,
+     "room_rank": 3,
+     "motion": "ECCQ está en los intereses del pueblo puertorriqueño la independencia de Puerto Rico",
+     "topic": "filosofía y ética",
+     "team": "UCM-COM DF",
+     "mate": "Fernanda Roig Angeles",
+     "chair": "Sam Rivadeneira 🩷",
+     "venue": "Sala 02",
+     "t_avg": 75.77
+    },
+    {
+     "t": "viiprecmudeuam__viiprecmudeuam",
+     "tname": "VII PreCMUDE UAM",
+     "date": "2025-06-27",
+     "online": false,
+     "round": "Ronda 4",
+     "seq": 4,
+     "stage": "P",
+     "side": "og",
+     "points": 1,
+     "win": false,
+     "position": 1,
+     "score": 78.0,
+     "iron": false,
+     "room_rank": 5,
+     "motion": "EC lamenta la muerte de la figuración en el arte",
+     "topic": "educación",
+     "team": "UCM-COM DF",
+     "mate": "Fernanda Roig Angeles",
+     "chair": "Santiago Ortiz García 🍸",
+     "venue": "Sala 01",
+     "t_avg": 75.77
+    },
+    {
+     "t": "viiprecmudeuam__viiprecmudeuam",
+     "tname": "VII PreCMUDE UAM",
+     "date": "2025-06-27",
+     "online": false,
+     "round": "Ronda 5",
+     "seq": 5,
+     "stage": "P",
+     "side": "cg",
+     "points": 2,
+     "win": false,
+     "position": 1,
+     "score": 78.0,
+     "iron": false,
+     "room_rank": 4,
+     "motion": "Asumiendo que son excluyentes, ECCQ la comunidad sanitaria debería impulsar el enfoque anatómico en lugar del enfoque socioeconómico",
+     "topic": "psicología y salud mental",
+     "team": "UCM-COM DF",
+     "mate": "Fernanda Roig Angeles",
+     "chair": "Santiago Ortiz García 🍸",
+     "venue": "Sala 09",
+     "t_avg": 75.77
+    },
+    {
+     "t": "viiprecmudeuam__viiprecmudeuam",
+     "tname": "VII PreCMUDE UAM",
+     "date": "2025-06-27",
+     "online": false,
+     "round": "Ronda 6",
+     "seq": 6,
+     "stage": "P",
+     "side": "og",
+     "points": 1,
+     "win": false,
+     "position": 1,
+     "score": 74.0,
+     "iron": false,
+     "room_rank": 7,
+     "motion": "EC lamenta el auge de la digitalización en el sistema financiero (Ej. billeteras digitales, creación de neobancos o euro digital)",
+     "topic": "economía",
+     "team": "UCM-COM DF",
+     "mate": "Fernanda Roig Angeles",
+     "chair": "Juan Fernández y Zarza",
+     "venue": "Sala 02",
+     "t_avg": 75.77
+    },
+    {
      "t": "cmude2025__open",
      "tname": "Campeonato Mundial Universitario de Debate en Español 2025",
      "date": "2025-07-14",
@@ -55245,7 +56161,7 @@
    ],
    "elim_rows": [],
    "avg_speaks": 76.45,
-   "stdev": 2.4,
+   "stdev": 2.37,
    "best": {
     "t": "viibpregenta__viibplaregenta",
     "tname": "VII BP La Regenta",
@@ -55294,47 +56210,47 @@
    },
    "avg_points": 1.8,
    "results_dist": {
-    "3": 36,
-    "2": 34,
-    "1": 33,
+    "3": 37,
+    "2": 36,
+    "1": 36,
     "0": 13
    },
    "pos1": {
-    "n": 109,
-    "avg": 76.5
+    "n": 114,
+    "avg": 76.49
    },
    "pos2": {
-    "n": 7,
-    "avg": 75.57
+    "n": 8,
+    "avg": 75.88
    },
    "sides": {
     "og": {
      "label": "Alta Gobierno",
-     "n": 28,
-     "avg_points": 1.86,
-     "avg_speaks": 76.18,
+     "n": 30,
+     "avg_points": 1.8,
+     "avg_speaks": 76.17,
      "firsts": 10
     },
     "oo": {
      "label": "Alta Oposición",
-     "n": 26,
-     "avg_points": 2.15,
-     "avg_speaks": 77.0,
+     "n": 27,
+     "avg_points": 2.11,
+     "avg_speaks": 77.04,
      "firsts": 11
     },
     "cg": {
      "label": "Baja Gobierno",
-     "n": 32,
-     "avg_points": 1.62,
-     "avg_speaks": 75.94,
+     "n": 34,
+     "avg_points": 1.65,
+     "avg_speaks": 75.97,
      "firsts": 7
     },
     "co": {
      "label": "Baja Oposición",
-     "n": 30,
-     "avg_points": 1.63,
-     "avg_speaks": 76.77,
-     "firsts": 8
+     "n": 31,
+     "avg_points": 1.68,
+     "avg_speaks": 76.74,
+     "firsts": 9
     }
    },
    "topics": {
@@ -55344,19 +56260,19 @@
      "avg_speaks": 75.73
     },
     "otros": {
-     "n": 19,
-     "avg_points": 1.84,
-     "avg_speaks": 76.32
+     "n": 20,
+     "avg_points": 1.8,
+     "avg_speaks": 76.4
     },
     "psicología y salud mental": {
-     "n": 6,
-     "avg_points": 1.83,
-     "avg_speaks": 75.17
+     "n": 7,
+     "avg_points": 1.86,
+     "avg_speaks": 75.57
     },
     "economía": {
-     "n": 19,
-     "avg_points": 1.89,
-     "avg_speaks": 76.21
+     "n": 21,
+     "avg_points": 1.9,
+     "avg_speaks": 76.1
     },
     "feminismo y género": {
      "n": 10,
@@ -55374,9 +56290,9 @@
      "avg_speaks": 77.33
     },
     "educación": {
-     "n": 5,
-     "avg_points": 1.6,
-     "avg_speaks": 76.2
+     "n": 6,
+     "avg_points": 1.5,
+     "avg_speaks": 76.5
     },
     "religión": {
      "n": 9,
@@ -55384,9 +56300,9 @@
      "avg_speaks": 76.0
     },
     "filosofía y ética": {
-     "n": 17,
-     "avg_points": 1.76,
-     "avg_speaks": 77.65
+     "n": 18,
+     "avg_points": 1.78,
+     "avg_speaks": 77.5
     },
     "medios y cultura": {
      "n": 4,
@@ -55482,6 +56398,12 @@
      "tname": "BP UNED SEGOVIA-RETORIKA 2025",
      "avg": 76.33,
      "n": 3
+    },
+    {
+     "date": "2025-06-27",
+     "tname": "VII PreCMUDE UAM",
+     "avg": 76.5,
+     "n": 6
     },
     {
      "date": "2025-07-14",
@@ -55582,6 +56504,12 @@
      "avg_speaks": 76.67
     },
     {
+     "name": "Fernanda Roig Angeles",
+     "n": 6,
+     "avg_points": 1.67,
+     "avg_speaks": 76.5
+    },
+    {
      "name": "Lucía Vadillo Martín",
      "n": 6,
      "avg_points": 1.67,
@@ -55636,10 +56564,10 @@
      "avg_speaks": 76.33
     }
    ],
-   "vs_field": 2.31,
+   "vs_field": 2.24,
    "clutch": {
-    "avg_last_round": 76.57,
-    "delta": 0.12
+    "avg_last_round": 76.45,
+    "delta": 0.0
    },
    "streak_top2": 7,
    "env_online": {
@@ -55648,12 +56576,12 @@
     "avg_points": 1.78
    },
    "env_presencial": {
-    "n": 107,
+    "n": 113,
     "avg_speaks": 76.53,
     "avg_points": 1.8
    },
-   "avg_room_rank": 3.34,
-   "room_best_count": 31,
+   "avg_room_rank": 3.38,
+   "room_best_count": 32,
    "chairs": [
     [
      "Antonio Sáez Marín",
@@ -57396,8 +58324,8 @@
   },
   "javier-lara-davila": {
    "display": "Javier Lara Dávila",
-   "n_tournaments": 14,
-   "n_rounds": 80,
+   "n_tournaments": 15,
+   "n_rounds": 85,
    "n_elim_rounds": 0,
    "n_tournaments_6m": 0,
    "n_rounds_6m": 0,
@@ -57588,6 +58516,13 @@
      "date": "2023-11-16",
      "online": false,
      "team": "UB-ADUSAL GL"
+    },
+    {
+     "slug": "torneodeinvierno2024__toin2024",
+     "name": "Torneo de Invierno 2024",
+     "date": "2024-08-23",
+     "online": true,
+     "team": "Vigo-UB A"
     },
     {
      "slug": "bpeliasahuja__ahuja24",
@@ -58977,6 +59912,121 @@
      "t_avg": 73.16
     },
     {
+     "t": "torneodeinvierno2024__toin2024",
+     "tname": "Torneo de Invierno 2024",
+     "date": "2024-08-23",
+     "online": true,
+     "round": "Ronda 1",
+     "seq": 1,
+     "stage": "P",
+     "side": "oo",
+     "points": 2,
+     "win": false,
+     "position": 1,
+     "score": 79.0,
+     "iron": false,
+     "room_rank": 2,
+     "motion": "EC aplicaría el Proyecto Vinicius con su hijo",
+     "topic": "rol / actor",
+     "team": "Vigo-UB A",
+     "mate": "Jesús Gómez \"Capi\"",
+     "chair": "Christian Mundaca Gonzales",
+     "venue": "Sala 06",
+     "t_avg": 75.38
+    },
+    {
+     "t": "torneodeinvierno2024__toin2024",
+     "tname": "Torneo de Invierno 2024",
+     "date": "2024-08-23",
+     "online": true,
+     "round": "Ronda 2",
+     "seq": 2,
+     "stage": "P",
+     "side": "og",
+     "points": 2,
+     "win": false,
+     "position": 1,
+     "score": 81.0,
+     "iron": false,
+     "room_rank": 2,
+     "motion": "EC preferiría un mundo donde la humanidad percibe la vida bajo las leyes de causalidad en vez de una parte del gran plan de Dios.",
+     "topic": "religión",
+     "team": "Vigo-UB A",
+     "mate": "Jesús Gómez \"Capi\"",
+     "chair": "Andreu \"Puigdemont o Houdini?\" Garcia Raurell",
+     "venue": "Sala 02",
+     "t_avg": 75.38
+    },
+    {
+     "t": "torneodeinvierno2024__toin2024",
+     "tname": "Torneo de Invierno 2024",
+     "date": "2024-08-23",
+     "online": true,
+     "round": "Ronda 3",
+     "seq": 3,
+     "stage": "P",
+     "side": "cg",
+     "points": 2,
+     "win": false,
+     "position": 1,
+     "score": 79.0,
+     "iron": false,
+     "room_rank": 2,
+     "motion": "ECCQ las grandes ciudades deberian adoptar el modelo de alquiler regulado.",
+     "topic": "política nacional",
+     "team": "Vigo-UB A",
+     "mate": "Jesús Gómez \"Capi\"",
+     "chair": "Joaquin Linares",
+     "venue": "Sala 05",
+     "t_avg": 75.38
+    },
+    {
+     "t": "torneodeinvierno2024__toin2024",
+     "tname": "Torneo de Invierno 2024",
+     "date": "2024-08-23",
+     "online": true,
+     "round": "Ronda 4",
+     "seq": 4,
+     "stage": "P",
+     "side": "oo",
+     "points": 3,
+     "win": false,
+     "position": 1,
+     "score": 85.0,
+     "iron": false,
+     "room_rank": 1,
+     "motion": "EC elegiría seguir la línea de “abogado de estudio” por sobre la de “abogado de empresa“",
+     "topic": "rol / actor",
+     "team": "Vigo-UB A",
+     "mate": "Jesús Gómez \"Capi\"",
+     "chair": "Diego Nuñez del Prado",
+     "venue": "Sala 03",
+     "t_avg": 75.38
+    },
+    {
+     "t": "torneodeinvierno2024__toin2024",
+     "tname": "Torneo de Invierno 2024",
+     "date": "2024-08-23",
+     "online": true,
+     "round": "Ronda 5",
+     "seq": 5,
+     "stage": "P",
+     "side": "co",
+     "points": 3,
+     "win": false,
+     "position": 1,
+     "score": 82.0,
+     "iron": false,
+     "room_rank": 1,
+     "motion": "En su lucha contra el cambio climático, EC, como un país en vías de desarrollo, implementa el modelo A sobre el B en el sector energetico",
+     "topic": "economía",
+     "team": "Vigo-UB A",
+     "mate": "Jesús Gómez \"Capi\"",
+     "chair": "Joaquin Linares",
+     "venue": "Sala 08",
+     "t_avg": 75.38
+    },
+    {
      "t": "bpeliasahuja__ahuja24",
      "tname": "BP Elías Ahuja 2024",
      "date": "2024-11-01",
@@ -59461,30 +60511,30 @@
     }
    ],
    "elim_rows": [],
-   "avg_speaks": 80.25,
-   "stdev": 1.65,
+   "avg_speaks": 80.31,
+   "stdev": 1.71,
    "best": {
-    "t": "copaandresbello2021__masters-cab2021",
-    "tname": "Másters Copa Andrés Bello 2021",
-    "date": "2021-01-01",
-    "online": false,
-    "round": "Ronda 3",
-    "seq": 3,
+    "t": "torneodeinvierno2024__toin2024",
+    "tname": "Torneo de Invierno 2024",
+    "date": "2024-08-23",
+    "online": true,
+    "round": "Ronda 4",
+    "seq": 4,
     "stage": "P",
-    "side": "co",
+    "side": "oo",
     "points": 3,
     "win": false,
-    "position": 2,
-    "score": 83.0,
+    "position": 1,
+    "score": 85.0,
     "iron": false,
     "room_rank": 1,
-    "motion": null,
-    "topic": "otros",
-    "team": "CDA Traspaso de Herencia",
-    "mate": "Carmen Vallecillo Morcillo",
-    "chair": "Sonia Khalifa",
-    "venue": "SALA 02",
-    "t_avg": 75.91
+    "motion": "EC elegiría seguir la línea de “abogado de estudio” por sobre la de “abogado de empresa“",
+    "topic": "rol / actor",
+    "team": "Vigo-UB A",
+    "mate": "Jesús Gómez \"Capi\"",
+    "chair": "Diego Nuñez del Prado",
+    "venue": "Sala 03",
+    "t_avg": 75.38
    },
    "worst": {
     "t": "copaandresbello2021__masters-cab2021",
@@ -59511,14 +60561,14 @@
    },
    "avg_points": 2.45,
    "results_dist": {
-    "3": 48,
-    "2": 22,
+    "3": 50,
+    "2": 25,
     "1": 8,
     "0": 2
    },
    "pos1": {
-    "n": 55,
-    "avg": 80.0
+    "n": 60,
+    "avg": 80.1
    },
    "pos2": {
     "n": 25,
@@ -59527,31 +60577,31 @@
    "sides": {
     "og": {
      "label": "Alta Gobierno",
-     "n": 23,
-     "avg_points": 2.3,
-     "avg_speaks": 79.91,
+     "n": 24,
+     "avg_points": 2.29,
+     "avg_speaks": 79.96,
      "firsts": 12
     },
     "oo": {
      "label": "Alta Oposición",
-     "n": 19,
-     "avg_points": 2.32,
-     "avg_speaks": 79.84,
-     "firsts": 10
+     "n": 21,
+     "avg_points": 2.33,
+     "avg_speaks": 80.05,
+     "firsts": 11
     },
     "cg": {
      "label": "Baja Gobierno",
-     "n": 19,
-     "avg_points": 2.63,
-     "avg_speaks": 80.84,
+     "n": 20,
+     "avg_points": 2.6,
+     "avg_speaks": 80.75,
      "firsts": 13
     },
     "co": {
      "label": "Baja Oposición",
-     "n": 19,
-     "avg_points": 2.58,
-     "avg_speaks": 80.47,
-     "firsts": 13
+     "n": 20,
+     "avg_points": 2.6,
+     "avg_speaks": 80.55,
+     "firsts": 14
     }
    },
    "topics": {
@@ -59566,9 +60616,9 @@
      "avg_speaks": 80.29
     },
     "rol / actor": {
-     "n": 5,
-     "avg_points": 2.4,
-     "avg_speaks": 80.6
+     "n": 7,
+     "avg_points": 2.43,
+     "avg_speaks": 81.0
     },
     "otros": {
      "n": 20,
@@ -59581,9 +60631,9 @@
      "avg_speaks": 80.29
     },
     "economía": {
-     "n": 10,
-     "avg_points": 2.8,
-     "avg_speaks": 81.2
+     "n": 11,
+     "avg_points": 2.82,
+     "avg_speaks": 81.27
     },
     "medioambiente": {
      "n": 1,
@@ -59591,14 +60641,14 @@
      "avg_speaks": 79.0
     },
     "política nacional": {
-     "n": 10,
-     "avg_points": 2.3,
-     "avg_speaks": 80.0
+     "n": 11,
+     "avg_points": 2.27,
+     "avg_speaks": 79.91
     },
     "religión": {
-     "n": 4,
+     "n": 5,
      "avg_points": 2,
-     "avg_speaks": 78.25
+     "avg_speaks": 78.8
     },
     "relaciones internacionales": {
      "n": 1,
@@ -59678,6 +60728,12 @@
      "n": 5
     },
     {
+     "date": "2024-08-23",
+     "tname": "Torneo de Invierno 2024",
+     "avg": 81.2,
+     "n": 5
+    },
+    {
      "date": "2024-11-01",
      "tname": "BP Elías Ahuja 2024",
      "avg": 80.0,
@@ -59734,6 +60790,12 @@
      "avg_speaks": 79.17
     },
     {
+     "name": "Jesús Gómez \"Capi\"",
+     "n": 5,
+     "avg_points": 2.4,
+     "avg_speaks": 81.2
+    },
+    {
      "name": "Luis Felipe García",
      "n": 5,
      "avg_points": 3,
@@ -59752,24 +60814,24 @@
      "avg_speaks": 81.2
     }
    ],
-   "vs_field": 6.19,
+   "vs_field": 6.16,
    "clutch": {
-    "avg_last_round": 80.57,
-    "delta": 0.32
+    "avg_last_round": 80.67,
+    "delta": 0.36
    },
-   "streak_top2": 18,
+   "streak_top2": 23,
    "env_online": {
-    "n": 6,
-    "avg_speaks": 80.5,
-    "avg_points": 2
+    "n": 11,
+    "avg_speaks": 80.82,
+    "avg_points": 2.18
    },
    "env_presencial": {
     "n": 74,
     "avg_speaks": 80.23,
     "avg_points": 2.49
    },
-   "avg_room_rank": 2.17,
-   "room_best_count": 36,
+   "avg_room_rank": 2.14,
+   "room_best_count": 38,
    "chairs": [
     [
      "Antonio Sáez Marín",
@@ -59795,8 +60857,8 @@
   },
   "ainhoa-diez-blanco": {
    "display": "Ainhoa Díez Blanco",
-   "n_tournaments": 9,
-   "n_rounds": 48,
+   "n_tournaments": 10,
+   "n_rounds": 54,
    "n_elim_rounds": 0,
    "n_tournaments_6m": 0,
    "n_rounds_6m": 0,
@@ -59869,6 +60931,13 @@
      "date": "2025-06-20",
      "online": false,
      "team": "UCM-COM la alta y el flaco"
+    },
+    {
+     "slug": "viiprecmudeuam__viiprecmudeuam",
+     "name": "VII PreCMUDE UAM",
+     "date": "2025-06-27",
+     "online": false,
+     "team": "UCM-COM perros callejeros"
     },
     {
      "slug": "viibpregenta__viibplaregenta",
@@ -60846,6 +61915,144 @@
      "t_avg": 74.79
     },
     {
+     "t": "viiprecmudeuam__viiprecmudeuam",
+     "tname": "VII PreCMUDE UAM",
+     "date": "2025-06-27",
+     "online": false,
+     "round": "Ronda 1",
+     "seq": 1,
+     "stage": "P",
+     "side": "oo",
+     "points": 0,
+     "win": false,
+     "position": 2,
+     "score": 76.0,
+     "iron": false,
+     "room_rank": 6,
+     "motion": "EC, como una persona aficionada mirandesa de larga duración, prefiere el modelo A sobre el B",
+     "topic": "economía",
+     "team": "UCM-COM perros callejeros",
+     "mate": "José Tomás Sánchez Galán",
+     "chair": "Santiago Ortiz García 🍸",
+     "venue": "Sala 08",
+     "t_avg": 75.77
+    },
+    {
+     "t": "viiprecmudeuam__viiprecmudeuam",
+     "tname": "VII PreCMUDE UAM",
+     "date": "2025-06-27",
+     "online": false,
+     "round": "Ronda 2",
+     "seq": 2,
+     "stage": "P",
+     "side": "cg",
+     "points": 1,
+     "win": false,
+     "position": 2,
+     "score": 73.0,
+     "iron": false,
+     "room_rank": 5,
+     "motion": "EC prefiere un mundo en el que las personas perciban su identidad como una unidad estable en el tiempo, en contraposición a un mundo en el que consideren que la identidad evoluciona y se transforma continuamente",
+     "topic": "otros",
+     "team": "UCM-COM perros callejeros",
+     "mate": "José Tomás Sánchez Galán",
+     "chair": "Juanjo García Amorós",
+     "venue": "Sala 01",
+     "t_avg": 75.77
+    },
+    {
+     "t": "viiprecmudeuam__viiprecmudeuam",
+     "tname": "VII PreCMUDE UAM",
+     "date": "2025-06-27",
+     "online": false,
+     "round": "Ronda 3",
+     "seq": 3,
+     "stage": "P",
+     "side": "co",
+     "points": 3,
+     "win": false,
+     "position": 2,
+     "score": 73.0,
+     "iron": false,
+     "room_rank": 1,
+     "motion": "ECCQ está en los intereses del pueblo puertorriqueño la independencia de Puerto Rico",
+     "topic": "filosofía y ética",
+     "team": "UCM-COM perros callejeros",
+     "mate": "José Tomás Sánchez Galán",
+     "chair": "Sandra Millán Palacios",
+     "venue": "Sala 07",
+     "t_avg": 75.77
+    },
+    {
+     "t": "viiprecmudeuam__viiprecmudeuam",
+     "tname": "VII PreCMUDE UAM",
+     "date": "2025-06-27",
+     "online": false,
+     "round": "Ronda 4",
+     "seq": 4,
+     "stage": "P",
+     "side": "og",
+     "points": 1,
+     "win": false,
+     "position": 1,
+     "score": 72.0,
+     "iron": false,
+     "room_rank": 5,
+     "motion": "EC lamenta la muerte de la figuración en el arte",
+     "topic": "educación",
+     "team": "UCM-COM perros callejeros",
+     "mate": "José Tomás Sánchez Galán",
+     "chair": "Juanjo García Amorós",
+     "venue": "Sala 04",
+     "t_avg": 75.77
+    },
+    {
+     "t": "viiprecmudeuam__viiprecmudeuam",
+     "tname": "VII PreCMUDE UAM",
+     "date": "2025-06-27",
+     "online": false,
+     "round": "Ronda 5",
+     "seq": 5,
+     "stage": "P",
+     "side": "cg",
+     "points": 2,
+     "win": false,
+     "position": 2,
+     "score": 73.0,
+     "iron": false,
+     "room_rank": 3,
+     "motion": "Asumiendo que son excluyentes, ECCQ la comunidad sanitaria debería impulsar el enfoque anatómico en lugar del enfoque socioeconómico",
+     "topic": "psicología y salud mental",
+     "team": "UCM-COM perros callejeros",
+     "mate": "José Tomás Sánchez Galán",
+     "chair": "Mario de la Hoz",
+     "venue": "Sala 05",
+     "t_avg": 75.77
+    },
+    {
+     "t": "viiprecmudeuam__viiprecmudeuam",
+     "tname": "VII PreCMUDE UAM",
+     "date": "2025-06-27",
+     "online": false,
+     "round": "Ronda 6",
+     "seq": 6,
+     "stage": "P",
+     "side": "og",
+     "points": 0,
+     "win": false,
+     "position": 1,
+     "score": 73.0,
+     "iron": false,
+     "room_rank": 5,
+     "motion": "EC lamenta el auge de la digitalización en el sistema financiero (Ej. billeteras digitales, creación de neobancos o euro digital)",
+     "topic": "economía",
+     "team": "UCM-COM perros callejeros",
+     "mate": "José Tomás Sánchez Galán",
+     "chair": "Javier Abellán",
+     "venue": "Sala 09",
+     "t_avg": 75.77
+    },
+    {
      "t": "viibpregenta__viibplaregenta",
      "tname": "VII BP La Regenta",
      "date": "2026-03-13",
@@ -60985,8 +62192,8 @@
     }
    ],
    "elim_rows": [],
-   "avg_speaks": 72.46,
-   "stdev": 2.36,
+   "avg_speaks": 72.56,
+   "stdev": 2.28,
    "best": {
     "t": "interpoli2023__interpoli2023",
     "tname": "XI BP INTERPOLI",
@@ -61033,49 +62240,49 @@
     "venue": "SALA 2",
     "t_avg": 71.72
    },
-   "avg_points": 1.25,
+   "avg_points": 1.24,
    "results_dist": {
-    "3": 8,
-    "2": 8,
-    "1": 20,
-    "0": 12
+    "3": 9,
+    "2": 9,
+    "1": 22,
+    "0": 14
    },
    "pos1": {
-    "n": 10,
-    "avg": 72.3
+    "n": 12,
+    "avg": 72.33
    },
    "pos2": {
-    "n": 38,
-    "avg": 72.5
+    "n": 42,
+    "avg": 72.62
    },
    "sides": {
     "og": {
      "label": "Alta Gobierno",
-     "n": 14,
-     "avg_points": 1.07,
-     "avg_speaks": 72.14,
+     "n": 16,
+     "avg_points": 1,
+     "avg_speaks": 72.19,
      "firsts": 2
     },
     "oo": {
      "label": "Alta Oposición",
-     "n": 10,
-     "avg_points": 1.4,
-     "avg_speaks": 72.9,
+     "n": 11,
+     "avg_points": 1.27,
+     "avg_speaks": 73.18,
      "firsts": 1
     },
     "cg": {
      "label": "Baja Gobierno",
-     "n": 11,
-     "avg_points": 1.64,
+     "n": 13,
+     "avg_points": 1.62,
      "avg_speaks": 73.0,
      "firsts": 4
     },
     "co": {
      "label": "Baja Oposición",
-     "n": 13,
-     "avg_points": 1,
-     "avg_speaks": 72.0,
-     "firsts": 1
+     "n": 14,
+     "avg_points": 1.14,
+     "avg_speaks": 72.07,
+     "firsts": 2
     }
    },
    "topics": {
@@ -61085,14 +62292,14 @@
      "avg_speaks": 72.12
     },
     "otros": {
-     "n": 11,
-     "avg_points": 1.55,
-     "avg_speaks": 72.64
+     "n": 12,
+     "avg_points": 1.5,
+     "avg_speaks": 72.67
     },
     "economía": {
-     "n": 8,
-     "avg_points": 1.25,
-     "avg_speaks": 72.62
+     "n": 10,
+     "avg_points": 1,
+     "avg_speaks": 73.0
     },
     "religión": {
      "n": 4,
@@ -61110,9 +62317,9 @@
      "avg_speaks": 71.5
     },
     "psicología y salud mental": {
-     "n": 2,
-     "avg_points": 0.5,
-     "avg_speaks": 72.5
+     "n": 3,
+     "avg_points": 1,
+     "avg_speaks": 72.67
     },
     "ciencia y tecnología": {
      "n": 1,
@@ -61130,9 +62337,14 @@
      "avg_speaks": 73.0
     },
     "filosofía y ética": {
-     "n": 3,
-     "avg_points": 1,
+     "n": 4,
+     "avg_points": 1.5,
      "avg_speaks": 73.0
+    },
+    "educación": {
+     "n": 1,
+     "avg_points": 1,
+     "avg_speaks": 72.0
     },
     "relaciones internacionales": {
      "n": 1,
@@ -61190,6 +62402,12 @@
      "n": 5
     },
     {
+     "date": "2025-06-27",
+     "tname": "VII PreCMUDE UAM",
+     "avg": 73.33,
+     "n": 6
+    },
+    {
      "date": "2026-03-13",
      "tname": "VII BP La Regenta",
      "avg": 73.17,
@@ -61222,6 +62440,12 @@
      "avg_speaks": 74.83
     },
     {
+     "name": "José Tomás Sánchez Galán",
+     "n": 6,
+     "avg_points": 1.17,
+     "avg_speaks": 73.33
+    },
+    {
      "name": "Aitor Talavera Monte",
      "n": 6,
      "avg_points": 1,
@@ -61252,10 +62476,10 @@
      "avg_speaks": 69.67
     }
    ],
-   "vs_field": -0.64,
+   "vs_field": -0.84,
    "clutch": {
-    "avg_last_round": 71.44,
-    "delta": -1.02
+    "avg_last_round": 71.6,
+    "delta": -0.96
    },
    "streak_top2": 3,
    "env_online": {
@@ -61264,12 +62488,12 @@
     "avg_points": null
    },
    "env_presencial": {
-    "n": 48,
-    "avg_speaks": 72.46,
-    "avg_points": 1.25
+    "n": 54,
+    "avg_speaks": 72.56,
+    "avg_points": 1.24
    },
-   "avg_room_rank": 4.44,
-   "room_best_count": 4,
+   "avg_room_rank": 4.41,
+   "room_best_count": 5,
    "chairs": [
     [
      "Javier Aznarte",
@@ -61969,8 +63193,8 @@
   },
   "gregorio-colao-fonseca": {
    "display": "Gregorio Colao Fonseca",
-   "n_tournaments": 14,
-   "n_rounds": 91,
+   "n_tournaments": 28,
+   "n_rounds": 167,
    "n_elim_rounds": 0,
    "n_tournaments_6m": 0,
    "n_rounds_6m": 0,
@@ -62008,12 +63232,76 @@
      "champion": false
     },
     {
+     "t": "espanadebate__regionalonline2023",
+     "tname": "22/23 - Campeonato de España - Regional Online 2023",
+     "date": "2023-04-06",
+     "novice": false,
+     "reached": "Final",
+     "champion": false
+    },
+    {
+     "t": "bpgranada2023__bpgranada2023",
+     "tname": "BP Granada 2023",
+     "date": "2023-10-12",
+     "novice": false,
+     "reached": "Semifinal",
+     "champion": false
+    },
+    {
      "t": "bpeliasahuja__ahuja23",
      "tname": "BP Elías Ahuja 2023",
      "date": "2023-11-02",
      "novice": false,
      "reached": "Semifinal",
      "champion": false
+    },
+    {
+     "t": "uniandesopen2024__uniandesopen2024",
+     "tname": "Uniandes Open 2024",
+     "date": "2024-01-01",
+     "novice": false,
+     "reached": "Semifinal",
+     "champion": false
+    },
+    {
+     "t": "espanadebate__regionalsur24",
+     "tname": "Campeonato de España - Regional Sur 2024",
+     "date": "2024-02-15",
+     "novice": false,
+     "reached": "Final",
+     "champion": false
+    },
+    {
+     "t": "iiibpmendel__mendel24",
+     "tname": "BP Mendel 2024",
+     "date": "2024-03-14",
+     "novice": false,
+     "reached": "Final",
+     "champion": false
+    },
+    {
+     "t": "tove2024__tove2024",
+     "tname": "Torneo de Verano 2024",
+     "date": "2024-03-28",
+     "novice": false,
+     "reached": "Final",
+     "champion": true
+    },
+    {
+     "t": "precmudepucp2024__precmudepucp",
+     "tname": "PreCMUDE PUCP 2024",
+     "date": "2024-07-05",
+     "novice": false,
+     "reached": "Final",
+     "champion": true
+    },
+    {
+     "t": "cmude2024__open",
+     "tname": "Campeonato Mundial Universitario de Debate en Español 2024",
+     "date": "2024-07-12",
+     "novice": false,
+     "reached": "Final",
+     "champion": true
     },
     {
      "t": "bpeliasahuja__ahuja24",
@@ -62024,17 +63312,33 @@
      "champion": false
     },
     {
+     "t": "xurjc2024__xbpurjc2024",
+     "tname": "X BP URJC",
+     "date": "2024-11-15",
+     "novice": false,
+     "reached": "Semifinal",
+     "champion": false
+    },
+    {
      "t": "bpmendel__ivbpmendel",
      "tname": "IV BP Mendel",
      "date": "2025-03-21",
      "novice": false,
      "reached": "Final",
      "champion": false
+    },
+    {
+     "t": "ucab25__cab2025",
+     "tname": "Copa Andrés Bello Virtual 2025",
+     "date": "2025-05-23",
+     "novice": false,
+     "reached": "Final",
+     "champion": true
     }
    ],
-   "n_breaks": 7,
+   "n_breaks": 17,
    "n_breaks_novice": 0,
-   "n_breaks_open": 7,
+   "n_breaks_open": 17,
    "tournaments": [
     {
      "slug": "cmude2021__cmudeecuador2021",
@@ -62086,6 +63390,13 @@
      "team": "CDA-UCJC B: Osos Bailongos"
     },
     {
+     "slug": "iibpcomunicateucm__iiibpcomunicate",
+     "name": "III BP Comunícate UCM",
+     "date": "2023-03-10",
+     "online": false,
+     "team": "CDA Grefatoneta"
+    },
+    {
      "slug": "bpmendel__bpmendel",
      "name": "II Torneo BP Mendel",
      "date": "2023-03-17",
@@ -62093,11 +63404,25 @@
      "team": "CDA Ines Sánchez y Dani Belmonte"
     },
     {
+     "slug": "espanadebate__regionalonline2023",
+     "name": "22/23 - Campeonato de España - Regional Online 2023",
+     "date": "2023-04-06",
+     "online": true,
+     "team": "CDA DG"
+    },
+    {
      "slug": "vgaduab__vgaduab",
      "name": "V BP GAD-UAB",
      "date": "2023-04-20",
      "online": false,
      "team": "CDA CS"
+    },
+    {
+     "slug": "bpgranada2023__bpgranada2023",
+     "name": "BP Granada 2023",
+     "date": "2023-10-12",
+     "online": false,
+     "team": "UAL-CEU Toni2"
     },
     {
      "slug": "bpeliasahuja__ahuja23",
@@ -62114,6 +63439,62 @@
      "team": "CEU A"
     },
     {
+     "slug": "bpunedsegoviaretorika__bpuned2024",
+     "name": "BP UNED SEGOVIA-RETORIKA 2024",
+     "date": "2024-01-01",
+     "online": false,
+     "team": "CEU-UCJC CS"
+    },
+    {
+     "slug": "uniandesopen2024__uniandesopen2024",
+     "name": "Uniandes Open 2024",
+     "date": "2024-01-01",
+     "online": false,
+     "team": "Vigo-CEU Dj Bacardit"
+    },
+    {
+     "slug": "espanadebate__regionalsur24",
+     "name": "Campeonato de España - Regional Sur 2024",
+     "date": "2024-02-15",
+     "online": false,
+     "team": "Vigo-CEU"
+    },
+    {
+     "slug": "iiibpmendel__mendel24",
+     "name": "BP Mendel 2024",
+     "date": "2024-03-14",
+     "online": false,
+     "team": "CEUCJC"
+    },
+    {
+     "slug": "tove2024__tove2024",
+     "name": "Torneo de Verano 2024",
+     "date": "2024-03-28",
+     "online": true,
+     "team": "Vigo-CEU GG y MC"
+    },
+    {
+     "slug": "viprecmudeuam__viprecmudeuam",
+     "name": "VI PreCMUDE UAM",
+     "date": "2024-06-28",
+     "online": false,
+     "team": "Vigo GG"
+    },
+    {
+     "slug": "precmudepucp2024__precmudepucp",
+     "name": "PreCMUDE PUCP 2024",
+     "date": "2024-07-05",
+     "online": false,
+     "team": "Vigo GG"
+    },
+    {
+     "slug": "cmude2024__open",
+     "name": "Campeonato Mundial Universitario de Debate en Español 2024",
+     "date": "2024-07-12",
+     "online": false,
+     "team": "UAL-CEU San Pablo GC"
+    },
+    {
      "slug": "bpeliasahuja__ahuja24",
      "name": "BP Elías Ahuja 2024",
      "date": "2024-11-01",
@@ -62121,11 +63502,32 @@
      "team": "UCM-COM-Indalo Capi"
     },
     {
+     "slug": "xurjc2024__xbpurjc2024",
+     "name": "X BP URJC",
+     "date": "2024-11-15",
+     "online": false,
+     "team": "Indalo-Comunícate CG"
+    },
+    {
      "slug": "bpmendel__ivbpmendel",
      "name": "IV BP Mendel",
      "date": "2025-03-21",
      "online": false,
      "team": "GRECKSON!!"
+    },
+    {
+     "slug": "ucab25__cab2025",
+     "name": "Copa Andrés Bello Virtual 2025",
+     "date": "2025-05-23",
+     "online": true,
+     "team": "Indalo"
+    },
+    {
+     "slug": "bpuned2025__uned2025",
+     "name": "BP UNED SEGOVIA-RETORIKA 2025",
+     "date": "2025-06-14",
+     "online": false,
+     "team": "Indalo"
     },
     {
      "slug": "xibpurjc__xibpurjc",
@@ -63333,6 +64735,144 @@
      "t_avg": 75.87
     },
     {
+     "t": "iibpcomunicateucm__iiibpcomunicate",
+     "tname": "III BP Comunícate UCM",
+     "date": "2023-03-10",
+     "online": false,
+     "round": "Ronda 1",
+     "seq": 1,
+     "stage": "P",
+     "side": "co",
+     "points": 1,
+     "win": false,
+     "position": 1,
+     "score": 74.0,
+     "iron": false,
+     "room_rank": 6,
+     "motion": "EC, siendo una mujer piloto emergente, preferiría entrar en la F1 Academy que como tercer coche de una escudería de Formula 1.",
+     "topic": "feminismo y género",
+     "team": "CDA Grefatoneta",
+     "mate": "Daniel Belmonte Pérez",
+     "chair": "Rafael Ruiz de Eguílaz",
+     "venue": "Aula 115B",
+     "t_avg": 73.62
+    },
+    {
+     "t": "iibpcomunicateucm__iiibpcomunicate",
+     "tname": "III BP Comunícate UCM",
+     "date": "2023-03-10",
+     "online": false,
+     "round": "Ronda 2",
+     "seq": 2,
+     "stage": "P",
+     "side": "og",
+     "points": 3,
+     "win": false,
+     "position": 1,
+     "score": 76.0,
+     "iron": false,
+     "room_rank": 1,
+     "motion": "En los procesos penales contra personas políticas acusadas por corrupción, EC reduciría la carga de la prueba para llegar a una condena a un \"equilibrio de probabilidades\" en lugar de \"más allá de toda duda razonable\".",
+     "topic": "política nacional",
+     "team": "CDA Grefatoneta",
+     "mate": "Daniel Belmonte Pérez",
+     "chair": "Rafael Ruiz de Eguílaz",
+     "venue": "Aula 109",
+     "t_avg": 73.62
+    },
+    {
+     "t": "iibpcomunicateucm__iiibpcomunicate",
+     "tname": "III BP Comunícate UCM",
+     "date": "2023-03-10",
+     "online": false,
+     "round": "Ronda 3",
+     "seq": 3,
+     "stage": "P",
+     "side": "oo",
+     "points": 1,
+     "win": false,
+     "position": 2,
+     "score": 78.0,
+     "iron": false,
+     "room_rank": 4,
+     "motion": "En momentos posteriores a un desencuentro relacional, EC prefiere el contacto cero.",
+     "topic": "ciencia y tecnología",
+     "team": "CDA Grefatoneta",
+     "mate": "Daniel Belmonte Pérez",
+     "chair": "Alejandro Molina",
+     "venue": "Aula 115B",
+     "t_avg": 73.62
+    },
+    {
+     "t": "iibpcomunicateucm__iiibpcomunicate",
+     "tname": "III BP Comunícate UCM",
+     "date": "2023-03-10",
+     "online": false,
+     "round": "Ronda 4",
+     "seq": 4,
+     "stage": "P",
+     "side": "cg",
+     "points": 3,
+     "win": false,
+     "position": 1,
+     "score": 78.0,
+     "iron": false,
+     "room_rank": 1,
+     "motion": "EC implementaría la justicia retributiva sanitaria en el sistema de salud español.",
+     "topic": "economía",
+     "team": "CDA Grefatoneta",
+     "mate": "Daniel Belmonte Pérez",
+     "chair": "Javier Rodríguez",
+     "venue": "Aula 115A",
+     "t_avg": 73.62
+    },
+    {
+     "t": "iibpcomunicateucm__iiibpcomunicate",
+     "tname": "III BP Comunícate UCM",
+     "date": "2023-03-10",
+     "online": false,
+     "round": "Ronda 5",
+     "seq": 5,
+     "stage": "P",
+     "side": "cg",
+     "points": 1,
+     "win": false,
+     "position": 1,
+     "score": 77.0,
+     "iron": false,
+     "room_rank": 4,
+     "motion": "EC apoya los esfuerzos del gobierno chino por restar influencia a destacados empresarios de gran éxito",
+     "topic": "economía",
+     "team": "CDA Grefatoneta",
+     "mate": "Daniel Belmonte Pérez",
+     "chair": "Iván Rico González",
+     "venue": "Aula 115B",
+     "t_avg": 73.62
+    },
+    {
+     "t": "iibpcomunicateucm__iiibpcomunicate",
+     "tname": "III BP Comunícate UCM",
+     "date": "2023-03-10",
+     "online": false,
+     "round": "Ronda 6",
+     "seq": 6,
+     "stage": "P",
+     "side": "oo",
+     "points": 2,
+     "win": false,
+     "position": 2,
+     "score": 75.0,
+     "iron": false,
+     "room_rank": 4,
+     "motion": "EC establecería impuestos al entretenimiento popular (por ejemplo, la lucha libre de la WWE, Keeping Up with The Kardashians, la música popular dominante) para subvencionar el arte académico (por ejemplo, Shakespeare, Bach, algunas películas de arte y ensayo).",
+     "topic": "economía",
+     "team": "CDA Grefatoneta",
+     "mate": "Daniel Belmonte Pérez",
+     "chair": "Judit Postigo",
+     "venue": "Aula 108",
+     "t_avg": 73.62
+    },
+    {
      "t": "bpmendel__bpmendel",
      "tname": "II Torneo BP Mendel",
      "date": "2023-03-17",
@@ -63446,6 +64986,144 @@
      "chair": "Jorge Álvarez Palomino",
      "venue": "Sala 8",
      "t_avg": 74.4
+    },
+    {
+     "t": "espanadebate__regionalonline2023",
+     "tname": "22/23 - Campeonato de España - Regional Online 2023",
+     "date": "2023-04-06",
+     "online": true,
+     "round": "Ronda 1",
+     "seq": 1,
+     "stage": "P",
+     "side": "og",
+     "points": 3,
+     "win": false,
+     "position": 2,
+     "score": 75.0,
+     "iron": false,
+     "room_rank": 1,
+     "motion": "EC prohibiría los tutores privados",
+     "topic": "otros",
+     "team": "CDA DG",
+     "mate": "Daniel Belmonte Pérez",
+     "chair": "Andreina Mendoza",
+     "venue": "Sala 3",
+     "t_avg": 74.08
+    },
+    {
+     "t": "espanadebate__regionalonline2023",
+     "tname": "22/23 - Campeonato de España - Regional Online 2023",
+     "date": "2023-04-06",
+     "online": true,
+     "round": "Ronda 2",
+     "seq": 2,
+     "stage": "P",
+     "side": "co",
+     "points": 3,
+     "win": false,
+     "position": 1,
+     "score": 78.0,
+     "iron": false,
+     "room_rank": 2,
+     "motion": "EC prefiere invertir recursos (capital político, dinero) en reforzar los tribunales penales regionales, en lugar de invertir en la Corte Penal Internacional.",
+     "topic": "relaciones internacionales",
+     "team": "CDA DG",
+     "mate": "Daniel Belmonte Pérez",
+     "chair": "Juanita Hincapie Restrepo",
+     "venue": "Sala 6",
+     "t_avg": 74.08
+    },
+    {
+     "t": "espanadebate__regionalonline2023",
+     "tname": "22/23 - Campeonato de España - Regional Online 2023",
+     "date": "2023-04-06",
+     "online": true,
+     "round": "Ronda 3",
+     "seq": 3,
+     "stage": "P",
+     "side": "cg",
+     "points": 1,
+     "win": false,
+     "position": 1,
+     "score": 78.0,
+     "iron": false,
+     "room_rank": 6,
+     "motion": "ECCQ el movimiento BLM debería apoyar la inclusión de más policías miembros del movimiento en lugar de la abolición de la fuerza policial.",
+     "topic": "otros",
+     "team": "CDA DG",
+     "mate": "Daniel Belmonte Pérez",
+     "chair": "Andreina Mendoza",
+     "venue": "Sala 3",
+     "t_avg": 74.08
+    },
+    {
+     "t": "espanadebate__regionalonline2023",
+     "tname": "22/23 - Campeonato de España - Regional Online 2023",
+     "date": "2023-04-06",
+     "online": true,
+     "round": "Ronda 4",
+     "seq": 4,
+     "stage": "P",
+     "side": "oo",
+     "points": 1,
+     "win": false,
+     "position": 2,
+     "score": 79.0,
+     "iron": false,
+     "room_rank": 4,
+     "motion": "ECCQ el BCE debería contar con responsabilidad política",
+     "topic": "economía",
+     "team": "CDA DG",
+     "mate": "Daniel Belmonte Pérez",
+     "chair": "Juanita Hincapie Restrepo",
+     "venue": "Sala 3",
+     "t_avg": 74.08
+    },
+    {
+     "t": "espanadebate__regionalonline2023",
+     "tname": "22/23 - Campeonato de España - Regional Online 2023",
+     "date": "2023-04-06",
+     "online": true,
+     "round": "Ronda 5",
+     "seq": 5,
+     "stage": "P",
+     "side": "cg",
+     "points": 2,
+     "win": false,
+     "position": 1,
+     "score": 77.0,
+     "iron": false,
+     "room_rank": 3,
+     "motion": "EC, como presidente de un país que fue colonizado, daría prioridad al enfoque A sobre el B",
+     "topic": "rol / actor",
+     "team": "CDA DG",
+     "mate": "Daniel Belmonte Pérez",
+     "chair": "Cristina Oñate",
+     "venue": "Sala 4",
+     "t_avg": 74.08
+    },
+    {
+     "t": "espanadebate__regionalonline2023",
+     "tname": "22/23 - Campeonato de España - Regional Online 2023",
+     "date": "2023-04-06",
+     "online": true,
+     "round": "Ronda 6",
+     "seq": 6,
+     "stage": "P",
+     "side": "co",
+     "points": 3,
+     "win": false,
+     "position": 1,
+     "score": 79.0,
+     "iron": false,
+     "room_rank": 1,
+     "motion": "EC prefiere una vida después de la muerte basada en el tipo 1 en lugar del tipo 2.",
+     "topic": "otros",
+     "team": "CDA DG",
+     "mate": "Daniel Belmonte Pérez",
+     "chair": "Diego Duarte",
+     "venue": "Sala 3",
+     "t_avg": 74.08
     },
     {
      "t": "vgaduab__vgaduab",
@@ -63584,6 +65262,144 @@
      "chair": "Gorka Samaniego Asenjo",
      "venue": "Poble: Aula 4",
      "t_avg": 73.05
+    },
+    {
+     "t": "bpgranada2023__bpgranada2023",
+     "tname": "BP Granada 2023",
+     "date": "2023-10-12",
+     "online": false,
+     "round": "Ronda 1",
+     "seq": 1,
+     "stage": "P",
+     "side": "cg",
+     "points": 3,
+     "win": false,
+     "position": 2,
+     "score": 78.0,
+     "iron": false,
+     "room_rank": 2,
+     "motion": "EC apoya la glorificación de la originalidad",
+     "topic": "otros",
+     "team": "UAL-CEU Toni2",
+     "mate": "Jesús Gómez \"Capi\"",
+     "chair": "Fernanda Roig",
+     "venue": "Sala de reuniones B",
+     "t_avg": 72.94
+    },
+    {
+     "t": "bpgranada2023__bpgranada2023",
+     "tname": "BP Granada 2023",
+     "date": "2023-10-12",
+     "online": false,
+     "round": "Ronda 2",
+     "seq": 2,
+     "stage": "P",
+     "side": "co",
+     "points": 2,
+     "win": false,
+     "position": 2,
+     "score": 78.0,
+     "iron": false,
+     "room_rank": 2,
+     "motion": "EC apoya la asistencia al piquete de UAW de Joe Biden",
+     "topic": "economía",
+     "team": "UAL-CEU Toni2",
+     "mate": "Jesús Gómez \"Capi\"",
+     "chair": "Fernanda Roig",
+     "venue": "Aula 9",
+     "t_avg": 72.94
+    },
+    {
+     "t": "bpgranada2023__bpgranada2023",
+     "tname": "BP Granada 2023",
+     "date": "2023-10-12",
+     "online": false,
+     "round": "Ronda 3",
+     "seq": 3,
+     "stage": "P",
+     "side": "oo",
+     "points": 1,
+     "win": false,
+     "position": 1,
+     "score": 77.0,
+     "iron": false,
+     "room_rank": 7,
+     "motion": "EC prefiere el modelo de equipos sobre el modelo de centro",
+     "topic": "psicología y salud mental",
+     "team": "UAL-CEU Toni2",
+     "mate": "Jesús Gómez \"Capi\"",
+     "chair": "Fernanda Roig",
+     "venue": "Aula 11",
+     "t_avg": 72.94
+    },
+    {
+     "t": "bpgranada2023__bpgranada2023",
+     "tname": "BP Granada 2023",
+     "date": "2023-10-12",
+     "online": false,
+     "round": "Ronda 4",
+     "seq": 4,
+     "stage": "P",
+     "side": "og",
+     "points": 2,
+     "win": false,
+     "position": 1,
+     "score": 77.0,
+     "iron": false,
+     "room_rank": 3,
+     "motion": "EC lamenta la Ley Bosman",
+     "topic": "relaciones internacionales",
+     "team": "UAL-CEU Toni2",
+     "mate": "Jesús Gómez \"Capi\"",
+     "chair": "Alejandro \"Canario\" Molina Rodríguez",
+     "venue": "Aula 8",
+     "t_avg": 72.94
+    },
+    {
+     "t": "bpgranada2023__bpgranada2023",
+     "tname": "BP Granada 2023",
+     "date": "2023-10-12",
+     "online": false,
+     "round": "Ronda 5",
+     "seq": 5,
+     "stage": "P",
+     "side": "cg",
+     "points": 3,
+     "win": false,
+     "position": 2,
+     "score": 79.0,
+     "iron": false,
+     "room_rank": 1,
+     "motion": "ECCQ está en los intereses de la humanidad que la ingeniera destruya su descubrimiento en lugar de hacerlo público",
+     "topic": "relaciones internacionales",
+     "team": "UAL-CEU Toni2",
+     "mate": "Jesús Gómez \"Capi\"",
+     "chair": "Juan Fernandez y Zarza",
+     "venue": "Aula 7",
+     "t_avg": 72.94
+    },
+    {
+     "t": "bpgranada2023__bpgranada2023",
+     "tname": "BP Granada 2023",
+     "date": "2023-10-12",
+     "online": false,
+     "round": "Ronda 6",
+     "seq": 6,
+     "stage": "P",
+     "side": "oo",
+     "points": 0,
+     "win": false,
+     "position": 1,
+     "score": 79.0,
+     "iron": false,
+     "room_rank": 5,
+     "motion": "EC prefiere un mundo en el que el amor de pareja esté desjerarquizado",
+     "topic": "otros",
+     "team": "UAL-CEU Toni2",
+     "mate": "Jesús Gómez \"Capi\"",
+     "chair": "Fernanda Roig",
+     "venue": "Sala Polivalente",
+     "t_avg": 72.94
     },
     {
      "t": "bpeliasahuja__ahuja23",
@@ -63862,6 +65678,995 @@
      "t_avg": 73.16
     },
     {
+     "t": "bpunedsegoviaretorika__bpuned2024",
+     "tname": "BP UNED SEGOVIA-RETORIKA 2024",
+     "date": "2024-01-01",
+     "online": false,
+     "round": "Ronda 0",
+     "seq": 1,
+     "stage": "P",
+     "side": "co",
+     "points": 2,
+     "win": false,
+     "position": 1,
+     "score": 77.0,
+     "iron": false,
+     "room_rank": null,
+     "motion": "EC, siendo un simio, tomaría partido por la facción que pretende pactar.",
+     "topic": "relaciones internacionales",
+     "team": "CEU-UCJC CS",
+     "mate": "Juanjo Solanes López",
+     "chair": "Vanessa Arroyo",
+     "venue": "Sala 05",
+     "t_avg": 75.64
+    },
+    {
+     "t": "uniandesopen2024__uniandesopen2024",
+     "tname": "Uniandes Open 2024",
+     "date": "2024-01-01",
+     "online": false,
+     "round": "Round 1",
+     "seq": 1,
+     "stage": "P",
+     "side": "og",
+     "points": 2,
+     "win": false,
+     "position": 1,
+     "score": 78.0,
+     "iron": false,
+     "room_rank": 4,
+     "motion": "En sociedades post-conflicto, ECCQ los programas internacionales de construcción de paz y reconciliación deberían dar un rol preponderante a actores religiosos locales (por ejemplo, incluirles como mediadores con otros actores claves, que tengan roles de abogacía en procesos de negociación, gestión en los procesos de implementación del programa, etc.)",
+     "topic": "religión",
+     "team": "Vigo-CEU Dj Bacardit",
+     "mate": "Jesús Gómez \"Capi\"",
+     "chair": "Isabel Flores",
+     "venue": "Sala 05",
+     "t_avg": 76.13
+    },
+    {
+     "t": "uniandesopen2024__uniandesopen2024",
+     "tname": "Uniandes Open 2024",
+     "date": "2024-01-01",
+     "online": false,
+     "round": "Round 2",
+     "seq": 2,
+     "stage": "P",
+     "side": "oo",
+     "points": 2,
+     "win": false,
+     "position": 1,
+     "score": 79.0,
+     "iron": false,
+     "room_rank": 1,
+     "motion": "EC apoya la creación de ciudades charter en países en vías de desarrollo",
+     "topic": "economía",
+     "team": "Vigo-CEU Dj Bacardit",
+     "mate": "Jesús Gómez \"Capi\"",
+     "chair": "Santiago Ortiz García",
+     "venue": "Sala 03",
+     "t_avg": 76.13
+    },
+    {
+     "t": "bpunedsegoviaretorika__bpuned2024",
+     "tname": "BP UNED SEGOVIA-RETORIKA 2024",
+     "date": "2024-01-01",
+     "online": false,
+     "round": "Ronda 2",
+     "seq": 3,
+     "stage": "P",
+     "side": "cg",
+     "points": 1,
+     "win": false,
+     "position": 1,
+     "score": 75.0,
+     "iron": false,
+     "room_rank": 4,
+     "motion": "Esta casa prefiere un mundo donde la filosofía \"Jigsaw\" sea la norma dominante en las relaciones románticas",
+     "topic": "filosofía y ética",
+     "team": "CEU-UCJC CS",
+     "mate": "Juanjo Solanes López",
+     "chair": "Maria Isabel Landaeta Reyna",
+     "venue": "Sala 01",
+     "t_avg": 75.64
+    },
+    {
+     "t": "uniandesopen2024__uniandesopen2024",
+     "tname": "Uniandes Open 2024",
+     "date": "2024-01-01",
+     "online": false,
+     "round": "Round 3",
+     "seq": 3,
+     "stage": "P",
+     "side": "cg",
+     "points": 2,
+     "win": false,
+     "position": 1,
+     "score": 78.0,
+     "iron": false,
+     "room_rank": 3,
+     "motion": "EC, como xadre feminista, criaría a su hija/o/e bajo una narrativa matriarcal en lugar de una narrativa de empoderamiento",
+     "topic": "feminismo y género",
+     "team": "Vigo-CEU Dj Bacardit",
+     "mate": "Jesús Gómez \"Capi\"",
+     "chair": "Pedro Tomás",
+     "venue": "Sala 08",
+     "t_avg": 76.13
+    },
+    {
+     "t": "bpunedsegoviaretorika__bpuned2024",
+     "tname": "BP UNED SEGOVIA-RETORIKA 2024",
+     "date": "2024-01-01",
+     "online": false,
+     "round": "Ronda 3",
+     "seq": 4,
+     "stage": "P",
+     "side": "og",
+     "points": 3,
+     "win": false,
+     "position": 1,
+     "score": 75.0,
+     "iron": false,
+     "room_rank": 1,
+     "motion": "EC, como un partido de Izquierda progresista, preferiría organizarse alrededor del modelo A sobre el B",
+     "topic": "religión",
+     "team": "CEU-UCJC CS",
+     "mate": "Juanjo Solanes López",
+     "chair": "Andrea Marlo",
+     "venue": "Sala 16",
+     "t_avg": 75.64
+    },
+    {
+     "t": "uniandesopen2024__uniandesopen2024",
+     "tname": "Uniandes Open 2024",
+     "date": "2024-01-01",
+     "online": false,
+     "round": "Round 4",
+     "seq": 4,
+     "stage": "P",
+     "side": "cg",
+     "points": 3,
+     "win": false,
+     "position": 1,
+     "score": 78.0,
+     "iron": false,
+     "room_rank": 1,
+     "motion": "ECCQ está en los intereses de Netanyahu eliminar los beneficios de las personas judías ultraortodoxas",
+     "topic": "feminismo y género",
+     "team": "Vigo-CEU Dj Bacardit",
+     "mate": "Jesús Gómez \"Capi\"",
+     "chair": "Mado ✨",
+     "venue": "Sala 01",
+     "t_avg": 76.13
+    },
+    {
+     "t": "bpunedsegoviaretorika__bpuned2024",
+     "tname": "BP UNED SEGOVIA-RETORIKA 2024",
+     "date": "2024-01-01",
+     "online": false,
+     "round": "Ronda 4",
+     "seq": 5,
+     "stage": "P",
+     "side": "oo",
+     "points": 2,
+     "win": false,
+     "position": 1,
+     "score": 77.0,
+     "iron": false,
+     "room_rank": 3,
+     "motion": "Esta casa prefiere un mundo en el que todas las personas crean activamente en el determinismo en contraposición a un mundo en el que creían en el libre albedrío",
+     "topic": "filosofía y ética",
+     "team": "CEU-UCJC CS",
+     "mate": "Juanjo Solanes López",
+     "chair": "Fernando Contreras",
+     "venue": "Sala 08",
+     "t_avg": 75.64
+    },
+    {
+     "t": "uniandesopen2024__uniandesopen2024",
+     "tname": "Uniandes Open 2024",
+     "date": "2024-01-01",
+     "online": false,
+     "round": "Round 5",
+     "seq": 5,
+     "stage": "P",
+     "side": "co",
+     "points": 2,
+     "win": false,
+     "position": 1,
+     "score": 81.0,
+     "iron": false,
+     "room_rank": 2,
+     "motion": "ECP que la narrativa preponderante sea la de rechazo responsable en lugar de recepción responsable",
+     "topic": "psicología y salud mental",
+     "team": "Vigo-CEU Dj Bacardit",
+     "mate": "Jesús Gómez \"Capi\"",
+     "chair": "Matti (King Arturo #23) Durán Santis",
+     "venue": "Sala 10",
+     "t_avg": 76.13
+    },
+    {
+     "t": "espanadebate__regionalsur24",
+     "tname": "Campeonato de España - Regional Sur 2024",
+     "date": "2024-02-15",
+     "online": false,
+     "round": "Ronda 1",
+     "seq": 1,
+     "stage": "P",
+     "side": "og",
+     "points": 3,
+     "win": false,
+     "position": 1,
+     "score": 78.0,
+     "iron": false,
+     "room_rank": 1,
+     "motion": "EC prefiere la concepción narrativa a la nihilista",
+     "topic": "filosofía y ética",
+     "team": "Vigo-CEU",
+     "mate": "Jesús Gómez \"Capi\"",
+     "chair": "Guzman Gila",
+     "venue": "Aula 5",
+     "t_avg": 72.05
+    },
+    {
+     "t": "espanadebate__regionalsur24",
+     "tname": "Campeonato de España - Regional Sur 2024",
+     "date": "2024-02-15",
+     "online": false,
+     "round": "Ronda 2",
+     "seq": 2,
+     "stage": "P",
+     "side": "oo",
+     "points": 3,
+     "win": false,
+     "position": 1,
+     "score": 79.0,
+     "iron": false,
+     "room_rank": 1,
+     "motion": "ECCQ los países occidentales deberían abandonar los intentos por universalizar los valores liberales",
+     "topic": "feminismo y género",
+     "team": "Vigo-CEU",
+     "mate": "Jesús Gómez \"Capi\"",
+     "chair": "Mario de la Hoz",
+     "venue": "Aula 5",
+     "t_avg": 72.05
+    },
+    {
+     "t": "espanadebate__regionalsur24",
+     "tname": "Campeonato de España - Regional Sur 2024",
+     "date": "2024-02-15",
+     "online": false,
+     "round": "Ronda 3",
+     "seq": 3,
+     "stage": "P",
+     "side": "co",
+     "points": 1,
+     "win": false,
+     "position": 1,
+     "score": 75.0,
+     "iron": false,
+     "room_rank": 6,
+     "motion": "EC lamenta la concepción de que el valor de las personas radica en sus logros (su educación, su reconocimiento social, su progreso laboral, sus objetivos personales/familia, etc...)",
+     "topic": "educación",
+     "team": "Vigo-CEU",
+     "mate": "Jesús Gómez \"Capi\"",
+     "chair": "Pedro Tomás",
+     "venue": "Aula 5",
+     "t_avg": 72.05
+    },
+    {
+     "t": "espanadebate__regionalsur24",
+     "tname": "Campeonato de España - Regional Sur 2024",
+     "date": "2024-02-15",
+     "online": false,
+     "round": "Ronda 4",
+     "seq": 4,
+     "stage": "P",
+     "side": "cg",
+     "points": 2,
+     "win": false,
+     "position": 2,
+     "score": 79.0,
+     "iron": false,
+     "room_rank": 5,
+     "motion": "EC apoya el uso del tokenismo en los grupos de presión conservadores",
+     "topic": "otros",
+     "team": "Vigo-CEU",
+     "mate": "Jesús Gómez \"Capi\"",
+     "chair": "Horacio",
+     "venue": "Aula 8",
+     "t_avg": 72.05
+    },
+    {
+     "t": "espanadebate__regionalsur24",
+     "tname": "Campeonato de España - Regional Sur 2024",
+     "date": "2024-02-15",
+     "online": false,
+     "round": "Ronda 5",
+     "seq": 5,
+     "stage": "P",
+     "side": "og",
+     "points": 3,
+     "win": false,
+     "position": 1,
+     "score": 78.0,
+     "iron": false,
+     "room_rank": 2,
+     "motion": "EC revelaría la verdad a la ciudad de Springfield",
+     "topic": "rol / actor",
+     "team": "Vigo-CEU",
+     "mate": "Jesús Gómez \"Capi\"",
+     "chair": "Mario de la Hoz",
+     "venue": "Aula 3",
+     "t_avg": 72.05
+    },
+    {
+     "t": "espanadebate__regionalsur24",
+     "tname": "Campeonato de España - Regional Sur 2024",
+     "date": "2024-02-15",
+     "online": false,
+     "round": "Ronda 6",
+     "seq": 6,
+     "stage": "P",
+     "side": "oo",
+     "points": 3,
+     "win": false,
+     "position": 1,
+     "score": 80.0,
+     "iron": false,
+     "room_rank": 2,
+     "motion": "EC implementaría la One Child Policy en India",
+     "topic": "política nacional",
+     "team": "Vigo-CEU",
+     "mate": "Jesús Gómez \"Capi\"",
+     "chair": "Horacio",
+     "venue": "Aula 8",
+     "t_avg": 72.05
+    },
+    {
+     "t": "iiibpmendel__mendel24",
+     "tname": "BP Mendel 2024",
+     "date": "2024-03-14",
+     "online": false,
+     "round": "Ronda 3",
+     "seq": 3,
+     "stage": "P",
+     "side": "cg",
+     "points": 2,
+     "win": false,
+     "position": 1,
+     "score": 76.0,
+     "iron": false,
+     "room_rank": 4,
+     "motion": "EC preferiría nacer en un mundo en el que la gente practique el desapego",
+     "topic": "psicología y salud mental",
+     "team": "CEUCJC",
+     "mate": "Juanjo Solanes López",
+     "chair": "Francisco Javier Navarro",
+     "venue": "Sala 2 Planta 0",
+     "t_avg": 73.76
+    },
+    {
+     "t": "iiibpmendel__mendel24",
+     "tname": "BP Mendel 2024",
+     "date": "2024-03-14",
+     "online": false,
+     "round": "Ronda 4",
+     "seq": 4,
+     "stage": "P",
+     "side": "og",
+     "points": 2,
+     "win": false,
+     "position": 1,
+     "score": 76.0,
+     "iron": false,
+     "room_rank": 4,
+     "motion": "ECCQ los movimientos activistas afroamericanos deberían oponerse al \"\"cacao negro espolvoreado\"\" en la teoría de la sociedad del capuccino",
+     "topic": "religión",
+     "team": "CEUCJC",
+     "mate": "Juanjo Solanes López",
+     "chair": "Carlos Montero",
+     "venue": "Sala 3 Planta 1",
+     "t_avg": 73.76
+    },
+    {
+     "t": "iiibpmendel__mendel24",
+     "tname": "BP Mendel 2024",
+     "date": "2024-03-14",
+     "online": false,
+     "round": "Ronda 5",
+     "seq": 5,
+     "stage": "P",
+     "side": "oo",
+     "points": 3,
+     "win": false,
+     "position": 1,
+     "score": 81.0,
+     "iron": false,
+     "room_rank": 1,
+     "motion": "EC permitiría que las empresas multinacionales se militaricen para asegurar sus cadenas de suministro",
+     "topic": "economía",
+     "team": "CEUCJC",
+     "mate": "Juanjo Solanes López",
+     "chair": "Raúl Viñas Abadía",
+     "venue": "Sala 6 Planta 2",
+     "t_avg": 73.76
+    },
+    {
+     "t": "tove2024__tove2024",
+     "tname": "Torneo de Verano 2024",
+     "date": "2024-03-28",
+     "online": true,
+     "round": "Ronda 1",
+     "seq": 1,
+     "stage": "P",
+     "side": "co",
+     "points": 3,
+     "win": false,
+     "position": 1,
+     "score": 78.0,
+     "iron": false,
+     "room_rank": 2,
+     "motion": "ECCQ está en los intereses del movimiento feminista promover fuertemente acciones en favor de la protección de mujeres en situación de cárcel (por ejemplo, narrativas de reivindicación de ex presidiarias, programas de reinserción social enfocados en mujeres, entre otros).",
+     "topic": "feminismo y género",
+     "team": "Vigo-CEU GG y MC",
+     "mate": "Jesús Gómez \"Capi\"",
+     "chair": "Eliday Vasquez",
+     "venue": "Sala 02",
+     "t_avg": 75.26
+    },
+    {
+     "t": "tove2024__tove2024",
+     "tname": "Torneo de Verano 2024",
+     "date": "2024-03-28",
+     "online": true,
+     "round": "Ronda 2",
+     "seq": 2,
+     "stage": "P",
+     "side": "oo",
+     "points": 2,
+     "win": false,
+     "position": 1,
+     "score": 77.0,
+     "iron": false,
+     "room_rank": 4,
+     "motion": "Asumiendo que ambos planes son mutuamente excluyentes. EC, siendo un gobierno en un contexto de postconflicto, implementaría el Modelo A en lugar del B.",
+     "topic": "política nacional",
+     "team": "Vigo-CEU GG y MC",
+     "mate": "Jesús Gómez \"Capi\"",
+     "chair": "Tomás Romero Marcano ⛱️",
+     "venue": "Sala 03",
+     "t_avg": 75.26
+    },
+    {
+     "t": "tove2024__tove2024",
+     "tname": "Torneo de Verano 2024",
+     "date": "2024-03-28",
+     "online": true,
+     "round": "Ronda 3",
+     "seq": 3,
+     "stage": "P",
+     "side": "og",
+     "points": 1,
+     "win": false,
+     "position": 1,
+     "score": 78.0,
+     "iron": false,
+     "room_rank": 4,
+     "motion": "ECCQ las sociedades de debate deberían priorizar el modelo de competitividad por sobre el modelo de recreación",
+     "topic": "política nacional",
+     "team": "Vigo-CEU GG y MC",
+     "mate": "Jesús Gómez \"Capi\"",
+     "chair": "Kazhia Fernández 🍨",
+     "venue": "Sala 11",
+     "t_avg": 75.26
+    },
+    {
+     "t": "tove2024__tove2024",
+     "tname": "Torneo de Verano 2024",
+     "date": "2024-03-28",
+     "online": true,
+     "round": "Ronda 4",
+     "seq": 4,
+     "stage": "P",
+     "side": "cg",
+     "points": 3,
+     "win": false,
+     "position": 1,
+     "score": 78.0,
+     "iron": false,
+     "room_rank": 2,
+     "motion": "EC Lamenta el auge de la narrativa de \"trabajar inteligente en lugar de trabajar duro\"",
+     "topic": "otros",
+     "team": "Vigo-CEU GG y MC",
+     "mate": "Jesús Gómez \"Capi\"",
+     "chair": "Jazmin Gonzales ☀️",
+     "venue": "Sala 13",
+     "t_avg": 75.26
+    },
+    {
+     "t": "tove2024__tove2024",
+     "tname": "Torneo de Verano 2024",
+     "date": "2024-03-28",
+     "online": true,
+     "round": "Ronda 5",
+     "seq": 5,
+     "stage": "P",
+     "side": "oo",
+     "points": 0,
+     "win": false,
+     "position": 1,
+     "score": 78.0,
+     "iron": false,
+     "room_rank": 6,
+     "motion": "EC se opone al involucramiento militar de Rusia en la región del Sahel",
+     "topic": "religión",
+     "team": "Vigo-CEU GG y MC",
+     "mate": "Jesús Gómez \"Capi\"",
+     "chair": "Santiago Ortiz García 🐬",
+     "venue": "Sala 13",
+     "t_avg": 75.26
+    },
+    {
+     "t": "viprecmudeuam__viprecmudeuam",
+     "tname": "VI PreCMUDE UAM",
+     "date": "2024-06-28",
+     "online": false,
+     "round": "Ronda 1",
+     "seq": 1,
+     "stage": "P",
+     "side": "oo",
+     "points": 2,
+     "win": false,
+     "position": 1,
+     "score": 74.0,
+     "iron": false,
+     "room_rank": 4,
+     "motion": "A la hora de imaginar el futuro, EC prefiere que la producción cultural predominante sean utopías en lugar de distopías",
+     "topic": "medios y cultura",
+     "team": "Vigo GG",
+     "mate": "Jesús Gómez \"Capi\"",
+     "chair": "Paris Cerrolaza Galindo",
+     "venue": "Sala 7",
+     "t_avg": 74.98
+    },
+    {
+     "t": "viprecmudeuam__viprecmudeuam",
+     "tname": "VI PreCMUDE UAM",
+     "date": "2024-06-28",
+     "online": false,
+     "round": "Ronda 2",
+     "seq": 2,
+     "stage": "P",
+     "side": "og",
+     "points": 1,
+     "win": false,
+     "position": 1,
+     "score": 75.0,
+     "iron": false,
+     "room_rank": 5,
+     "motion": "EC viviría bajo la doctrina de la impermanencia (Annica)",
+     "topic": "filosofía y ética",
+     "team": "Vigo GG",
+     "mate": "Jesús Gómez \"Capi\"",
+     "chair": "Ana Cortés",
+     "venue": "Sala 5",
+     "t_avg": 74.98
+    },
+    {
+     "t": "viprecmudeuam__viprecmudeuam",
+     "tname": "VI PreCMUDE UAM",
+     "date": "2024-06-28",
+     "online": false,
+     "round": "Ronda 3",
+     "seq": 3,
+     "stage": "P",
+     "side": "cg",
+     "points": 3,
+     "win": false,
+     "position": 1,
+     "score": 78.0,
+     "iron": false,
+     "room_rank": 1,
+     "motion": "EC se opone a las cláusulas de no competencia",
+     "topic": "otros",
+     "team": "Vigo GG",
+     "mate": "Jesús Gómez \"Capi\"",
+     "chair": "Angel Moreno Huaccha",
+     "venue": "Sala 7",
+     "t_avg": 74.98
+    },
+    {
+     "t": "viprecmudeuam__viprecmudeuam",
+     "tname": "VI PreCMUDE UAM",
+     "date": "2024-06-28",
+     "online": false,
+     "round": "Ronda 4",
+     "seq": 4,
+     "stage": "P",
+     "side": "co",
+     "points": 1,
+     "win": false,
+     "position": 1,
+     "score": 77.0,
+     "iron": false,
+     "room_rank": 6,
+     "motion": "EC prohibiría  recurrir a más de dos doctoras si no es por la recomendación de las médicas ya consultadas.",
+     "topic": "otros",
+     "team": "Vigo GG",
+     "mate": "Jesús Gómez \"Capi\"",
+     "chair": "Juanjo García",
+     "venue": "Sala 1",
+     "t_avg": 74.98
+    },
+    {
+     "t": "viprecmudeuam__viprecmudeuam",
+     "tname": "VI PreCMUDE UAM",
+     "date": "2024-06-28",
+     "online": false,
+     "round": "Ronda 5",
+     "seq": 5,
+     "stage": "P",
+     "side": "cg",
+     "points": 1,
+     "win": false,
+     "position": 1,
+     "score": 75.0,
+     "iron": false,
+     "room_rank": 4,
+     "motion": "EC apoya la implementación de la IA urbana en megaciudades",
+     "topic": "filosofía y ética",
+     "team": "Vigo GG",
+     "mate": "Jesús Gómez \"Capi\"",
+     "chair": "Pedro Tomás",
+     "venue": "Sala 4",
+     "t_avg": 74.98
+    },
+    {
+     "t": "viprecmudeuam__viprecmudeuam",
+     "tname": "VI PreCMUDE UAM",
+     "date": "2024-06-28",
+     "online": false,
+     "round": "Ronda 6",
+     "seq": 6,
+     "stage": "P",
+     "side": "co",
+     "points": 2,
+     "win": false,
+     "position": 2,
+     "score": 77.0,
+     "iron": false,
+     "room_rank": 2,
+     "motion": "EC enseñaría a las niñas la cultura de la protesta",
+     "topic": "educación",
+     "team": "Vigo GG",
+     "mate": "Jesús Gómez \"Capi\"",
+     "chair": "Amparo Perucho",
+     "venue": "Sala 5",
+     "t_avg": 74.98
+    },
+    {
+     "t": "precmudepucp2024__precmudepucp",
+     "tname": "PreCMUDE PUCP 2024",
+     "date": "2024-07-05",
+     "online": false,
+     "round": "Ronda 1",
+     "seq": 1,
+     "stage": "P",
+     "side": "oo",
+     "points": 2,
+     "win": false,
+     "position": 1,
+     "score": 77.0,
+     "iron": false,
+     "room_rank": 3,
+     "motion": "EC, como el jugador, ficharía por el Chelsea.",
+     "topic": "rol / actor",
+     "team": "Vigo GG",
+     "mate": "Jesús Gómez \"Capi\"",
+     "chair": "Fernanda Paz",
+     "venue": "Sala 14",
+     "t_avg": 76.15
+    },
+    {
+     "t": "precmudepucp2024__precmudepucp",
+     "tname": "PreCMUDE PUCP 2024",
+     "date": "2024-07-05",
+     "online": false,
+     "round": "Ronda 2",
+     "seq": 2,
+     "stage": "P",
+     "side": "cg",
+     "points": 3,
+     "win": false,
+     "position": 1,
+     "score": 80.0,
+     "iron": false,
+     "room_rank": 1,
+     "motion": "ECCQ el movimiento feminista debería rechazar fuertemente la narrativa de que \"el movimiento no tiene por qué educar a terceros\".",
+     "topic": "feminismo y género",
+     "team": "Vigo GG",
+     "mate": "Jesús Gómez \"Capi\"",
+     "chair": "Tony",
+     "venue": "Sala 13",
+     "t_avg": 76.15
+    },
+    {
+     "t": "precmudepucp2024__precmudepucp",
+     "tname": "PreCMUDE PUCP 2024",
+     "date": "2024-07-05",
+     "online": false,
+     "round": "Ronda 3",
+     "seq": 3,
+     "stage": "P",
+     "side": "co",
+     "points": 3,
+     "win": false,
+     "position": 1,
+     "score": 78.0,
+     "iron": false,
+     "room_rank": 2,
+     "motion": "EC prefiere un mundo que adopta el modelo de vida \"reservado\" en vez de \"apertura\".",
+     "topic": "psicología y salud mental",
+     "team": "Vigo GG",
+     "mate": "Jesús Gómez \"Capi\"",
+     "chair": "Britney Alcántara García",
+     "venue": "Sala 14",
+     "t_avg": 76.15
+    },
+    {
+     "t": "precmudepucp2024__precmudepucp",
+     "tname": "PreCMUDE PUCP 2024",
+     "date": "2024-07-05",
+     "online": false,
+     "round": "Ronda 4",
+     "seq": 4,
+     "stage": "P",
+     "side": "og",
+     "points": 0,
+     "win": false,
+     "position": 1,
+     "score": 79.0,
+     "iron": false,
+     "room_rank": 7,
+     "motion": "ECCQ está en los mejores intereses de Fuerza Popular lanzar a Alberto Fujimori como candidato a cargos públicos relevantes en las elecciones peruanas del 2026.",
+     "topic": "política nacional",
+     "team": "Vigo GG",
+     "mate": "Jesús Gómez \"Capi\"",
+     "chair": "Carlo Giron",
+     "venue": "Sala 05",
+     "t_avg": 76.15
+    },
+    {
+     "t": "precmudepucp2024__precmudepucp",
+     "tname": "PreCMUDE PUCP 2024",
+     "date": "2024-07-05",
+     "online": false,
+     "round": "Ronda 5",
+     "seq": 5,
+     "stage": "P",
+     "side": "cg",
+     "points": 2,
+     "win": false,
+     "position": 1,
+     "score": 80.0,
+     "iron": false,
+     "room_rank": 2,
+     "motion": "ECCQ los países en vías de desarrollo deberían priorizar implementar políticas públicas enfocadas en prevenir que las personas caigan en la pobreza por sobre políticas públicas enfocadas en sacar a las personas de la pobreza.",
+     "topic": "política nacional",
+     "team": "Vigo GG",
+     "mate": "Jesús Gómez \"Capi\"",
+     "chair": "Jorge Bullon",
+     "venue": "Sala 09",
+     "t_avg": 76.15
+    },
+    {
+     "t": "cmude2024__open",
+     "tname": "Campeonato Mundial Universitario de Debate en Español 2024",
+     "date": "2024-07-12",
+     "online": false,
+     "round": "Ronda 1",
+     "seq": 1,
+     "stage": "P",
+     "side": "cg",
+     "points": 3,
+     "win": false,
+     "position": 1,
+     "score": 82.0,
+     "iron": false,
+     "room_rank": 1,
+     "motion": "EC apoya la flexibilización del Mercosur",
+     "topic": "otros",
+     "team": "UAL-CEU San Pablo GC",
+     "mate": "Jesús Gómez \"Capi\"",
+     "chair": "María Isabel Landaeta",
+     "venue": "309",
+     "t_avg": 75.4
+    },
+    {
+     "t": "cmude2024__open",
+     "tname": "Campeonato Mundial Universitario de Debate en Español 2024",
+     "date": "2024-07-12",
+     "online": false,
+     "round": "Ronda 2",
+     "seq": 2,
+     "stage": "P",
+     "side": "oo",
+     "points": 2,
+     "win": false,
+     "position": 1,
+     "score": 82.0,
+     "iron": false,
+     "room_rank": 1,
+     "motion": "ECCQ el gobierno de Colombia debería redistribuir masivamente la tierra a las comunidades indígenas",
+     "topic": "política nacional",
+     "team": "UAL-CEU San Pablo GC",
+     "mate": "Jesús Gómez \"Capi\"",
+     "chair": "Jorge Bullon",
+     "venue": "304",
+     "t_avg": 75.4
+    },
+    {
+     "t": "cmude2024__open",
+     "tname": "Campeonato Mundial Universitario de Debate en Español 2024",
+     "date": "2024-07-12",
+     "online": false,
+     "round": "Ronda 3",
+     "seq": 3,
+     "stage": "P",
+     "side": "og",
+     "points": 2,
+     "win": false,
+     "position": 1,
+     "score": 80.0,
+     "iron": false,
+     "room_rank": 2,
+     "motion": "EC prefiere un mundo en el que la mayoría de las personas crean en la noción colectiva del arte",
+     "topic": "medios y cultura",
+     "team": "UAL-CEU San Pablo GC",
+     "mate": "Jesús Gómez \"Capi\"",
+     "chair": "Diego Cabrera",
+     "venue": "401",
+     "t_avg": 75.4
+    },
+    {
+     "t": "cmude2024__open",
+     "tname": "Campeonato Mundial Universitario de Debate en Español 2024",
+     "date": "2024-07-12",
+     "online": false,
+     "round": "Ronda 4",
+     "seq": 4,
+     "stage": "P",
+     "side": "cg",
+     "points": 3,
+     "win": false,
+     "position": 2,
+     "score": 80.0,
+     "iron": false,
+     "room_rank": 1,
+     "motion": "ECCQ está en el interés de la ACLU abandonar la defensa del discurso de odio",
+     "topic": "política nacional",
+     "team": "UAL-CEU San Pablo GC",
+     "mate": "Jesús Gómez \"Capi\"",
+     "chair": "Iván Rico González",
+     "venue": "405",
+     "t_avg": 75.4
+    },
+    {
+     "t": "cmude2024__open",
+     "tname": "Campeonato Mundial Universitario de Debate en Español 2024",
+     "date": "2024-07-12",
+     "online": false,
+     "round": "Ronda 5",
+     "seq": 5,
+     "stage": "P",
+     "side": "co",
+     "points": 3,
+     "win": false,
+     "position": 1,
+     "score": 80.0,
+     "iron": false,
+     "room_rank": 1,
+     "motion": "EC apoya la implementación de un salario mínimo universal en Italia",
+     "topic": "economía",
+     "team": "UAL-CEU San Pablo GC",
+     "mate": "Jesús Gómez \"Capi\"",
+     "chair": "Nat \"El dro es inminente\" García",
+     "venue": "406",
+     "t_avg": 75.4
+    },
+    {
+     "t": "cmude2024__open",
+     "tname": "Campeonato Mundial Universitario de Debate en Español 2024",
+     "date": "2024-07-12",
+     "online": false,
+     "round": "Ronda 6",
+     "seq": 6,
+     "stage": "P",
+     "side": "co",
+     "points": 2,
+     "win": false,
+     "position": 1,
+     "score": 82.0,
+     "iron": false,
+     "room_rank": 3,
+     "motion": "ECCQ los movimientos feministas deberían adoptar el modelo de nuevas masculinidades en lugar del modelo separatista",
+     "topic": "feminismo y género",
+     "team": "UAL-CEU San Pablo GC",
+     "mate": "Jesús Gómez \"Capi\"",
+     "chair": "Iván Rico González",
+     "venue": "305",
+     "t_avg": 75.4
+    },
+    {
+     "t": "cmude2024__open",
+     "tname": "Campeonato Mundial Universitario de Debate en Español 2024",
+     "date": "2024-07-12",
+     "online": false,
+     "round": "Ronda 7",
+     "seq": 7,
+     "stage": "P",
+     "side": "oo",
+     "points": 1,
+     "win": false,
+     "position": 1,
+     "score": 82.0,
+     "iron": false,
+     "room_rank": 4,
+     "motion": "EC lamenta la financiarización del sector agrario",
+     "topic": "economía",
+     "team": "UAL-CEU San Pablo GC",
+     "mate": "Jesús Gómez \"Capi\"",
+     "chair": "Jorge Bullon",
+     "venue": "605",
+     "t_avg": 75.4
+    },
+    {
+     "t": "cmude2024__open",
+     "tname": "Campeonato Mundial Universitario de Debate en Español 2024",
+     "date": "2024-07-12",
+     "online": false,
+     "round": "Ronda 8",
+     "seq": 8,
+     "stage": "P",
+     "side": "og",
+     "points": 3,
+     "win": false,
+     "position": 1,
+     "score": 82.0,
+     "iron": false,
+     "room_rank": 1,
+     "motion": "EC como la persona joven activista latinoamericana, elegiría el activismo por sobre la política",
+     "topic": "rol / actor",
+     "team": "UAL-CEU San Pablo GC",
+     "mate": "Jesús Gómez \"Capi\"",
+     "chair": "Joaquin \"Buen provecho\" Linares",
+     "venue": "512",
+     "t_avg": 75.4
+    },
+    {
+     "t": "cmude2024__open",
+     "tname": "Campeonato Mundial Universitario de Debate en Español 2024",
+     "date": "2024-07-12",
+     "online": false,
+     "round": "Ronda 9",
+     "seq": 9,
+     "stage": "P",
+     "side": "cg",
+     "points": 0,
+     "win": false,
+     "position": 2,
+     "score": 79.0,
+     "iron": false,
+     "room_rank": 7,
+     "motion": "EC prefiere que las comisiones de verdad prioricen el modelo conciliador en lugar del modelo de justicia.",
+     "topic": "relaciones internacionales",
+     "team": "UAL-CEU San Pablo GC",
+     "mate": "Jesús Gómez \"Capi\"",
+     "chair": "Felipe Zenteno",
+     "venue": "307",
+     "t_avg": 75.4
+    },
+    {
      "t": "bpeliasahuja__ahuja24",
      "tname": "BP Elías Ahuja 2024",
      "date": "2024-11-01",
@@ -63977,6 +66782,144 @@
      "t_avg": 74.26
     },
     {
+     "t": "xurjc2024__xbpurjc2024",
+     "tname": "X BP URJC",
+     "date": "2024-11-15",
+     "online": false,
+     "round": "Ronda 1",
+     "seq": 1,
+     "stage": "P",
+     "side": "oo",
+     "points": 3,
+     "win": false,
+     "position": 1,
+     "score": 79.0,
+     "iron": false,
+     "room_rank": 1,
+     "motion": "EC lamenta la demonización del extremismo político en democracias liberales",
+     "topic": "política nacional",
+     "team": "Indalo-Comunícate CG",
+     "mate": "Jesús Gómez \"Capi\"",
+     "chair": "Juanjo García Amorós",
+     "venue": "Aula 154",
+     "t_avg": 73.04
+    },
+    {
+     "t": "xurjc2024__xbpurjc2024",
+     "tname": "X BP URJC",
+     "date": "2024-11-15",
+     "online": false,
+     "round": "Ronda 2",
+     "seq": 2,
+     "stage": "P",
+     "side": "cg",
+     "points": 1,
+     "win": false,
+     "position": 1,
+     "score": 76.0,
+     "iron": false,
+     "room_rank": 6,
+     "motion": "EC se opone a los aranceles de la UE para los vehículos eléctricos",
+     "topic": "otros",
+     "team": "Indalo-Comunícate CG",
+     "mate": "Jesús Gómez \"Capi\"",
+     "chair": "Angel Moreno Huaccha",
+     "venue": "Aula 159",
+     "t_avg": 73.04
+    },
+    {
+     "t": "xurjc2024__xbpurjc2024",
+     "tname": "X BP URJC",
+     "date": "2024-11-15",
+     "online": false,
+     "round": "Ronda 3",
+     "seq": 3,
+     "stage": "P",
+     "side": "og",
+     "points": 0,
+     "win": false,
+     "position": 1,
+     "score": 75.0,
+     "iron": false,
+     "room_rank": 7,
+     "motion": "EC ilegalizaría la Iglesia de la\r\nUnificación en Japón",
+     "topic": "religión",
+     "team": "Indalo-Comunícate CG",
+     "mate": "Jesús Gómez \"Capi\"",
+     "chair": "Leyre Puyuelo",
+     "venue": "Sala 10",
+     "t_avg": 73.04
+    },
+    {
+     "t": "xurjc2024__xbpurjc2024",
+     "tname": "X BP URJC",
+     "date": "2024-11-15",
+     "online": false,
+     "round": "Ronda 4",
+     "seq": 4,
+     "stage": "P",
+     "side": "co",
+     "points": 3,
+     "win": false,
+     "position": 1,
+     "score": 81.0,
+     "iron": false,
+     "room_rank": 1,
+     "motion": null,
+     "topic": "otros",
+     "team": "Indalo-Comunícate CG",
+     "mate": "Jesús Gómez \"Capi\"",
+     "chair": "Ignacio Prieto",
+     "venue": "Sala 04",
+     "t_avg": 73.04
+    },
+    {
+     "t": "xurjc2024__xbpurjc2024",
+     "tname": "X BP URJC",
+     "date": "2024-11-15",
+     "online": false,
+     "round": "Ronda 5",
+     "seq": 5,
+     "stage": "P",
+     "side": "cg",
+     "points": 3,
+     "win": false,
+     "position": 1,
+     "score": 79.0,
+     "iron": false,
+     "room_rank": 2,
+     "motion": "ECCQ la ONU debería permitir que los cascos azules tuvieran un enfoque menos pasivo en sus misiones",
+     "topic": "relaciones internacionales",
+     "team": "Indalo-Comunícate CG",
+     "mate": "Jesús Gómez \"Capi\"",
+     "chair": "Beatriz Tavares Rodríguez",
+     "venue": "Sala 11",
+     "t_avg": 73.04
+    },
+    {
+     "t": "xurjc2024__xbpurjc2024",
+     "tname": "X BP URJC",
+     "date": "2024-11-15",
+     "online": false,
+     "round": "Ronda 6",
+     "seq": 6,
+     "stage": "P",
+     "side": "og",
+     "points": 3,
+     "win": false,
+     "position": 1,
+     "score": 79.0,
+     "iron": false,
+     "room_rank": 1,
+     "motion": "Excluyendo las prácticas sexuales, EC prefiere que el criterio principal para determinar los límites del daño a las personas sea la salud en lugar del consentimiento",
+     "topic": "otros",
+     "team": "Indalo-Comunícate CG",
+     "mate": "Jesús Gómez \"Capi\"",
+     "chair": "Pedro Tomás",
+     "venue": "Sala 05",
+     "t_avg": 73.04
+    },
+    {
      "t": "bpmendel__ivbpmendel",
      "tname": "IV BP Mendel",
      "date": "2025-03-21",
@@ -64090,6 +67033,213 @@
      "chair": "Fabian Miulescu🕶️",
      "venue": "Sala 6",
      "t_avg": 73.34
+    },
+    {
+     "t": "ucab25__cab2025",
+     "tname": "Copa Andrés Bello Virtual 2025",
+     "date": "2025-05-23",
+     "online": true,
+     "round": "Ronda 1",
+     "seq": 1,
+     "stage": "P",
+     "side": "cg",
+     "points": 3,
+     "win": false,
+     "position": 1,
+     "score": 79.0,
+     "iron": false,
+     "room_rank": 2,
+     "motion": "EC prefiere un enfoque integrador por encima de un enfoque crítico para afrontar el auge de la IA en la educación en el ámbito escolar.",
+     "topic": "ciencia y tecnología",
+     "team": "Indalo",
+     "mate": "Jesús Gómez \"Capi\"",
+     "chair": "Erikendy Osuna 🐈",
+     "venue": "Sala 04",
+     "t_avg": 75.12
+    },
+    {
+     "t": "ucab25__cab2025",
+     "tname": "Copa Andrés Bello Virtual 2025",
+     "date": "2025-05-23",
+     "online": true,
+     "round": "Ronda 2",
+     "seq": 2,
+     "stage": "P",
+     "side": "co",
+     "points": 3,
+     "win": false,
+     "position": 2,
+     "score": 80.0,
+     "iron": false,
+     "room_rank": 1,
+     "motion": "EC aboliría la prisión como condena para los crímenes no violentos",
+     "topic": "otros",
+     "team": "Indalo",
+     "mate": "Jesús Gómez \"Capi\"",
+     "chair": "Imanol",
+     "venue": "Sala 17",
+     "t_avg": 75.12
+    },
+    {
+     "t": "ucab25__cab2025",
+     "tname": "Copa Andrés Bello Virtual 2025",
+     "date": "2025-05-23",
+     "online": true,
+     "round": "Ronda 3",
+     "seq": 3,
+     "stage": "P",
+     "side": "oo",
+     "points": 1,
+     "win": false,
+     "position": 1,
+     "score": 77.0,
+     "iron": false,
+     "room_rank": 6,
+     "motion": "EC se opone al auge de la cultura de terapización de las relaciones amorosas.",
+     "topic": "psicología y salud mental",
+     "team": "Indalo",
+     "mate": "Jesús Gómez \"Capi\"",
+     "chair": "Andres \"Datos curiosos\" Revelo",
+     "venue": "Sala 07",
+     "t_avg": 75.12
+    },
+    {
+     "t": "ucab25__cab2025",
+     "tname": "Copa Andrés Bello Virtual 2025",
+     "date": "2025-05-23",
+     "online": true,
+     "round": "Ronda 4",
+     "seq": 4,
+     "stage": "P",
+     "side": "og",
+     "points": 2,
+     "win": false,
+     "position": 1,
+     "score": 79.0,
+     "iron": false,
+     "room_rank": 3,
+     "motion": "ECCQ está en los mejores intereses de los movimientos anticapacitistas abogar por una representación en medios (películas, series, literatura) que priorice el enfoque A por encima del enfoque B.",
+     "topic": "religión",
+     "team": "Indalo",
+     "mate": "Jesús Gómez \"Capi\"",
+     "chair": "Florencia Atria",
+     "venue": "Sala 01",
+     "t_avg": 75.12
+    },
+    {
+     "t": "ucab25__cab2025",
+     "tname": "Copa Andrés Bello Virtual 2025",
+     "date": "2025-05-23",
+     "online": true,
+     "round": "Ronda 5",
+     "seq": 5,
+     "stage": "P",
+     "side": "oo",
+     "points": 2,
+     "win": false,
+     "position": 1,
+     "score": 76.0,
+     "iron": false,
+     "room_rank": 4,
+     "motion": "ECCQ está en los mejores intereses de los movimientos anticapacitistas abogar por una representación en medios (películas, series, literatura) que priorice el enfoque A por encima del enfoque B.",
+     "topic": "religión",
+     "team": "Indalo",
+     "mate": "Jesús Gómez \"Capi\"",
+     "chair": "Valeria Favuzzi Di Rocco",
+     "venue": "Sala 04",
+     "t_avg": 75.12
+    },
+    {
+     "t": "bpuned2025__uned2025",
+     "tname": "BP UNED SEGOVIA-RETORIKA 2025",
+     "date": "2025-06-14",
+     "online": false,
+     "round": "Ronda 1",
+     "seq": 1,
+     "stage": "P",
+     "side": "cg",
+     "points": 2,
+     "win": false,
+     "position": 1,
+     "score": 79.0,
+     "iron": false,
+     "room_rank": 3,
+     "motion": "ECCQ la Corte Penal Internacional debería tipificar y perseguir el ecocidio como crimen internacional",
+     "topic": "relaciones internacionales",
+     "team": "Indalo",
+     "mate": "Jesús Gómez \"Capi\"",
+     "chair": "Diego Duarte",
+     "venue": "Sala 07",
+     "t_avg": 77.18
+    },
+    {
+     "t": "bpuned2025__uned2025",
+     "tname": "BP UNED SEGOVIA-RETORIKA 2025",
+     "date": "2025-06-14",
+     "online": false,
+     "round": "Ronda 2",
+     "seq": 2,
+     "stage": "P",
+     "side": "og",
+     "points": 3,
+     "win": false,
+     "position": 1,
+     "score": 81.0,
+     "iron": false,
+     "room_rank": 1,
+     "motion": "ECP un mundo donde “Good Luck, Babe” sea el sistema de vinculación de parejas predominante",
+     "topic": "ciencia y tecnología",
+     "team": "Indalo",
+     "mate": "Jesús Gómez \"Capi\"",
+     "chair": "Cris Oñate",
+     "venue": "Sala 02",
+     "t_avg": 77.18
+    },
+    {
+     "t": "bpuned2025__uned2025",
+     "tname": "BP UNED SEGOVIA-RETORIKA 2025",
+     "date": "2025-06-14",
+     "online": false,
+     "round": "Ronda 3",
+     "seq": 3,
+     "stage": "P",
+     "side": "oo",
+     "points": 1,
+     "win": false,
+     "position": 1,
+     "score": 78.0,
+     "iron": false,
+     "room_rank": 4,
+     "motion": "EC crearía una 'administración autónoma bajo supervisión internacional' en Cachemira",
+     "topic": "economía",
+     "team": "Indalo",
+     "mate": "Jesús Gómez \"Capi\"",
+     "chair": "Jessica Zapata",
+     "venue": "Sala 10",
+     "t_avg": 77.18
+    },
+    {
+     "t": "bpuned2025__uned2025",
+     "tname": "BP UNED SEGOVIA-RETORIKA 2025",
+     "date": "2025-06-14",
+     "online": false,
+     "round": "Ronda 4",
+     "seq": 4,
+     "stage": "P",
+     "side": "co",
+     "points": 1,
+     "win": false,
+     "position": 1,
+     "score": 77.0,
+     "iron": false,
+     "room_rank": 5,
+     "motion": "ECCQ está en los intereses de EEUU priorizar la inversión en América Latina para fortalecer su cadena de suministro de semicondutores, en lugar de centrarse en el desarrollo de su industria nacional",
+     "topic": "rol / actor",
+     "team": "Indalo",
+     "mate": "Jesús Gómez \"Capi\"",
+     "chair": "Sam Rivadeneira",
+     "venue": "Sala 11",
+     "t_avg": 77.18
     },
     {
      "t": "xibpurjc__xibpurjc",
@@ -64231,30 +67381,30 @@
     }
    ],
    "elim_rows": [],
-   "avg_speaks": 76.89,
-   "stdev": 2.24,
+   "avg_speaks": 77.44,
+   "stdev": 2.2,
    "best": {
-    "t": "bpmendel__ivbpmendel",
-    "tname": "IV BP Mendel",
-    "date": "2025-03-21",
+    "t": "cmude2024__open",
+    "tname": "Campeonato Mundial Universitario de Debate en Español 2024",
+    "date": "2024-07-12",
     "online": false,
-    "round": "Ronda 4",
-    "seq": 4,
+    "round": "Ronda 1",
+    "seq": 1,
     "stage": "P",
-    "side": "co",
+    "side": "cg",
     "points": 3,
     "win": false,
     "position": 1,
     "score": 82.0,
     "iron": false,
     "room_rank": 1,
-    "motion": "ECCQ los partidos indigenistas deberían promover el revisionismo cultural en las comunidades indígenas",
-    "topic": "política nacional",
-    "team": "GRECKSON!!",
-    "mate": "Juanjo Solanes “Jaka”",
-    "chair": "Mario de la Hoz",
-    "venue": "Sala 7",
-    "t_avg": 73.34
+    "motion": "EC apoya la flexibilización del Mercosur",
+    "topic": "otros",
+    "team": "UAL-CEU San Pablo GC",
+    "mate": "Jesús Gómez \"Capi\"",
+    "chair": "María Isabel Landaeta",
+    "venue": "309",
+    "t_avg": 75.4
    },
    "worst": {
     "t": "cmude2021__cmudeecuador2021",
@@ -64279,106 +67429,111 @@
     "venue": "Sala 35",
     "t_avg": 74.49
    },
-   "avg_points": 1.81,
+   "avg_points": 1.92,
    "results_dist": {
-    "3": 37,
-    "2": 18,
-    "1": 18,
-    "0": 18
+    "3": 67,
+    "2": 42,
+    "1": 35,
+    "0": 23
    },
    "pos1": {
-    "n": 69,
-    "avg": 76.81
+    "n": 133,
+    "avg": 77.43
    },
    "pos2": {
-    "n": 22,
-    "avg": 77.14
+    "n": 34,
+    "avg": 77.47
    },
    "sides": {
     "og": {
      "label": "Alta Gobierno",
-     "n": 21,
-     "avg_points": 1.81,
-     "avg_speaks": 77.29,
-     "firsts": 8
+     "n": 38,
+     "avg_points": 1.95,
+     "avg_speaks": 77.47,
+     "firsts": 16
     },
     "oo": {
      "label": "Alta Oposición",
-     "n": 24,
-     "avg_points": 1.62,
-     "avg_speaks": 76.83,
-     "firsts": 7
+     "n": 44,
+     "avg_points": 1.66,
+     "avg_speaks": 77.45,
+     "firsts": 11
     },
     "cg": {
      "label": "Baja Gobierno",
-     "n": 21,
-     "avg_points": 1.33,
-     "avg_speaks": 76.14,
-     "firsts": 5
+     "n": 44,
+     "avg_points": 1.77,
+     "avg_speaks": 77.2,
+     "firsts": 16
     },
     "co": {
      "label": "Baja Oposición",
-     "n": 25,
-     "avg_points": 2.4,
-     "avg_speaks": 77.24,
-     "firsts": 17
+     "n": 41,
+     "avg_points": 2.32,
+     "avg_speaks": 77.63,
+     "firsts": 24
     }
    },
    "topics": {
     "medios y cultura": {
-     "n": 5,
-     "avg_points": 2.2,
-     "avg_speaks": 75.6
+     "n": 7,
+     "avg_points": 2.14,
+     "avg_speaks": 76.0
     },
     "feminismo y género": {
-     "n": 8,
-     "avg_points": 1.88,
-     "avg_speaks": 76.75
+     "n": 15,
+     "avg_points": 2.13,
+     "avg_speaks": 77.53
     },
     "educación": {
-     "n": 6,
+     "n": 8,
      "avg_points": 1.5,
-     "avg_speaks": 73.67
+     "avg_speaks": 74.25
     },
     "economía": {
-     "n": 15,
-     "avg_points": 1.8,
-     "avg_speaks": 77.13
+     "n": 25,
+     "avg_points": 1.84,
+     "avg_speaks": 77.76
     },
     "otros": {
-     "n": 17,
-     "avg_points": 2,
-     "avg_speaks": 77.71
+     "n": 31,
+     "avg_points": 2.13,
+     "avg_speaks": 78.06
     },
     "filosofía y ética": {
-     "n": 9,
-     "avg_points": 2,
-     "avg_speaks": 77.33
+     "n": 14,
+     "avg_points": 1.86,
+     "avg_speaks": 76.86
     },
     "ciencia y tecnología": {
-     "n": 6,
-     "avg_points": 0.83,
-     "avg_speaks": 75.17
+     "n": 9,
+     "avg_points": 1.33,
+     "avg_speaks": 76.56
     },
     "política nacional": {
-     "n": 12,
-     "avg_points": 1.67,
-     "avg_speaks": 77.33
+     "n": 21,
+     "avg_points": 1.86,
+     "avg_speaks": 78.05
     },
     "religión": {
-     "n": 7,
-     "avg_points": 1.71,
-     "avg_speaks": 77.14
+     "n": 14,
+     "avg_points": 1.64,
+     "avg_speaks": 76.93
     },
     "relaciones internacionales": {
-     "n": 3,
-     "avg_points": 2.67,
-     "avg_speaks": 77.33
+     "n": 10,
+     "avg_points": 2.3,
+     "avg_speaks": 78.0
     },
     "rol / actor": {
-     "n": 3,
-     "avg_points": 2,
-     "avg_speaks": 79.33
+     "n": 8,
+     "avg_points": 2.12,
+     "avg_speaks": 78.62
+    },
+    "psicología y salud mental": {
+     "n": 5,
+     "avg_points": 1.8,
+     "avg_speaks": 77.8
     }
    },
    "evolution": [
@@ -64419,15 +67574,33 @@
      "n": 5
     },
     {
+     "date": "2023-03-10",
+     "tname": "III BP Comunícate UCM",
+     "avg": 76.33,
+     "n": 6
+    },
+    {
      "date": "2023-03-17",
      "tname": "II Torneo BP Mendel",
      "avg": 77.0,
      "n": 5
     },
     {
+     "date": "2023-04-06",
+     "tname": "22/23 - Campeonato de España - Regional Online 2023",
+     "avg": 77.67,
+     "n": 6
+    },
+    {
      "date": "2023-04-20",
      "tname": "V BP GAD-UAB",
      "avg": 77.5,
+     "n": 6
+    },
+    {
+     "date": "2023-10-12",
+     "tname": "BP Granada 2023",
+     "avg": 78.0,
      "n": 6
     },
     {
@@ -64443,16 +67616,82 @@
      "n": 6
     },
     {
+     "date": "2024-01-01",
+     "tname": "BP UNED SEGOVIA-RETORIKA 2024",
+     "avg": 76.0,
+     "n": 4
+    },
+    {
+     "date": "2024-01-01",
+     "tname": "Uniandes Open 2024",
+     "avg": 78.8,
+     "n": 5
+    },
+    {
+     "date": "2024-02-15",
+     "tname": "Campeonato de España - Regional Sur 2024",
+     "avg": 78.17,
+     "n": 6
+    },
+    {
+     "date": "2024-03-14",
+     "tname": "BP Mendel 2024",
+     "avg": 77.67,
+     "n": 3
+    },
+    {
+     "date": "2024-03-28",
+     "tname": "Torneo de Verano 2024",
+     "avg": 77.8,
+     "n": 5
+    },
+    {
+     "date": "2024-06-28",
+     "tname": "VI PreCMUDE UAM",
+     "avg": 76.0,
+     "n": 6
+    },
+    {
+     "date": "2024-07-05",
+     "tname": "PreCMUDE PUCP 2024",
+     "avg": 78.8,
+     "n": 5
+    },
+    {
+     "date": "2024-07-12",
+     "tname": "Campeonato Mundial Universitario de Debate en Español 2024",
+     "avg": 81.0,
+     "n": 9
+    },
+    {
      "date": "2024-11-01",
      "tname": "BP Elías Ahuja 2024",
      "avg": 78.8,
      "n": 5
     },
     {
+     "date": "2024-11-15",
+     "tname": "X BP URJC",
+     "avg": 78.17,
+     "n": 6
+    },
+    {
      "date": "2025-03-21",
      "tname": "IV BP Mendel",
      "avg": 79.0,
      "n": 5
+    },
+    {
+     "date": "2025-05-23",
+     "tname": "Copa Andrés Bello Virtual 2025",
+     "avg": 78.2,
+     "n": 5
+    },
+    {
+     "date": "2025-06-14",
+     "tname": "BP UNED SEGOVIA-RETORIKA 2025",
+     "avg": 78.75,
+     "n": 4
     },
     {
      "date": "2025-11-14",
@@ -64463,10 +67702,16 @@
    ],
    "mates": [
     {
+     "name": "Jesús Gómez \"Capi\"",
+     "n": 57,
+     "avg_points": 2.04,
+     "avg_speaks": 78.49
+    },
+    {
      "name": "Daniel Belmonte Pérez",
-     "n": 23,
-     "avg_points": 1.74,
-     "avg_speaks": 76.74
+     "n": 35,
+     "avg_points": 1.83,
+     "avg_speaks": 76.83
     },
     {
      "name": "Mario Monjardin Granda",
@@ -64476,9 +67721,9 @@
     },
     {
      "name": "Juanjo Solanes López",
-     "n": 10,
-     "avg_points": 2.2,
-     "avg_speaks": 77.2
+     "n": 17,
+     "avg_points": 2.18,
+     "avg_speaks": 77.0
     },
     {
      "name": "Antonio Sáez Marín",
@@ -64523,44 +67768,44 @@
      "avg_speaks": 79.0
     }
    ],
-   "vs_field": 2.72,
+   "vs_field": 3.08,
    "clutch": {
-    "avg_last_round": 77.36,
-    "delta": 0.47
+    "avg_last_round": 77.89,
+    "delta": 0.45
    },
-   "streak_top2": 6,
+   "streak_top2": 8,
    "env_online": {
-    "n": 5,
-    "avg_speaks": 77.4,
-    "avg_points": 2.2
+    "n": 21,
+    "avg_speaks": 77.76,
+    "avg_points": 2.1
    },
    "env_presencial": {
-    "n": 86,
-    "avg_speaks": 76.86,
-    "avg_points": 1.79
+    "n": 146,
+    "avg_speaks": 77.39,
+    "avg_points": 1.89
    },
-   "avg_room_rank": 3.12,
-   "room_best_count": 28,
+   "avg_room_rank": 3.07,
+   "room_best_count": 51,
    "chairs": [
+    [
+     "Ignacio Prieto",
+     5
+    ],
     [
      "Gorka Samaniego Asenjo",
      5
     ],
     [
-     "Ignacio Prieto",
+     "Iván Rico González",
+     5
+    ],
+    [
+     "Pedro Tomás",
+     5
+    ],
+    [
+     "Fernanda Roig",
      4
-    ],
-    [
-     "Horacio Lamela",
-     3
-    ],
-    [
-     "Javier Sánchez Villegas",
-     3
-    ],
-    [
-     "Isabella Vásquez",
-     3
     ]
    ]
   },

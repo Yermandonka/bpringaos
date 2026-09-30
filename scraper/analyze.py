@@ -64,16 +64,26 @@ def name_tokens(name):
     return [t for t in norm(clean_name(name)).split() if t]
 
 
+def first_compat(a, b):
+    """Nombres de pila compatibles: iguales o uno prefijo del otro (diminutivos:
+    Inma↔Inmaculada, Javi↔Javier, Fer↔Fernanda, Guille↔Guillermo)."""
+    if a == b:
+        return True
+    return min(len(a), len(b)) >= 3 and (a.startswith(b) or b.startswith(a))
+
+
 def same_person(a_toks, b_toks):
-    """Misma persona si comparten nombre + primer apellido y una lista de tokens
-    es subconjunto de la otra (une 'Pablo Ponce' con 'Pablo Ponce Sánchez')."""
+    """Misma persona si el nombre de pila es compatible (incl. diminutivo), coincide
+    el primer apellido y los apellidos del más corto están en el más largo
+    (une 'Pablo Ponce' con 'Pablo Ponce Sánchez', 'Javi Rodríguez' con
+    'Javier Rodríguez Ruescas')."""
     if not a_toks or not b_toks:
         return False
     if a_toks == b_toks:
         return True
     short, long = sorted([a_toks, b_toks], key=len)
-    return (len(short) >= 2 and short[0] == long[0] and short[1] == long[1]
-            and set(short) <= set(long))
+    return (len(short) >= 2 and first_compat(short[0], long[0])
+            and short[1] == long[1] and set(short[1:]) <= set(long[1:]))
 
 
 def match_member(member_toks, ambiguous, s_toks):
@@ -82,7 +92,8 @@ def match_member(member_toks, ambiguous, s_toks):
     coincida también el segundo apellido."""
     if len(s_toks) < 2 or len(member_toks) < 2:
         return False
-    if (s_toks[0], s_toks[1]) != (member_toks[0], member_toks[1]):
+    # nombre compatible (incl. diminutivo) + mismo primer apellido
+    if not first_compat(s_toks[0], member_toks[0]) or s_toks[1] != member_toks[1]:
         return False
     if not ambiguous:
         return True
