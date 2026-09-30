@@ -1,0 +1,222 @@
+[
+ {
+  "base": "https://vibpsalamanca.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "vibpsalamanca",
+    "name": "VI Torneo BP Salamanca"
+   }
+  ]
+ },
+ {
+  "base": "https://torneobpregenta.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "RegentaIV",
+    "name": "Torneo BP la Regenta IV"
+   }
+  ]
+ },
+ {
+  "base": "https://bpregenta.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "VRegenta",
+    "name": "V Torneo BP La Regenta en la Universidad de Oviedo"
+   },
+   {
+    "slug": "discursosbpregenta",
+    "name": "Discursos V Torneo BP La Regenta en la Universidad de Oviedo"
+   }
+  ]
+ },
+ {
+  "base": "https://ivbpeliasahuja.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "ivbpeliasahuja",
+    "name": "IV Torneo BP Elías Ahúja"
+   }
+  ]
+ },
+ {
+  "base": "https://viiieliasahuja.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "viiieliasahuja",
+    "name": "VIII TORNEO BP ELIAS AHUJA"
+   }
+  ]
+ },
+ {
+  "base": "https://ixbpuam.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "ixbpuam",
+    "name": "IX BP UAM"
+   }
+  ]
+ },
+ {
+  "base": "https://bpunedsegoviaretorika.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "bpuned2024",
+    "name": "BP UNED SEGOVIA-RETORIKA 2024"
+   }
+  ]
+ },
+ {
+  "base": "https://vigaduab.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "vigaduab",
+    "name": "VI BP GAD-UAB"
+   }
+  ]
+ },
+ {
+  "base": "https://cmude2024.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "open",
+    "name": "Campeonato Mundial Universitario de Debate en Español 2024"
+   },
+   {
+    "slug": "masters",
+    "name": "Competencia de Masters"
+   },
+   {
+    "slug": "discursos",
+    "name": "Discursos"
+   }
+  ]
+ },
+ {
+  "base": "https://cmude2026.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "open",
+    "name": "Campeonato Mundial Universitario de Debate en Español 2026"
+   },
+   {
+    "slug": "discursos",
+    "name": "Competencia de Discursos 2026"
+   },
+   {
+    "slug": "masters",
+    "name": "Competencia de Masters 2026"
+   }
+  ]
+ },
+ {
+  "base": "https://cmudecraft2024.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "cmudecraft2025",
+    "name": "Torneo de Debate CMUDE CRAFT 2025"
+   }
+  ]
+ },
+ {
+  "base": "https://cmudecraftii.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "open",
+    "name": "Torneo de Debate CMUDECraft v.2026"
+   },
+   {
+    "slug": "discursos",
+    "name": "CMUDECraft v.2026 - Discursos"
+   }
+  ]
+ },
+ {
+  "base": "https://tubi2023.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "tubiducv2023",
+    "name": "Torneo Ucevista de BP Interuniversitario 2023"
+   }
+  ]
+ },
+ {
+  "base": "https://tmd2021.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "tmd2021",
+    "name": "Torneo Metropolitano de Debate 2021"
+   }
+  ]
+ },
+ {
+  "base": "https://torneoandino.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "debate",
+    "name": "Torneo Andino de Debate"
+   },
+   {
+    "slug": "discursos",
+    "name": "Torneo Andino de Discursos"
+   }
+  ]
+ },
+ {
+  "base": "https://vitrd.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "vitrd-colegios",
+    "name": "Sexto Torneo Rosarista de Debate Colegios"
+   },
+   {
+    "slug": "vitrd-universidades",
+    "name": "Sexto Torneo Rosarista de Debate Universidades"
+   }
+  ]
+ },
+ {
+  "base": "https://viitrd.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "viitrduni",
+    "name": "VII Torneo Rosarista de Debate - Universidades 2023"
+   },
+   {
+    "slug": "viitrdcol",
+    "name": "VII Torneo Rosarista de Debate - Colegios 2023"
+   }
+  ]
+ },
+ {
+  "base": "https://tono2025.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "tono2025",
+    "name": "Torneo de Novates 2025"
+   },
+   {
+    "slug": "discursos",
+    "name": "Torneo de Novates - Discursos 2025"
+   }
+  ]
+ },
+ {
+  "base": "https://tonade.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "tonade_2022",
+    "name": "Torneo Nacional de Debate Escolar"
+   }
+  ]
+ },
+ {
+  "base": "https://torneodeinvierno2025.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "toin2025",
+    "name": "Torneo de Invierno 2025"
+   }
+  ]
+ }
+]
