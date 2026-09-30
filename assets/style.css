@@ -507,18 +507,59 @@ button { font-family: inherit; }
 
 /* ---------- móvil / pantallas cortas ---------- */
 @media (max-width: 640px), (max-height: 720px) {
-  .slide { padding: 74px 6vw 128px; }
-  .slide-inner { max-height: calc(100svh - 200px); overflow-y: auto; scrollbar-width: none; }
+  .slide { padding: 72px 5vw 120px; }
+  .slide-inner { max-height: calc(100svh - 168px); overflow-y: auto; overflow-x: hidden;
+    scrollbar-width: none; -webkit-overflow-scrolling: touch; }
   .slide-inner::-webkit-scrollbar { display: none; }
+  .slide-title { font-size: clamp(1.4rem, 7vw, 2rem); }
+  .slide-quip { font-size: .92rem; }
   .sl-mega { font-size: clamp(2.6rem, 14vw, 4rem); }
   .mega-score { font-size: clamp(4rem, 24vw, 7rem); }
   .file-cell { padding: 12px 18px; min-width: 106px; }
   .file-cell b { font-size: 1.5rem; }
-  .deck-ghost { font-size: 26vh; }
+  .deck-ghost { font-size: 22vh; opacity: .5; }
   .deck-hint { display: none; }
   .deck-person { display: none; }
+  .deck-top { padding: 12px 16px; }
+  .deck-nav { bottom: 14px; gap: 10px; padding: 8px 12px; }
+  .nav-arrow { width: 44px; height: 44px; }   /* objetivos táctiles cómodos */
+  .deck-dots { gap: 4px; max-width: 46vw; overflow: hidden; }
+  .dot { width: 7px; height: 7px; }
+  .dot.on { width: 20px; }
+
+  /* stat 1 — gauge: en columna */
+  .sl-split { grid-template-columns: 1fr; gap: 20px; text-align: center; }
+  .sl-side { text-align: center; }
+
+  /* cámaras: la etiqueta "pts de media" no parte fea */
   .room { gap: 8px; }
-  .rank-dot { width: 48px; height: 48px; }
+  .room::after { display: none; }   /* el rótulo MESA se solapa en 2 columnas */
+  .quad { padding: 14px; }
+  .quad-val small { display: inline; white-space: nowrap; }
+  .quad-best { position: static; display: inline-block; margin-bottom: 6px; }
+
+  .rank8 { gap: 8px; }
+  .rank-dot { width: 46px; height: 46px; }
+  .rank-dot em { font-size: .58rem; }
+
+  /* listas con scroll interno: dejar sitio a la nav */
+  .topics, .mates, .brk-list, .tour-strip, .chairs { max-height: none; overflow: visible; }
+  .tour-strip { grid-template-columns: 1fr; }
+  .breaks-head { gap: 18px; }
+  .brk-big .big { font-size: 2.2rem; }
+
+  /* gráfica de evolución: más alta y con fuentes legibles */
+  #evoChart { max-height: none; }
+  .evo-mob .axis text { font-size: 17px; }
+  .evo-mob .tband-label { font-size: 15px; }
+  .evo-mob .direct-label { font-size: 20px; }
+}
+
+/* pantallas muy estrechas */
+@media (max-width: 380px) {
+  .slide-title { font-size: 1.3rem; }
+  .file-row { gap: 10px; }
+  .file-cell { min-width: 90px; padding: 10px 12px; }
 }
 
 /* ---------- reduced motion ---------- */

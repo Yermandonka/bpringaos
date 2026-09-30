@@ -143,7 +143,7 @@
   add({
     id: "evolucion", kicker: "estadística 02 · la película",
     title: "Speaks ronda a ronda",
-    quip: "Cada punto es un discurso real ante jueces reales. Eje de 55 a 85 para que el viaje se note. Pasa el ratón por cada punto para el detalle.",
+    quip: "Cada punto es un discurso real ante jueces reales. Eje de 55 a 85 para que el viaje se note. Toca (o pasa el ratón por) cada punto para ver el detalle.",
     build: (el) => {
       el.innerHTML = `<div class="chart-scroll deck-chart"><svg id="evoChart" role="img" aria-label="Evolución ronda a ronda"></svg></div>`;
     },
@@ -438,8 +438,11 @@
   function drawEvo(svg) {
     if (evoDrawn || !svg) return;
     evoDrawn = true;
-    // dimensiones fijas del lienzo: el SVG se escala al contenedor (sin scroll)
-    const Wc = 1000, Hc = 460, m = { t: 30, r: 22, b: 66, l: 42 };
+    const mob = innerWidth < 640;
+    // en móvil el lienzo es más alto (retrato) y con más margen para etiquetas legibles
+    const Wc = 1000, Hc = mob ? 780 : 460;
+    const m = mob ? { t: 26, r: 20, b: 92, l: 70 } : { t: 30, r: 22, b: 66, l: 42 };
+    svg.classList.toggle("evo-mob", mob);
     svg.setAttribute("viewBox", `0 0 ${Wc} ${Hc}`);
     svg.setAttribute("preserveAspectRatio", "xMidYMid meet");
     const NS = "http://www.w3.org/2000/svg";
@@ -472,9 +475,23 @@
       if (!next || next.t !== r.t) {
         const x0 = xs(start) - 20, x1 = xs(i) + 20;
         if (bandN % 2 === 0) mk("rect", { x: x0, y: m.t, width: x1 - x0, height: Hc - m.t - m.b, class: "tband" });
-        const lbl = mk("text", { x: (x0 + x1) / 2, y: Hc - 36, "text-anchor": "middle", class: "tband-label" });
-        const short = r.tname.length > 20 ? r.tname.slice(0, 19) + "…" : r.tname;
+        const cx = (x0 + x1) / 2;
+        const lbl = mk("text", { class: "tband-label" });
+        const lim = mob ? 15 : 22;
+        const short = r.tname.length > lim ? r.tname.slice(0, lim - 1) + "…" : r.tname;
         lbl.textContent = short.toUpperCase();
+        if (mob) {
+          // etiqueta vertical, leyendo de abajo (eje) hacia arriba, empezando por el inicio del nombre
+          const ay = Hc - m.b + 8;
+          lbl.setAttribute("x", cx);
+          lbl.setAttribute("y", ay);
+          lbl.setAttribute("text-anchor", "start");
+          lbl.setAttribute("transform", `rotate(-90 ${cx} ${ay})`);
+        } else {
+          lbl.setAttribute("x", cx);
+          lbl.setAttribute("y", Hc - 36);
+          lbl.setAttribute("text-anchor", "middle");
+        }
         bandN++; start = i + 1;
       }
     });
@@ -505,15 +522,21 @@
     const minV = Math.min(...rows.map((r) => r.score));
 
     // dots (ocultos hasta que la línea los alcanza)
+    const dotR = mob ? 7 : 5;
     const dots = rows.map((r, i) => {
-      const dot = mk("circle", { cx: xs(i), cy: ys(r.score), r: reduced ? 5 : 0, fill: col, class: "evo-dot" });
-      dot.addEventListener("mousemove", (e) =>
-        showTip(`<div class="tt-title">${r.score} speaks</div>
+      const dot = mk("circle", { cx: xs(i), cy: ys(r.score), r: reduced ? dotR : 0, fill: col, class: "evo-dot" });
+      const tipHTML = `<div class="tt-title">${r.score} speaks</div>
           <div class="tt-row">${r.tname} · ${r.round}</div>
           <div class="tt-row">${SIDE[r.side] || r.side} · ${r.points != null ? RANK_TXT[r.points] : "?"} · ${r.position}º orador</div>
-          ${r.motion ? `<div class="tt-row" style="margin-top:4px">«${r.motion.slice(0, 110)}${r.motion.length > 110 ? "…" : ""}»</div>` : ""}`,
-          e.clientX, e.clientY));
+          ${r.motion ? `<div class="tt-row" style="margin-top:4px">«${r.motion.slice(0, 110)}${r.motion.length > 110 ? "…" : ""}»</div>` : ""}`;
+      dot.addEventListener("mousemove", (e) => showTip(tipHTML, e.clientX, e.clientY));
       dot.addEventListener("mouseleave", hideTip);
+      // soporte táctil: tocar el punto muestra el detalle
+      dot.addEventListener("touchstart", (e) => {
+        const t = e.touches[0];
+        showTip(tipHTML, t.clientX, t.clientY);
+        clearTimeout(dot._t); dot._t = setTimeout(hideTip, 2600);
+      }, { passive: true });
       let lbl = null;
       if (r.score === maxV || r.score === minV) {
         lbl = mk("text", { x: xs(i), y: ys(r.score) + (r.score === maxV ? -14 : 22), "text-anchor": "middle", class: "direct-label", fill: r.score === maxV ? colUI : "var(--ink-3)", opacity: reduced ? 1 : 0 });
