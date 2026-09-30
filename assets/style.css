@@ -314,15 +314,14 @@ button { font-family: inherit; }
 .mega-score.coal { color: var(--ink-3); text-shadow: none; }
 
 /* gráfica evolución */
-.deck-chart { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 18px; }
-.chart-scroll { overflow-x: auto; }
-#evoChart { height: min(52vh, 440px); display: block; }
+.deck-chart { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 16px; }
+.chart-scroll { overflow: visible; }
+#evoChart { width: 100%; height: auto; max-height: 58vh; display: block; }
 .axis text { fill: var(--ink-3); font-family: var(--font-m); font-size: 10px; }
 .grid line { stroke: var(--line); stroke-dasharray: 2 4; }
 .tband { fill: var(--ink); opacity: .03; }
 .tband-label { fill: var(--ink-3); font-family: var(--font-m); font-size: 9px; letter-spacing: 1px; }
 .evo-line { fill: none; stroke-width: 2px; stroke-linejoin: round; stroke-linecap: round; }
-.evo-avg { stroke: var(--ink-3); stroke-width: 1.2px; stroke-dasharray: 4 5; opacity: .8; }
 .evo-dot { stroke: var(--bg); stroke-width: 2px; cursor: pointer; transition: filter .2s; }
 .evo-dot:hover { filter: drop-shadow(0 0 6px var(--serie)); }
 .evo-dot-best { animation: dotpulse 1.8s ease-in-out infinite; }

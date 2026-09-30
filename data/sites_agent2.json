@@ -1,0 +1,20 @@
+[
+{"base":"https://aquinasroncalli2022.calicotab.com","tournaments":[{"slug":"Aquinas","name":"Aquinas-Roncalli 2022 (Aquinas)"},{"slug":"Roncalli","name":"Aquinas-Roncalli 2022 (Roncalli)"},{"slug":"ELim","name":"Aquinas-Roncalli 2022 Eliminatorias"}]},
+{"base":"https://aquinasroncalli2023.calicotab.com","tournaments":[{"slug":"aquinasroncalli2023","name":"Torneo de Debate Aquinas-Roncalli 2023"}]},
+{"base":"https://aquinasroncalli2024.calicotab.com","tournaments":[{"slug":"aquinasroncalli2024","name":"BP Aquinas-Roncalli 2024"}]},
+{"base":"https://aquinasroncalli2025.calicotab.com","tournaments":[{"slug":"aquinasroncalli2025","name":"Aquinas-Roncalli 2025"}]},
+{"base":"https://aquinassroncalli2026.calicotab.com","tournaments":[{"slug":"aquinasronacalli2026","name":"Torneo de Debate Aquinas-Roncalli 2026"}]},
+{"base":"https://rosarioopen2023.calicotab.com","tournaments":[{"slug":"rosopen23","name":"Rosario Open Virtual 2023"}]},
+{"base":"https://rosarioopen2024.calicotab.com","tournaments":[{"slug":"rosarioopen2024","name":"Rosario Open 2024"}]},
+{"base":"https://rosarioopen2025.calicotab.com","tournaments":[{"slug":"rosarioopen2025","name":"Rosario Open 2025"}]},
+{"base":"https://viicampeonatoescolardebateesan.calicotab.com","tournaments":[{"slug":"VIICAMPEONATOESCOLARDEBATEESAN","name":"VII Campeonato Escolar Debate ESAN"}]},
+{"base":"https://precmudepucp2024.calicotab.com","tournaments":[{"slug":"precmudepucp","name":"PreCMUDE PUCP 2024"}]},
+{"base":"https://precmudepucp.calicotab.com","tournaments":[{"slug":"precmudepucp2020","name":"Pre CMUDE PUCP 2020"}]},
+{"base":"https://pucpiv2025.calicotab.com","tournaments":[{"slug":"pucpiv25","name":"PUCP IV 2025"}]},
+{"base":"https://pucpopenvirtual.calicotab.com","tournaments":[{"slug":"pucp2024","name":"PUCP Open Virtual 2024"}]},
+{"base":"https://pucpopen.calicotab.com","tournaments":[{"slug":"pucpopen","name":"PUCP Open"}]},
+{"base":"https://cimet.calicotab.com","tournaments":[{"slug":"cimetpresencial2023","name":"CIMET Presencial 2023"}]},
+{"base":"https://cimet2024.calicotab.com","tournaments":[{"slug":"cimet2024","name":"CIMET 2024"}]},
+{"base":"https://cimepresencial2025.calicotab.com","tournaments":[{"slug":"cimet2025","name":"CIMET Presencial 2025"},{"slug":"cimetvirtual2025","name":"CIMET Virtual 2025"}]},
+{"base":"https://cimet2026.calicotab.com","tournaments":[{"slug":"open","name":"CIMET Presencial 2026"}]}
+]

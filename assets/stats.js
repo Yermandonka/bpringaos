@@ -139,7 +139,7 @@
   add({
     id: "evolucion", kicker: "estadística 02 · la película",
     title: "Speaks ronda a ronda",
-    quip: "Cada punto, un discurso real. La discontinua es la media del torneo: por debajo de ella «es culpa del panel».",
+    quip: "Cada punto es un discurso real ante jueces reales. Eje de 55 a 85 para que el viaje se note. Pasa el ratón por cada punto para el detalle.",
     build: (el) => {
       el.innerHTML = `<div class="chart-scroll deck-chart"><svg id="evoChart" role="img" aria-label="Evolución ronda a ronda"></svg></div>`;
     },
@@ -405,9 +405,10 @@
   function drawEvo(svg) {
     if (evoDrawn || !svg) return;
     evoDrawn = true;
-    const Wc = Math.max(900, rows.length * 52), Hc = 440, m = { t: 30, r: 24, b: 70, l: 46 };
+    // dimensiones fijas del lienzo: el SVG se escala al contenedor (sin scroll)
+    const Wc = 1000, Hc = 460, m = { t: 30, r: 22, b: 66, l: 42 };
     svg.setAttribute("viewBox", `0 0 ${Wc} ${Hc}`);
-    svg.style.minWidth = Wc + "px";
+    svg.setAttribute("preserveAspectRatio", "xMidYMid meet");
     const NS = "http://www.w3.org/2000/svg";
     const mk = (tag, attrs, parent = svg) => {
       const el = document.createElementNS(NS, tag);
@@ -416,9 +417,8 @@
       return el;
     };
     const xs = (i) => m.l + (i + 0.5) * ((Wc - m.l - m.r) / rows.length);
-    const lo = Math.floor(Math.min(...rows.map((r) => r.score)) - 2);
-    const hi = Math.ceil(Math.max(...rows.map((r) => r.score)) + 2);
-    const ys = (v) => m.t + (hi - v) * ((Hc - m.t - m.b) / (hi - lo));
+    const lo = 55, hi = 85; // eje fijo para que se note el progreso
+    const ys = (v) => m.t + (hi - Math.max(lo, Math.min(hi, v))) * ((Hc - m.t - m.b) / (hi - lo));
     const col = COLORS[person], colUI = UI[person];
 
     // defs: gradiente del área + filtro de brillo
@@ -442,16 +442,12 @@
         const lbl = mk("text", { x: (x0 + x1) / 2, y: Hc - 36, "text-anchor": "middle", class: "tband-label" });
         const short = r.tname.length > 20 ? r.tname.slice(0, 19) + "…" : r.tname;
         lbl.textContent = short.toUpperCase();
-        if (r.t_avg != null) {
-          const ln = mk("line", { x1: x0 + 6, x2: x1 - 6, y1: ys(r.t_avg), y2: ys(r.t_avg), class: "evo-avg" });
-          if (!reduced) { const w = x1 - x0 - 12; ln.style.strokeDasharray = w; ln.style.strokeDashoffset = w; ln.dataset.w = w; }
-        }
         bandN++; start = i + 1;
       }
     });
 
     const grid = mk("g", { class: "grid axis" });
-    for (let v = lo; v <= hi; v += hi - lo > 14 ? 4 : 2) {
+    for (let v = lo; v <= hi; v += 5) {
       mk("line", { x1: m.l, x2: Wc - m.r, y1: ys(v), y2: ys(v) }, grid);
       const t = mk("text", { x: m.l - 8, y: ys(v) + 3, "text-anchor": "end" }, grid);
       t.textContent = v;
@@ -495,12 +491,6 @@
 
     if (reduced) return;
 
-    // medias: dibujarlas primero, rápido
-    $$(".evo-avg", svg).forEach((ln) => {
-      ln.style.transition = "stroke-dashoffset .8s ease";
-      requestAnimationFrame(() => (ln.style.strokeDashoffset = "0"));
-    });
-
     // trazado de la línea + área + chispa + pop de dots, todo sincronizado
     path.style.strokeDasharray = len;
     path.style.strokeDashoffset = len;
@@ -536,6 +526,17 @@
         if (kk < 1) requestAnimationFrame(grow);
         else d.dot.setAttribute("r", target);
       })(a0);
+      // anillo de pulso que emana del punto
+      const ring = mk("circle", { cx: d.x, cy: d.y, r: target, fill: "none",
+        stroke: d.best ? colUI : col, "stroke-width": 2, opacity: 0.9, "pointer-events": "none" });
+      const r0 = performance.now();
+      (function pulse(now) {
+        const kk = Math.min(1, (now - r0) / 620);
+        ring.setAttribute("r", target + kk * 20);
+        ring.setAttribute("opacity", 0.9 * (1 - kk));
+        if (kk < 1) requestAnimationFrame(pulse);
+        else ring.remove();
+      })(r0);
       if (d.lbl) { d.lbl.style.transition = "opacity .5s .1s"; requestAnimationFrame(() => (d.lbl.style.opacity = 1)); }
       if (d.best) d.dot.classList.add("evo-dot-best");
     }
