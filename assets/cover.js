@@ -39,10 +39,10 @@
 
     // construir la lista del menú
     const list = $("#menuList");
-    // Germán y Lucía primero; el resto por actividad (más discursos arriba)
-    const pin = { german: 2, lucia: 1 };
+    // orden: por número de torneos participados (desc), desempate por discursos
     const people = Object.entries(d.people || {}).sort((a, b) =>
-      (pin[b[0]] || 0) - (pin[a[0]] || 0) || (b[1].n_rounds || 0) - (a[1].n_rounds || 0));
+      (b[1].n_tournaments || 0) - (a[1].n_tournaments || 0) ||
+      (b[1].n_rounds || 0) - (a[1].n_rounds || 0));
     people.forEach(([key, p], i) => {
       const a = document.createElement("a");
       a.className = "menu-row";
