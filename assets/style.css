@@ -304,6 +304,8 @@ button { font-family: inherit; }
 .sl-split { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; align-items: center; }
 @media (max-width: 760px) { .sl-split { grid-template-columns: 1fr; } }
 .gauge { width: 100%; max-width: 430px; }
+.gauge-arc { filter: drop-shadow(0 0 6px color-mix(in srgb, var(--serie) 55%, transparent)); animation: gaugeglow 2.6s ease-in-out infinite; }
+@keyframes gaugeglow { 50% { filter: drop-shadow(0 0 13px color-mix(in srgb, var(--serie) 80%, transparent)); } }
 .gauge-num { font-family: var(--font-d); font-size: 34px; fill: var(--ink); }
 .gauge-lab { font-family: var(--font-m); font-size: 9px; fill: var(--ink-3); letter-spacing: 2px; text-transform: uppercase; }
 
@@ -331,8 +333,15 @@ button { font-family: inherit; }
 .rbars { max-width: 860px; }
 .rbar-row { display: grid; grid-template-columns: 92px 1fr 110px; align-items: center; gap: 14px; margin: 14px 0; }
 .rbar-label { font-family: var(--font-m); font-size: .85rem; text-align: right; }
-.rbar-track { background: var(--surface-2); border-radius: 6px; height: 30px; overflow: hidden; }
-.rbar-fill { height: 100%; width: 0; border-radius: 4px; transition: width 1s cubic-bezier(.2,.7,.2,1); }
+.rbar-track { background: var(--surface-2); border-radius: 6px; height: 30px; overflow: hidden; position: relative; }
+.rbar-fill { height: 100%; width: 0; border-radius: 4px; position: relative; overflow: hidden;
+  transition: width 1.1s cubic-bezier(.34,1.56,.4,1); }
+.rbar-fill::after {
+  content: ""; position: absolute; inset: 0; border-radius: 4px;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,.45), transparent);
+  transform: translateX(-120%); animation: barsheen 2.4s ease-in-out .6s infinite;
+}
+@keyframes barsheen { 0%,60% { transform: translateX(-120%); } 100% { transform: translateX(220%); } }
 .rbar-n { font-family: var(--font-m); font-size: .8rem; color: var(--ink-2); }
 
 /* sala BP */
@@ -352,9 +361,14 @@ button { font-family: inherit; }
 .quad-side { font-family: var(--font-m); font-size: .68rem; color: var(--ink-3); letter-spacing: 2px; }
 .quad-n { font-size: .74rem; color: var(--ink-3); }
 .meter { height: 10px; background: var(--surface-2); border-radius: 6px; margin: 10px 0 8px; overflow: hidden; }
-.meter i { display: block; height: 100%; width: 0; border-radius: 6px;
+.meter i { display: block; height: 100%; width: 0; border-radius: 6px; position: relative; overflow: hidden;
   background: linear-gradient(90deg, var(--serie), var(--accent));
-  transition: width 1.1s cubic-bezier(.2,.7,.2,1); }
+  transition: width 1.2s cubic-bezier(.34,1.56,.4,1); }
+.meter i::after {
+  content: ""; position: absolute; inset: 0;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,.5), transparent);
+  transform: translateX(-120%); animation: barsheen 2.8s ease-in-out 1s infinite;
+}
 .quad-val { font-family: var(--font-d); font-size: 1.4rem; }
 .quad-val small { font-size: .78rem; color: var(--ink-2); font-family: var(--font-b); }
 .quad-best { position: absolute; top: 12px; right: 12px; font-size: .62rem; font-family: var(--font-m);
@@ -399,7 +413,8 @@ button { font-family: inherit; }
 .topic-row { display: grid; grid-template-columns: minmax(150px, 230px) 1fr 110px; gap: 12px; align-items: center; margin: 10px 0; }
 .topic-name { font-size: .88rem; text-align: right; }
 .topic-track { background: var(--surface-2); height: 20px; border-radius: 5px; overflow: hidden; }
-.topic-fill { height: 100%; width: 0; background: var(--serie); border-radius: 4px; transition: width .9s cubic-bezier(.2,.7,.2,1); }
+.topic-fill { height: 100%; width: 0; background: linear-gradient(90deg, var(--serie), var(--accent)); border-radius: 4px;
+  transition: width 1s cubic-bezier(.34,1.56,.4,1); box-shadow: 0 0 12px color-mix(in srgb, var(--serie) 45%, transparent); }
 .topic-meta { font-family: var(--font-m); font-size: .74rem; color: var(--ink-2); }
 @media (max-width: 560px) { .topic-row { grid-template-columns: 1fr; gap: 4px; } .topic-name { text-align: left; } }
 
