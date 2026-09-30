@@ -124,7 +124,13 @@ def build():
         motion_by_round_seq = {}
         for m in data.get("motions") or []:
             for link in m.get("rounds", []):
-                motion_by_round_seq[link.get("seq")] = m
+                # el nº de ronda va en la URL (…/rounds/N); link["seq"] es el
+                # orden de la moción dentro de la ronda (casi siempre 1)
+                try:
+                    rseq = int(str(link.get("round", "")).rstrip("/").rsplit("/", 1)[1])
+                except (ValueError, IndexError):
+                    rseq = link.get("seq")
+                motion_by_round_seq[rseq] = m
 
         # media de speaks del torneo (contexto para percentiles)
         t_scores = []
