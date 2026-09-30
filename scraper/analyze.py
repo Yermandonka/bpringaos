@@ -568,6 +568,12 @@ OTHER_CLUB = re.compile(
 # (clave: nombre normalizado del alias → nombre canónico real)
 ALIAS_TO_CANON = {
     "ponce g maestro": "Pablo Ponce Sánchez",
+    # Chelu = mote de José Luis Muñoz-Reja (mismo debatiente)
+    "chelu munoz reja": "José Luis Muñoz-Reja",
+    "chelu munon": "José Luis Muñoz-Reja",
+    "chelu munoz": "José Luis Muñoz-Reja",
+    # Giza Pavone = Giza Fiorella Pavone (Fiorella es segundo nombre)
+    "giza pavone": "Giza Fiorella Pavone",
 }
 
 # personas que aparecen en algún equipo UCM-COM puntualmente (invitados) pero
@@ -576,6 +582,8 @@ EXCLUDE_MEMBERS = {
     "tomas aparicio", "tomas aparicio ayan",
     "natalia ruiz", "natalia ruiz beltran",
     "belen osorio", "belen osorio flores",
+    "antonio saez", "antonio saez marin",
+    "jesus gomez", "jesus gomez capi",
 }
 
 
