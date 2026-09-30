@@ -538,8 +538,12 @@
   // rueda vertical → avance horizontal (con acumulador para trackpads)
   let wheelLock = 0;
   deck.addEventListener("wheel", (e) => {
-    const target = e.target.closest(".chart-scroll, .tour-strip, .mates, .topics");
-    if (target && Math.abs(e.deltaX) > Math.abs(e.deltaY)) return; // scroll interno horizontal
+    const target = e.target.closest(".chart-scroll, .tour-strip, .mates, .topics, .slide-inner");
+    if (target) {
+      const horiz = Math.abs(e.deltaX) > Math.abs(e.deltaY);
+      if (horiz && target.scrollWidth > target.clientWidth + 4) return;   // scroll interno horizontal
+      if (!horiz && target.scrollHeight > target.clientHeight + 4) return; // scroll interno vertical
+    }
     e.preventDefault();
     const now = Date.now();
     if (now < wheelLock) return;
