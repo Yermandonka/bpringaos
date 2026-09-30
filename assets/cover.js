@@ -39,11 +39,10 @@
 
     // construir la lista del menú
     const list = $("#menuList");
-    // orden: más activos en los últimos 6 meses (torneos, luego discursos),
-    // desempate por torneos totales
+    // orden: por fecha del último torneo (más recientes primero),
+    // desempate por nº de torneos totales
     const people = Object.entries(d.people || {}).sort((a, b) =>
-      (b[1].n_tournaments_6m || 0) - (a[1].n_tournaments_6m || 0) ||
-      (b[1].n_rounds_6m || 0) - (a[1].n_rounds_6m || 0) ||
+      (b[1].last_date || "").localeCompare(a[1].last_date || "") ||
       (b[1].n_tournaments || 0) - (a[1].n_tournaments || 0));
     people.forEach(([key, p], i) => {
       const a = document.createElement("a");

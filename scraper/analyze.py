@@ -64,6 +64,29 @@ def name_tokens(name):
     return [t for t in norm(clean_name(name)).split() if t]
 
 
+def edit_distance(a, b):
+    if a == b:
+        return 0
+    if abs(len(a) - len(b)) > 2:
+        return 9
+    prev = list(range(len(b) + 1))
+    for i, ca in enumerate(a, 1):
+        cur = [i]
+        for j, cb in enumerate(b, 1):
+            cur.append(min(prev[j] + 1, cur[j - 1] + 1, prev[j - 1] + (ca != cb)))
+        prev = cur
+    return prev[-1]
+
+
+def surname_similar(a, b):
+    """Mismo apellido con erratas/acentos: Muñoz≈Muñón, Sanchez≈Sánchez."""
+    if a == b:
+        return True
+    if a.startswith(b) or b.startswith(a):
+        return min(len(a), len(b)) >= 4
+    return edit_distance(a, b) <= (2 if max(len(a), len(b)) >= 6 else 1)
+
+
 def first_compat(a, b):
     """Nombres de pila compatibles: iguales o uno prefijo del otro (diminutivos:
     Inma↔Inmaculada, Javi↔Javier, Fer↔Fernanda, Guille↔Guillermo)."""
@@ -82,8 +105,12 @@ def same_person(a_toks, b_toks):
     if a_toks == b_toks:
         return True
     short, long = sorted([a_toks, b_toks], key=len)
-    return (len(short) >= 2 and first_compat(short[0], long[0])
-            and short[1] == long[1] and set(short[1:]) <= set(long[1:]))
+    if len(short) < 2 or not first_compat(short[0], long[0]):
+        return False
+    if not surname_similar(short[1], long[1]):
+        return False
+    # cada apellido del corto tiene un equivalente (con erratas) en el largo
+    return all(any(surname_similar(s, l) for l in long[1:]) for s in short[1:])
 
 
 def match_member(member_toks, ambiguous, s_toks):
@@ -391,8 +418,10 @@ def summarize(person):
         today = datetime.date(2026, 9, 30)
     cut6 = (today - datetime.timedelta(days=182)).isoformat()
     t6 = {r["t"] for r in rows if (r["date"] or "") >= cut6}
+    all_dates = [v.get("date") for v in person["tournaments"].values() if v.get("date")]
     out = {"display": person["target"]["display"], "n_tournaments": len(person["tournaments"]),
            "n_rounds": len(rows), "n_elim_rounds": len(person["elim_rows"]),
+           "last_date": max(all_dates) if all_dates else "",
            "n_tournaments_6m": len(t6),
            "n_rounds_6m": sum(1 for r in rows if (r["date"] or "") >= cut6),
            "breaks": breaks, "n_breaks": len(breaks),
@@ -555,11 +584,10 @@ def is_pure_ucm(ref):
     return bool(UCM_COM.search(n)) and not OTHER_CLUB.search(n)
 
 
-def ucm_members(tournaments, days=365):
-    """Personas que representaron a UCM-COM (equipos PUROS, no híbridos) en el
-    último año. Devuelve grupos con el conjunto EXACTO de variantes de nombre
-    vistas — el matching posterior es por variante exacta (evita fusionar
-    homónimos de otros clubes)."""
+def ucm_members(tournaments, days=100000):
+    """Personas que han representado a UCM-COM (equipos PUROS, no híbridos) en
+    cualquier momento (histórico completo). El orden de la web es por actividad
+    de los últimos 6 meses, así que los inactivos quedan al final."""
     try:
         today = datetime.date.today()
     except Exception:
@@ -651,7 +679,10 @@ def roster_targets(tournaments, curated):
             continue
         key2 = (g["toks"][0], g["toks"][1])
         my_second = g["toks"][2] if len(g["toks"]) >= 3 else None
-        others = hidx.get(key2, set()) - ({my_second} if my_second else set())
+        # tocayo real solo si hay un 2º apellido DISTINTO (no una errata del suyo)
+        seconds = hidx.get(key2, set())
+        others = [s for s in seconds
+                  if not (my_second and surname_similar(s, my_second))]
         ambiguous = len(others) > 0
         key = slugify(g["display"])
         if key in seen_keys:
