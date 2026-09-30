@@ -362,8 +362,9 @@
 
   // ---- 14 · la gira ----
   add({
-    id: "gira", kicker: "estadística 14 · la gira interdimensional",
-    title: "Todos los torneos",
+    id: "gira", kicker: "las fuentes · la gira interdimensional",
+    title: "Torneos como debatiente",
+    quip: "Solo cuentan torneos con discursos suyos en el tab: de aquí salen todas las estadísticas anteriores. Juzgar no computa (eso es otro expediente).",
     build: (el) => {
       el.innerHTML = `<div class="tour-strip">` + (P.tournaments || []).map((t, i) =>
         `<div class="tour-card" style="transition-delay:${i * 70}ms">
