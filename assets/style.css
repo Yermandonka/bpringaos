@@ -419,6 +419,22 @@ button { font-family: inherit; }
 #tooltip .tt-title { font-weight: 700; color: var(--accent); }
 #tooltip .tt-row { font-family: var(--font-m); font-size: .72rem; color: var(--ink-2); }
 
+/* ---------- móvil / pantallas cortas ---------- */
+@media (max-width: 640px), (max-height: 720px) {
+  .slide { padding: 74px 6vw 128px; }
+  .slide-inner { max-height: calc(100svh - 200px); overflow-y: auto; scrollbar-width: none; }
+  .slide-inner::-webkit-scrollbar { display: none; }
+  .sl-mega { font-size: clamp(2.6rem, 14vw, 4rem); }
+  .mega-score { font-size: clamp(4rem, 24vw, 7rem); }
+  .file-cell { padding: 12px 18px; min-width: 106px; }
+  .file-cell b { font-size: 1.5rem; }
+  .deck-ghost { font-size: 26vh; }
+  .deck-hint { display: none; }
+  .deck-person { display: none; }
+  .room { gap: 8px; }
+  .rank-dot { width: 48px; height: 48px; }
+}
+
 /* ---------- reduced motion ---------- */
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation-duration: .01ms !important; transition-duration: .01ms !important; }
