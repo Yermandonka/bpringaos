@@ -1,0 +1,1406 @@
+[
+ {
+  "base": "https://aduz.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "ii_aduz",
+    "name": "II BP ADUZ"
+   }
+  ]
+ },
+ {
+  "base": "https://bpceu.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "bpceu",
+    "name": "III BP CEU"
+   }
+  ]
+ },
+ {
+  "base": "https://bpgranada2022.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "bpgranada2022",
+    "name": "BP Granada 2022"
+   }
+  ]
+ },
+ {
+  "base": "https://bpgranada2023.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "bpgranada2023",
+    "name": "BP Granada 2023"
+   }
+  ]
+ },
+ {
+  "base": "https://bpgranada2024.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "bpgranada2024",
+    "name": "BP Granada 2024"
+   },
+   {
+    "slug": "-",
+    "name": "-"
+   }
+  ]
+ },
+ {
+  "base": "https://bpgranada2025.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "bpgranada2025",
+    "name": "IV BP Ciudad de Granada"
+   }
+  ]
+ },
+ {
+  "base": "https://bpmurcia2023.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "bpmurcia23",
+    "name": "BP Ciudad de Murcia 2023"
+   }
+  ]
+ },
+ {
+  "base": "https://bpmurcia.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "umu24",
+    "name": "BP UMU 2024"
+   },
+   {
+    "slug": "xbpmurcia2025",
+    "name": "X BP Ciudad de Murcia 2025"
+   }
+  ]
+ },
+ {
+  "base": "https://bpsanagustin2024.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "sanagustin24",
+    "name": "BP San Agustín 2024"
+   }
+  ]
+ },
+ {
+  "base": "https://bpuam2022.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "bpuam2022",
+    "name": "BP UAM 2022"
+   }
+  ]
+ },
+ {
+  "base": "https://bpuam2023.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "bpuam2023",
+    "name": "BP UAM 2023"
+   }
+  ]
+ },
+ {
+  "base": "https://bpuam.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "18",
+    "name": "BP UAM 2018"
+   }
+  ]
+ },
+ {
+  "base": "https://bpurjc2023.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "ixbpurjc",
+    "name": "IX BP URJC"
+   }
+  ]
+ },
+ {
+  "base": "https://cab.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "cabiv",
+    "name": "Copa Andrés Bello IV Virtual"
+   },
+   {
+    "slug": "cab2023",
+    "name": "Copa Andrés Bello Presencial 2023"
+   }
+  ]
+ },
+ {
+  "base": "https://cmude2019.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "cmude2019",
+    "name": "CMUDE 2019"
+   }
+  ]
+ },
+ {
+  "base": "https://cmude2021.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "cmudeecuador2021",
+    "name": "Campeonato Mundial Universitario de Debate en Español Ecuador 2021"
+   }
+  ]
+ },
+ {
+  "base": "https://cmude2022.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "cmude2022respawn",
+    "name": "CMUDE Madrid 2022 Respaldo"
+   },
+   {
+    "slug": "cmude2022",
+    "name": "CMUDE Madrid 2022"
+   },
+   {
+    "slug": "masterscmude22",
+    "name": "Competencia de Masters del Campeonato Mundial de Debate Universitario en Español 2022"
+   }
+  ]
+ },
+ {
+  "base": "https://cmude2023.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "cmude2023",
+    "name": "Campeonato Mundial Universitario de Debate en Español - Panamá 2023"
+   }
+  ]
+ },
+ {
+  "base": "https://cmude2024.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "open",
+    "name": "Campeonato Mundial Universitario de Debate en Español 2024"
+   },
+   {
+    "slug": "masters",
+    "name": "Competencia de Masters"
+   },
+   {
+    "slug": "discursos",
+    "name": "Discursos"
+   }
+  ]
+ },
+ {
+  "base": "https://cmude2025.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "open",
+    "name": "Campeonato Mundial Universitario de Debate en Español 2025"
+   },
+   {
+    "slug": "masters",
+    "name": "Competencia de Masters 2025"
+   },
+   {
+    "slug": "discursos",
+    "name": "Competencia de Discursos 2025"
+   }
+  ]
+ },
+ {
+  "base": "https://cmude2026.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "open",
+    "name": "Campeonato Mundial Universitario de Debate en Español 2026"
+   },
+   {
+    "slug": "discursos",
+    "name": "Competencia de Discursos 2026"
+   },
+   {
+    "slug": "masters",
+    "name": "Competencia de Masters 2026"
+   }
+  ]
+ },
+ {
+  "base": "https://cmudecraft2024.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "cmudecraft2025",
+    "name": "Torneo de Debate CMUDE CRAFT 2025"
+   }
+  ]
+ },
+ {
+  "base": "https://cmudecraftii.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "open",
+    "name": "Torneo de Debate CMUDECraft v.2026"
+   },
+   {
+    "slug": "discursos",
+    "name": "CMUDECraft v.2026 - Discursos"
+   }
+  ]
+ },
+ {
+  "base": "https://cnade2026.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "cnade2026",
+    "name": "Campeonato Nacional de Debate 2026"
+   }
+  ]
+ },
+ {
+  "base": "https://cnd2024.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "cnd2024",
+    "name": "Campeonato Nacional de Debate 2024"
+   },
+   {
+    "slug": "cndmaster2024",
+    "name": "Campeonato Nacional de Debate Master 2024"
+   },
+   {
+    "slug": "cnd2024discursos",
+    "name": "Campeonato Nacional de Debate 2024 Discursos"
+   }
+  ]
+ },
+ {
+  "base": "https://cnd2025.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "cndmx25",
+    "name": "Campeonato Nacional de Debate de México 2025"
+   },
+   {
+    "slug": "cndmx25mas",
+    "name": "Campeonato Nacional de Debate de México 2025 - Masters"
+   },
+   {
+    "slug": "cndmx25dis",
+    "name": "Campeonato Nacional de Debate de México 2025 - Discursos"
+   }
+  ]
+ },
+ {
+  "base": "https://cnd2026.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "cnd2026",
+    "name": "Campeonato Nacional de Debate BP 2026"
+   }
+  ]
+ },
+ {
+  "base": "https://cnd.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "CND2021",
+    "name": "Campeonato Nacional de Debate 2021"
+   },
+   {
+    "slug": "cndmasters2021",
+    "name": "Campeonato Nacional de Debate Masters 2021"
+   }
+  ]
+ },
+ {
+  "base": "https://cnde2023.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "CNDE2023",
+    "name": "Campeonato Nacional de Debate Escolar"
+   }
+  ]
+ },
+ {
+  "base": "https://cnde2024.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "cnde2024",
+    "name": "Campeonato Nacional de Debate Escolar 2024"
+   }
+  ]
+ },
+ {
+  "base": "https://cnde2025.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "cnde2025",
+    "name": "Campeonato Nacional de Debate Escolar 2025"
+   }
+  ]
+ },
+ {
+  "base": "https://cnde2026.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "cnde2026",
+    "name": "Campeonato Nacional de Debates Escolares 2026"
+   }
+  ]
+ },
+ {
+  "base": "https://cndi2021.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "CNDI2021",
+    "name": "Campeonato Nacional de Debate Interuniversitario 2021"
+   }
+  ]
+ },
+ {
+  "base": "https://cndi2022.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "cndi2022",
+    "name": "Campeonato Nacional de Debate Interuniversitario Perú 2022"
+   },
+   {
+    "slug": "cndimaster2022",
+    "name": "Campeonato Nacional de Debate Interuniversitario 2022 Master"
+   },
+   {
+    "slug": "cndidiscursos2022",
+    "name": "Campeonato Nacional de Debate Interuniversitario 2022 Discursos"
+   }
+  ]
+ },
+ {
+  "base": "https://cndi2023.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "cndiperu2023",
+    "name": "Campeonato Nacional de Debate Interuniversitario Perú 2023"
+   },
+   {
+    "slug": "cndidiscursosperu2023",
+    "name": "Campeonato Nacional de Debate Interuniversitario - Discursos Perú 2023"
+   },
+   {
+    "slug": "cndeperu2023",
+    "name": "Campeonato Nacional de Debate Escolar Perú 2023"
+   }
+  ]
+ },
+ {
+  "base": "https://cndi2025.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "cndi2025",
+    "name": "Campeonato Nacional de Debate Interuniversitario Perú 2025"
+   },
+   {
+    "slug": "CNDI2025discursos",
+    "name": "Campeonato Nacional de Debate Interuniversitario Discursos Perú 2025"
+   }
+  ]
+ },
+ {
+  "base": "https://cod2024.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "cod2024",
+    "name": "Copa Occidente de Debate 2024"
+   },
+   {
+    "slug": "MastersCOD2024",
+    "name": "Masters Copa Occidente de Debate 2024"
+   }
+  ]
+ },
+ {
+  "base": "https://cod2026.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "cod2026",
+    "name": "Copa Occidente de Debate 2026"
+   },
+   {
+    "slug": "masters",
+    "name": "Masters Copa Occidente de Debate 2026"
+   }
+  ]
+ },
+ {
+  "base": "https://cod.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "masterscod2023",
+    "name": "Masters Copa Occidente de Debate 2023"
+   },
+   {
+    "slug": "cod2023",
+    "name": "Copa Occidente de Debate 2023"
+   }
+  ]
+ },
+ {
+  "base": "https://copaandresbello2021.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "cab2021",
+    "name": "Copa Andrés Bello 2021"
+   },
+   {
+    "slug": "masters-cab2021",
+    "name": "Másters Copa Andrés Bello 2021"
+   }
+  ]
+ },
+ {
+  "base": "https://copaborregos2026.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "borregos2026",
+    "name": "Copa Borregos 2026"
+   }
+  ]
+ },
+ {
+  "base": "https://copaleonii.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "leondelsurii2025",
+    "name": "Copa León del Sur II"
+   }
+  ]
+ },
+ {
+  "base": "https://copaleoniii.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "copaleoniii",
+    "name": "Copa León del Sur III"
+   },
+   {
+    "slug": "discursos",
+    "name": "Discursos III Copa León del Sur"
+   }
+  ]
+ },
+ {
+  "base": "https://copaleoniv.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "open",
+    "name": "Copa León del Sur IV Open"
+   },
+   {
+    "slug": "discursos",
+    "name": "Copa León del Sur IV Discursos"
+   }
+  ]
+ },
+ {
+  "base": "https://copaleonv.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "copaleondelsurv",
+    "name": "Copa León del Sur V"
+   },
+   {
+    "slug": "copaleonvdiscursos",
+    "name": "Copa León del Sur V - Categoría Discursos"
+   }
+  ]
+ },
+ {
+  "base": "https://coparaptor.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "raptor",
+    "name": "COPA RAPTOR DE DEBATE"
+   }
+  ]
+ },
+ {
+  "base": "https://espanadebate.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "nacional22",
+    "name": "21/22 - Campeonato de España de Debate 2022"
+   },
+   {
+    "slug": "regionalnorte22",
+    "name": "22/23 - Campeonato de España - Regional Norte 2022"
+   },
+   {
+    "slug": "regionalsuroeste23",
+    "name": "22/23 - Campeonato de España - Regional Suroeste 2023"
+   },
+   {
+    "slug": "regionalonline2023",
+    "name": "22/23 - Campeonato de España - Regional Online 2023"
+   },
+   {
+    "slug": "regionalsur24",
+    "name": "Campeonato de España - Regional Sur 2024"
+   },
+   {
+    "slug": "nacional23",
+    "name": "22/23 - Campeonato de España de Debate 2023"
+   },
+   {
+    "slug": "masters23",
+    "name": "22/23 - Campeonato de España - Masters 2023"
+   }
+  ]
+ },
+ {
+  "base": "https://icod.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "cod2022",
+    "name": "I Centro Oeste Debates"
+   }
+  ]
+ },
+ {
+  "base": "https://iibpceu.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "IIBPCEU",
+    "name": "II BP CEU San Pablo"
+   }
+  ]
+ },
+ {
+  "base": "https://iicnd.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "iicnd",
+    "name": "II COPA NACIONAL DE DEBATES"
+   }
+  ]
+ },
+ {
+  "base": "https://iiicnd.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "IIICND",
+    "name": "III Copa Nacional de Debates"
+   }
+  ]
+ },
+ {
+  "base": "https://ivbpceu.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "ivbpceu",
+    "name": "IV BP CEU"
+   }
+  ]
+ },
+ {
+  "base": "https://ixbpuam.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "ixbpuam",
+    "name": "IX BP UAM"
+   }
+  ]
+ },
+ {
+  "base": "https://ixtrd.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "ixtrdunis",
+    "name": "IX Torneo Rosarista de Debate 2025 Categoría Universidades"
+   },
+   {
+    "slug": "ixtrdcoles",
+    "name": "IX Torneo Rosarista de Debate 2025 Categoría Colegios"
+   },
+   {
+    "slug": "ixtrddisc",
+    "name": "IX Torneo Rosarista de Debate 2025 Categoría Discursos"
+   }
+  ]
+ },
+ {
+  "base": "https://med2024.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "med2024",
+    "name": "Mundial Escolar de Debate 2024"
+   },
+   {
+    "slug": "meddiscursos2024",
+    "name": "Mundial Escolar de Debate Discursos 2024"
+   }
+  ]
+ },
+ {
+  "base": "https://med2025.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "med2025",
+    "name": "Mundial Escolar de Debate en Español Chile 2025"
+   }
+  ]
+ },
+ {
+  "base": "https://med2026.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "open",
+    "name": "Mundial Escolar de Debate en Español - Panamá 2026"
+   },
+   {
+    "slug": "discursos",
+    "name": "Mundial Escolar de Debate en Español - Discursos 2026"
+   }
+  ]
+ },
+ {
+  "base": "https://med.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "med2023",
+    "name": "Mundial Escolar de Debate 2023"
+   }
+  ]
+ },
+ {
+  "base": "https://mexicodebate2021.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "MexicoDebate2021",
+    "name": "México Debate Categoría Menor 2021"
+   },
+   {
+    "slug": "MexicoDebate2021Mayor",
+    "name": "Mexico Debate 2021 categoría mayor"
+   }
+  ]
+ },
+ {
+  "base": "https://precmude2024.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "precmude2024",
+    "name": "PreCMUDE 2024"
+   }
+  ]
+ },
+ {
+  "base": "https://raptor.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "iicoparaptor",
+    "name": "Copa Raptor II"
+   },
+   {
+    "slug": "iicoparaptordiscursos",
+    "name": "Copa Raptor II - Discursos"
+   }
+  ]
+ },
+ {
+  "base": "https://sodech.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "top2023",
+    "name": "Torneo Temático de la Cultura POP 2023"
+   },
+   {
+    "slug": "tech2023",
+    "name": "Torneo Escolar Cayetano Heredia 2023"
+   },
+   {
+    "slug": "touch2023",
+    "name": "Torneo Universitario Cayetano Heredia 2023"
+   },
+   {
+    "slug": "tech2024",
+    "name": "Torneo Escolar Cayetano Heredia 2024"
+   },
+   {
+    "slug": "touch2024",
+    "name": "Torneo Universitario Cayetano Heredia 2024"
+   },
+   {
+    "slug": "touch2025",
+    "name": "Torneo Universitario Cayetano Heredia 2025"
+   },
+   {
+    "slug": "tech_open2025",
+    "name": "Torneo Escolar Cayetano Heredia - Categoria Open 2025"
+   },
+   {
+    "slug": "tech_junior2025",
+    "name": "Torneo Escolar Cayetano Heredia - Categoria Junior 2025"
+   }
+  ]
+ },
+ {
+  "base": "https://tdba2024.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "solidario2026",
+    "name": "Torneo Solidario 2026"
+   }
+  ]
+ },
+ {
+  "base": "https://tdi2024.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "TDI2024",
+    "name": "Torneo de Debate Interescolar Universidad de Chile 2024"
+   }
+  ]
+ },
+ {
+  "base": "https://tdi2025.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "tdi2025",
+    "name": "Torneo de Debate Interescolar Universidad de Chile 2025"
+   }
+  ]
+ },
+ {
+  "base": "https://tdt2023.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "tdt23",
+    "name": "Torneo de debate Trener 2023"
+   }
+  ]
+ },
+ {
+  "base": "https://tdt2024.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "tdt2024",
+    "name": "ThangLong Debate Tournament 2024"
+   }
+  ]
+ },
+ {
+  "base": "https://tdt2025.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "tdt2025",
+    "name": "Torneo de Debate Trener 2025"
+   }
+  ]
+ },
+ {
+  "base": "https://tld2023.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "tlde2023",
+    "name": "Torneo Lasallista de Debate Escolar"
+   }
+  ]
+ },
+ {
+  "base": "https://tld2024.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "tlde2024",
+    "name": "Torneo Lasallista de Debate Escolar 2024"
+   }
+  ]
+ },
+ {
+  "base": "https://tlde2025.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "tlde2025",
+    "name": "Torneo Lasallista de Debate Escolar 2025"
+   }
+  ]
+ },
+ {
+  "base": "https://tmd2021.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "tmd2021",
+    "name": "Torneo Metropolitano de Debate 2021"
+   }
+  ]
+ },
+ {
+  "base": "https://tmd2024.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "tmd2024",
+    "name": "Torneo Metropolitano de Debate 2024"
+   },
+   {
+    "slug": "tmdmasters2024",
+    "name": "Torneo Metropolitano de Debate 2024 Categoría Masters"
+   }
+  ]
+ },
+ {
+  "base": "https://tmd2025.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "_",
+    "name": "Torneo Metropolitano de Debate 2025"
+   },
+   {
+    "slug": "tmdmasters2025",
+    "name": "Torneo Metropolitano de Debate 2025 Categoría Masters"
+   },
+   {
+    "slug": "discursosTMD2025",
+    "name": "Torneo Metropolitano de Debate 2025 Categoría Discursos"
+   }
+  ]
+ },
+ {
+  "base": "https://tmd.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "TMD2022",
+    "name": "Torneo Metropolitano de Debate 2022"
+   },
+   {
+    "slug": "tmdmasters2022",
+    "name": "Torneo Metropolitano de Debate 2022 Masters"
+   },
+   {
+    "slug": "tmd2023",
+    "name": "Torneo Metropolitano de Debate 2023"
+   },
+   {
+    "slug": "tmdMasters2023",
+    "name": "Torneo Metropolitano de Debate Masters 2023"
+   }
+  ]
+ },
+ {
+  "base": "https://todi2021.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "todi2021",
+    "name": "Torneo de Debate Interuniversitario 2021"
+   }
+  ]
+ },
+ {
+  "base": "https://todi2022.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "TODI2022",
+    "name": "Torneo Interuniversitario de Debate 2022"
+   },
+   {
+    "slug": "TODIMaster2022",
+    "name": "Torneo Interuniversitario de Debate Master 2022"
+   }
+  ]
+ },
+ {
+  "base": "https://todi2023.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "todi2023",
+    "name": "Torneo de Debate Interuniversitario 2023"
+   },
+   {
+    "slug": "todimaster2023",
+    "name": "Torneo de Debate Interuniversitario - MASTER 2023"
+   }
+  ]
+ },
+ {
+  "base": "https://todi2024.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "todi2024",
+    "name": "Torneo de Debate Interuniversitario 2024"
+   },
+   {
+    "slug": "todimasters2024",
+    "name": "Torneo de Debate Interuniversitario - MÁSTERS 2024"
+   }
+  ]
+ },
+ {
+  "base": "https://todi.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "todi2026",
+    "name": "Torneo de Debate Interuniversitario 2026"
+   },
+   {
+    "slug": "discursostodi2026",
+    "name": "Todi Discursos 2026"
+   },
+   {
+    "slug": "MastersTODI2026",
+    "name": "TODI Master 2026"
+   }
+  ]
+ },
+ {
+  "base": "https://toin2023.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "toin2023",
+    "name": "Torneo de Invierno 2023"
+   }
+  ]
+ },
+ {
+  "base": "https://tonade2023.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "tonade2023",
+    "name": "Torneo Nacional de Debate Escolar 2023"
+   }
+  ]
+ },
+ {
+  "base": "https://tonade2024.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "TONADE2024",
+    "name": "Torneo Nacional de Debate Escolar de Chile 2024 - Open"
+   },
+   {
+    "slug": "MastersTONADE2024",
+    "name": "Torneo Nacional de Debate Escolar de Chile 2024 - Masters"
+   },
+   {
+    "slug": "DiscursosTONADE2024",
+    "name": "Torneo Nacional de Debate Escolar de Chile 2024 - Discursos"
+   }
+  ]
+ },
+ {
+  "base": "https://tonade2026.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "tonade26",
+    "name": "Torneo Nacional de Debate Escolar 2026"
+   }
+  ]
+ },
+ {
+  "base": "https://tonade.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "tonade_2022",
+    "name": "Torneo Nacional de Debate Escolar"
+   }
+  ]
+ },
+ {
+  "base": "https://tono2023.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "torneodenovates2023",
+    "name": "Torneo de Novates 2023"
+   }
+  ]
+ },
+ {
+  "base": "https://tono2024.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "tono2024",
+    "name": "Torneo de Novates 2024"
+   },
+   {
+    "slug": "tonodiscursos2024",
+    "name": "Torneo de Novates - Discursos 2024"
+   }
+  ]
+ },
+ {
+  "base": "https://tono2025.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "tono2025",
+    "name": "Torneo de Novates 2025"
+   },
+   {
+    "slug": "discursos",
+    "name": "Torneo de Novates - Discursos 2025"
+   }
+  ]
+ },
+ {
+  "base": "https://tono2026.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "open",
+    "name": "Torneo de Otoño 2026"
+   }
+  ]
+ },
+ {
+  "base": "https://top2025.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "top2025",
+    "name": "Torneo Temático de la Cultura Pop 2025"
+   }
+  ]
+ },
+ {
+  "base": "https://torneocervantes.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "torneocervantes",
+    "name": "I Torneo Miguel de Cervantes"
+   }
+  ]
+ },
+ {
+  "base": "https://torneodeinvierno2024.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "toin2024",
+    "name": "Torneo de Invierno 2024"
+   }
+  ]
+ },
+ {
+  "base": "https://torneodeinvierno2025.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "toin2025",
+    "name": "Torneo de Invierno 2025"
+   }
+  ]
+ },
+ {
+  "base": "https://torneodeotono2024.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "otono2024",
+    "name": "Torneo de Otoño 2024"
+   }
+  ]
+ },
+ {
+  "base": "https://torneodeotono2025.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "otono2025",
+    "name": "Torneo de Otoño 2025"
+   }
+  ]
+ },
+ {
+  "base": "https://tove2023.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "Tove2023",
+    "name": "Torneo de Verano 2023"
+   }
+  ]
+ },
+ {
+  "base": "https://tove2024.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "tove2024",
+    "name": "Torneo de Verano 2024"
+   }
+  ]
+ },
+ {
+  "base": "https://tove2025.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "tove2025",
+    "name": "Torneo de Verano 2025"
+   }
+  ]
+ },
+ {
+  "base": "https://tove2026.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "tove2026",
+    "name": "Torneo de Verano 2026"
+   }
+  ]
+ },
+ {
+  "base": "https://tubi2023.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "tubiducv2023",
+    "name": "Torneo Ucevista de BP Interuniversitario 2023"
+   }
+  ]
+ },
+ {
+  "base": "https://tubi2025.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "tubi2025",
+    "name": "Torneo Ucevista de BP Interuniversitario 2025"
+   },
+   {
+    "slug": "masters2025",
+    "name": "Torneo Ucevista de BP Interuniversitario Masters 2025"
+   }
+  ]
+ },
+ {
+  "base": "https://tubi.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "open2024",
+    "name": "Torneo Ucevista de BP Interuniversitario 2024"
+   },
+   {
+    "slug": "masters2024",
+    "name": "Masters Torneo Ucevista de BP Interuniversitario 2024"
+   }
+  ]
+ },
+ {
+  "base": "https://ub.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "interna",
+    "name": "Lliga interna de debat de la Universitat de Barcelona"
+   }
+  ]
+ },
+ {
+  "base": "https://uniandes2023.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "precmudeuniandes2023",
+    "name": "Pre-CMUDE Uniandes 2023"
+   },
+   {
+    "slug": "uniandesopen2023",
+    "name": "Uniandes Open 2023"
+   }
+  ]
+ },
+ {
+  "base": "https://uniandesiv.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "uniandesiv2024",
+    "name": "Uniandes IV"
+   },
+   {
+    "slug": "UniandesIV2025",
+    "name": "Uniandes IV 2025"
+   }
+  ]
+ },
+ {
+  "base": "https://usc.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "usciv22",
+    "name": "USC IV 2022"
+   }
+  ]
+ },
+ {
+  "base": "https://usciv.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "usciv2023",
+    "name": "USC IV 2023"
+   }
+  ]
+ },
+ {
+  "base": "https://vbpgranada.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "bpgranada2026",
+    "name": "V BP Ciudad de Granada"
+   }
+  ]
+ },
+ {
+  "base": "https://vcopacatalunya.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "CopaCat",
+    "name": "V Copa Catalunya"
+   }
+  ]
+ },
+ {
+  "base": "https://vgaduab.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "vgaduab",
+    "name": "V BP GAD-UAB"
+   }
+  ]
+ },
+ {
+  "base": "https://vibpsalamanca.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "vibpsalamanca",
+    "name": "VI Torneo BP Salamanca"
+   }
+  ]
+ },
+ {
+  "base": "https://vicopacatalunya.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "VIcopacatalunya",
+    "name": "VI Copa Catalunya"
+   }
+  ]
+ },
+ {
+  "base": "https://vigaduab.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "vigaduab",
+    "name": "VI BP GAD-UAB"
+   }
+  ]
+ },
+ {
+  "base": "https://viigaduab.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "viigaduab",
+    "name": "VII BP GAD-UAB"
+   }
+  ]
+ },
+ {
+  "base": "https://viiibpurjc.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "viiibpurjc",
+    "name": "VIII BP URJC"
+   }
+  ]
+ },
+ {
+  "base": "https://viiieliasahuja.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "viiieliasahuja",
+    "name": "VIII TORNEO BP ELIAS AHUJA"
+   }
+  ]
+ },
+ {
+  "base": "https://viiitrd.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "trd8uni",
+    "name": "Torneo Rosarista de Debate VIII 2024 - Categoría Universidades"
+   },
+   {
+    "slug": "trd8col",
+    "name": "Torneo Rosarista de Debate VIII 2024 - Categoría Colegios"
+   }
+  ]
+ },
+ {
+  "base": "https://viitrd.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "viitrduni",
+    "name": "VII Torneo Rosarista de Debate - Universidades 2023"
+   },
+   {
+    "slug": "viitrdcol",
+    "name": "VII Torneo Rosarista de Debate - Colegios 2023"
+   }
+  ]
+ },
+ {
+  "base": "https://vitrd.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "vitrd-colegios",
+    "name": "Sexto Torneo Rosarista de Debate Colegios"
+   },
+   {
+    "slug": "vitrd-universidades",
+    "name": "Sexto Torneo Rosarista de Debate Universidades"
+   }
+  ]
+ },
+ {
+  "base": "https://xbpuam.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "xbpuam",
+    "name": "X BP UAM"
+   }
+  ]
+ },
+ {
+  "base": "https://xibpmurcia.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "xibpmurcia",
+    "name": "XI BP Murcia"
+   }
+  ]
+ },
+ {
+  "base": "https://xibpurjc.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "xibpurjc",
+    "name": "XI BP URJC"
+   }
+  ]
+ },
+ {
+  "base": "https://xitdam.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "xitdam",
+    "name": "XI Torneo de Debate Académico de Málaga"
+   },
+   {
+    "slug": "xiitdam2025",
+    "name": "XII TDAM"
+   }
+  ]
+ },
+ {
+  "base": "https://xtrd.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "xtrd26uni",
+    "name": "X Torneo Rosarista de Debate 2026 - Universidades"
+   },
+   {
+    "slug": "xtrd26col",
+    "name": "X Torneo Rosarista de Debate 2026 - Colegios"
+   }
+  ]
+ }
+]

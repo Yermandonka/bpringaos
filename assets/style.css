@@ -321,7 +321,10 @@ button { font-family: inherit; }
 .tband-label { fill: var(--ink-3); font-family: var(--font-m); font-size: 9px; letter-spacing: 1px; }
 .evo-line { fill: none; stroke-width: 2px; stroke-linejoin: round; stroke-linecap: round; }
 .evo-avg { stroke: var(--ink-3); stroke-width: 1.2px; stroke-dasharray: 4 5; opacity: .8; }
-.evo-dot { stroke: var(--bg); stroke-width: 2px; cursor: pointer; }
+.evo-dot { stroke: var(--bg); stroke-width: 2px; cursor: pointer; transition: filter .2s; }
+.evo-dot:hover { filter: drop-shadow(0 0 6px var(--serie)); }
+.evo-dot-best { animation: dotpulse 1.8s ease-in-out infinite; }
+@keyframes dotpulse { 50% { filter: drop-shadow(0 0 8px var(--accent)); } }
 .direct-label { font-family: var(--font-m); font-size: 11px; font-weight: 700; }
 
 /* resultados */
