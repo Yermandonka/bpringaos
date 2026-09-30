@@ -468,33 +468,56 @@
     mk("feMergeNode", { in: "b" }, mrg);
     mk("feMergeNode", { in: "SourceGraphic" }, mrg);
 
-    // bandas por torneo + medias
-    let start = 0, bandN = 0;
+    // agrupar filas en bandas por torneo
+    const bands = [];
+    let start = 0;
     rows.forEach((r, i) => {
       const next = rows[i + 1];
       if (!next || next.t !== r.t) {
-        const x0 = xs(start) - 20, x1 = xs(i) + 20;
-        if (bandN % 2 === 0) mk("rect", { x: x0, y: m.t, width: x1 - x0, height: Hc - m.t - m.b, class: "tband" });
-        const cx = (x0 + x1) / 2;
+        bands.push({ x0: xs(start) - 20, x1: xs(i) + 20, tname: r.tname,
+                     year: (r.date || "").slice(0, 4) });
+        start = i + 1;
+      }
+    });
+    // rectángulos alternos
+    bands.forEach((b, k) => {
+      if (k % 2 === 0) mk("rect", { x: b.x0, y: m.t, width: b.x1 - b.x0, height: Hc - m.t - m.b, class: "tband" });
+    });
+    // ¿caben los nombres de torneo? si no, mostramos AÑOS
+    const chartW = Wc - m.l - m.r;
+    const avgBand = chartW / bands.length;
+    const useYears = avgBand < (mob ? 26 : 62);
+    if (useYears) {
+      // una etiqueta por año, centrada bajo el tramo de ese año
+      let s = 0;
+      bands.forEach((b, k) => {
+        const nb = bands[k + 1];
+        if (!nb || nb.year !== b.year) {
+          const cx = (bands[s].x0 + b.x1) / 2;
+          const t = mk("text", { x: cx, y: mob ? Hc - m.b + 26 : Hc - 34, "text-anchor": "middle", class: "tband-label tband-year" });
+          t.textContent = b.year || "";
+          // tick divisorio entre años
+          if (nb) mk("line", { x1: (b.x1 + nb.x0) / 2, x2: (b.x1 + nb.x0) / 2, y1: m.t, y2: Hc - m.b, class: "yeardiv" });
+          s = k + 1;
+        }
+      });
+    } else {
+      const lim = mob ? 15 : 22;
+      bands.forEach((b) => {
+        const cx = (b.x0 + b.x1) / 2;
         const lbl = mk("text", { class: "tband-label" });
-        const lim = mob ? 15 : 22;
-        const short = r.tname.length > lim ? r.tname.slice(0, lim - 1) + "…" : r.tname;
-        lbl.textContent = short.toUpperCase();
+        lbl.textContent = (b.tname.length > lim ? b.tname.slice(0, lim - 1) + "…" : b.tname).toUpperCase();
         if (mob) {
-          // etiqueta vertical, leyendo de abajo (eje) hacia arriba, empezando por el inicio del nombre
           const ay = Hc - m.b + 8;
-          lbl.setAttribute("x", cx);
-          lbl.setAttribute("y", ay);
+          lbl.setAttribute("x", cx); lbl.setAttribute("y", ay);
           lbl.setAttribute("text-anchor", "start");
           lbl.setAttribute("transform", `rotate(-90 ${cx} ${ay})`);
         } else {
-          lbl.setAttribute("x", cx);
-          lbl.setAttribute("y", Hc - 36);
+          lbl.setAttribute("x", cx); lbl.setAttribute("y", Hc - 36);
           lbl.setAttribute("text-anchor", "middle");
         }
-        bandN++; start = i + 1;
-      }
-    });
+      });
+    }
 
     const grid = mk("g", { class: "grid axis" });
     for (let v = lo; v <= hi; v += 5) {

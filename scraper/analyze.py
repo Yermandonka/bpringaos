@@ -77,9 +77,10 @@ def same_person(a_toks, b_toks):
 
 
 def matches(target, name):
-    # perfiles generados del roster: unificación difusa (apodos + nº de apellidos)
-    if target.get("toks"):
-        return same_person(name_tokens(name), target["toks"])
+    # perfiles del roster: emparejar SOLO por variante exacta conocida (vistas en
+    # equipos UCM-COM puros); evita fusionar homónimos de otros clubes
+    if target.get("variants"):
+        return " ".join(name_tokens(name)) in target["variants"]
     n = " " + norm(name) + " "
     for token in target["required_all"]:
         if token not in n:
@@ -353,8 +354,17 @@ def summarize(person):
     scored = [r for r in rows if r["score"] is not None]
     scores = [r["score"] for r in scored]
     breaks = sorted(person["breaks"], key=lambda b: b["date"] or "")
+    # actividad en los últimos 6 meses (para ordenar la lista)
+    try:
+        today = datetime.date.today()
+    except Exception:
+        today = datetime.date(2026, 9, 30)
+    cut6 = (today - datetime.timedelta(days=182)).isoformat()
+    t6 = {r["t"] for r in rows if (r["date"] or "") >= cut6}
     out = {"display": person["target"]["display"], "n_tournaments": len(person["tournaments"]),
            "n_rounds": len(rows), "n_elim_rounds": len(person["elim_rows"]),
+           "n_tournaments_6m": len(t6),
+           "n_rounds_6m": sum(1 for r in rows if (r["date"] or "") >= cut6),
            "breaks": breaks, "n_breaks": len(breaks),
            "n_breaks_novice": sum(1 for b in breaks if b["novice"]),
            "n_breaks_open": sum(1 for b in breaks if not b["novice"]),
@@ -489,42 +499,94 @@ def head_to_head(people):
 
 
 UCM_COM = re.compile(r"ucm[\s-]*com|comunicate")
+# otros clubes/universidades: si aparecen junto a UCM-COM, el equipo es HÍBRIDO
+# (no cuenta para pertenencia; su compañero no es de UCM-COM)
+OTHER_CLUB = re.compile(
+    r"\b(urjc|indalo|nebrija|uam|uc3m|ucjc|uned|ual|uvigo|deusto|comillas|"
+    r"icade|ceu|upf|esade|cunef|aduma|upm|uah|unizar|aduz|uab|gad)\b|elias ahuja|ahuja")
+
+# alias manuales para nombres-broma que no comparten tokens con el real
+# (clave: nombre normalizado del alias → nombre canónico real)
+ALIAS_TO_CANON = {
+    "ponce g maestro": "Pablo Ponce Sánchez",
+}
+
+# personas que aparecen en algún equipo UCM-COM puntualmente (invitados) pero
+# NO son del club — no deben tener perfil (lista curada a mano)
+EXCLUDE_MEMBERS = {
+    "tomas aparicio", "tomas aparicio ayan",
+    "natalia ruiz", "natalia ruiz beltran",
+}
+
+
+def is_pure_ucm(ref):
+    n = norm(ref)
+    return bool(UCM_COM.search(n)) and not OTHER_CLUB.search(n)
 
 
 def ucm_members(tournaments, days=365):
-    """Nombres que representaron a UCM-COM en el último año, agrupando variantes
-    (apodos y nº de apellidos) en un único nombre canónico (el más completo)."""
+    """Personas que representaron a UCM-COM (equipos PUROS, no híbridos) en el
+    último año. Devuelve grupos con el conjunto EXACTO de variantes de nombre
+    vistas — el matching posterior es por variante exacta (evita fusionar
+    homónimos de otros clubes)."""
     try:
         today = datetime.date.today()
     except Exception:
         today = datetime.date(2026, 9, 30)
     cutoff = (today - datetime.timedelta(days=days)).isoformat()
-    variants = {}
+    seen = {}  # nkey -> display limpio
     for data in tournaments:
         date = tournament_date(data)
         if not date or date < cutoff:
             continue
         for tm in data.get("teams") or []:
             ref = tm.get("short_name") or tm.get("reference") or ""
-            if not UCM_COM.search(norm(ref)):
+            if not is_pure_ucm(ref):
                 continue
             for sp in tm.get("speakers", []) or []:
-                name = sp.get("name")
-                if not name or sp.get("anonymous"):
+                if not sp.get("name") or sp.get("anonymous"):
                     continue
-                toks = name_tokens(name)
+                toks = name_tokens(sp["name"])
                 if len(toks) < 2:
                     continue
-                k = " ".join(toks)
-                variants.setdefault(k, {"display": clean_name(name), "toks": toks})
-    # agrupar variantes de la misma persona; canónico = variante con más tokens
-    groups = []
-    for v in sorted(variants.values(), key=lambda x: -len(x["toks"])):
+                nkey = " ".join(toks)
+                if nkey in EXCLUDE_MEMBERS:
+                    continue
+                seen.setdefault(nkey, clean_name(sp["name"]))
+    # nodos = cada variante vista; unir por same_person + alias manual
+    groups = []  # {"toks","display","variants":set}
+
+    def find_group(toks, force_canon=None):
         for g in groups:
-            if same_person(v["toks"], g["toks"]):
-                break
-        else:
-            groups.append({"display": v["display"], "toks": v["toks"]})
+            if force_canon and norm(g["display"]) == norm(force_canon):
+                return g
+            if not force_canon and same_person(toks, g["toks"]):
+                return g
+        return None
+
+    for nkey, disp in sorted(seen.items(), key=lambda kv: -len(kv[0].split())):
+        toks = nkey.split()
+        canon = ALIAS_TO_CANON.get(nkey)
+        g = find_group(toks, force_canon=canon)
+        if g is None:
+            g = {"toks": toks, "display": canon or disp, "variants": set()}
+            groups.append(g)
+        g["variants"].add(nkey)
+        # el canónico es la variante con más tokens (o el forzado por alias)
+        if canon:
+            g["display"] = canon
+        elif len(toks) > len(g["toks"]):
+            g["toks"], g["display"] = toks, disp
+    # asegurar que la variante canónica del alias está en el set aunque no se
+    # haya visto tal cual
+    for nkey, canon in ALIAS_TO_CANON.items():
+        for g in groups:
+            if norm(g["display"]) == norm(canon):
+                g["variants"].add(nkey)
+                ck = " ".join(name_tokens(canon))
+                g["variants"].add(ck)
+                if len(ck.split()) > len(g["toks"]):
+                    g["toks"] = ck.split()
     return cutoff, groups
 
 
@@ -544,15 +606,18 @@ def roster_targets(tournaments, curated):
         # ¿es una persona ya curada? → no duplicar
         if any(matches(c, g["display"]) for c in curated):
             continue
-        # nombre + dos apellidos (>=3 tokens) para el canónico: evita perfiles
-        # de nombres de 2 tokens demasiado ambiguos (homónimos)
-        if len(g["toks"]) < 3:
+        # al menos nombre + apellido; el matching por variante exacta ya evita
+        # fusionar homónimos, así que 2 tokens es seguro para miembros reales
+        if len(g["toks"]) < 2:
+            continue
+        # además, las variantes curadas no deben crear un perfil aparte
+        if any(matches(c, v) for c in curated for v in g["variants"]):
             continue
         key = slugify(g["display"])
         if key in seen_keys:
             continue
         seen_keys.add(key)
-        gen.append({"key": key, "display": g["display"], "toks": g["toks"],
+        gen.append({"key": key, "display": g["display"], "variants": g["variants"],
                     "required_all": [], "required_any": []})
     return gen
 
