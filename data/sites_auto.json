@@ -38,5 +38,14 @@
     "name": "VI PreCMUDE UAM"
    }
   ]
+ },
+ {
+  "base": "https://viiiprecmudeuam.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "viiiprecmudeuam",
+    "name": "VIII PreCMUDE UAM"
+   }
+  ]
  }
 ]

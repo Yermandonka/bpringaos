@@ -1,6 +1,6 @@
 {
  "generated": true,
- "n_tournaments_scanned": 307,
+ "n_tournaments_scanned": 308,
  "n_people": 103,
  "tournaments_scanned": [
   {
@@ -2024,6 +2024,13 @@
    "slug": "viiieliasahuja",
    "base": "https://viiieliasahuja.calicotab.com",
    "date": "2025-10-31",
+   "online": false
+  },
+  {
+   "name": "VIII PreCMUDE UAM",
+   "slug": "viiiprecmudeuam",
+   "base": "https://viiiprecmudeuam.calicotab.com",
+   "date": "2026-06-19",
    "online": false
   },
   {
@@ -11156,12 +11163,12 @@
   },
   "jose-tomas-sanchez-galan": {
    "display": "José Tomás Sánchez Galán",
-   "n_tournaments": 23,
-   "n_rounds": 131,
+   "n_tournaments": 24,
+   "n_rounds": 137,
    "n_elim_rounds": 0,
    "last_date": "2026-09-26",
-   "n_tournaments_6m": 4,
-   "n_rounds_6m": 22,
+   "n_tournaments_6m": 5,
+   "n_rounds_6m": 28,
    "breaks": [
     {
      "t": "copaleonii__leondelsurii2025",
@@ -11354,6 +11361,13 @@
      "date": "2026-05-16",
      "online": true,
      "team": "UCM-COM DERECHO A LA PEREZA"
+    },
+    {
+     "slug": "viiiprecmudeuam__viiiprecmudeuam",
+     "name": "VIII PreCMUDE UAM",
+     "date": "2026-06-19",
+     "online": false,
+     "team": "UCM-COM Campero al pastor"
     },
     {
      "slug": "copaleonv__copaleondelsurv",
@@ -14132,6 +14146,144 @@
      "t_avg": 75.95
     },
     {
+     "t": "viiiprecmudeuam__viiiprecmudeuam",
+     "tname": "VIII PreCMUDE UAM",
+     "date": "2026-06-19",
+     "online": false,
+     "round": "Ronda 1",
+     "seq": 1,
+     "stage": "P",
+     "side": "oo",
+     "points": 2,
+     "win": false,
+     "position": 1,
+     "score": 79.0,
+     "iron": false,
+     "room_rank": 4,
+     "motion": "EC lamenta la mercantilización de la nostalgia",
+     "topic": "economía",
+     "team": "UCM-COM Campero al pastor",
+     "mate": "José Luis Muñoz Reja",
+     "chair": "Raúl Viñas",
+     "venue": "Aula 2 - A2",
+     "t_avg": 76.36
+    },
+    {
+     "t": "viiiprecmudeuam__viiiprecmudeuam",
+     "tname": "VIII PreCMUDE UAM",
+     "date": "2026-06-19",
+     "online": false,
+     "round": "Ronda 2",
+     "seq": 2,
+     "stage": "P",
+     "side": "cg",
+     "points": 2,
+     "win": false,
+     "position": 2,
+     "score": 79.0,
+     "iron": false,
+     "room_rank": 2,
+     "motion": "ECCQ el Papa León XIV debería tomar una posición más agresiva respecto a la administración de Trump (ej., amenazar con excomulgar personas, manifestar abiertamente su desaprobación de los sectores católicos MAGA, etc.)",
+     "topic": "religión",
+     "team": "UCM-COM Campero al pastor",
+     "mate": "José Luis Muñoz Reja",
+     "chair": "Fabian Miulescu",
+     "venue": "Aula 5 - A5",
+     "t_avg": 76.36
+    },
+    {
+     "t": "viiiprecmudeuam__viiiprecmudeuam",
+     "tname": "VIII PreCMUDE UAM",
+     "date": "2026-06-19",
+     "online": false,
+     "round": "Ronda 3",
+     "seq": 3,
+     "stage": "P",
+     "side": "og",
+     "points": 3,
+     "win": false,
+     "position": 1,
+     "score": 79.0,
+     "iron": false,
+     "room_rank": 2,
+     "motion": "EC lamenta la Sentencia Bosman",
+     "topic": "economía",
+     "team": "UCM-COM Campero al pastor",
+     "mate": "José Luis Muñoz Reja",
+     "chair": "Horacio 👑",
+     "venue": "Sala 8 - Aula 103",
+     "t_avg": 76.36
+    },
+    {
+     "t": "viiiprecmudeuam__viiiprecmudeuam",
+     "tname": "VIII PreCMUDE UAM",
+     "date": "2026-06-19",
+     "online": false,
+     "round": "Ronda 4",
+     "seq": 4,
+     "stage": "P",
+     "side": "co",
+     "points": 2,
+     "win": false,
+     "position": 2,
+     "score": 79.0,
+     "iron": false,
+     "room_rank": 4,
+     "motion": "EC prefiere que la representación laboral y acción colectiva se estructure bajo el modelo intergremial en lugar del modelo gremializado",
+     "topic": "otros",
+     "team": "UCM-COM Campero al pastor",
+     "mate": "José Luis Muñoz Reja",
+     "chair": "Natalia de la Puente",
+     "venue": "Sala 4 - Aula 203.2",
+     "t_avg": 76.36
+    },
+    {
+     "t": "viiiprecmudeuam__viiiprecmudeuam",
+     "tname": "VIII PreCMUDE UAM",
+     "date": "2026-06-19",
+     "online": false,
+     "round": "Ronda 5",
+     "seq": 5,
+     "stage": "P",
+     "side": "cg",
+     "points": 2,
+     "win": false,
+     "position": 2,
+     "score": 80.0,
+     "iron": false,
+     "room_rank": 5,
+     "motion": "EC, como la OPEP+, priorizaría mantener elevados los precios del barril, por encima de inundar el mercado con crudo barato",
+     "topic": "economía",
+     "team": "UCM-COM Campero al pastor",
+     "mate": "José Luis Muñoz Reja",
+     "chair": "Fabian Miulescu",
+     "venue": "Sala 5 - Aula 205.1",
+     "t_avg": 76.36
+    },
+    {
+     "t": "viiiprecmudeuam__viiiprecmudeuam",
+     "tname": "VIII PreCMUDE UAM",
+     "date": "2026-06-19",
+     "online": false,
+     "round": "Ronda 6",
+     "seq": 6,
+     "stage": "P",
+     "side": "oo",
+     "points": 0,
+     "win": false,
+     "position": 2,
+     "score": 79.0,
+     "iron": false,
+     "room_rank": 8,
+     "motion": "EC, siendo el escritor, viraría a escribir romance gay",
+     "topic": "rol / actor",
+     "team": "UCM-COM Campero al pastor",
+     "mate": "José Luis Muñoz Reja",
+     "chair": "Mario de la Hoz",
+     "venue": "Sala 2 - Aula 214",
+     "t_avg": 76.36
+    },
+    {
      "t": "copaleonv__copaleondelsurv",
      "tname": "Copa León del Sur V",
      "date": "2026-07-10",
@@ -14386,8 +14538,8 @@
     }
    ],
    "elim_rows": [],
-   "avg_speaks": 74.74,
-   "stdev": 4.08,
+   "avg_speaks": 74.93,
+   "stdev": 4.09,
    "best": {
     "t": "bpcomplu__vibpcomplu",
     "tname": "VI BP COMPLU",
@@ -14434,61 +14586,61 @@
     "venue": "1.10 - The Face",
     "t_avg": 73.35
    },
-   "avg_points": 1.58,
+   "avg_points": 1.59,
    "results_dist": {
-    "3": 37,
-    "2": 33,
+    "3": 38,
+    "2": 37,
     "1": 30,
-    "0": 31
+    "0": 32
    },
    "pos1": {
-    "n": 61,
-    "avg": 73.87
+    "n": 63,
+    "avg": 74.03
    },
    "pos2": {
-    "n": 70,
-    "avg": 75.5
+    "n": 74,
+    "avg": 75.7
    },
    "sides": {
     "og": {
      "label": "Alta Gobierno",
-     "n": 32,
-     "avg_points": 1.84,
-     "avg_speaks": 75.59,
-     "firsts": 11
+     "n": 33,
+     "avg_points": 1.88,
+     "avg_speaks": 75.7,
+     "firsts": 12
     },
     "oo": {
      "label": "Alta Oposición",
-     "n": 32,
-     "avg_points": 1.22,
-     "avg_speaks": 73.59,
+     "n": 34,
+     "avg_points": 1.21,
+     "avg_speaks": 73.91,
      "firsts": 6
     },
     "cg": {
      "label": "Baja Gobierno",
-     "n": 35,
-     "avg_points": 1.54,
-     "avg_speaks": 75.03,
+     "n": 37,
+     "avg_points": 1.57,
+     "avg_speaks": 75.27,
      "firsts": 6
     },
     "co": {
      "label": "Baja Oposición",
-     "n": 32,
-     "avg_points": 1.72,
-     "avg_speaks": 74.72,
+     "n": 33,
+     "avg_points": 1.73,
+     "avg_speaks": 74.85,
      "firsts": 14
     }
    },
    "topics": {
     "otros": {
-     "n": 19,
-     "avg_points": 1.53,
-     "avg_speaks": 74.47
+     "n": 20,
+     "avg_points": 1.55,
+     "avg_speaks": 74.7
     },
     "economía": {
-     "n": 25,
-     "avg_points": 1.48,
-     "avg_speaks": 74.32
+     "n": 28,
+     "avg_points": 1.57,
+     "avg_speaks": 74.86
     },
     "psicología y salud mental": {
      "n": 12,
@@ -14501,9 +14653,9 @@
      "avg_speaks": 72.33
     },
     "religión": {
-     "n": 13,
-     "avg_points": 1.92,
-     "avg_speaks": 76.38
+     "n": 14,
+     "avg_points": 1.93,
+     "avg_speaks": 76.57
     },
     "política nacional": {
      "n": 12,
@@ -14521,9 +14673,9 @@
      "avg_speaks": 74.33
     },
     "rol / actor": {
-     "n": 7,
-     "avg_points": 1.86,
-     "avg_speaks": 73.14
+     "n": 8,
+     "avg_points": 1.62,
+     "avg_speaks": 73.88
     },
     "medios y cultura": {
      "n": 2,
@@ -14674,6 +14826,12 @@
      "n": 5
     },
     {
+     "date": "2026-06-19",
+     "tname": "VIII PreCMUDE UAM",
+     "avg": 79.17,
+     "n": 6
+    },
+    {
      "date": "2026-07-10",
      "tname": "Copa León del Sur V",
      "avg": 78.4,
@@ -14754,6 +14912,12 @@
      "avg_speaks": 76.83
     },
     {
+     "name": "José Luis Muñoz Reja",
+     "n": 6,
+     "avg_points": 1.83,
+     "avg_speaks": 79.17
+    },
+    {
      "name": "Pablo Ponce Sánchez",
      "n": 6,
      "avg_points": 1.83,
@@ -14784,23 +14948,23 @@
      "avg_speaks": 78.4
     }
    ],
-   "vs_field": 0.78,
+   "vs_field": 0.87,
    "clutch": {
-    "avg_last_round": 74.74,
-    "delta": -0.0
+    "avg_last_round": 74.92,
+    "delta": -0.01
    },
-   "streak_top2": 9,
+   "streak_top2": 8,
    "env_online": {
     "n": 25,
     "avg_speaks": 76.16,
     "avg_points": 1.76
    },
    "env_presencial": {
-    "n": 106,
-    "avg_speaks": 74.41,
-    "avg_points": 1.54
+    "n": 112,
+    "avg_speaks": 74.66,
+    "avg_points": 1.55
    },
-   "avg_room_rank": 3.91,
+   "avg_room_rank": 3.92,
    "room_best_count": 26,
    "chairs": [
     [
@@ -14816,23 +14980,23 @@
      4
     ],
     [
-     "Álvaro Mora Varela",
+     "Fabian Miulescu",
      4
     ],
     [
-     "Cristo",
-     3
+     "Álvaro Mora Varela",
+     4
     ]
    ]
   },
   "jaime-rodriguez-sanchez-tabernero": {
    "display": "Jaime Rodríguez Sánchez-Tabernero",
-   "n_tournaments": 41,
-   "n_rounds": 235,
+   "n_tournaments": 42,
+   "n_rounds": 241,
    "n_elim_rounds": 0,
    "last_date": "2026-09-26",
-   "n_tournaments_6m": 2,
-   "n_rounds_6m": 16,
+   "n_tournaments_6m": 3,
+   "n_rounds_6m": 22,
    "breaks": [
     {
      "t": "precmudepucp2024__precmudepucp",
@@ -15003,6 +15167,14 @@
      "champion": false
     },
     {
+     "t": "viiiprecmudeuam__viiiprecmudeuam",
+     "tname": "VIII PreCMUDE UAM",
+     "date": "2026-06-19",
+     "novice": false,
+     "reached": "Final",
+     "champion": false
+    },
+    {
      "t": "cmude2026__open",
      "tname": "Campeonato Mundial Universitario de Debate en Español 2026",
      "date": "2026-07-27",
@@ -15019,9 +15191,9 @@
      "champion": true
     }
    ],
-   "n_breaks": 23,
+   "n_breaks": 24,
    "n_breaks_novice": 0,
-   "n_breaks_open": 23,
+   "n_breaks_open": 24,
    "tournaments": [
     {
      "slug": "aquinasroncalli2022__Aquinas",
@@ -15295,6 +15467,13 @@
      "date": "2026-03-20",
      "online": false,
      "team": "UC3M No me gusta tu actitud"
+    },
+    {
+     "slug": "viiiprecmudeuam__viiiprecmudeuam",
+     "name": "VIII PreCMUDE UAM",
+     "date": "2026-06-19",
+     "online": false,
+     "team": "UC3M PR"
     },
     {
      "slug": "cmude2026__open",
@@ -20350,6 +20529,144 @@
      "t_avg": 74.12
     },
     {
+     "t": "viiiprecmudeuam__viiiprecmudeuam",
+     "tname": "VIII PreCMUDE UAM",
+     "date": "2026-06-19",
+     "online": false,
+     "round": "Ronda 1",
+     "seq": 1,
+     "stage": "P",
+     "side": "co",
+     "points": 3,
+     "win": false,
+     "position": 2,
+     "score": 81.0,
+     "iron": false,
+     "room_rank": 1,
+     "motion": "EC lamenta la mercantilización de la nostalgia",
+     "topic": "economía",
+     "team": "UC3M PR",
+     "mate": "Giza Fiorella Pavone",
+     "chair": "Daniel Pérez Alonso",
+     "venue": "Aula 6 - A7",
+     "t_avg": 76.36
+    },
+    {
+     "t": "viiiprecmudeuam__viiiprecmudeuam",
+     "tname": "VIII PreCMUDE UAM",
+     "date": "2026-06-19",
+     "online": false,
+     "round": "Ronda 2",
+     "seq": 2,
+     "stage": "P",
+     "side": "oo",
+     "points": 3,
+     "win": false,
+     "position": 2,
+     "score": 80.0,
+     "iron": false,
+     "room_rank": 2,
+     "motion": "ECCQ el Papa León XIV debería tomar una posición más agresiva respecto a la administración de Trump (ej., amenazar con excomulgar personas, manifestar abiertamente su desaprobación de los sectores católicos MAGA, etc.)",
+     "topic": "religión",
+     "team": "UC3M PR",
+     "mate": "Giza Fiorella Pavone",
+     "chair": "Adriana Betancor",
+     "venue": "Aula 8 - S13",
+     "t_avg": 76.36
+    },
+    {
+     "t": "viiiprecmudeuam__viiiprecmudeuam",
+     "tname": "VIII PreCMUDE UAM",
+     "date": "2026-06-19",
+     "online": false,
+     "round": "Ronda 3",
+     "seq": 3,
+     "stage": "P",
+     "side": "cg",
+     "points": 2,
+     "win": false,
+     "position": 2,
+     "score": 79.0,
+     "iron": false,
+     "room_rank": 2,
+     "motion": "EC lamenta la Sentencia Bosman",
+     "topic": "economía",
+     "team": "UC3M PR",
+     "mate": "Giza Fiorella Pavone",
+     "chair": "Fabian Miulescu",
+     "venue": "Sala 3 - Aula 202",
+     "t_avg": 76.36
+    },
+    {
+     "t": "viiiprecmudeuam__viiiprecmudeuam",
+     "tname": "VIII PreCMUDE UAM",
+     "date": "2026-06-19",
+     "online": false,
+     "round": "Ronda 4",
+     "seq": 4,
+     "stage": "P",
+     "side": "oo",
+     "points": 2,
+     "win": false,
+     "position": 2,
+     "score": 81.0,
+     "iron": false,
+     "room_rank": 2,
+     "motion": "EC prefiere que la representación laboral y acción colectiva se estructure bajo el modelo intergremial en lugar del modelo gremializado",
+     "topic": "otros",
+     "team": "UC3M PR",
+     "mate": "Giza Fiorella Pavone",
+     "chair": "Mario de la Hoz",
+     "venue": "Sala 1 - Aula 201",
+     "t_avg": 76.36
+    },
+    {
+     "t": "viiiprecmudeuam__viiiprecmudeuam",
+     "tname": "VIII PreCMUDE UAM",
+     "date": "2026-06-19",
+     "online": false,
+     "round": "Ronda 5",
+     "seq": 5,
+     "stage": "P",
+     "side": "og",
+     "points": 3,
+     "win": false,
+     "position": 2,
+     "score": 82.0,
+     "iron": false,
+     "room_rank": 1,
+     "motion": "EC, como la OPEP+, priorizaría mantener elevados los precios del barril, por encima de inundar el mercado con crudo barato",
+     "topic": "economía",
+     "team": "UC3M PR",
+     "mate": "Giza Fiorella Pavone",
+     "chair": "Fabian Miulescu",
+     "venue": "Sala 5 - Aula 205.1",
+     "t_avg": 76.36
+    },
+    {
+     "t": "viiiprecmudeuam__viiiprecmudeuam",
+     "tname": "VIII PreCMUDE UAM",
+     "date": "2026-06-19",
+     "online": false,
+     "round": "Ronda 6",
+     "seq": 6,
+     "stage": "P",
+     "side": "og",
+     "points": 1,
+     "win": false,
+     "position": 2,
+     "score": 80.0,
+     "iron": false,
+     "room_rank": 5,
+     "motion": "EC, siendo el escritor, viraría a escribir romance gay",
+     "topic": "rol / actor",
+     "team": "UC3M PR",
+     "mate": "Giza Fiorella Pavone",
+     "chair": "Mario de la Hoz",
+     "venue": "Sala 2 - Aula 214",
+     "t_avg": 76.36
+    },
+    {
      "t": "cmude2026__open",
      "tname": "Campeonato Mundial Universitario de Debate en Español 2026",
      "date": "2026-07-27",
@@ -20719,7 +21036,7 @@
     }
    ],
    "elim_rows": [],
-   "avg_speaks": 77.26,
+   "avg_speaks": 77.34,
    "stdev": 3.35,
    "best": {
     "t": "cnd2026__cnd2026",
@@ -20767,11 +21084,11 @@
     "venue": "Sala 6 Planta 2",
     "t_avg": 73.76
    },
-   "avg_points": 1.92,
+   "avg_points": 1.93,
    "results_dist": {
-    "3": 94,
-    "2": 61,
-    "1": 47,
+    "3": 97,
+    "2": 63,
+    "1": 48,
     "0": 33
    },
    "pos1": {
@@ -20779,37 +21096,37 @@
     "avg": 76.63
    },
    "pos2": {
-    "n": 131,
-    "avg": 77.76
+    "n": 137,
+    "avg": 77.88
    },
    "sides": {
     "og": {
      "label": "Alta Gobierno",
-     "n": 62,
+     "n": 64,
      "avg_points": 2.06,
-     "avg_speaks": 77.23,
-     "firsts": 25
+     "avg_speaks": 77.34,
+     "firsts": 26
     },
     "oo": {
      "label": "Alta Oposición",
-     "n": 60,
-     "avg_points": 1.67,
-     "avg_speaks": 77.28,
-     "firsts": 17
+     "n": 62,
+     "avg_points": 1.69,
+     "avg_speaks": 77.39,
+     "firsts": 18
     },
     "cg": {
      "label": "Baja Gobierno",
-     "n": 58,
+     "n": 59,
      "avg_points": 2.03,
-     "avg_speaks": 77.57,
+     "avg_speaks": 77.59,
      "firsts": 26
     },
     "co": {
      "label": "Baja Oposición",
-     "n": 55,
-     "avg_points": 1.91,
-     "avg_speaks": 76.96,
-     "firsts": 26
+     "n": 56,
+     "avg_points": 1.93,
+     "avg_speaks": 77.04,
+     "firsts": 27
     }
    },
    "topics": {
@@ -20824,14 +21141,14 @@
      "avg_speaks": 76.94
     },
     "economía": {
-     "n": 45,
-     "avg_points": 1.76,
-     "avg_speaks": 77.02
+     "n": 48,
+     "avg_points": 1.81,
+     "avg_speaks": 77.25
     },
     "religión": {
-     "n": 28,
-     "avg_points": 1.89,
-     "avg_speaks": 77.61
+     "n": 29,
+     "avg_points": 1.93,
+     "avg_speaks": 77.69
     },
     "medios y cultura": {
      "n": 7,
@@ -20854,9 +21171,9 @@
      "avg_speaks": 77.94
     },
     "otros": {
-     "n": 22,
-     "avg_points": 1.82,
-     "avg_speaks": 77.32
+     "n": 23,
+     "avg_points": 1.83,
+     "avg_speaks": 77.48
     },
     "psicología y salud mental": {
      "n": 18,
@@ -20869,9 +21186,9 @@
      "avg_speaks": 76.12
     },
     "rol / actor": {
-     "n": 15,
-     "avg_points": 2.27,
-     "avg_speaks": 76.93
+     "n": 16,
+     "avg_points": 2.19,
+     "avg_speaks": 77.12
     }
    },
    "evolution": [
@@ -21110,6 +21427,12 @@
      "n": 5
     },
     {
+     "date": "2026-06-19",
+     "tname": "VIII PreCMUDE UAM",
+     "avg": 80.5,
+     "n": 6
+    },
+    {
      "date": "2026-07-27",
      "tname": "Campeonato Mundial Universitario de Debate en Español 2026",
      "avg": 80.4,
@@ -21142,16 +21465,16 @@
      "avg_speaks": 80.0
     },
     {
+     "name": "Giza Fiorella Pavone",
+     "n": 18,
+     "avg_points": 2.22,
+     "avg_speaks": 79.67
+    },
+    {
      "name": "Rodrigo Antonio Salado",
      "n": 12,
      "avg_points": 1.67,
      "avg_speaks": 75.42
-    },
-    {
-     "name": "Giza Fiorella Pavone",
-     "n": 12,
-     "avg_points": 2.17,
-     "avg_speaks": 79.25
     },
     {
      "name": "Juan de las Rivas",
@@ -21274,10 +21597,10 @@
      "avg_speaks": 78.5
     }
    ],
-   "vs_field": 2.77,
+   "vs_field": 2.81,
    "clutch": {
-    "avg_last_round": 77.49,
-    "delta": 0.23
+    "avg_last_round": 77.55,
+    "delta": 0.21
    },
    "streak_top2": 16,
    "env_online": {
@@ -21286,12 +21609,12 @@
     "avg_points": 2.35
    },
    "env_presencial": {
-    "n": 195,
-    "avg_speaks": 76.94,
-    "avg_points": 1.83
+    "n": 201,
+    "avg_speaks": 77.04,
+    "avg_points": 1.85
    },
-   "avg_room_rank": 3.03,
-   "room_best_count": 79,
+   "avg_room_rank": 3.01,
+   "room_best_count": 81,
    "chairs": [
     [
      "Pedro Tomás",
@@ -25909,12 +26232,12 @@
   },
   "jose-luis-munoz-reja": {
    "display": "José Luis Muñoz-Reja",
-   "n_tournaments": 23,
-   "n_rounds": 137,
+   "n_tournaments": 24,
+   "n_rounds": 143,
    "n_elim_rounds": 0,
    "last_date": "2026-09-26",
-   "n_tournaments_6m": 1,
-   "n_rounds_6m": 6,
+   "n_tournaments_6m": 2,
+   "n_rounds_6m": 12,
    "breaks": [
     {
      "t": "viiibpurjc__viiibpurjc",
@@ -26218,6 +26541,13 @@
      "date": "2026-02-27",
      "online": false,
      "team": "URJC-UCMCOM"
+    },
+    {
+     "slug": "viiiprecmudeuam__viiiprecmudeuam",
+     "name": "VIII PreCMUDE UAM",
+     "date": "2026-06-19",
+     "online": false,
+     "team": "UCM-COM Campero al pastor"
     },
     {
      "slug": "cnd2026__cnd2026",
@@ -29242,6 +29572,144 @@
      "t_avg": 74.98
     },
     {
+     "t": "viiiprecmudeuam__viiiprecmudeuam",
+     "tname": "VIII PreCMUDE UAM",
+     "date": "2026-06-19",
+     "online": false,
+     "round": "Ronda 1",
+     "seq": 1,
+     "stage": "P",
+     "side": "oo",
+     "points": 2,
+     "win": false,
+     "position": 2,
+     "score": 81.0,
+     "iron": false,
+     "room_rank": 1,
+     "motion": "EC lamenta la mercantilización de la nostalgia",
+     "topic": "economía",
+     "team": "UCM-COM Campero al pastor",
+     "mate": "José Tomás Sánchez Galán",
+     "chair": "Raúl Viñas",
+     "venue": "Aula 2 - A2",
+     "t_avg": 76.36
+    },
+    {
+     "t": "viiiprecmudeuam__viiiprecmudeuam",
+     "tname": "VIII PreCMUDE UAM",
+     "date": "2026-06-19",
+     "online": false,
+     "round": "Ronda 2",
+     "seq": 2,
+     "stage": "P",
+     "side": "cg",
+     "points": 2,
+     "win": false,
+     "position": 1,
+     "score": 79.0,
+     "iron": false,
+     "room_rank": 2,
+     "motion": "ECCQ el Papa León XIV debería tomar una posición más agresiva respecto a la administración de Trump (ej., amenazar con excomulgar personas, manifestar abiertamente su desaprobación de los sectores católicos MAGA, etc.)",
+     "topic": "religión",
+     "team": "UCM-COM Campero al pastor",
+     "mate": "José Tomás Sánchez Galán",
+     "chair": "Fabian Miulescu",
+     "venue": "Aula 5 - A5",
+     "t_avg": 76.36
+    },
+    {
+     "t": "viiiprecmudeuam__viiiprecmudeuam",
+     "tname": "VIII PreCMUDE UAM",
+     "date": "2026-06-19",
+     "online": false,
+     "round": "Ronda 3",
+     "seq": 3,
+     "stage": "P",
+     "side": "og",
+     "points": 3,
+     "win": false,
+     "position": 2,
+     "score": 81.0,
+     "iron": false,
+     "room_rank": 1,
+     "motion": "EC lamenta la Sentencia Bosman",
+     "topic": "economía",
+     "team": "UCM-COM Campero al pastor",
+     "mate": "José Tomás Sánchez Galán",
+     "chair": "Horacio 👑",
+     "venue": "Sala 8 - Aula 103",
+     "t_avg": 76.36
+    },
+    {
+     "t": "viiiprecmudeuam__viiiprecmudeuam",
+     "tname": "VIII PreCMUDE UAM",
+     "date": "2026-06-19",
+     "online": false,
+     "round": "Ronda 4",
+     "seq": 4,
+     "stage": "P",
+     "side": "co",
+     "points": 2,
+     "win": false,
+     "position": 1,
+     "score": 80.0,
+     "iron": false,
+     "room_rank": 2,
+     "motion": "EC prefiere que la representación laboral y acción colectiva se estructure bajo el modelo intergremial en lugar del modelo gremializado",
+     "topic": "otros",
+     "team": "UCM-COM Campero al pastor",
+     "mate": "José Tomás Sánchez Galán",
+     "chair": "Natalia de la Puente",
+     "venue": "Sala 4 - Aula 203.2",
+     "t_avg": 76.36
+    },
+    {
+     "t": "viiiprecmudeuam__viiiprecmudeuam",
+     "tname": "VIII PreCMUDE UAM",
+     "date": "2026-06-19",
+     "online": false,
+     "round": "Ronda 5",
+     "seq": 5,
+     "stage": "P",
+     "side": "cg",
+     "points": 2,
+     "win": false,
+     "position": 1,
+     "score": 81.0,
+     "iron": false,
+     "room_rank": 3,
+     "motion": "EC, como la OPEP+, priorizaría mantener elevados los precios del barril, por encima de inundar el mercado con crudo barato",
+     "topic": "economía",
+     "team": "UCM-COM Campero al pastor",
+     "mate": "José Tomás Sánchez Galán",
+     "chair": "Fabian Miulescu",
+     "venue": "Sala 5 - Aula 205.1",
+     "t_avg": 76.36
+    },
+    {
+     "t": "viiiprecmudeuam__viiiprecmudeuam",
+     "tname": "VIII PreCMUDE UAM",
+     "date": "2026-06-19",
+     "online": false,
+     "round": "Ronda 6",
+     "seq": 6,
+     "stage": "P",
+     "side": "oo",
+     "points": 0,
+     "win": false,
+     "position": 1,
+     "score": 80.0,
+     "iron": false,
+     "room_rank": 5,
+     "motion": "EC, siendo el escritor, viraría a escribir romance gay",
+     "topic": "rol / actor",
+     "team": "UCM-COM Campero al pastor",
+     "mate": "José Tomás Sánchez Galán",
+     "chair": "Mario de la Hoz",
+     "venue": "Sala 2 - Aula 214",
+     "t_avg": 76.36
+    },
+    {
      "t": "cnd2026__cnd2026",
      "tname": "Campeonato Nacional de Debate BP 2026",
      "date": "2026-09-26",
@@ -29381,8 +29849,8 @@
     }
    ],
    "elim_rows": [],
-   "avg_speaks": 79.11,
-   "stdev": 2.27,
+   "avg_speaks": 79.16,
+   "stdev": 2.24,
    "best": {
     "t": "bpeliasahuja2022__bpeliasahuja2022",
     "tname": "BP Elías Ahuja 2022",
@@ -29429,56 +29897,56 @@
     "venue": "Sala 01",
     "t_avg": 74.49
    },
-   "avg_points": 2.12,
+   "avg_points": 2.1,
    "results_dist": {
-    "3": 64,
-    "2": 38,
+    "3": 65,
+    "2": 42,
     "1": 22,
-    "0": 13
+    "0": 14
    },
    "pos1": {
-    "n": 103,
-    "avg": 78.83
+    "n": 107,
+    "avg": 78.88
    },
    "pos2": {
-    "n": 34,
-    "avg": 79.94
+    "n": 36,
+    "avg": 80.0
    },
    "sides": {
     "og": {
      "label": "Alta Gobierno",
-     "n": 35,
-     "avg_points": 2,
-     "avg_speaks": 78.69,
-     "firsts": 13
+     "n": 36,
+     "avg_points": 2.03,
+     "avg_speaks": 78.75,
+     "firsts": 14
     },
     "oo": {
      "label": "Alta Oposición",
-     "n": 37,
-     "avg_points": 1.84,
-     "avg_speaks": 78.81,
+     "n": 39,
+     "avg_points": 1.79,
+     "avg_speaks": 78.9,
      "firsts": 15
     },
     "cg": {
      "label": "Baja Gobierno",
-     "n": 33,
-     "avg_points": 2.24,
-     "avg_speaks": 79.48,
+     "n": 35,
+     "avg_points": 2.23,
+     "avg_speaks": 79.51,
      "firsts": 16
     },
     "co": {
      "label": "Baja Oposición",
-     "n": 32,
-     "avg_points": 2.44,
-     "avg_speaks": 79.53,
+     "n": 33,
+     "avg_points": 2.42,
+     "avg_speaks": 79.55,
      "firsts": 20
     }
    },
    "topics": {
     "otros": {
-     "n": 27,
+     "n": 28,
      "avg_points": 2.07,
-     "avg_speaks": 78.96
+     "avg_speaks": 79.0
     },
     "feminismo y género": {
      "n": 14,
@@ -29501,9 +29969,9 @@
      "avg_speaks": 80.06
     },
     "economía": {
-     "n": 23,
-     "avg_points": 2,
-     "avg_speaks": 78.96
+     "n": 26,
+     "avg_points": 2.04,
+     "avg_speaks": 79.19
     },
     "medios y cultura": {
      "n": 3,
@@ -29521,9 +29989,9 @@
      "avg_speaks": 76.25
     },
     "religión": {
-     "n": 7,
-     "avg_points": 2.57,
-     "avg_speaks": 79.43
+     "n": 8,
+     "avg_points": 2.5,
+     "avg_speaks": 79.38
     },
     "psicología y salud mental": {
      "n": 7,
@@ -29536,9 +30004,9 @@
      "avg_speaks": 80.0
     },
     "rol / actor": {
-     "n": 6,
-     "avg_points": 2,
-     "avg_speaks": 79.5
+     "n": 7,
+     "avg_points": 1.71,
+     "avg_speaks": 79.57
     }
    },
    "evolution": [
@@ -29669,6 +30137,12 @@
      "n": 5
     },
     {
+     "date": "2026-06-19",
+     "tname": "VIII PreCMUDE UAM",
+     "avg": 80.33,
+     "n": 6
+    },
+    {
      "date": "2026-09-26",
      "tname": "Campeonato Nacional de Debate BP 2026",
      "avg": 81.33,
@@ -29725,6 +30199,12 @@
      "avg_speaks": 80.33
     },
     {
+     "name": "José Tomás Sánchez Galán",
+     "n": 6,
+     "avg_points": 1.83,
+     "avg_speaks": 80.33
+    },
+    {
      "name": "Tomás Aparicio",
      "n": 6,
      "avg_points": 2.5,
@@ -29767,10 +30247,10 @@
      "avg_speaks": 79.5
     }
    ],
-   "vs_field": 4.6,
+   "vs_field": 4.58,
    "clutch": {
-    "avg_last_round": 79.0,
-    "delta": -0.11
+    "avg_last_round": 79.04,
+    "delta": -0.12
    },
    "streak_top2": 8,
    "env_online": {
@@ -29779,12 +30259,12 @@
     "avg_points": 2.14
    },
    "env_presencial": {
-    "n": 123,
-    "avg_speaks": 79.11,
-    "avg_points": 2.11
+    "n": 129,
+    "avg_speaks": 79.17,
+    "avg_points": 2.1
    },
    "avg_room_rank": 2.37,
-   "room_best_count": 64,
+   "room_best_count": 66,
    "chairs": [
     [
      "Paula Villaseñor",
@@ -38169,12 +38649,12 @@
   },
   "inmaculada-ibanez-coca": {
    "display": "Inmaculada Ibáñez Coca",
-   "n_tournaments": 3,
-   "n_rounds": 17,
+   "n_tournaments": 4,
+   "n_rounds": 23,
    "n_elim_rounds": 0,
-   "last_date": "2026-04-10",
-   "n_tournaments_6m": 1,
-   "n_rounds_6m": 6,
+   "last_date": "2026-06-19",
+   "n_tournaments_6m": 2,
+   "n_rounds_6m": 12,
    "breaks": [
     {
      "t": "vbpub__vbpub",
@@ -38209,6 +38689,13 @@
      "date": "2026-04-10",
      "online": false,
      "team": "UCM-COM y algo más"
+    },
+    {
+     "slug": "viiiprecmudeuam__viiiprecmudeuam",
+     "name": "VIII PreCMUDE UAM",
+     "date": "2026-06-19",
+     "online": false,
+     "team": "UCM-COM Harvey & Mike"
     }
    ],
    "rows": [
@@ -38602,33 +39089,171 @@
      "chair": "☕ Javier Lara Dávila",
      "venue": "Aula pequeña",
      "t_avg": 72.75
+    },
+    {
+     "t": "viiiprecmudeuam__viiiprecmudeuam",
+     "tname": "VIII PreCMUDE UAM",
+     "date": "2026-06-19",
+     "online": false,
+     "round": "Ronda 1",
+     "seq": 1,
+     "stage": "P",
+     "side": "og",
+     "points": 0,
+     "win": false,
+     "position": 2,
+     "score": 64.0,
+     "iron": false,
+     "room_rank": 8,
+     "motion": "EC lamenta la mercantilización de la nostalgia",
+     "topic": "economía",
+     "team": "UCM-COM Harvey & Mike",
+     "mate": "Carmen Alonso Palomo",
+     "chair": "Raúl Viñas",
+     "venue": "Aula 2 - A2",
+     "t_avg": 76.36
+    },
+    {
+     "t": "viiiprecmudeuam__viiiprecmudeuam",
+     "tname": "VIII PreCMUDE UAM",
+     "date": "2026-06-19",
+     "online": false,
+     "round": "Ronda 2",
+     "seq": 2,
+     "stage": "P",
+     "side": "oo",
+     "points": 3,
+     "win": false,
+     "position": 2,
+     "score": 76.0,
+     "iron": false,
+     "room_rank": 3,
+     "motion": "ECCQ el Papa León XIV debería tomar una posición más agresiva respecto a la administración de Trump (ej., amenazar con excomulgar personas, manifestar abiertamente su desaprobación de los sectores católicos MAGA, etc.)",
+     "topic": "religión",
+     "team": "UCM-COM Harvey & Mike",
+     "mate": "Carmen Alonso Palomo",
+     "chair": "Pau Garcia",
+     "venue": "Aula 2 - A2",
+     "t_avg": 76.36
+    },
+    {
+     "t": "viiiprecmudeuam__viiiprecmudeuam",
+     "tname": "VIII PreCMUDE UAM",
+     "date": "2026-06-19",
+     "online": false,
+     "round": "Ronda 3",
+     "seq": 3,
+     "stage": "P",
+     "side": "co",
+     "points": 0,
+     "win": false,
+     "position": 1,
+     "score": 75.0,
+     "iron": false,
+     "room_rank": 7,
+     "motion": "EC lamenta la Sentencia Bosman",
+     "topic": "economía",
+     "team": "UCM-COM Harvey & Mike",
+     "mate": "Carmen Alonso Palomo",
+     "chair": "Natalia de la Puente",
+     "venue": "Sala 5 - Aula 205.1",
+     "t_avg": 76.36
+    },
+    {
+     "t": "viiiprecmudeuam__viiiprecmudeuam",
+     "tname": "VIII PreCMUDE UAM",
+     "date": "2026-06-19",
+     "online": false,
+     "round": "Ronda 4",
+     "seq": 4,
+     "stage": "P",
+     "side": "cg",
+     "points": 3,
+     "win": false,
+     "position": 2,
+     "score": 78.0,
+     "iron": false,
+     "room_rank": 2,
+     "motion": "EC prefiere que la representación laboral y acción colectiva se estructure bajo el modelo intergremial en lugar del modelo gremializado",
+     "topic": "otros",
+     "team": "UCM-COM Harvey & Mike",
+     "mate": "Carmen Alonso Palomo",
+     "chair": "Horacio 👑",
+     "venue": "Sala 6 - Aula 101",
+     "t_avg": 76.36
+    },
+    {
+     "t": "viiiprecmudeuam__viiiprecmudeuam",
+     "tname": "VIII PreCMUDE UAM",
+     "date": "2026-06-19",
+     "online": false,
+     "round": "Ronda 5",
+     "seq": 5,
+     "stage": "P",
+     "side": "co",
+     "points": 0,
+     "win": false,
+     "position": 1,
+     "score": 75.0,
+     "iron": false,
+     "room_rank": 7,
+     "motion": "EC, como la OPEP+, priorizaría mantener elevados los precios del barril, por encima de inundar el mercado con crudo barato",
+     "topic": "economía",
+     "team": "UCM-COM Harvey & Mike",
+     "mate": "Carmen Alonso Palomo",
+     "chair": "Mario de la Hoz",
+     "venue": "Sala 4 - Aula 203.2",
+     "t_avg": 76.36
+    },
+    {
+     "t": "viiiprecmudeuam__viiiprecmudeuam",
+     "tname": "VIII PreCMUDE UAM",
+     "date": "2026-06-19",
+     "online": false,
+     "round": "Ronda 6",
+     "seq": 6,
+     "stage": "P",
+     "side": "og",
+     "points": 0,
+     "win": false,
+     "position": 2,
+     "score": 73.0,
+     "iron": false,
+     "room_rank": 7,
+     "motion": "EC, siendo el escritor, viraría a escribir romance gay",
+     "topic": "rol / actor",
+     "team": "UCM-COM Harvey & Mike",
+     "mate": "Carmen Alonso Palomo",
+     "chair": "Carmen Vallecillo",
+     "venue": "Sala 5 - Aula 205.1",
+     "t_avg": 76.36
     }
    ],
    "elim_rows": [],
-   "avg_speaks": 71.94,
-   "stdev": 5.83,
+   "avg_speaks": 72.35,
+   "stdev": 5.55,
    "best": {
-    "t": "vbpub__vbpub",
-    "tname": "V BP UB",
-    "date": "2026-04-10",
+    "t": "viiiprecmudeuam__viiiprecmudeuam",
+    "tname": "VIII PreCMUDE UAM",
+    "date": "2026-06-19",
     "online": false,
-    "round": "Round 4",
+    "round": "Ronda 4",
     "seq": 4,
     "stage": "P",
     "side": "cg",
-    "points": 1,
+    "points": 3,
     "win": false,
     "position": 2,
-    "score": 76.0,
+    "score": 78.0,
     "iron": false,
-    "room_rank": 5,
-    "motion": "EC lamenta el auge de la Programación Neurolingüística",
-    "topic": "psicología y salud mental",
-    "team": "UCM-COM y algo más",
-    "mate": "Adrián González Sánchez de la Rosa",
-    "chair": "Bruno Gomez",
-    "venue": "Sala d'actes",
-    "t_avg": 72.75
+    "room_rank": 2,
+    "motion": "EC prefiere que la representación laboral y acción colectiva se estructure bajo el modelo intergremial en lugar del modelo gremializado",
+    "topic": "otros",
+    "team": "UCM-COM Harvey & Mike",
+    "mate": "Carmen Alonso Palomo",
+    "chair": "Horacio 👑",
+    "venue": "Sala 6 - Aula 101",
+    "t_avg": 76.36
    },
    "worst": {
     "t": "viibpregenta__viibplaregenta",
@@ -38653,55 +39278,55 @@
     "venue": "008",
     "t_avg": 73.83
    },
-   "avg_points": 1.35,
+   "avg_points": 1.26,
    "results_dist": {
-    "3": 2,
+    "3": 4,
     "2": 5,
     "1": 7,
-    "0": 3
+    "0": 7
    },
    "pos1": {
-    "n": 5,
-    "avg": 72.8
+    "n": 7,
+    "avg": 73.43
    },
    "pos2": {
-    "n": 12,
-    "avg": 71.58
+    "n": 16,
+    "avg": 71.88
    },
    "sides": {
     "og": {
      "label": "Alta Gobierno",
-     "n": 5,
-     "avg_points": 0.8,
-     "avg_speaks": 73.0,
+     "n": 7,
+     "avg_points": 0.57,
+     "avg_speaks": 71.71,
      "firsts": 0
     },
     "oo": {
      "label": "Alta Oposición",
-     "n": 3,
-     "avg_points": 1,
-     "avg_speaks": 72.0,
-     "firsts": 0
+     "n": 4,
+     "avg_points": 1.5,
+     "avg_speaks": 73.0,
+     "firsts": 1
     },
     "cg": {
      "label": "Baja Gobierno",
-     "n": 4,
-     "avg_points": 2,
-     "avg_speaks": 74.25,
-     "firsts": 1
+     "n": 5,
+     "avg_points": 2.2,
+     "avg_speaks": 75.0,
+     "firsts": 2
     },
     "co": {
      "label": "Baja Oposición",
-     "n": 5,
-     "avg_points": 1.6,
-     "avg_speaks": 69.0,
+     "n": 7,
+     "avg_points": 1.14,
+     "avg_speaks": 70.71,
      "firsts": 1
     }
    },
    "topics": {
     "rol / actor": {
-     "n": 2,
-     "avg_points": 1,
+     "n": 3,
+     "avg_points": 0.67,
      "avg_speaks": 73.0
     },
     "filosofía y ética": {
@@ -38715,9 +39340,9 @@
      "avg_speaks": 72.5
     },
     "economía": {
-     "n": 3,
-     "avg_points": 1.33,
-     "avg_speaks": 71.67
+     "n": 6,
+     "avg_points": 0.67,
+     "avg_speaks": 71.5
     },
     "feminismo y género": {
      "n": 1,
@@ -38725,9 +39350,9 @@
      "avg_speaks": 70.0
     },
     "religión": {
-     "n": 1,
-     "avg_points": 0,
-     "avg_speaks": 50.0
+     "n": 2,
+     "avg_points": 1.5,
+     "avg_speaks": 63.0
     },
     "ciencia y tecnología": {
      "n": 1,
@@ -38735,9 +39360,9 @@
      "avg_speaks": 75.0
     },
     "otros": {
-     "n": 2,
-     "avg_points": 2.5,
-     "avg_speaks": 74.5
+     "n": 3,
+     "avg_points": 2.67,
+     "avg_speaks": 75.67
     },
     "psicología y salud mental": {
      "n": 1,
@@ -38768,6 +39393,12 @@
      "tname": "V BP UB",
      "avg": 74.67,
      "n": 6
+    },
+    {
+     "date": "2026-06-19",
+     "tname": "VIII PreCMUDE UAM",
+     "avg": 73.5,
+     "n": 6
     }
    ],
    "mates": [
@@ -38782,12 +39413,18 @@
      "n": 6,
      "avg_points": 1.5,
      "avg_speaks": 74.67
+    },
+    {
+     "name": "Carmen Alonso Palomo",
+     "n": 6,
+     "avg_points": 1,
+     "avg_speaks": 73.5
     }
    ],
-   "vs_field": -0.5,
+   "vs_field": -1.11,
    "clutch": {
-    "avg_last_round": 64.0,
-    "delta": -7.94
+    "avg_last_round": 66.25,
+    "delta": -6.1
    },
    "streak_top2": 1,
    "env_online": {
@@ -38796,11 +39433,11 @@
     "avg_points": null
    },
    "env_presencial": {
-    "n": 17,
-    "avg_speaks": 71.94,
-    "avg_points": 1.35
+    "n": 23,
+    "avg_speaks": 72.35,
+    "avg_points": 1.26
    },
-   "avg_room_rank": 4.41,
+   "avg_room_rank": 4.74,
    "room_best_count": 1,
    "chairs": [
     [
@@ -46178,12 +46815,12 @@
   },
   "pablo-ponce-sanchez": {
    "display": "Pablo Ponce Sánchez",
-   "n_tournaments": 43,
-   "n_rounds": 240,
+   "n_tournaments": 44,
+   "n_rounds": 246,
    "n_elim_rounds": 0,
    "last_date": "2026-09-26",
-   "n_tournaments_6m": 4,
-   "n_rounds_6m": 22,
+   "n_tournaments_6m": 5,
+   "n_rounds_6m": 28,
    "breaks": [
     {
      "t": "sodech__top2023",
@@ -46376,11 +47013,19 @@
      "novice": false,
      "reached": "Final",
      "champion": false
+    },
+    {
+     "t": "viiiprecmudeuam__viiiprecmudeuam",
+     "tname": "VIII PreCMUDE UAM",
+     "date": "2026-06-19",
+     "novice": false,
+     "reached": "Final",
+     "champion": true
     }
    ],
-   "n_breaks": 24,
+   "n_breaks": 25,
    "n_breaks_novice": 0,
-   "n_breaks_open": 24,
+   "n_breaks_open": 25,
    "tournaments": [
     {
      "slug": "ced8__ced8",
@@ -46675,6 +47320,13 @@
      "date": "2026-06-12",
      "online": false,
      "team": "UCM PT"
+    },
+    {
+     "slug": "viiiprecmudeuam__viiiprecmudeuam",
+     "name": "VIII PreCMUDE UAM",
+     "date": "2026-06-19",
+     "online": false,
+     "team": "UCM Pékerman y Mourinho"
     },
     {
      "slug": "cnd2026__cnd2026",
@@ -52068,6 +52720,144 @@
      "t_avg": 74.78
     },
     {
+     "t": "viiiprecmudeuam__viiiprecmudeuam",
+     "tname": "VIII PreCMUDE UAM",
+     "date": "2026-06-19",
+     "online": false,
+     "round": "Ronda 1",
+     "seq": 1,
+     "stage": "P",
+     "side": "oo",
+     "points": 2,
+     "win": false,
+     "position": 1,
+     "score": 79.0,
+     "iron": false,
+     "room_rank": 4,
+     "motion": "EC lamenta la mercantilización de la nostalgia",
+     "topic": "economía",
+     "team": "UCM Pékerman y Mourinho",
+     "mate": "Luis Felipe García Aristizábal",
+     "chair": "Mario de la Hoz",
+     "venue": "Aula 8 - S13",
+     "t_avg": 76.36
+    },
+    {
+     "t": "viiiprecmudeuam__viiiprecmudeuam",
+     "tname": "VIII PreCMUDE UAM",
+     "date": "2026-06-19",
+     "online": false,
+     "round": "Ronda 2",
+     "seq": 2,
+     "stage": "P",
+     "side": "co",
+     "points": 3,
+     "win": false,
+     "position": 1,
+     "score": 79.0,
+     "iron": false,
+     "room_rank": 2,
+     "motion": "ECCQ el Papa León XIV debería tomar una posición más agresiva respecto a la administración de Trump (ej., amenazar con excomulgar personas, manifestar abiertamente su desaprobación de los sectores católicos MAGA, etc.)",
+     "topic": "religión",
+     "team": "UCM Pékerman y Mourinho",
+     "mate": "Luis Felipe García Aristizábal",
+     "chair": "Fabian Miulescu",
+     "venue": "Aula 5 - A5",
+     "t_avg": 76.36
+    },
+    {
+     "t": "viiiprecmudeuam__viiiprecmudeuam",
+     "tname": "VIII PreCMUDE UAM",
+     "date": "2026-06-19",
+     "online": false,
+     "round": "Ronda 3",
+     "seq": 3,
+     "stage": "P",
+     "side": "og",
+     "points": 3,
+     "win": false,
+     "position": 1,
+     "score": 79.0,
+     "iron": false,
+     "room_rank": 2,
+     "motion": "EC lamenta la Sentencia Bosman",
+     "topic": "economía",
+     "team": "UCM Pékerman y Mourinho",
+     "mate": "Luis Felipe García Aristizábal",
+     "chair": "Fabian Miulescu",
+     "venue": "Sala 3 - Aula 202",
+     "t_avg": 76.36
+    },
+    {
+     "t": "viiiprecmudeuam__viiiprecmudeuam",
+     "tname": "VIII PreCMUDE UAM",
+     "date": "2026-06-19",
+     "online": false,
+     "round": "Ronda 4",
+     "seq": 4,
+     "stage": "P",
+     "side": "cg",
+     "points": 3,
+     "win": false,
+     "position": 2,
+     "score": 81.0,
+     "iron": false,
+     "room_rank": 2,
+     "motion": "EC prefiere que la representación laboral y acción colectiva se estructure bajo el modelo intergremial en lugar del modelo gremializado",
+     "topic": "otros",
+     "team": "UCM Pékerman y Mourinho",
+     "mate": "Luis Felipe García Aristizábal",
+     "chair": "Mario de la Hoz",
+     "venue": "Sala 1 - Aula 201",
+     "t_avg": 76.36
+    },
+    {
+     "t": "viiiprecmudeuam__viiiprecmudeuam",
+     "tname": "VIII PreCMUDE UAM",
+     "date": "2026-06-19",
+     "online": false,
+     "round": "Ronda 5",
+     "seq": 5,
+     "stage": "P",
+     "side": "oo",
+     "points": 0,
+     "win": false,
+     "position": 1,
+     "score": 79.0,
+     "iron": false,
+     "room_rank": 6,
+     "motion": "EC, como la OPEP+, priorizaría mantener elevados los precios del barril, por encima de inundar el mercado con crudo barato",
+     "topic": "economía",
+     "team": "UCM Pékerman y Mourinho",
+     "mate": "Luis Felipe García Aristizábal",
+     "chair": "Fabian Miulescu",
+     "venue": "Sala 5 - Aula 205.1",
+     "t_avg": 76.36
+    },
+    {
+     "t": "viiiprecmudeuam__viiiprecmudeuam",
+     "tname": "VIII PreCMUDE UAM",
+     "date": "2026-06-19",
+     "online": false,
+     "round": "Ronda 6",
+     "seq": 6,
+     "stage": "P",
+     "side": "cg",
+     "points": 2,
+     "win": false,
+     "position": 1,
+     "score": 83.0,
+     "iron": false,
+     "room_rank": 3,
+     "motion": "EC, siendo el escritor, viraría a escribir romance gay",
+     "topic": "rol / actor",
+     "team": "UCM Pékerman y Mourinho",
+     "mate": "Luis Felipe García Aristizábal",
+     "chair": "Mario de la Hoz",
+     "venue": "Sala 2 - Aula 214",
+     "t_avg": 76.36
+    },
+    {
      "t": "cnd2026__cnd2026",
      "tname": "Campeonato Nacional de Debate BP 2026",
      "date": "2026-09-26",
@@ -52207,8 +52997,8 @@
     }
    ],
    "elim_rows": [],
-   "avg_speaks": 77.46,
-   "stdev": 2.58,
+   "avg_speaks": 77.52,
+   "stdev": 2.59,
    "best": {
     "t": "pucpiv2025__pucpiv25",
     "tname": "PUCP IV 2025",
@@ -52257,54 +53047,54 @@
    },
    "avg_points": 1.89,
    "results_dist": {
-    "3": 93,
-    "2": 65,
+    "3": 96,
+    "2": 67,
     "1": 44,
-    "0": 38
+    "0": 39
    },
    "pos1": {
-    "n": 67,
-    "avg": 77.52
+    "n": 72,
+    "avg": 77.68
    },
    "pos2": {
-    "n": 170,
-    "avg": 77.4
+    "n": 171,
+    "avg": 77.42
    },
    "sides": {
     "og": {
      "label": "Alta Gobierno",
-     "n": 57,
-     "avg_points": 1.98,
-     "avg_speaks": 77.47,
-     "firsts": 20
+     "n": 58,
+     "avg_points": 2,
+     "avg_speaks": 77.5,
+     "firsts": 21
     },
     "oo": {
      "label": "Alta Oposición",
-     "n": 61,
-     "avg_points": 1.93,
-     "avg_speaks": 77.54,
+     "n": 63,
+     "avg_points": 1.9,
+     "avg_speaks": 77.59,
      "firsts": 24
     },
     "cg": {
      "label": "Baja Gobierno",
-     "n": 58,
-     "avg_points": 1.88,
-     "avg_speaks": 77.26,
-     "firsts": 24
+     "n": 60,
+     "avg_points": 1.9,
+     "avg_speaks": 77.42,
+     "firsts": 25
     },
     "co": {
      "label": "Baja Oposición",
-     "n": 58,
-     "avg_points": 1.91,
-     "avg_speaks": 77.52,
-     "firsts": 25
+     "n": 59,
+     "avg_points": 1.93,
+     "avg_speaks": 77.54,
+     "firsts": 26
     }
    },
    "topics": {
     "otros": {
-     "n": 44,
-     "avg_points": 1.73,
-     "avg_speaks": 77.05
+     "n": 45,
+     "avg_points": 1.76,
+     "avg_speaks": 77.13
     },
     "feminismo y género": {
      "n": 23,
@@ -52317,9 +53107,9 @@
      "avg_speaks": 76.64
     },
     "economía": {
-     "n": 41,
-     "avg_points": 1.88,
-     "avg_speaks": 77.46
+     "n": 44,
+     "avg_points": 1.86,
+     "avg_speaks": 77.57
     },
     "psicología y salud mental": {
      "n": 12,
@@ -52352,9 +53142,9 @@
      "avg_speaks": 78.22
     },
     "rol / actor": {
-     "n": 18,
-     "avg_points": 2.06,
-     "avg_speaks": 78.33
+     "n": 19,
+     "avg_points": 2.05,
+     "avg_speaks": 78.58
     },
     "ciencia y tecnología": {
      "n": 4,
@@ -52362,9 +53152,9 @@
      "avg_speaks": 79.25
     },
     "religión": {
-     "n": 15,
-     "avg_points": 2.07,
-     "avg_speaks": 77.07
+     "n": 16,
+     "avg_points": 2.12,
+     "avg_speaks": 77.19
     }
    },
    "evolution": [
@@ -52621,6 +53411,12 @@
      "n": 5
     },
     {
+     "date": "2026-06-19",
+     "tname": "VIII PreCMUDE UAM",
+     "avg": 80.0,
+     "n": 6
+    },
+    {
      "date": "2026-09-26",
      "tname": "Campeonato Nacional de Debate BP 2026",
      "avg": 80.83,
@@ -52737,6 +53533,12 @@
      "avg_speaks": 79.33
     },
     {
+     "name": "Luis Felipe García Aristizábal",
+     "n": 6,
+     "avg_points": 2.17,
+     "avg_speaks": 80.0
+    },
+    {
      "name": "José Tomás Sánchez Galán",
      "n": 6,
      "avg_points": 1.83,
@@ -52815,10 +53617,10 @@
      "avg_speaks": 79.67
     }
    ],
-   "vs_field": 3.08,
+   "vs_field": 3.1,
    "clutch": {
-    "avg_last_round": 77.56,
-    "delta": 0.1
+    "avg_last_round": 77.68,
+    "delta": 0.16
    },
    "streak_top2": 10,
    "env_online": {
@@ -52827,11 +53629,11 @@
     "avg_points": 1.68
    },
    "env_presencial": {
-    "n": 199,
-    "avg_speaks": 77.63,
-    "avg_points": 1.93
+    "n": 205,
+    "avg_speaks": 77.7,
+    "avg_points": 1.94
    },
-   "avg_room_rank": 3.06,
+   "avg_room_rank": 3.07,
    "room_best_count": 71,
    "chairs": [
     [
@@ -52839,19 +53641,19 @@
      12
     ],
     [
+     "Mario de la Hoz",
+     7
+    ],
+    [
+     "Fabian Miulescu",
+     7
+    ],
+    [
      "Javier Lara Dávila",
      5
     ],
     [
      "Iván Rico González",
-     4
-    ],
-    [
-     "Marce Gómez",
-     4
-    ],
-    [
-     "Juanjo García",
      4
     ]
    ]
@@ -56830,12 +57632,12 @@
   },
   "carmen-alonso-palomo": {
    "display": "Carmen Alonso Palomo",
-   "n_tournaments": 12,
-   "n_rounds": 66,
+   "n_tournaments": 13,
+   "n_rounds": 72,
    "n_elim_rounds": 0,
-   "last_date": "2026-06-12",
-   "n_tournaments_6m": 1,
-   "n_rounds_6m": 5,
+   "last_date": "2026-06-19",
+   "n_tournaments_6m": 2,
+   "n_rounds_6m": 11,
    "breaks": [
     {
      "t": "bpuam2023__bpuam2023",
@@ -56965,6 +57767,13 @@
      "date": "2026-06-12",
      "online": false,
      "team": "UCM-COM"
+    },
+    {
+     "slug": "viiiprecmudeuam__viiiprecmudeuam",
+     "name": "VIII PreCMUDE UAM",
+     "date": "2026-06-19",
+     "online": false,
+     "team": "UCM-COM Harvey & Mike"
     }
    ],
    "rows": [
@@ -58485,11 +59294,149 @@
      "chair": "Antonyo Saezo Marinov",
      "venue": "Asturias Patri querida",
      "t_avg": 74.78
+    },
+    {
+     "t": "viiiprecmudeuam__viiiprecmudeuam",
+     "tname": "VIII PreCMUDE UAM",
+     "date": "2026-06-19",
+     "online": false,
+     "round": "Ronda 1",
+     "seq": 1,
+     "stage": "P",
+     "side": "og",
+     "points": 0,
+     "win": false,
+     "position": 1,
+     "score": 66.0,
+     "iron": false,
+     "room_rank": 7,
+     "motion": "EC lamenta la mercantilización de la nostalgia",
+     "topic": "economía",
+     "team": "UCM-COM Harvey & Mike",
+     "mate": "Inmaculada Ibáñez Coca",
+     "chair": "Raúl Viñas",
+     "venue": "Aula 2 - A2",
+     "t_avg": 76.36
+    },
+    {
+     "t": "viiiprecmudeuam__viiiprecmudeuam",
+     "tname": "VIII PreCMUDE UAM",
+     "date": "2026-06-19",
+     "online": false,
+     "round": "Ronda 2",
+     "seq": 2,
+     "stage": "P",
+     "side": "oo",
+     "points": 3,
+     "win": false,
+     "position": 1,
+     "score": 77.0,
+     "iron": false,
+     "room_rank": 1,
+     "motion": "ECCQ el Papa León XIV debería tomar una posición más agresiva respecto a la administración de Trump (ej., amenazar con excomulgar personas, manifestar abiertamente su desaprobación de los sectores católicos MAGA, etc.)",
+     "topic": "religión",
+     "team": "UCM-COM Harvey & Mike",
+     "mate": "Inmaculada Ibáñez Coca",
+     "chair": "Pau Garcia",
+     "venue": "Aula 2 - A2",
+     "t_avg": 76.36
+    },
+    {
+     "t": "viiiprecmudeuam__viiiprecmudeuam",
+     "tname": "VIII PreCMUDE UAM",
+     "date": "2026-06-19",
+     "online": false,
+     "round": "Ronda 3",
+     "seq": 3,
+     "stage": "P",
+     "side": "co",
+     "points": 0,
+     "win": false,
+     "position": 2,
+     "score": 76.0,
+     "iron": false,
+     "room_rank": 6,
+     "motion": "EC lamenta la Sentencia Bosman",
+     "topic": "economía",
+     "team": "UCM-COM Harvey & Mike",
+     "mate": "Inmaculada Ibáñez Coca",
+     "chair": "Natalia de la Puente",
+     "venue": "Sala 5 - Aula 205.1",
+     "t_avg": 76.36
+    },
+    {
+     "t": "viiiprecmudeuam__viiiprecmudeuam",
+     "tname": "VIII PreCMUDE UAM",
+     "date": "2026-06-19",
+     "online": false,
+     "round": "Ronda 4",
+     "seq": 4,
+     "stage": "P",
+     "side": "cg",
+     "points": 3,
+     "win": false,
+     "position": 1,
+     "score": 79.0,
+     "iron": false,
+     "room_rank": 1,
+     "motion": "EC prefiere que la representación laboral y acción colectiva se estructure bajo el modelo intergremial en lugar del modelo gremializado",
+     "topic": "otros",
+     "team": "UCM-COM Harvey & Mike",
+     "mate": "Inmaculada Ibáñez Coca",
+     "chair": "Horacio 👑",
+     "venue": "Sala 6 - Aula 101",
+     "t_avg": 76.36
+    },
+    {
+     "t": "viiiprecmudeuam__viiiprecmudeuam",
+     "tname": "VIII PreCMUDE UAM",
+     "date": "2026-06-19",
+     "online": false,
+     "round": "Ronda 5",
+     "seq": 5,
+     "stage": "P",
+     "side": "co",
+     "points": 0,
+     "win": false,
+     "position": 2,
+     "score": 76.0,
+     "iron": false,
+     "room_rank": 5,
+     "motion": "EC, como la OPEP+, priorizaría mantener elevados los precios del barril, por encima de inundar el mercado con crudo barato",
+     "topic": "economía",
+     "team": "UCM-COM Harvey & Mike",
+     "mate": "Inmaculada Ibáñez Coca",
+     "chair": "Mario de la Hoz",
+     "venue": "Sala 4 - Aula 203.2",
+     "t_avg": 76.36
+    },
+    {
+     "t": "viiiprecmudeuam__viiiprecmudeuam",
+     "tname": "VIII PreCMUDE UAM",
+     "date": "2026-06-19",
+     "online": false,
+     "round": "Ronda 6",
+     "seq": 6,
+     "stage": "P",
+     "side": "og",
+     "points": 0,
+     "win": false,
+     "position": 1,
+     "score": 73.0,
+     "iron": false,
+     "room_rank": 7,
+     "motion": "EC, siendo el escritor, viraría a escribir romance gay",
+     "topic": "rol / actor",
+     "team": "UCM-COM Harvey & Mike",
+     "mate": "Inmaculada Ibáñez Coca",
+     "chair": "Carmen Vallecillo",
+     "venue": "Sala 5 - Aula 205.1",
+     "t_avg": 76.36
     }
    ],
    "elim_rows": [],
-   "avg_speaks": 74.58,
-   "stdev": 3.42,
+   "avg_speaks": 74.57,
+   "stdev": 3.5,
    "best": {
     "t": "viibpregenta__viibplaregenta",
     "tname": "VII BP La Regenta",
@@ -58536,48 +59483,48 @@
     "venue": "PALAU DE LA MÚSICA",
     "t_avg": 70.58
    },
-   "avg_points": 1.67,
+   "avg_points": 1.61,
    "results_dist": {
-    "3": 19,
+    "3": 21,
     "2": 17,
     "1": 19,
-    "0": 11
+    "0": 15
    },
    "pos1": {
-    "n": 8,
-    "avg": 74.38
+    "n": 12,
+    "avg": 74.17
    },
    "pos2": {
-    "n": 58,
-    "avg": 74.6
+    "n": 60,
+    "avg": 74.65
    },
    "sides": {
     "og": {
      "label": "Alta Gobierno",
-     "n": 15,
-     "avg_points": 1.53,
-     "avg_speaks": 74.8,
+     "n": 17,
+     "avg_points": 1.35,
+     "avg_speaks": 74.18,
      "firsts": 3
     },
     "oo": {
      "label": "Alta Oposición",
-     "n": 17,
-     "avg_points": 2.12,
-     "avg_speaks": 74.82,
-     "firsts": 8
+     "n": 18,
+     "avg_points": 2.17,
+     "avg_speaks": 74.94,
+     "firsts": 9
     },
     "cg": {
      "label": "Baja Gobierno",
-     "n": 19,
-     "avg_points": 1.42,
-     "avg_speaks": 73.37,
-     "firsts": 5
+     "n": 20,
+     "avg_points": 1.5,
+     "avg_speaks": 73.65,
+     "firsts": 6
     },
     "co": {
      "label": "Baja Oposición",
-     "n": 15,
-     "avg_points": 1.6,
-     "avg_speaks": 75.6,
+     "n": 17,
+     "avg_points": 1.41,
+     "avg_speaks": 75.65,
      "firsts": 3
     }
    },
@@ -58588,9 +59535,9 @@
      "avg_speaks": 73.62
     },
     "otros": {
-     "n": 7,
-     "avg_points": 1.86,
-     "avg_speaks": 72.86
+     "n": 8,
+     "avg_points": 2,
+     "avg_speaks": 73.62
     },
     "psicología y salud mental": {
      "n": 2,
@@ -58598,9 +59545,9 @@
      "avg_speaks": 71.5
     },
     "economía": {
-     "n": 13,
-     "avg_points": 2.23,
-     "avg_speaks": 73.92
+     "n": 16,
+     "avg_points": 1.81,
+     "avg_speaks": 73.69
     },
     "feminismo y género": {
      "n": 5,
@@ -58618,9 +59565,9 @@
      "avg_speaks": 68.0
     },
     "religión": {
-     "n": 6,
-     "avg_points": 1.83,
-     "avg_speaks": 75.67
+     "n": 7,
+     "avg_points": 2,
+     "avg_speaks": 75.86
     },
     "educación": {
      "n": 3,
@@ -58628,9 +59575,9 @@
      "avg_speaks": 73.33
     },
     "rol / actor": {
-     "n": 2,
-     "avg_points": 0.5,
-     "avg_speaks": 75.0
+     "n": 3,
+     "avg_points": 0.33,
+     "avg_speaks": 74.33
     },
     "filosofía y ética": {
      "n": 10,
@@ -58715,6 +59662,12 @@
      "tname": "V BP SEPI",
      "avg": 77.0,
      "n": 5
+    },
+    {
+     "date": "2026-06-19",
+     "tname": "VIII PreCMUDE UAM",
+     "avg": 74.5,
+     "n": 6
     }
    ],
    "mates": [
@@ -58755,6 +59708,12 @@
      "avg_speaks": 76.17
     },
     {
+     "name": "Inmaculada Ibáñez Coca",
+     "n": 6,
+     "avg_points": 1,
+     "avg_speaks": 74.5
+    },
+    {
      "name": "Roberto Piédrola Fernández",
      "n": 5,
      "avg_points": 1.6,
@@ -58767,10 +59726,10 @@
      "avg_speaks": 71.25
     }
    ],
-   "vs_field": 1.17,
+   "vs_field": 0.92,
    "clutch": {
-    "avg_last_round": 74.58,
-    "delta": 0.0
+    "avg_last_round": 74.46,
+    "delta": -0.11
    },
    "streak_top2": 4,
    "env_online": {
@@ -58779,15 +59738,19 @@
     "avg_points": null
    },
    "env_presencial": {
-    "n": 66,
-    "avg_speaks": 74.58,
-    "avg_points": 1.67
+    "n": 72,
+    "avg_speaks": 74.57,
+    "avg_points": 1.61
    },
-   "avg_room_rank": 3.64,
-   "room_best_count": 14,
+   "avg_room_rank": 3.71,
+   "room_best_count": 16,
    "chairs": [
     [
      "Juanjo García",
+     3
+    ],
+    [
+     "Mario de la Hoz",
      3
     ],
     [
@@ -58800,10 +59763,6 @@
     ],
     [
      "Daniela Martuccelli 🌞",
-     2
-    ],
-    [
-     "Luis Felipe \"El Novato de Juanjo\"",
      2
     ]
    ]
@@ -78469,12 +79428,12 @@
   },
   "javier-rodriguez-ruescas": {
    "display": "Javier Rodríguez Ruescas",
-   "n_tournaments": 16,
-   "n_rounds": 90,
+   "n_tournaments": 17,
+   "n_rounds": 96,
    "n_elim_rounds": 0,
    "last_date": "2026-09-26",
-   "n_tournaments_6m": 2,
-   "n_rounds_6m": 10,
+   "n_tournaments_6m": 3,
+   "n_rounds_6m": 16,
    "breaks": [
     {
      "t": "viiibpurjc__viiibpurjc",
@@ -78601,6 +79560,13 @@
      "date": "2026-04-10",
      "online": false,
      "team": "Marca Hispánica"
+    },
+    {
+     "slug": "viiiprecmudeuam__viiiprecmudeuam",
+     "name": "VIII PreCMUDE UAM",
+     "date": "2026-06-19",
+     "online": false,
+     "team": "URJC UCM dejamos de fumar mañana"
     },
     {
      "slug": "cnd2026__cnd2026",
@@ -80590,6 +81556,144 @@
      "t_avg": 72.59
     },
     {
+     "t": "viiiprecmudeuam__viiiprecmudeuam",
+     "tname": "VIII PreCMUDE UAM",
+     "date": "2026-06-19",
+     "online": false,
+     "round": "Ronda 1",
+     "seq": 1,
+     "stage": "P",
+     "side": "cg",
+     "points": 0,
+     "win": false,
+     "position": 2,
+     "score": 70.0,
+     "iron": false,
+     "room_rank": 8,
+     "motion": "EC lamenta la mercantilización de la nostalgia",
+     "topic": "economía",
+     "team": "URJC UCM dejamos de fumar mañana",
+     "mate": "Mery García",
+     "chair": "Cris Oñate",
+     "venue": "Aula 5 - A5",
+     "t_avg": 76.36
+    },
+    {
+     "t": "viiiprecmudeuam__viiiprecmudeuam",
+     "tname": "VIII PreCMUDE UAM",
+     "date": "2026-06-19",
+     "online": false,
+     "round": "Ronda 2",
+     "seq": 2,
+     "stage": "P",
+     "side": "og",
+     "points": 1,
+     "win": false,
+     "position": 1,
+     "score": 75.0,
+     "iron": false,
+     "room_rank": 5,
+     "motion": "ECCQ el Papa León XIV debería tomar una posición más agresiva respecto a la administración de Trump (ej., amenazar con excomulgar personas, manifestar abiertamente su desaprobación de los sectores católicos MAGA, etc.)",
+     "topic": "religión",
+     "team": "URJC UCM dejamos de fumar mañana",
+     "mate": "Mery García",
+     "chair": "Pau Garcia",
+     "venue": "Aula 2 - A2",
+     "t_avg": 76.36
+    },
+    {
+     "t": "viiiprecmudeuam__viiiprecmudeuam",
+     "tname": "VIII PreCMUDE UAM",
+     "date": "2026-06-19",
+     "online": false,
+     "round": "Ronda 3",
+     "seq": 3,
+     "stage": "P",
+     "side": "oo",
+     "points": 3,
+     "win": false,
+     "position": 1,
+     "score": 74.0,
+     "iron": true,
+     "room_rank": 1,
+     "motion": "EC lamenta la Sentencia Bosman",
+     "topic": "economía",
+     "team": "URJC UCM dejamos de fumar mañana",
+     "mate": "Mery García",
+     "chair": "Alejandro De la Puente Baz",
+     "venue": "Sala 1 - Aula 201",
+     "t_avg": 76.36
+    },
+    {
+     "t": "viiiprecmudeuam__viiiprecmudeuam",
+     "tname": "VIII PreCMUDE UAM",
+     "date": "2026-06-19",
+     "online": false,
+     "round": "Ronda 4",
+     "seq": 4,
+     "stage": "P",
+     "side": "co",
+     "points": 0,
+     "win": false,
+     "position": 2,
+     "score": 77.0,
+     "iron": false,
+     "room_rank": 6,
+     "motion": "EC prefiere que la representación laboral y acción colectiva se estructure bajo el modelo intergremial en lugar del modelo gremializado",
+     "topic": "otros",
+     "team": "URJC UCM dejamos de fumar mañana",
+     "mate": "Mery García",
+     "chair": "Horacio 👑",
+     "venue": "Sala 6 - Aula 101",
+     "t_avg": 76.36
+    },
+    {
+     "t": "viiiprecmudeuam__viiiprecmudeuam",
+     "tname": "VIII PreCMUDE UAM",
+     "date": "2026-06-19",
+     "online": false,
+     "round": "Ronda 5",
+     "seq": 5,
+     "stage": "P",
+     "side": "cg",
+     "points": 3,
+     "win": false,
+     "position": 1,
+     "score": 73.0,
+     "iron": false,
+     "room_rank": 2,
+     "motion": "EC, como la OPEP+, priorizaría mantener elevados los precios del barril, por encima de inundar el mercado con crudo barato",
+     "topic": "economía",
+     "team": "URJC UCM dejamos de fumar mañana",
+     "mate": "Mery García",
+     "chair": "Natalia de la Puente",
+     "venue": "Sala 2 - Aula 214",
+     "t_avg": 76.36
+    },
+    {
+     "t": "viiiprecmudeuam__viiiprecmudeuam",
+     "tname": "VIII PreCMUDE UAM",
+     "date": "2026-06-19",
+     "online": false,
+     "round": "Ronda 6",
+     "seq": 6,
+     "stage": "P",
+     "side": "og",
+     "points": 0,
+     "win": false,
+     "position": 1,
+     "score": 70.0,
+     "iron": false,
+     "room_rank": 8,
+     "motion": "EC, siendo el escritor, viraría a escribir romance gay",
+     "topic": "rol / actor",
+     "team": "URJC UCM dejamos de fumar mañana",
+     "mate": "Mery García",
+     "chair": "Fabian Miulescu",
+     "venue": "Sala 4 - Aula 203.2",
+     "t_avg": 76.36
+    },
+    {
      "t": "cnd2026__cnd2026",
      "tname": "Campeonato Nacional de Debate BP 2026",
      "date": "2026-09-26",
@@ -80683,7 +81787,7 @@
     }
    ],
    "elim_rows": [],
-   "avg_speaks": 74.24,
+   "avg_speaks": 74.18,
    "stdev": 2.73,
    "best": {
     "t": "viiprecmudeuam__viiprecmudeuam",
@@ -80731,48 +81835,48 @@
     "venue": "Reuniones de decanato",
     "t_avg": 72.35
    },
-   "avg_points": 1.46,
+   "avg_points": 1.44,
    "results_dist": {
-    "3": 17,
+    "3": 19,
     "2": 29,
-    "1": 22,
-    "0": 22
+    "1": 23,
+    "0": 25
    },
    "pos1": {
-    "n": 73,
-    "avg": 74.11
+    "n": 77,
+    "avg": 74.05
    },
    "pos2": {
-    "n": 17,
-    "avg": 74.82
+    "n": 19,
+    "avg": 74.68
    },
    "sides": {
     "og": {
      "label": "Alta Gobierno",
-     "n": 23,
-     "avg_points": 1.57,
-     "avg_speaks": 74.09,
+     "n": 25,
+     "avg_points": 1.48,
+     "avg_speaks": 73.96,
      "firsts": 5
     },
     "oo": {
      "label": "Alta Oposición",
-     "n": 22,
-     "avg_points": 1.36,
-     "avg_speaks": 74.5,
-     "firsts": 3
+     "n": 23,
+     "avg_points": 1.43,
+     "avg_speaks": 74.48,
+     "firsts": 4
     },
     "cg": {
      "label": "Baja Gobierno",
-     "n": 20,
+     "n": 22,
      "avg_points": 1.5,
-     "avg_speaks": 74.6,
-     "firsts": 5
+     "avg_speaks": 74.32,
+     "firsts": 6
     },
     "co": {
      "label": "Baja Oposición",
-     "n": 25,
-     "avg_points": 1.4,
-     "avg_speaks": 73.88,
+     "n": 26,
+     "avg_points": 1.35,
+     "avg_speaks": 74.0,
      "firsts": 4
     }
    },
@@ -80783,14 +81887,14 @@
      "avg_speaks": 75.11
     },
     "otros": {
-     "n": 19,
-     "avg_points": 1.32,
-     "avg_speaks": 73.37
+     "n": 20,
+     "avg_points": 1.25,
+     "avg_speaks": 73.55
     },
     "economía": {
-     "n": 12,
-     "avg_points": 1.5,
-     "avg_speaks": 73.5
+     "n": 15,
+     "avg_points": 1.6,
+     "avg_speaks": 73.27
     },
     "medios y cultura": {
      "n": 4,
@@ -80823,8 +81927,8 @@
      "avg_speaks": 74.88
     },
     "religión": {
-     "n": 6,
-     "avg_points": 1.5,
+     "n": 7,
+     "avg_points": 1.43,
      "avg_speaks": 75.0
     },
     "relaciones internacionales": {
@@ -80833,9 +81937,9 @@
      "avg_speaks": 74.67
     },
     "rol / actor": {
-     "n": 6,
-     "avg_points": 2,
-     "avg_speaks": 76.0
+     "n": 7,
+     "avg_points": 1.71,
+     "avg_speaks": 75.14
     },
     "educación": {
      "n": 3,
@@ -80935,6 +82039,12 @@
      "n": 6
     },
     {
+     "date": "2026-06-19",
+     "tname": "VIII PreCMUDE UAM",
+     "avg": 73.17,
+     "n": 6
+    },
+    {
      "date": "2026-09-26",
      "tname": "Campeonato Nacional de Debate BP 2026",
      "avg": 73.75,
@@ -80953,6 +82063,12 @@
      "n": 12,
      "avg_points": 1.58,
      "avg_speaks": 73.25
+    },
+    {
+     "name": "Mery García",
+     "n": 12,
+     "avg_points": 1.33,
+     "avg_speaks": 73.67
     },
     {
      "name": "Pablo Ponce Sánchez",
@@ -80985,12 +82101,6 @@
      "avg_speaks": 71.17
     },
     {
-     "name": "Mery García",
-     "n": 6,
-     "avg_points": 1.5,
-     "avg_speaks": 74.17
-    },
-    {
      "name": "Aitor (Cena) Talavera",
      "n": 6,
      "avg_points": 1.33,
@@ -81021,10 +82131,10 @@
      "avg_speaks": 75.6
     }
    ],
-   "vs_field": 0.37,
+   "vs_field": 0.14,
    "clutch": {
-    "avg_last_round": 74.44,
-    "delta": 0.2
+    "avg_last_round": 74.18,
+    "delta": -0.0
    },
    "streak_top2": 6,
    "env_online": {
@@ -81033,12 +82143,12 @@
     "avg_points": 1.2
    },
    "env_presencial": {
-    "n": 85,
-    "avg_speaks": 74.24,
-    "avg_points": 1.47
+    "n": 91,
+    "avg_speaks": 74.16,
+    "avg_points": 1.45
    },
-   "avg_room_rank": 4.12,
-   "room_best_count": 14,
+   "avg_room_rank": 4.18,
+   "room_best_count": 15,
    "chairs": [
     [
      "Isabella Vásquez",
@@ -90255,12 +91365,12 @@
   },
   "giza-fiorella-pavone": {
    "display": "Giza Fiorella Pavone",
-   "n_tournaments": 15,
-   "n_rounds": 92,
+   "n_tournaments": 16,
+   "n_rounds": 98,
    "n_elim_rounds": 0,
    "last_date": "2026-09-26",
-   "n_tournaments_6m": 2,
-   "n_rounds_6m": 16,
+   "n_tournaments_6m": 3,
+   "n_rounds_6m": 22,
    "breaks": [
     {
      "t": "iibpcomunicateucm__iiibpcomunicate",
@@ -90351,6 +91461,14 @@
      "champion": false
     },
     {
+     "t": "viiiprecmudeuam__viiiprecmudeuam",
+     "tname": "VIII PreCMUDE UAM",
+     "date": "2026-06-19",
+     "novice": false,
+     "reached": "Final",
+     "champion": false
+    },
+    {
      "t": "cmude2026__open",
      "tname": "Campeonato Mundial Universitario de Debate en Español 2026",
      "date": "2026-07-27",
@@ -90367,9 +91485,9 @@
      "champion": true
     }
    ],
-   "n_breaks": 13,
+   "n_breaks": 14,
    "n_breaks_novice": 0,
-   "n_breaks_open": 13,
+   "n_breaks_open": 14,
    "tournaments": [
     {
      "slug": "iibpcomunicateucm__iiibpcomunicate",
@@ -90461,6 +91579,13 @@
      "date": "2026-03-20",
      "online": false,
      "team": "UC3M No me gusta tu actitud"
+    },
+    {
+     "slug": "viiiprecmudeuam__viiiprecmudeuam",
+     "name": "VIII PreCMUDE UAM",
+     "date": "2026-06-19",
+     "online": false,
+     "team": "UC3M PR"
     },
     {
      "slug": "cmude2026__open",
@@ -92227,6 +93352,144 @@
      "t_avg": 74.12
     },
     {
+     "t": "viiiprecmudeuam__viiiprecmudeuam",
+     "tname": "VIII PreCMUDE UAM",
+     "date": "2026-06-19",
+     "online": false,
+     "round": "Ronda 1",
+     "seq": 1,
+     "stage": "P",
+     "side": "co",
+     "points": 3,
+     "win": false,
+     "position": 1,
+     "score": 80.0,
+     "iron": false,
+     "room_rank": 2,
+     "motion": "EC lamenta la mercantilización de la nostalgia",
+     "topic": "economía",
+     "team": "UC3M PR",
+     "mate": "Jaime Rodríguez",
+     "chair": "Daniel Pérez Alonso",
+     "venue": "Aula 6 - A7",
+     "t_avg": 76.36
+    },
+    {
+     "t": "viiiprecmudeuam__viiiprecmudeuam",
+     "tname": "VIII PreCMUDE UAM",
+     "date": "2026-06-19",
+     "online": false,
+     "round": "Ronda 2",
+     "seq": 2,
+     "stage": "P",
+     "side": "oo",
+     "points": 3,
+     "win": false,
+     "position": 1,
+     "score": 81.0,
+     "iron": false,
+     "room_rank": 1,
+     "motion": "ECCQ el Papa León XIV debería tomar una posición más agresiva respecto a la administración de Trump (ej., amenazar con excomulgar personas, manifestar abiertamente su desaprobación de los sectores católicos MAGA, etc.)",
+     "topic": "religión",
+     "team": "UC3M PR",
+     "mate": "Jaime Rodríguez",
+     "chair": "Adriana Betancor",
+     "venue": "Aula 8 - S13",
+     "t_avg": 76.36
+    },
+    {
+     "t": "viiiprecmudeuam__viiiprecmudeuam",
+     "tname": "VIII PreCMUDE UAM",
+     "date": "2026-06-19",
+     "online": false,
+     "round": "Ronda 3",
+     "seq": 3,
+     "stage": "P",
+     "side": "cg",
+     "points": 2,
+     "win": false,
+     "position": 1,
+     "score": 79.0,
+     "iron": false,
+     "room_rank": 2,
+     "motion": "EC lamenta la Sentencia Bosman",
+     "topic": "economía",
+     "team": "UC3M PR",
+     "mate": "Jaime Rodríguez",
+     "chair": "Fabian Miulescu",
+     "venue": "Sala 3 - Aula 202",
+     "t_avg": 76.36
+    },
+    {
+     "t": "viiiprecmudeuam__viiiprecmudeuam",
+     "tname": "VIII PreCMUDE UAM",
+     "date": "2026-06-19",
+     "online": false,
+     "round": "Ronda 4",
+     "seq": 4,
+     "stage": "P",
+     "side": "oo",
+     "points": 2,
+     "win": false,
+     "position": 1,
+     "score": 80.0,
+     "iron": false,
+     "room_rank": 6,
+     "motion": "EC prefiere que la representación laboral y acción colectiva se estructure bajo el modelo intergremial en lugar del modelo gremializado",
+     "topic": "otros",
+     "team": "UC3M PR",
+     "mate": "Jaime Rodríguez",
+     "chair": "Mario de la Hoz",
+     "venue": "Sala 1 - Aula 201",
+     "t_avg": 76.36
+    },
+    {
+     "t": "viiiprecmudeuam__viiiprecmudeuam",
+     "tname": "VIII PreCMUDE UAM",
+     "date": "2026-06-19",
+     "online": false,
+     "round": "Ronda 5",
+     "seq": 5,
+     "stage": "P",
+     "side": "og",
+     "points": 3,
+     "win": false,
+     "position": 1,
+     "score": 82.0,
+     "iron": false,
+     "room_rank": 1,
+     "motion": "EC, como la OPEP+, priorizaría mantener elevados los precios del barril, por encima de inundar el mercado con crudo barato",
+     "topic": "economía",
+     "team": "UC3M PR",
+     "mate": "Jaime Rodríguez",
+     "chair": "Fabian Miulescu",
+     "venue": "Sala 5 - Aula 205.1",
+     "t_avg": 76.36
+    },
+    {
+     "t": "viiiprecmudeuam__viiiprecmudeuam",
+     "tname": "VIII PreCMUDE UAM",
+     "date": "2026-06-19",
+     "online": false,
+     "round": "Ronda 6",
+     "seq": 6,
+     "stage": "P",
+     "side": "og",
+     "points": 1,
+     "win": false,
+     "position": 1,
+     "score": 80.0,
+     "iron": false,
+     "room_rank": 5,
+     "motion": "EC, siendo el escritor, viraría a escribir romance gay",
+     "topic": "rol / actor",
+     "team": "UC3M PR",
+     "mate": "Jaime Rodríguez",
+     "chair": "Mario de la Hoz",
+     "venue": "Sala 2 - Aula 214",
+     "t_avg": 76.36
+    },
+    {
      "t": "cmude2026__open",
      "tname": "Campeonato Mundial Universitario de Debate en Español 2026",
      "date": "2026-07-27",
@@ -92596,8 +93859,8 @@
     }
    ],
    "elim_rows": [],
-   "avg_speaks": 79.6,
-   "stdev": 1.6,
+   "avg_speaks": 79.64,
+   "stdev": 1.58,
    "best": {
     "t": "bpmendel__ivbpmendel",
     "tname": "IV BP Mendel",
@@ -92646,14 +93909,14 @@
    },
    "avg_points": 2.23,
    "results_dist": {
-    "3": 50,
-    "2": 21,
-    "1": 13,
+    "3": 53,
+    "2": 23,
+    "1": 14,
     "0": 8
    },
    "pos1": {
-    "n": 56,
-    "avg": 79.93
+    "n": 62,
+    "avg": 79.97
    },
    "pos2": {
     "n": 36,
@@ -92662,31 +93925,31 @@
    "sides": {
     "og": {
      "label": "Alta Gobierno",
-     "n": 23,
-     "avg_points": 2.35,
-     "avg_speaks": 79.35,
-     "firsts": 13
+     "n": 25,
+     "avg_points": 2.32,
+     "avg_speaks": 79.48,
+     "firsts": 14
     },
     "oo": {
      "label": "Alta Oposición",
-     "n": 22,
-     "avg_points": 2.05,
-     "avg_speaks": 79.59,
-     "firsts": 10
+     "n": 24,
+     "avg_points": 2.08,
+     "avg_speaks": 79.67,
+     "firsts": 11
     },
     "cg": {
      "label": "Baja Gobierno",
-     "n": 24,
+     "n": 25,
      "avg_points": 2.12,
-     "avg_speaks": 79.54,
+     "avg_speaks": 79.52,
      "firsts": 13
     },
     "co": {
      "label": "Baja Oposición",
-     "n": 23,
-     "avg_points": 2.39,
-     "avg_speaks": 79.91,
-     "firsts": 14
+     "n": 24,
+     "avg_points": 2.42,
+     "avg_speaks": 79.92,
+     "firsts": 15
     }
    },
    "topics": {
@@ -92706,24 +93969,24 @@
      "avg_speaks": 78.67
     },
     "economía": {
-     "n": 17,
-     "avg_points": 2.35,
-     "avg_speaks": 79.24
+     "n": 20,
+     "avg_points": 2.4,
+     "avg_speaks": 79.4
     },
     "otros": {
-     "n": 8,
-     "avg_points": 2.62,
-     "avg_speaks": 80.25
-    },
-    "religión": {
      "n": 9,
-     "avg_points": 2.22,
+     "avg_points": 2.56,
      "avg_speaks": 80.22
     },
+    "religión": {
+     "n": 10,
+     "avg_points": 2.3,
+     "avg_speaks": 80.3
+    },
     "rol / actor": {
-     "n": 3,
+     "n": 4,
      "avg_points": 1,
-     "avg_speaks": 78.0
+     "avg_speaks": 78.5
     },
     "relaciones internacionales": {
      "n": 2,
@@ -92826,6 +94089,12 @@
      "n": 5
     },
     {
+     "date": "2026-06-19",
+     "tname": "VIII PreCMUDE UAM",
+     "avg": 80.33,
+     "n": 6
+    },
+    {
      "date": "2026-07-27",
      "tname": "Campeonato Mundial Universitario de Debate en Español 2026",
      "avg": 80.3,
@@ -92846,16 +94115,16 @@
      "avg_speaks": 79.49
     },
     {
+     "name": "Jaime Rodríguez",
+     "n": 28,
+     "avg_points": 2.14,
+     "avg_speaks": 79.79
+    },
+    {
      "name": "Jaime Rodríguez Sánchez-Tabernero",
      "n": 22,
      "avg_points": 2.45,
      "avg_speaks": 80.18
-    },
-    {
-     "name": "Jaime Rodríguez",
-     "n": 22,
-     "avg_points": 2.09,
-     "avg_speaks": 79.64
     },
     {
      "name": "Sergio Mateos Martín",
@@ -92870,10 +94139,10 @@
      "avg_speaks": 79.4
     }
    ],
-   "vs_field": 4.74,
+   "vs_field": 4.69,
    "clutch": {
-    "avg_last_round": 79.87,
-    "delta": 0.27
+    "avg_last_round": 79.88,
+    "delta": 0.23
    },
    "streak_top2": 9,
    "env_online": {
@@ -92882,13 +94151,17 @@
     "avg_points": 2.09
    },
    "env_presencial": {
-    "n": 81,
-    "avg_speaks": 79.65,
+    "n": 87,
+    "avg_speaks": 79.7,
     "avg_points": 2.25
    },
-   "avg_room_rank": 2.4,
-   "room_best_count": 45,
+   "avg_room_rank": 2.42,
+   "room_best_count": 47,
    "chairs": [
+    [
+     "Mario de la Hoz",
+     4
+    ],
     [
      "Pedro Tomás",
      4
@@ -92904,21 +94177,17 @@
     [
      "Pau García",
      3
-    ],
-    [
-     "Mado Sáez🍪",
-     2
     ]
    ]
   },
   "diego-garcia-gonzalez": {
    "display": "Diego García González",
-   "n_tournaments": 20,
-   "n_rounds": 113,
+   "n_tournaments": 21,
+   "n_rounds": 119,
    "n_elim_rounds": 0,
    "last_date": "2026-07-27",
-   "n_tournaments_6m": 4,
-   "n_rounds_6m": 26,
+   "n_tournaments_6m": 5,
+   "n_rounds_6m": 32,
    "breaks": [
     {
      "t": "ucabdebate__vcab",
@@ -93098,6 +94367,13 @@
      "date": "2026-05-16",
      "online": true,
      "team": "ADUMA GO"
+    },
+    {
+     "slug": "viiiprecmudeuam__viiiprecmudeuam",
+     "name": "VIII PreCMUDE UAM",
+     "date": "2026-06-19",
+     "online": false,
+     "team": "ADUMA OG XES"
     },
     {
      "slug": "copaleonv__copaleondelsurv",
@@ -95370,6 +96646,144 @@
      "t_avg": 75.95
     },
     {
+     "t": "viiiprecmudeuam__viiiprecmudeuam",
+     "tname": "VIII PreCMUDE UAM",
+     "date": "2026-06-19",
+     "online": false,
+     "round": "Ronda 1",
+     "seq": 1,
+     "stage": "P",
+     "side": "oo",
+     "points": 2,
+     "win": false,
+     "position": 2,
+     "score": 74.0,
+     "iron": false,
+     "room_rank": 2,
+     "motion": "EC lamenta la mercantilización de la nostalgia",
+     "topic": "economía",
+     "team": "ADUMA OG XES",
+     "mate": "Belén Osorio",
+     "chair": "Natalia de la Puente",
+     "venue": "Aula 4 - S10",
+     "t_avg": 76.36
+    },
+    {
+     "t": "viiiprecmudeuam__viiiprecmudeuam",
+     "tname": "VIII PreCMUDE UAM",
+     "date": "2026-06-19",
+     "online": false,
+     "round": "Ronda 2",
+     "seq": 2,
+     "stage": "P",
+     "side": "og",
+     "points": 0,
+     "win": false,
+     "position": 2,
+     "score": 77.0,
+     "iron": false,
+     "room_rank": 6,
+     "motion": "ECCQ el Papa León XIV debería tomar una posición más agresiva respecto a la administración de Trump (ej., amenazar con excomulgar personas, manifestar abiertamente su desaprobación de los sectores católicos MAGA, etc.)",
+     "topic": "religión",
+     "team": "ADUMA OG XES",
+     "mate": "Belén Osorio",
+     "chair": "Horacio 👑",
+     "venue": "Aula 4 - S10",
+     "t_avg": 76.36
+    },
+    {
+     "t": "viiiprecmudeuam__viiiprecmudeuam",
+     "tname": "VIII PreCMUDE UAM",
+     "date": "2026-06-19",
+     "online": false,
+     "round": "Ronda 3",
+     "seq": 3,
+     "stage": "P",
+     "side": "cg",
+     "points": 3,
+     "win": false,
+     "position": 2,
+     "score": 76.0,
+     "iron": false,
+     "room_rank": 1,
+     "motion": "EC lamenta la Sentencia Bosman",
+     "topic": "economía",
+     "team": "ADUMA OG XES",
+     "mate": "Belén Osorio",
+     "chair": "Mario de la Hoz",
+     "venue": "Sala 4 - Aula 203.2",
+     "t_avg": 76.36
+    },
+    {
+     "t": "viiiprecmudeuam__viiiprecmudeuam",
+     "tname": "VIII PreCMUDE UAM",
+     "date": "2026-06-19",
+     "online": false,
+     "round": "Ronda 4",
+     "seq": 4,
+     "stage": "P",
+     "side": "co",
+     "points": 0,
+     "win": false,
+     "position": 2,
+     "score": 76.0,
+     "iron": false,
+     "room_rank": 6,
+     "motion": "EC prefiere que la representación laboral y acción colectiva se estructure bajo el modelo intergremial en lugar del modelo gremializado",
+     "topic": "otros",
+     "team": "ADUMA OG XES",
+     "mate": "Belén Osorio",
+     "chair": "Fabian Miulescu",
+     "venue": "Sala 2 - Aula 214",
+     "t_avg": 76.36
+    },
+    {
+     "t": "viiiprecmudeuam__viiiprecmudeuam",
+     "tname": "VIII PreCMUDE UAM",
+     "date": "2026-06-19",
+     "online": false,
+     "round": "Ronda 5",
+     "seq": 5,
+     "stage": "P",
+     "side": "oo",
+     "points": 3,
+     "win": false,
+     "position": 2,
+     "score": 75.0,
+     "iron": false,
+     "room_rank": 1,
+     "motion": "EC, como la OPEP+, priorizaría mantener elevados los precios del barril, por encima de inundar el mercado con crudo barato",
+     "topic": "economía",
+     "team": "ADUMA OG XES",
+     "mate": "Belén Osorio",
+     "chair": "Diego Gálvez López",
+     "venue": "Sala 1 - Aula 201",
+     "t_avg": 76.36
+    },
+    {
+     "t": "viiiprecmudeuam__viiiprecmudeuam",
+     "tname": "VIII PreCMUDE UAM",
+     "date": "2026-06-19",
+     "online": false,
+     "round": "Ronda 6",
+     "seq": 6,
+     "stage": "P",
+     "side": "co",
+     "points": 0,
+     "win": false,
+     "position": 2,
+     "score": 70.0,
+     "iron": false,
+     "room_rank": 8,
+     "motion": "EC, siendo el escritor, viraría a escribir romance gay",
+     "topic": "rol / actor",
+     "team": "ADUMA OG XES",
+     "mate": "Belén Osorio",
+     "chair": "Natalia de la Puente",
+     "venue": "Sala 3 - Aula 202",
+     "t_avg": 76.36
+    },
+    {
      "t": "copaleonv__copaleondelsurv",
      "tname": "Copa León del Sur V",
      "date": "2026-07-10",
@@ -95716,8 +97130,8 @@
     }
    ],
    "elim_rows": [],
-   "avg_speaks": 75.57,
-   "stdev": 3.13,
+   "avg_speaks": 75.52,
+   "stdev": 3.09,
    "best": {
     "t": "cmude2025__open",
     "tname": "Campeonato Mundial Universitario de Debate en Español 2025",
@@ -95764,61 +97178,61 @@
     "venue": "Sala 4",
     "t_avg": 70.73
    },
-   "avg_points": 1.6,
+   "avg_points": 1.59,
    "results_dist": {
-    "3": 30,
-    "2": 28,
+    "3": 32,
+    "2": 29,
     "1": 35,
-    "0": 20
+    "0": 23
    },
    "pos1": {
     "n": 28,
     "avg": 74.71
    },
    "pos2": {
-    "n": 85,
-    "avg": 75.85
+    "n": 91,
+    "avg": 75.77
    },
    "sides": {
     "og": {
      "label": "Alta Gobierno",
-     "n": 25,
-     "avg_points": 1.28,
-     "avg_speaks": 74.88,
+     "n": 26,
+     "avg_points": 1.23,
+     "avg_speaks": 74.96,
      "firsts": 5
     },
     "oo": {
      "label": "Alta Oposición",
-     "n": 26,
-     "avg_points": 1.96,
-     "avg_speaks": 76.12,
-     "firsts": 10
+     "n": 28,
+     "avg_points": 2,
+     "avg_speaks": 76.0,
+     "firsts": 11
     },
     "cg": {
      "label": "Baja Gobierno",
-     "n": 30,
-     "avg_points": 1.5,
-     "avg_speaks": 74.83,
-     "firsts": 6
+     "n": 31,
+     "avg_points": 1.55,
+     "avg_speaks": 74.87,
+     "firsts": 7
     },
     "co": {
      "label": "Baja Oposición",
-     "n": 32,
-     "avg_points": 1.66,
-     "avg_speaks": 76.34,
+     "n": 34,
+     "avg_points": 1.56,
+     "avg_speaks": 76.15,
      "firsts": 9
     }
    },
    "topics": {
     "otros": {
-     "n": 19,
-     "avg_points": 1.53,
-     "avg_speaks": 75.21
+     "n": 20,
+     "avg_points": 1.45,
+     "avg_speaks": 75.25
     },
     "economía": {
-     "n": 18,
-     "avg_points": 1.72,
-     "avg_speaks": 76.28
+     "n": 21,
+     "avg_points": 1.86,
+     "avg_speaks": 76.1
     },
     "psicología y salud mental": {
      "n": 10,
@@ -95836,9 +97250,9 @@
      "avg_speaks": 74.9
     },
     "religión": {
-     "n": 16,
-     "avg_points": 1.38,
-     "avg_speaks": 75.06
+     "n": 17,
+     "avg_points": 1.29,
+     "avg_speaks": 75.18
     },
     "filosofía y ética": {
      "n": 10,
@@ -95856,9 +97270,9 @@
      "avg_speaks": 75.0
     },
     "rol / actor": {
-     "n": 4,
-     "avg_points": 1.75,
-     "avg_speaks": 76.0
+     "n": 5,
+     "avg_points": 1.4,
+     "avg_speaks": 74.8
     },
     "medios y cultura": {
      "n": 3,
@@ -95981,6 +97395,12 @@
      "n": 5
     },
     {
+     "date": "2026-06-19",
+     "tname": "VIII PreCMUDE UAM",
+     "avg": 74.67,
+     "n": 6
+    },
+    {
      "date": "2026-07-10",
      "tname": "Copa León del Sur V",
      "avg": 78.2,
@@ -95995,6 +97415,12 @@
    ],
    "mates": [
     {
+     "name": "Belén Osorio",
+     "n": 16,
+     "avg_points": 1.38,
+     "avg_speaks": 75.5
+    },
+    {
      "name": "Lara Ruiz Fernández",
      "n": 15,
      "avg_points": 1.4,
@@ -96005,12 +97431,6 @@
      "n": 12,
      "avg_points": 1.25,
      "avg_speaks": 71.42
-    },
-    {
-     "name": "Belén Osorio",
-     "n": 10,
-     "avg_points": 1.4,
-     "avg_speaks": 76.0
     },
     {
      "name": "Belén Osorio Flores",
@@ -96091,10 +97511,10 @@
      "avg_speaks": 78.0
     }
    ],
-   "vs_field": 1.34,
+   "vs_field": 1.19,
    "clutch": {
-    "avg_last_round": 75.5,
-    "delta": -0.07
+    "avg_last_round": 75.24,
+    "delta": -0.28
    },
    "streak_top2": 5,
    "env_online": {
@@ -96103,12 +97523,12 @@
     "avg_points": 1.56
    },
    "env_presencial": {
-    "n": 81,
-    "avg_speaks": 75.37,
-    "avg_points": 1.62
+    "n": 87,
+    "avg_speaks": 75.32,
+    "avg_points": 1.6
    },
    "avg_room_rank": 3.97,
-   "room_best_count": 22,
+   "room_best_count": 24,
    "chairs": [
     [
      "Adrián Duque",
