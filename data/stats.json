@@ -11163,12 +11163,12 @@
   },
   "jose-tomas-sanchez-galan": {
    "display": "José Tomás Sánchez Galán",
-   "n_tournaments": 24,
-   "n_rounds": 137,
+   "n_tournaments": 25,
+   "n_rounds": 143,
    "n_elim_rounds": 0,
-   "last_date": "2026-09-26",
-   "n_tournaments_6m": 5,
-   "n_rounds_6m": 28,
+   "last_date": "2026-10-02",
+   "n_tournaments_6m": 6,
+   "n_rounds_6m": 34,
    "breaks": [
     {
      "t": "copaleonii__leondelsurii2025",
@@ -11382,6 +11382,13 @@
      "date": "2026-09-26",
      "online": false,
      "team": "UCM-COM + Nebrija PS"
+    },
+    {
+     "slug": "vbpgranada__bpgranada2026",
+     "name": "V BP Ciudad de Granada",
+     "date": "2026-10-02",
+     "online": false,
+     "team": "Manolo y Benito Corporation"
     }
    ],
    "rows": [
@@ -14535,11 +14542,149 @@
      "chair": "🫩Antonio Sáez Marín",
      "venue": "Goikito",
      "t_avg": 77.76
+    },
+    {
+     "t": "vbpgranada__bpgranada2026",
+     "tname": "V BP Ciudad de Granada",
+     "date": "2026-10-02",
+     "online": false,
+     "round": "Round 1",
+     "seq": 1,
+     "stage": "P",
+     "side": "co",
+     "points": 3,
+     "win": false,
+     "position": 1,
+     "score": 77.0,
+     "iron": false,
+     "room_rank": 3,
+     "motion": "EC, siendo Oliver Queen, prefiere convertiste en un justiciero en vez de tomar el mando de la empresa.",
+     "topic": "rol / actor",
+     "team": "Manolo y Benito Corporation",
+     "mate": "Nacho Fenollar",
+     "chair": "Fabian Miulescu",
+     "venue": "Aula 13 (CCPP)",
+     "t_avg": 74.17
+    },
+    {
+     "t": "vbpgranada__bpgranada2026",
+     "tname": "V BP Ciudad de Granada",
+     "date": "2026-10-02",
+     "online": false,
+     "round": "Round 2",
+     "seq": 2,
+     "stage": "P",
+     "side": "og",
+     "points": 1,
+     "win": false,
+     "position": 2,
+     "score": 71.0,
+     "iron": false,
+     "room_rank": 6,
+     "motion": "EC apoya el auge de las relaciones Humano-IA",
+     "topic": "ciencia y tecnología",
+     "team": "Manolo y Benito Corporation",
+     "mate": "Nacho Fenollar",
+     "chair": "Nicolas Moreno Martin",
+     "venue": "Aula 22 (CCPP)",
+     "t_avg": 74.17
+    },
+    {
+     "t": "vbpgranada__bpgranada2026",
+     "tname": "V BP Ciudad de Granada",
+     "date": "2026-10-02",
+     "online": false,
+     "round": "Round 3",
+     "seq": 3,
+     "stage": "P",
+     "side": "oo",
+     "points": 2,
+     "win": false,
+     "position": 2,
+     "score": 78.0,
+     "iron": false,
+     "room_rank": 1,
+     "motion": "EC lamenta la adhesión de Colombia al Escudo de las Américas",
+     "topic": "economía",
+     "team": "Manolo y Benito Corporation",
+     "mate": "Nacho Fenollar",
+     "chair": "Álvaro Mora",
+     "venue": "Aula 7 (Cent)",
+     "t_avg": 74.17
+    },
+    {
+     "t": "vbpgranada__bpgranada2026",
+     "tname": "V BP Ciudad de Granada",
+     "date": "2026-10-02",
+     "online": false,
+     "round": "Round 4",
+     "seq": 4,
+     "stage": "P",
+     "side": "oo",
+     "points": 1,
+     "win": false,
+     "position": 2,
+     "score": 76.0,
+     "iron": false,
+     "room_rank": 5,
+     "motion": "EC, como una novelista kurda nacida y residente en Estambul, escribiría una narrativa del pesimismo social en lugar de una narrativa de la esperanza comunitaria.",
+     "topic": "economía",
+     "team": "Manolo y Benito Corporation",
+     "mate": "Nacho Fenollar",
+     "chair": "Beatriz Tavares Rodriguez",
+     "venue": "Aula 6 (Cent)",
+     "t_avg": 74.17
+    },
+    {
+     "t": "vbpgranada__bpgranada2026",
+     "tname": "V BP Ciudad de Granada",
+     "date": "2026-10-02",
+     "online": false,
+     "round": "Round 5",
+     "seq": 5,
+     "stage": "P",
+     "side": "cg",
+     "points": 0,
+     "win": false,
+     "position": 1,
+     "score": 74.0,
+     "iron": false,
+     "room_rank": 8,
+     "motion": "ECCQ España debería aplicar el modelo productivista.",
+     "topic": "economía",
+     "team": "Manolo y Benito Corporation",
+     "mate": "Nacho Fenollar",
+     "chair": "Luis Felipe",
+     "venue": "Sala Polivalente (Cent)",
+     "t_avg": 74.17
+    },
+    {
+     "t": "vbpgranada__bpgranada2026",
+     "tname": "V BP Ciudad de Granada",
+     "date": "2026-10-02",
+     "online": false,
+     "round": "Round 6",
+     "seq": 6,
+     "stage": "P",
+     "side": "cg",
+     "points": 3,
+     "win": false,
+     "position": 1,
+     "score": 77.0,
+     "iron": false,
+     "room_rank": 2,
+     "motion": "EC prefiere que la Bienal de São Paulo opere bajo el enfoque de resistencia de base en lugar del enfoque de inserción global",
+     "topic": "relaciones internacionales",
+     "team": "Manolo y Benito Corporation",
+     "mate": "Nacho Fenollar",
+     "chair": "Cristina Pedraza Alabarce",
+     "venue": "Aula 6 (Cent)",
+     "t_avg": 74.17
     }
    ],
    "elim_rows": [],
-   "avg_speaks": 74.93,
-   "stdev": 4.09,
+   "avg_speaks": 74.96,
+   "stdev": 4.03,
    "best": {
     "t": "bpcomplu__vibpcomplu",
     "tname": "VI BP COMPLU",
@@ -14588,47 +14733,47 @@
    },
    "avg_points": 1.59,
    "results_dist": {
-    "3": 38,
-    "2": 37,
-    "1": 30,
-    "0": 32
+    "3": 40,
+    "2": 38,
+    "1": 32,
+    "0": 33
    },
    "pos1": {
-    "n": 63,
-    "avg": 74.03
+    "n": 66,
+    "avg": 74.12
    },
    "pos2": {
-    "n": 74,
-    "avg": 75.7
+    "n": 77,
+    "avg": 75.68
    },
    "sides": {
     "og": {
      "label": "Alta Gobierno",
-     "n": 33,
-     "avg_points": 1.88,
-     "avg_speaks": 75.7,
+     "n": 34,
+     "avg_points": 1.85,
+     "avg_speaks": 75.56,
      "firsts": 12
     },
     "oo": {
      "label": "Alta Oposición",
-     "n": 34,
-     "avg_points": 1.21,
-     "avg_speaks": 73.91,
+     "n": 36,
+     "avg_points": 1.22,
+     "avg_speaks": 74.08,
      "firsts": 6
     },
     "cg": {
      "label": "Baja Gobierno",
-     "n": 37,
-     "avg_points": 1.57,
-     "avg_speaks": 75.27,
-     "firsts": 6
+     "n": 39,
+     "avg_points": 1.56,
+     "avg_speaks": 75.28,
+     "firsts": 7
     },
     "co": {
      "label": "Baja Oposición",
-     "n": 33,
-     "avg_points": 1.73,
-     "avg_speaks": 74.85,
-     "firsts": 14
+     "n": 34,
+     "avg_points": 1.76,
+     "avg_speaks": 74.91,
+     "firsts": 15
     }
    },
    "topics": {
@@ -14638,9 +14783,9 @@
      "avg_speaks": 74.7
     },
     "economía": {
-     "n": 28,
-     "avg_points": 1.57,
-     "avg_speaks": 74.86
+     "n": 31,
+     "avg_points": 1.52,
+     "avg_speaks": 74.97
     },
     "psicología y salud mental": {
      "n": 12,
@@ -14648,9 +14793,9 @@
      "avg_speaks": 75.58
     },
     "relaciones internacionales": {
-     "n": 6,
-     "avg_points": 1.33,
-     "avg_speaks": 72.33
+     "n": 7,
+     "avg_points": 1.57,
+     "avg_speaks": 73.0
     },
     "religión": {
      "n": 14,
@@ -14668,14 +14813,14 @@
      "avg_speaks": 75.38
     },
     "ciencia y tecnología": {
-     "n": 6,
-     "avg_points": 1.17,
-     "avg_speaks": 74.33
+     "n": 7,
+     "avg_points": 1.14,
+     "avg_speaks": 73.86
     },
     "rol / actor": {
-     "n": 8,
-     "avg_points": 1.62,
-     "avg_speaks": 73.88
+     "n": 9,
+     "avg_points": 1.78,
+     "avg_speaks": 74.22
     },
     "medios y cultura": {
      "n": 2,
@@ -14842,6 +14987,12 @@
      "tname": "Campeonato Nacional de Debate BP 2026",
      "avg": 78.5,
      "n": 6
+    },
+    {
+     "date": "2026-10-02",
+     "tname": "V BP Ciudad de Granada",
+     "avg": 75.5,
+     "n": 6
     }
    ],
    "mates": [
@@ -14924,6 +15075,12 @@
      "avg_speaks": 78.5
     },
     {
+     "name": "Nacho Fenollar",
+     "n": 6,
+     "avg_points": 1.67,
+     "avg_speaks": 75.5
+    },
+    {
      "name": "Manuel Jimenez Arias",
      "n": 5,
      "avg_points": 2,
@@ -14948,10 +15105,10 @@
      "avg_speaks": 78.4
     }
    ],
-   "vs_field": 0.87,
+   "vs_field": 0.88,
    "clutch": {
-    "avg_last_round": 74.92,
-    "delta": -0.01
+    "avg_last_round": 75.0,
+    "delta": 0.04
    },
    "streak_top2": 8,
    "env_online": {
@@ -14960,15 +15117,19 @@
     "avg_points": 1.76
    },
    "env_presencial": {
-    "n": 112,
-    "avg_speaks": 74.66,
-    "avg_points": 1.55
+    "n": 118,
+    "avg_speaks": 74.7,
+    "avg_points": 1.56
    },
-   "avg_room_rank": 3.92,
-   "room_best_count": 26,
+   "avg_room_rank": 3.93,
+   "room_best_count": 27,
    "chairs": [
     [
      "Fabian Miulescu 🕶️",
+     5
+    ],
+    [
+     "Fabian Miulescu",
      5
     ],
     [
@@ -14977,10 +15138,6 @@
     ],
     [
      "Horacio",
-     4
-    ],
-    [
-     "Fabian Miulescu",
      4
     ],
     [
@@ -94182,12 +94339,12 @@
   },
   "diego-garcia-gonzalez": {
    "display": "Diego García González",
-   "n_tournaments": 21,
-   "n_rounds": 119,
+   "n_tournaments": 22,
+   "n_rounds": 125,
    "n_elim_rounds": 0,
-   "last_date": "2026-07-27",
-   "n_tournaments_6m": 5,
-   "n_rounds_6m": 32,
+   "last_date": "2026-10-02",
+   "n_tournaments_6m": 6,
+   "n_rounds_6m": 38,
    "breaks": [
     {
      "t": "ucabdebate__vcab",
@@ -94388,6 +94545,13 @@
      "date": "2026-07-27",
      "online": false,
      "team": "ADUMA + 🅰️ESNO GO"
+    },
+    {
+     "slug": "vbpgranada__bpgranada2026",
+     "name": "V BP Ciudad de Granada",
+     "date": "2026-10-02",
+     "online": false,
+     "team": "ADUMA 2"
     }
    ],
    "rows": [
@@ -97127,11 +97291,149 @@
      "chair": "Diego Núñez del Prado Velarde",
      "venue": "G-315",
      "t_avg": 75.3
+    },
+    {
+     "t": "vbpgranada__bpgranada2026",
+     "tname": "V BP Ciudad de Granada",
+     "date": "2026-10-02",
+     "online": false,
+     "round": "Round 1",
+     "seq": 1,
+     "stage": "P",
+     "side": "og",
+     "points": 2,
+     "win": false,
+     "position": 2,
+     "score": 75.0,
+     "iron": false,
+     "room_rank": 3,
+     "motion": "EC, siendo Oliver Queen, prefiere convertiste en un justiciero en vez de tomar el mando de la empresa.",
+     "topic": "rol / actor",
+     "team": "ADUMA 2",
+     "mate": "Jose Ángel Agudo",
+     "chair": "Cristina Pedraza Alabarce",
+     "venue": "Aula 22 (CCPP)",
+     "t_avg": 74.17
+    },
+    {
+     "t": "vbpgranada__bpgranada2026",
+     "tname": "V BP Ciudad de Granada",
+     "date": "2026-10-02",
+     "online": false,
+     "round": "Round 2",
+     "seq": 2,
+     "stage": "P",
+     "side": "oo",
+     "points": 2,
+     "win": false,
+     "position": 1,
+     "score": 74.0,
+     "iron": false,
+     "room_rank": 3,
+     "motion": "EC apoya el auge de las relaciones Humano-IA",
+     "topic": "ciencia y tecnología",
+     "team": "ADUMA 2",
+     "mate": "Jose Ángel Agudo",
+     "chair": "Eva diez savall",
+     "venue": "Aula 23 (CCPP)",
+     "t_avg": 74.17
+    },
+    {
+     "t": "vbpgranada__bpgranada2026",
+     "tname": "V BP Ciudad de Granada",
+     "date": "2026-10-02",
+     "online": false,
+     "round": "Round 3",
+     "seq": 3,
+     "stage": "P",
+     "side": "cg",
+     "points": 0,
+     "win": false,
+     "position": 2,
+     "score": 75.0,
+     "iron": false,
+     "room_rank": 5,
+     "motion": "EC lamenta la adhesión de Colombia al Escudo de las Américas",
+     "topic": "economía",
+     "team": "ADUMA 2",
+     "mate": "Jose Ángel Agudo",
+     "chair": "Carlos Torregrosa Marti",
+     "venue": "Aula 1 (Cent)",
+     "t_avg": 74.17
+    },
+    {
+     "t": "vbpgranada__bpgranada2026",
+     "tname": "V BP Ciudad de Granada",
+     "date": "2026-10-02",
+     "online": false,
+     "round": "Round 4",
+     "seq": 4,
+     "stage": "P",
+     "side": "co",
+     "points": 2,
+     "win": false,
+     "position": 1,
+     "score": 75.0,
+     "iron": false,
+     "room_rank": 1,
+     "motion": "EC, como una novelista kurda nacida y residente en Estambul, escribiría una narrativa del pesimismo social en lugar de una narrativa de la esperanza comunitaria.",
+     "topic": "economía",
+     "team": "ADUMA 2",
+     "mate": "Jose Ángel Agudo",
+     "chair": "Jaime Rodríguez",
+     "venue": "Sala Polivalente (Cent)",
+     "t_avg": 74.17
+    },
+    {
+     "t": "vbpgranada__bpgranada2026",
+     "tname": "V BP Ciudad de Granada",
+     "date": "2026-10-02",
+     "online": false,
+     "round": "Round 5",
+     "seq": 5,
+     "stage": "P",
+     "side": "og",
+     "points": 1,
+     "win": false,
+     "position": 2,
+     "score": 75.0,
+     "iron": false,
+     "room_rank": 3,
+     "motion": "ECCQ España debería aplicar el modelo productivista.",
+     "topic": "economía",
+     "team": "ADUMA 2",
+     "mate": "Jose Ángel Agudo",
+     "chair": "Fernanda Roig",
+     "venue": "Aula 12 (Cent)",
+     "t_avg": 74.17
+    },
+    {
+     "t": "vbpgranada__bpgranada2026",
+     "tname": "V BP Ciudad de Granada",
+     "date": "2026-10-02",
+     "online": false,
+     "round": "Round 6",
+     "seq": 6,
+     "stage": "P",
+     "side": "co",
+     "points": 2,
+     "win": false,
+     "position": 1,
+     "score": 77.0,
+     "iron": false,
+     "room_rank": 2,
+     "motion": "EC prefiere que la Bienal de São Paulo opere bajo el enfoque de resistencia de base en lugar del enfoque de inserción global",
+     "topic": "relaciones internacionales",
+     "team": "ADUMA 2",
+     "mate": "Jose Ángel Agudo",
+     "chair": "Cristina Pedraza Alabarce",
+     "venue": "Aula 6 (Cent)",
+     "t_avg": 74.17
     }
    ],
    "elim_rows": [],
-   "avg_speaks": 75.52,
-   "stdev": 3.09,
+   "avg_speaks": 75.5,
+   "stdev": 3.03,
    "best": {
     "t": "cmude2025__open",
     "tname": "Campeonato Mundial Universitario de Debate en Español 2025",
@@ -97178,48 +97480,48 @@
     "venue": "Sala 4",
     "t_avg": 70.73
    },
-   "avg_points": 1.59,
+   "avg_points": 1.58,
    "results_dist": {
     "3": 32,
-    "2": 29,
-    "1": 35,
-    "0": 23
+    "2": 33,
+    "1": 36,
+    "0": 24
    },
    "pos1": {
-    "n": 28,
-    "avg": 74.71
+    "n": 31,
+    "avg": 74.77
    },
    "pos2": {
-    "n": 91,
-    "avg": 75.77
+    "n": 94,
+    "avg": 75.74
    },
    "sides": {
     "og": {
      "label": "Alta Gobierno",
-     "n": 26,
-     "avg_points": 1.23,
+     "n": 28,
+     "avg_points": 1.25,
      "avg_speaks": 74.96,
      "firsts": 5
     },
     "oo": {
      "label": "Alta Oposición",
-     "n": 28,
+     "n": 29,
      "avg_points": 2,
-     "avg_speaks": 76.0,
+     "avg_speaks": 75.93,
      "firsts": 11
     },
     "cg": {
      "label": "Baja Gobierno",
-     "n": 31,
-     "avg_points": 1.55,
-     "avg_speaks": 74.87,
+     "n": 32,
+     "avg_points": 1.5,
+     "avg_speaks": 74.88,
      "firsts": 7
     },
     "co": {
      "label": "Baja Oposición",
-     "n": 34,
-     "avg_points": 1.56,
-     "avg_speaks": 76.15,
+     "n": 36,
+     "avg_points": 1.58,
+     "avg_speaks": 76.14,
      "firsts": 9
     }
    },
@@ -97230,9 +97532,9 @@
      "avg_speaks": 75.25
     },
     "economía": {
-     "n": 21,
-     "avg_points": 1.86,
-     "avg_speaks": 76.1
+     "n": 24,
+     "avg_points": 1.75,
+     "avg_speaks": 75.96
     },
     "psicología y salud mental": {
      "n": 10,
@@ -97240,9 +97542,9 @@
      "avg_speaks": 75.9
     },
     "relaciones internacionales": {
-     "n": 5,
-     "avg_points": 1.6,
-     "avg_speaks": 74.6
+     "n": 6,
+     "avg_points": 1.67,
+     "avg_speaks": 75.0
     },
     "política nacional": {
      "n": 10,
@@ -97270,9 +97572,9 @@
      "avg_speaks": 75.0
     },
     "rol / actor": {
-     "n": 5,
-     "avg_points": 1.4,
-     "avg_speaks": 74.8
+     "n": 6,
+     "avg_points": 1.5,
+     "avg_speaks": 74.83
     },
     "medios y cultura": {
      "n": 3,
@@ -97280,8 +97582,8 @@
      "avg_speaks": 78.0
     },
     "ciencia y tecnología": {
-     "n": 5,
-     "avg_points": 1,
+     "n": 6,
+     "avg_points": 1.17,
      "avg_speaks": 74.0
     }
    },
@@ -97411,6 +97713,12 @@
      "tname": "Campeonato Mundial Universitario de Debate en Español 2026",
      "avg": 77.6,
      "n": 10
+    },
+    {
+     "date": "2026-10-02",
+     "tname": "V BP Ciudad de Granada",
+     "avg": 75.17,
+     "n": 6
     }
    ],
    "mates": [
@@ -97475,6 +97783,12 @@
      "avg_speaks": 77.33
     },
     {
+     "name": "Jose Ángel Agudo",
+     "n": 6,
+     "avg_points": 1.5,
+     "avg_speaks": 75.17
+    },
+    {
      "name": "Ari Varela",
      "n": 5,
      "avg_points": 2,
@@ -97511,10 +97825,10 @@
      "avg_speaks": 78.0
     }
    ],
-   "vs_field": 1.19,
+   "vs_field": 1.18,
    "clutch": {
-    "avg_last_round": 75.24,
-    "delta": -0.28
+    "avg_last_round": 75.32,
+    "delta": -0.18
    },
    "streak_top2": 5,
    "env_online": {
@@ -97523,12 +97837,12 @@
     "avg_points": 1.56
    },
    "env_presencial": {
-    "n": 87,
-    "avg_speaks": 75.32,
-    "avg_points": 1.6
+    "n": 93,
+    "avg_speaks": 75.31,
+    "avg_points": 1.59
    },
-   "avg_room_rank": 3.97,
-   "room_best_count": 24,
+   "avg_room_rank": 3.92,
+   "room_best_count": 25,
    "chairs": [
     [
      "Adrián Duque",
@@ -97539,15 +97853,15 @@
      3
     ],
     [
-     "Juanjo García Amorós",
-     2
+     "Cristina Pedraza Alabarce",
+     3
     ],
     [
-     "Fernanda Paz",
-     2
+     "Jaime Rodríguez",
+     3
     ],
     [
-     "Marco Girela",
+     "Fernanda Roig",
      2
     ]
    ]
