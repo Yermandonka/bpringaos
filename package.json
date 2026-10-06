@@ -1,0 +1,10 @@
+{
+  "name": "bpringaos",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Estadísticas interdimensionales del BP en español — web estática + endpoint /api/hit para registro educativo de visitas en Vercel Blob",
+  "dependencies": {
+    "@vercel/blob": "^2.8.1"
+  }
+}
