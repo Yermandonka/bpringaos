@@ -32,34 +32,48 @@
   })();
 
   const HUES = ["#ff7a1a", "#97ce4c", "#f0b429", "#e8620c", "#5fa32b", "#ffa04d"];
-  fetch("data/stats.json", { cache: "no-store" }).then((r) => r.json()).then((d) => {
-    const np = d.n_people || Object.keys(d.people || {}).length;
+  fetch(BP.statsURL(), { cache: "no-store" }).then((r) => r.json()).then((d) => {
+    const np = d.n_people || (d.menu ? d.menu.length : Object.keys(d.people || {}).length);
     $("#heroMeta").textContent =
       `${d.n_tournaments_scanned} torneos escaneados · ${np} pringaos fichados · 0 permisos pedidos`;
 
-    // construir la lista del menú
+    // construir la lista del menú desde el índice del servidor
     const list = $("#menuList");
-    // orden: por fecha del último torneo (más recientes primero),
-    // desempate por nº de torneos totales
-    const people = Object.entries(d.people || {}).sort((a, b) =>
-      (b[1].last_date || "").localeCompare(a[1].last_date || "") ||
-      (b[1].n_tournaments || 0) - (a[1].n_tournaments || 0));
-    people.forEach(([key, p], i) => {
+    const menu = d.menu ||
+      Object.keys(d.people || {}).map((k) => ({ key: k, display: (d.people[k].display || k), locked: false }));
+    // orden: los que tienen datos (desbloqueados) primero, por fecha del último
+    // torneo y nº de torneos; el resto (bloqueados) después, alfabético.
+    menu.sort((a, b) => {
+      const pa = d.people[a.key], pb = d.people[b.key];
+      if (pa && pb) return (pb.last_date || "").localeCompare(pa.last_date || "") ||
+                           (pb.n_tournaments || 0) - (pa.n_tournaments || 0);
+      if (pa && !pb) return -1;
+      if (!pa && pb) return 1;
+      return a.display.localeCompare(b.display);
+    });
+    menu.forEach((m, i) => {
+      const p = d.people[m.key];
       const a = document.createElement("a");
-      a.className = "menu-row";
-      a.href = `stats.html?p=${key}`;
+      a.className = "menu-row" + (m.locked ? " locked" : "");
+      a.href = `stats.html?p=${m.key}`;
       a.style.setProperty("--pc", HUES[i % HUES.length]);
       a.style.transitionDelay = `${80 + i * 70}ms`;
-      a.dataset.search = (p.display || key).toLowerCase();
+      a.dataset.search = m.display.toLowerCase();
+      const meta = m.locked
+        ? "🔒 expediente bloqueado"
+        : `${p.n_tournaments || 0} torneos · ${p.n_rounds || 0} discursos · ${p.avg_speaks != null ? p.avg_speaks + " spk" : "sin datos"}`;
       a.innerHTML = `
         <span class="menu-num">${String(i + 1).padStart(2, "0")}</span>
-        <span class="menu-name">${p.display || key}</span>
-        <span class="menu-meta">${p.n_tournaments || 0} torneos · ${p.n_rounds || 0} discursos · ${p.avg_speaks != null ? p.avg_speaks + " spk" : "sin datos"}</span>
-        <span class="menu-go">→</span>`;
+        <span class="menu-name">${m.display}</span>
+        <span class="menu-meta">${meta}</span>
+        <span class="menu-go">${m.locked ? "🔒" : "→"}</span>`;
       list.appendChild(a);
     });
-    if (people.length < 9) $("#menuSearch").style.display = "none";
+    if (menu.length < 9) $("#menuSearch").style.display = "none";
   }).catch(() => {});
+
+  // clic en el logo = disparador oculto para introducir la clave
+  BP.wireLogo && BP.wireLogo($(".glitch"));
 
   // ---------- menú hamburguesa ----------
   const burger = $("#burger"), menu = $("#menu");

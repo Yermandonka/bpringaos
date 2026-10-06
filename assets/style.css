@@ -156,6 +156,10 @@ button { font-family: inherit; }
 #menu.open .menu-row { opacity: 1; transform: none; }
 .menu-row:hover { background: color-mix(in srgb, var(--pc) 9%, transparent); }
 .menu-row.hidden { display: none; }
+.menu-row.locked { opacity: .55; }
+#menu.open .menu-row.locked { opacity: .55; }
+.menu-row.locked:hover { opacity: .8; background: color-mix(in srgb, var(--pc) 6%, transparent); }
+.menu-row.locked .menu-meta { color: var(--ink-3); font-style: italic; }
 .menu-num { font-family: var(--font-m); font-size: .8rem; color: var(--pc); }
 .menu-name {
   font-family: var(--font-d); font-size: clamp(1.15rem, 3.4vw, 1.9rem); color: var(--ink); line-height: 1.15;

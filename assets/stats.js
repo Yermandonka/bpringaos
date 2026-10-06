@@ -21,13 +21,28 @@
 
   let DATA;
   try {
-    DATA = await (await fetch("data/stats.json", { cache: "no-store" })).json();
+    DATA = await (await fetch(BP.statsURL(), { cache: "no-store" })).json();
   } catch (e) {
     $("#loader .loader-txt").textContent = "El portal ha fallado. Esta dimensión no tiene datos.";
     throw e;
   }
 
   const asked = new URLSearchParams(location.search).get("p");
+
+  // Perfil bloqueado (sin clave): no hay datos; ofrecer desbloqueo y parar.
+  const entry = (DATA.menu || []).find((m) => m.key === asked);
+  if (asked && entry && entry.locked && !DATA.people[asked]) {
+    const lt = $("#loader .loader-txt");
+    lt.innerHTML = `🔒 El expediente de <b>${entry.display}</b> está clasificado.` +
+      `<br><button id="unlockBtn" class="btn btn-primary" style="margin-top:18px">Introducir clave</button>` +
+      `<br><a href="index.html" class="hero-note" style="display:inline-block;margin-top:12px">volver</a>`;
+    $("#loader").classList.remove("done");
+    $("#unlockBtn").addEventListener("click", async () => {
+      if (await BP.pedirClave()) location.reload();
+    });
+    return;
+  }
+
   const person = (asked && DATA.people[asked]) ? asked
     : DATA.people.german ? "german" : Object.keys(DATA.people)[0];
   document.body.dataset.person = person;
@@ -758,6 +773,9 @@
       requestAnimationFrame(draw);
     })();
   })();
+
+  // clic en el nombre del expediente = disparador oculto para introducir la clave
+  BP.wireLogo && BP.wireLogo($("#deckPerson"));
 
   updateUI(0);
   deck.focus({ preventScroll: true });

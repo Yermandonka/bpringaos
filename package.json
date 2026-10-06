@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "description": "Estadísticas interdimensionales del BP en español — web estática + endpoint /api/hit para registro educativo de visitas en Vercel Blob",
+  "description": "Estadísticas interdimensionales del BP en español — web estática + endpoints en Vercel (/api/stats con control de acceso, /api/hit registro de visitas en Upstash Redis)",
   "dependencies": {
-    "@vercel/blob": "^2.8.1"
+    "@upstash/redis": "^1.35.0"
   }
 }
