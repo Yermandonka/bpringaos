@@ -47,5 +47,14 @@
     "name": "VIII PreCMUDE UAM"
    }
   ]
+ },
+ {
+  "base": "https://xibpuam.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "xibpuam",
+    "name": "XI BP UAM"
+   }
+  ]
  }
 ]

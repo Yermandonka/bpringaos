@@ -1,6 +1,6 @@
 {
  "generated": true,
- "n_tournaments_scanned": 308,
+ "n_tournaments_scanned": 309,
  "n_people": 103,
  "tournaments_scanned": [
   {
@@ -2108,6 +2108,13 @@
    "slug": "xibpmurcia",
    "base": "https://xibpmurcia.calicotab.com",
    "date": "2026-02-13",
+   "online": false
+  },
+  {
+   "name": "XI BP UAM",
+   "slug": "xibpuam",
+   "base": "https://xibpuam.calicotab.com",
+   "date": null,
    "online": false
   },
   {
@@ -15644,7 +15651,7 @@
      "name": "Campeonato Nacional de Debate BP 2026",
      "date": "2026-09-26",
      "online": false,
-     "team": "UC3M PR"
+     "team": "UCM-COM PR"
     }
    ],
    "rows": [
@@ -21070,7 +21077,7 @@
      "room_rank": 1,
      "motion": "EC apoya que Rumanía revoque el derecho al voto\r\nen elecciones a sus ciudadanas residentes de forma\r\npermanente en el extranjero",
      "topic": "economía",
-     "team": "UC3M PR",
+     "team": "UCM-COM PR",
      "mate": "Giza Pavone",
      "chair": "🕶️Fabian Miulescu",
      "venue": "Goikito",
@@ -21093,7 +21100,7 @@
      "room_rank": 4,
      "motion": "EC implementaría una gestión activa de los espacios de sexualización pública antes que una gestión tradicional",
      "topic": "filosofía y ética",
-     "team": "UC3M PR",
+     "team": "UCM-COM PR",
      "mate": "Giza Pavone",
      "chair": "🍆Raúl \"Es corta\" Viñas",
      "venue": "Multiusos",
@@ -21116,7 +21123,7 @@
      "room_rank": 1,
      "motion": "EC prefiere un mundo en el que haya grandes reservas submarinas comercialmente explotables en Canarias",
      "topic": "feminismo y género",
-     "team": "UC3M PR",
+     "team": "UCM-COM PR",
      "mate": "Giza Pavone",
      "chair": "Horacio",
      "venue": "Lecturas",
@@ -21139,7 +21146,7 @@
      "room_rank": 1,
      "motion": "EC apoya la doctrina Perruche",
      "topic": "otros",
-     "team": "UC3M PR",
+     "team": "UCM-COM PR",
      "mate": "Giza Pavone",
      "chair": "💫Natalia Ruiz",
      "venue": "Despachito",
@@ -21162,7 +21169,7 @@
      "room_rank": 1,
      "motion": "EC preferiría vivir en el Mundo Clark antes que en el Mundo Vasari",
      "topic": "psicología y salud mental",
-     "team": "UC3M PR",
+     "team": "UCM-COM PR",
      "mate": "Giza Pavone",
      "chair": "Javier Lara",
      "venue": "Lecturas",
@@ -21185,7 +21192,7 @@
      "room_rank": 3,
      "motion": "Ante situaciones de crisis, EC prefiere que las gobernantes adopten una moral de excepción en lugar de una moral de deber normativo.",
      "topic": "filosofía y ética",
-     "team": "UC3M PR",
+     "team": "UCM-COM PR",
      "mate": "Giza Pavone",
      "chair": "🍆Raúl \"Es corta\" Viñas",
      "venue": "Despachito",
@@ -21212,7 +21219,7 @@
     "room_rank": 1,
     "motion": "EC prefiere un mundo en el que haya grandes reservas submarinas comercialmente explotables en Canarias",
     "topic": "feminismo y género",
-    "team": "UC3M PR",
+    "team": "UCM-COM PR",
     "mate": "Giza Pavone",
     "chair": "Horacio",
     "venue": "Lecturas",
@@ -91756,7 +91763,7 @@
      "name": "Campeonato Nacional de Debate BP 2026",
      "date": "2026-09-26",
      "online": false,
-     "team": "UC3M PR"
+     "team": "UCM-COM PR"
     }
    ],
    "rows": [
@@ -93893,7 +93900,7 @@
      "room_rank": 1,
      "motion": "EC apoya que Rumanía revoque el derecho al voto\r\nen elecciones a sus ciudadanas residentes de forma\r\npermanente en el extranjero",
      "topic": "economía",
-     "team": "UC3M PR",
+     "team": "UCM-COM PR",
      "mate": "Jaime Rodríguez Sánchez-Tabernero",
      "chair": "🕶️Fabian Miulescu",
      "venue": "Goikito",
@@ -93916,7 +93923,7 @@
      "room_rank": 5,
      "motion": "EC implementaría una gestión activa de los espacios de sexualización pública antes que una gestión tradicional",
      "topic": "filosofía y ética",
-     "team": "UC3M PR",
+     "team": "UCM-COM PR",
      "mate": "Jaime Rodríguez Sánchez-Tabernero",
      "chair": "🍆Raúl \"Es corta\" Viñas",
      "venue": "Multiusos",
@@ -93939,7 +93946,7 @@
      "room_rank": 2,
      "motion": "EC prefiere un mundo en el que haya grandes reservas submarinas comercialmente explotables en Canarias",
      "topic": "feminismo y género",
-     "team": "UC3M PR",
+     "team": "UCM-COM PR",
      "mate": "Jaime Rodríguez Sánchez-Tabernero",
      "chair": "Horacio",
      "venue": "Lecturas",
@@ -93962,7 +93969,7 @@
      "room_rank": 1,
      "motion": "EC apoya la doctrina Perruche",
      "topic": "otros",
-     "team": "UC3M PR",
+     "team": "UCM-COM PR",
      "mate": "Jaime Rodríguez Sánchez-Tabernero",
      "chair": "💫Natalia Ruiz",
      "venue": "Despachito",
@@ -93985,7 +93992,7 @@
      "room_rank": 1,
      "motion": "EC preferiría vivir en el Mundo Clark antes que en el Mundo Vasari",
      "topic": "psicología y salud mental",
-     "team": "UC3M PR",
+     "team": "UCM-COM PR",
      "mate": "Jaime Rodríguez Sánchez-Tabernero",
      "chair": "Javier Lara",
      "venue": "Lecturas",
@@ -94008,7 +94015,7 @@
      "room_rank": 1,
      "motion": "Ante situaciones de crisis, EC prefiere que las gobernantes adopten una moral de excepción en lugar de una moral de deber normativo.",
      "topic": "filosofía y ética",
-     "team": "UC3M PR",
+     "team": "UCM-COM PR",
      "mate": "Jaime Rodríguez Sánchez-Tabernero",
      "chair": "🍆Raúl \"Es corta\" Viñas",
      "venue": "Despachito",

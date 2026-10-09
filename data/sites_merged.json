@@ -49,6 +49,15 @@
   ]
  },
  {
+  "base": "https://xibpuam.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "xibpuam",
+    "name": "XI BP UAM"
+   }
+  ]
+ },
+ {
   "base": "https://bpcomplu.calicotab.com",
   "tournaments": [
    {
