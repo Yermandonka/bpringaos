@@ -3701,8 +3701,8 @@
    "n_rounds": 46,
    "n_elim_rounds": 0,
    "last_date": "2026-04-10",
-   "n_tournaments_6m": 1,
-   "n_rounds_6m": 6,
+   "n_tournaments_6m": 0,
+   "n_rounds_6m": 0,
    "breaks": [
     {
      "t": "iiibpmendel__mendel24",
@@ -5135,8 +5135,8 @@
    "n_rounds": 17,
    "n_elim_rounds": 0,
    "last_date": "2026-04-10",
-   "n_tournaments_6m": 1,
-   "n_rounds_6m": 6,
+   "n_tournaments_6m": 0,
+   "n_rounds_6m": 0,
    "breaks": [
     {
      "t": "vbpub__vbpub",
@@ -10527,8 +10527,8 @@
    "n_rounds": 17,
    "n_elim_rounds": 0,
    "last_date": "2026-04-10",
-   "n_tournaments_6m": 1,
-   "n_rounds_6m": 6,
+   "n_tournaments_6m": 0,
+   "n_rounds_6m": 0,
    "breaks": [
     {
      "t": "ivbpaduz__ivbpaduz",
@@ -11174,8 +11174,8 @@
    "n_rounds": 143,
    "n_elim_rounds": 0,
    "last_date": "2026-10-02",
-   "n_tournaments_6m": 6,
-   "n_rounds_6m": 34,
+   "n_tournaments_6m": 5,
+   "n_rounds_6m": 28,
    "breaks": [
     {
      "t": "copaleonii__leondelsurii2025",
@@ -21808,8 +21808,8 @@
    "n_rounds": 62,
    "n_elim_rounds": 0,
    "last_date": "2026-04-10",
-   "n_tournaments_6m": 1,
-   "n_rounds_6m": 6,
+   "n_tournaments_6m": 0,
+   "n_rounds_6m": 0,
    "breaks": [
     {
      "t": "torneodeinvierno2024__toin2024",
@@ -38817,8 +38817,8 @@
    "n_rounds": 23,
    "n_elim_rounds": 0,
    "last_date": "2026-06-19",
-   "n_tournaments_6m": 2,
-   "n_rounds_6m": 12,
+   "n_tournaments_6m": 1,
+   "n_rounds_6m": 6,
    "breaks": [
     {
      "t": "vbpub__vbpub",
@@ -40104,8 +40104,8 @@
    "n_rounds": 22,
    "n_elim_rounds": 0,
    "last_date": "2026-06-12",
-   "n_tournaments_6m": 2,
-   "n_rounds_6m": 11,
+   "n_tournaments_6m": 1,
+   "n_rounds_6m": 5,
    "breaks": [
     {
      "t": "ivbpaduz__ivbpaduz",
@@ -70101,8 +70101,8 @@
    "n_rounds": 122,
    "n_elim_rounds": 0,
    "last_date": "2026-06-12",
-   "n_tournaments_6m": 2,
-   "n_rounds_6m": 11,
+   "n_tournaments_6m": 1,
+   "n_rounds_6m": 5,
    "breaks": [
     {
      "t": "bpuam2023__bpuam2023",
@@ -79596,8 +79596,8 @@
    "n_rounds": 96,
    "n_elim_rounds": 0,
    "last_date": "2026-09-26",
-   "n_tournaments_6m": 3,
-   "n_rounds_6m": 16,
+   "n_tournaments_6m": 2,
+   "n_rounds_6m": 10,
    "breaks": [
     {
      "t": "viiibpurjc__viiibpurjc",
@@ -87722,8 +87722,8 @@
    "n_rounds": 41,
    "n_elim_rounds": 0,
    "last_date": "2026-04-10",
-   "n_tournaments_6m": 1,
-   "n_rounds_6m": 6,
+   "n_tournaments_6m": 0,
+   "n_rounds_6m": 0,
    "breaks": [],
    "n_breaks": 0,
    "n_breaks_novice": 0,
@@ -94350,8 +94350,8 @@
    "n_rounds": 125,
    "n_elim_rounds": 0,
    "last_date": "2026-10-02",
-   "n_tournaments_6m": 6,
-   "n_rounds_6m": 38,
+   "n_tournaments_6m": 5,
+   "n_rounds_6m": 32,
    "breaks": [
     {
      "t": "ucabdebate__vcab",
@@ -134078,8 +134078,8 @@
    "n_rounds": 58,
    "n_elim_rounds": 0,
    "last_date": "2026-04-10",
-   "n_tournaments_6m": 1,
-   "n_rounds_6m": 6,
+   "n_tournaments_6m": 0,
+   "n_rounds_6m": 0,
    "breaks": [
     {
      "t": "iibpcomunicateucm__iiibpcomunicate",
