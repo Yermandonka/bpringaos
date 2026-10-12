@@ -1,6 +1,6 @@
 {
  "generated": true,
- "n_tournaments_scanned": 309,
+ "n_tournaments_scanned": 310,
  "n_people": 103,
  "tournaments_scanned": [
   {
@@ -1593,6 +1593,13 @@
    "online": false
   },
   {
+   "name": "Torneo Express de debate USIL 14",
+   "slug": "toex14",
+   "base": "https://toex14.calicotab.com",
+   "date": "2026-10-10",
+   "online": true
+  },
+  {
    "name": "Torneo de Invierno 2023",
    "slug": "toin2023",
    "base": "https://toin2023.calicotab.com",
@@ -2170,12 +2177,12 @@
  "people": {
   "german": {
    "display": "Germán Mendonça Costa-Frossard",
-   "n_tournaments": 9,
-   "n_rounds": 48,
+   "n_tournaments": 10,
+   "n_rounds": 52,
    "n_elim_rounds": 0,
-   "last_date": "2026-09-25",
-   "n_tournaments_6m": 1,
-   "n_rounds_6m": 5,
+   "last_date": "2026-10-10",
+   "n_tournaments_6m": 2,
+   "n_rounds_6m": 9,
    "breaks": [
     {
      "t": "aquinasroncalli2025__aquinasroncalli2025",
@@ -2284,6 +2291,13 @@
      "date": "2026-09-25",
      "online": false,
      "team": "UCM-COM Lagartos y mosquitas"
+    },
+    {
+     "slug": "toex14__toex14",
+     "name": "Torneo Express de debate USIL 14",
+     "date": "2026-10-10",
+     "online": true,
+     "team": "UCM-COM familia numerosa especial"
     }
    ],
    "rows": [
@@ -3390,11 +3404,103 @@
      "chair": "Nicola Croce",
      "venue": "Sala 06",
      "t_avg": 76.01
+    },
+    {
+     "t": "toex14__toex14",
+     "tname": "Torneo Express de debate USIL 14",
+     "date": "2026-10-10",
+     "online": true,
+     "round": "Ronda 1",
+     "seq": 1,
+     "stage": "P",
+     "side": "cg",
+     "points": 1,
+     "win": false,
+     "position": 2,
+     "score": 76.0,
+     "iron": false,
+     "room_rank": 6,
+     "motion": "EC prefiere un mundo que cree predominantemente en la muerte como el final en vez de la vida después de la muerte.",
+     "topic": "religión",
+     "team": "UCM-COM familia numerosa especial",
+     "mate": "Juan Pablo Sánchez Barriga",
+     "chair": "Juanjo Mejía Moran",
+     "venue": "Sala 08",
+     "t_avg": 74.7
+    },
+    {
+     "t": "toex14__toex14",
+     "tname": "Torneo Express de debate USIL 14",
+     "date": "2026-10-10",
+     "online": true,
+     "round": "Ronda 2",
+     "seq": 2,
+     "stage": "P",
+     "side": "oo",
+     "points": 1,
+     "win": false,
+     "position": 2,
+     "score": 75.0,
+     "iron": false,
+     "room_rank": 6,
+     "motion": "En zonas con altos índices de violencia de género, EC apoya que grupos feministas apliquen medidas como las de la Gulabi Gang.",
+     "topic": "feminismo y género",
+     "team": "UCM-COM familia numerosa especial",
+     "mate": "Juan Pablo Sánchez Barriga",
+     "chair": "Lionel Venero 🌟",
+     "venue": "Sala 06",
+     "t_avg": 74.7
+    },
+    {
+     "t": "toex14__toex14",
+     "tname": "Torneo Express de debate USIL 14",
+     "date": "2026-10-10",
+     "online": true,
+     "round": "Ronda 3",
+     "seq": 3,
+     "stage": "P",
+     "side": "og",
+     "points": 3,
+     "win": false,
+     "position": 2,
+     "score": 75.0,
+     "iron": false,
+     "room_rank": 1,
+     "motion": null,
+     "topic": "otros",
+     "team": "UCM-COM familia numerosa especial",
+     "mate": "Juan Pablo Sánchez Barriga",
+     "chair": "Lionel Venero 🌟",
+     "venue": "Sala 09",
+     "t_avg": 74.7
+    },
+    {
+     "t": "toex14__toex14",
+     "tname": "Torneo Express de debate USIL 14",
+     "date": "2026-10-10",
+     "online": true,
+     "round": "Ronda 4",
+     "seq": 4,
+     "stage": "P",
+     "side": "co",
+     "points": 1,
+     "win": false,
+     "position": 2,
+     "score": 75.0,
+     "iron": false,
+     "room_rank": 3,
+     "motion": null,
+     "topic": "otros",
+     "team": "UCM-COM familia numerosa especial",
+     "mate": "Juan Pablo Sánchez Barriga",
+     "chair": "Bea Melo 🇻🇪🇪🇨",
+     "venue": "Sala 14",
+     "t_avg": 74.7
     }
    ],
    "elim_rows": [],
-   "avg_speaks": 72.54,
-   "stdev": 3.15,
+   "avg_speaks": 72.75,
+   "stdev": 3.11,
    "best": {
     "t": "torneodeotono2025__otono2025",
     "tname": "Torneo de Otoño 2025",
@@ -3443,9 +3549,9 @@
    },
    "avg_points": 1.5,
    "results_dist": {
-    "3": 13,
+    "3": 14,
     "2": 12,
-    "1": 9,
+    "1": 12,
     "0": 14
    },
    "pos1": {
@@ -3453,36 +3559,36 @@
     "avg": 71.73
    },
    "pos2": {
-    "n": 26,
-    "avg": 73.23
+    "n": 30,
+    "avg": 73.5
    },
    "sides": {
     "og": {
      "label": "Alta Gobierno",
-     "n": 11,
-     "avg_points": 1.45,
-     "avg_speaks": 72.55,
-     "firsts": 3
+     "n": 12,
+     "avg_points": 1.58,
+     "avg_speaks": 72.75,
+     "firsts": 4
     },
     "oo": {
      "label": "Alta Oposición",
-     "n": 12,
-     "avg_points": 1.83,
-     "avg_speaks": 72.25,
+     "n": 13,
+     "avg_points": 1.77,
+     "avg_speaks": 72.46,
      "firsts": 4
     },
     "cg": {
      "label": "Baja Gobierno",
-     "n": 12,
-     "avg_points": 1.25,
-     "avg_speaks": 71.92,
+     "n": 13,
+     "avg_points": 1.23,
+     "avg_speaks": 72.23,
      "firsts": 2
     },
     "co": {
      "label": "Baja Oposición",
-     "n": 13,
-     "avg_points": 1.46,
-     "avg_speaks": 73.38,
+     "n": 14,
+     "avg_points": 1.43,
+     "avg_speaks": 73.5,
      "firsts": 4
     }
    },
@@ -3503,14 +3609,14 @@
      "avg_speaks": 73.44
     },
     "otros": {
-     "n": 6,
-     "avg_points": 1.33,
-     "avg_speaks": 71.0
+     "n": 8,
+     "avg_points": 1.5,
+     "avg_speaks": 72.0
     },
     "feminismo y género": {
-     "n": 4,
-     "avg_points": 1.5,
-     "avg_speaks": 73.0
+     "n": 5,
+     "avg_points": 1.4,
+     "avg_speaks": 73.4
     },
     "ciencia y tecnología": {
      "n": 2,
@@ -3518,9 +3624,9 @@
      "avg_speaks": 74.0
     },
     "religión": {
-     "n": 4,
-     "avg_points": 1.25,
-     "avg_speaks": 73.0
+     "n": 5,
+     "avg_points": 1.2,
+     "avg_speaks": 73.6
     },
     "rol / actor": {
      "n": 2,
@@ -3602,6 +3708,12 @@
      "tname": "Copa Borregos 2026",
      "avg": 73.0,
      "n": 5
+    },
+    {
+     "date": "2026-10-10",
+     "tname": "Torneo Express de debate USIL 14",
+     "avg": 75.25,
+     "n": 4
     }
    ],
    "mates": [
@@ -3652,26 +3764,32 @@
      "n": 5,
      "avg_points": 1.8,
      "avg_speaks": 76.0
+    },
+    {
+     "name": "Juan Pablo Sánchez Barriga",
+     "n": 4,
+     "avg_points": 1.5,
+     "avg_speaks": 75.25
     }
    ],
-   "vs_field": -1.29,
+   "vs_field": -1.15,
    "clutch": {
-    "avg_last_round": 72.67,
-    "delta": 0.13
+    "avg_last_round": 72.9,
+    "delta": 0.15
    },
    "streak_top2": 3,
    "env_online": {
-    "n": 5,
-    "avg_speaks": 76.0,
-    "avg_points": 1.8
+    "n": 9,
+    "avg_speaks": 75.67,
+    "avg_points": 1.67
    },
    "env_presencial": {
     "n": 43,
     "avg_speaks": 72.14,
     "avg_points": 1.47
    },
-   "avg_room_rank": 4.21,
-   "room_best_count": 6,
+   "avg_room_rank": 4.19,
+   "room_best_count": 7,
    "chairs": [
     [
      "Álvaro Mora Varela",
@@ -10523,12 +10641,12 @@
   },
   "juan-pablo-sanchez-barriga": {
    "display": "Juan Pablo Sánchez Barriga",
-   "n_tournaments": 3,
-   "n_rounds": 17,
+   "n_tournaments": 4,
+   "n_rounds": 21,
    "n_elim_rounds": 0,
-   "last_date": "2026-04-10",
-   "n_tournaments_6m": 0,
-   "n_rounds_6m": 0,
+   "last_date": "2026-10-10",
+   "n_tournaments_6m": 1,
+   "n_rounds_6m": 4,
    "breaks": [
     {
      "t": "ivbpaduz__ivbpaduz",
@@ -10563,6 +10681,13 @@
      "date": "2026-04-10",
      "online": false,
      "team": "UCM-COM Bad Ducky"
+    },
+    {
+     "slug": "toex14__toex14",
+     "name": "Torneo Express de debate USIL 14",
+     "date": "2026-10-10",
+     "online": true,
+     "team": "UCM-COM familia numerosa especial"
     }
    ],
    "rows": [
@@ -10956,33 +11081,125 @@
      "chair": "Isabella Vásquez",
      "venue": "Sala de Comisiones",
      "t_avg": 72.59
+    },
+    {
+     "t": "toex14__toex14",
+     "tname": "Torneo Express de debate USIL 14",
+     "date": "2026-10-10",
+     "online": true,
+     "round": "Ronda 1",
+     "seq": 1,
+     "stage": "P",
+     "side": "cg",
+     "points": 1,
+     "win": false,
+     "position": 1,
+     "score": 78.0,
+     "iron": false,
+     "room_rank": 3,
+     "motion": "EC prefiere un mundo que cree predominantemente en la muerte como el final en vez de la vida después de la muerte.",
+     "topic": "religión",
+     "team": "UCM-COM familia numerosa especial",
+     "mate": "Germán Mendonça Costa-Frossard",
+     "chair": "Juanjo Mejía Moran",
+     "venue": "Sala 08",
+     "t_avg": 74.7
+    },
+    {
+     "t": "toex14__toex14",
+     "tname": "Torneo Express de debate USIL 14",
+     "date": "2026-10-10",
+     "online": true,
+     "round": "Ronda 2",
+     "seq": 2,
+     "stage": "P",
+     "side": "oo",
+     "points": 1,
+     "win": false,
+     "position": 1,
+     "score": 76.0,
+     "iron": false,
+     "room_rank": 5,
+     "motion": "En zonas con altos índices de violencia de género, EC apoya que grupos feministas apliquen medidas como las de la Gulabi Gang.",
+     "topic": "feminismo y género",
+     "team": "UCM-COM familia numerosa especial",
+     "mate": "Germán Mendonça Costa-Frossard",
+     "chair": "Lionel Venero 🌟",
+     "venue": "Sala 06",
+     "t_avg": 74.7
+    },
+    {
+     "t": "toex14__toex14",
+     "tname": "Torneo Express de debate USIL 14",
+     "date": "2026-10-10",
+     "online": true,
+     "round": "Ronda 3",
+     "seq": 3,
+     "stage": "P",
+     "side": "og",
+     "points": 3,
+     "win": false,
+     "position": 1,
+     "score": 75.0,
+     "iron": false,
+     "room_rank": 1,
+     "motion": null,
+     "topic": "otros",
+     "team": "UCM-COM familia numerosa especial",
+     "mate": "Germán Mendonça Costa-Frossard",
+     "chair": "Lionel Venero 🌟",
+     "venue": "Sala 09",
+     "t_avg": 74.7
+    },
+    {
+     "t": "toex14__toex14",
+     "tname": "Torneo Express de debate USIL 14",
+     "date": "2026-10-10",
+     "online": true,
+     "round": "Ronda 4",
+     "seq": 4,
+     "stage": "P",
+     "side": "co",
+     "points": 1,
+     "win": false,
+     "position": 1,
+     "score": 75.0,
+     "iron": false,
+     "room_rank": 3,
+     "motion": null,
+     "topic": "otros",
+     "team": "UCM-COM familia numerosa especial",
+     "mate": "Germán Mendonça Costa-Frossard",
+     "chair": "Bea Melo 🇻🇪🇪🇨",
+     "venue": "Sala 14",
+     "t_avg": 74.7
     }
    ],
    "elim_rows": [],
-   "avg_speaks": 71.06,
-   "stdev": 2.18,
+   "avg_speaks": 72.0,
+   "stdev": 2.81,
    "best": {
-    "t": "aquinassroncalli2026__aquinasronacalli2026",
-    "tname": "Torneo de Debate Aquinas-Roncalli 2026",
-    "date": "2026-02-07",
-    "online": false,
+    "t": "toex14__toex14",
+    "tname": "Torneo Express de debate USIL 14",
+    "date": "2026-10-10",
+    "online": true,
     "round": "Ronda 1",
     "seq": 1,
     "stage": "P",
     "side": "cg",
-    "points": 3,
+    "points": 1,
     "win": false,
     "position": 1,
-    "score": 76.0,
+    "score": 78.0,
     "iron": false,
-    "room_rank": 2,
-    "motion": "Esta casa siendo Aquinas salvaría a la niña de la organización.",
-    "topic": "rol / actor",
-    "team": "UCM-COM Los Patosos",
-    "mate": "Ainhoa Pereiras Mosquera",
-    "chair": "Natalia de la Puente 🪩",
-    "venue": "2",
-    "t_avg": 70.4
+    "room_rank": 3,
+    "motion": "EC prefiere un mundo que cree predominantemente en la muerte como el final en vez de la vida después de la muerte.",
+    "topic": "religión",
+    "team": "UCM-COM familia numerosa especial",
+    "mate": "Germán Mendonça Costa-Frossard",
+    "chair": "Juanjo Mejía Moran",
+    "venue": "Sala 08",
+    "t_avg": 74.7
    },
    "worst": {
     "t": "ivbpaduz__ivbpaduz",
@@ -11007,16 +11224,16 @@
     "venue": "Aula 03",
     "t_avg": 72.59
    },
-   "avg_points": 1.47,
+   "avg_points": 1.48,
    "results_dist": {
-    "3": 5,
+    "3": 6,
     "2": 4,
-    "1": 2,
+    "1": 5,
     "0": 6
    },
    "pos1": {
-    "n": 13,
-    "avg": 71.15
+    "n": 17,
+    "avg": 72.29
    },
    "pos2": {
     "n": 4,
@@ -11025,30 +11242,30 @@
    "sides": {
     "og": {
      "label": "Alta Gobierno",
-     "n": 4,
-     "avg_points": 1.75,
-     "avg_speaks": 72.25,
-     "firsts": 2
+     "n": 5,
+     "avg_points": 2,
+     "avg_speaks": 72.8,
+     "firsts": 3
     },
     "oo": {
      "label": "Alta Oposición",
-     "n": 5,
+     "n": 6,
      "avg_points": 1,
-     "avg_speaks": 69.8,
+     "avg_speaks": 70.83,
      "firsts": 1
     },
     "cg": {
      "label": "Baja Gobierno",
-     "n": 4,
-     "avg_points": 2.25,
-     "avg_speaks": 72.25,
+     "n": 5,
+     "avg_points": 2,
+     "avg_speaks": 73.4,
      "firsts": 2
     },
     "co": {
      "label": "Baja Oposición",
-     "n": 4,
+     "n": 5,
      "avg_points": 1,
-     "avg_speaks": 70.25,
+     "avg_speaks": 71.2,
      "firsts": 0
     }
    },
@@ -11074,14 +11291,14 @@
      "avg_speaks": 70.5
     },
     "feminismo y género": {
-     "n": 1,
-     "avg_points": 0,
-     "avg_speaks": 69.0
+     "n": 2,
+     "avg_points": 0.5,
+     "avg_speaks": 72.5
     },
     "religión": {
-     "n": 1,
-     "avg_points": 2,
-     "avg_speaks": 70.0
+     "n": 2,
+     "avg_points": 1.5,
+     "avg_speaks": 74.0
     },
     "psicología y salud mental": {
      "n": 2,
@@ -11097,6 +11314,11 @@
      "n": 1,
      "avg_points": 1,
      "avg_speaks": 71.0
+    },
+    "otros": {
+     "n": 2,
+     "avg_points": 2,
+     "avg_speaks": 75.0
     }
    },
    "evolution": [
@@ -11117,6 +11339,12 @@
      "tname": "IV BP ADUZ",
      "avg": 71.67,
      "n": 6
+    },
+    {
+     "date": "2026-10-10",
+     "tname": "Torneo Express de debate USIL 14",
+     "avg": 76.0,
+     "n": 4
     }
    ],
    "mates": [
@@ -11125,26 +11353,32 @@
      "n": 17,
      "avg_points": 1.47,
      "avg_speaks": 71.06
+    },
+    {
+     "name": "Germán Mendonça Costa-Frossard",
+     "n": 4,
+     "avg_points": 1.5,
+     "avg_speaks": 76.0
     }
    ],
-   "vs_field": -1.32,
+   "vs_field": -0.82,
    "clutch": {
-    "avg_last_round": 71.0,
-    "delta": -0.06
+    "avg_last_round": 72.0,
+    "delta": 0.0
    },
    "streak_top2": 3,
    "env_online": {
-    "n": 0,
-    "avg_speaks": null,
-    "avg_points": null
+    "n": 4,
+    "avg_speaks": 76.0,
+    "avg_points": 1.5
    },
    "env_presencial": {
     "n": 17,
     "avg_speaks": 71.06,
     "avg_points": 1.47
    },
-   "avg_room_rank": 4.53,
-   "room_best_count": 1,
+   "avg_room_rank": 4.24,
+   "room_best_count": 2,
    "chairs": [
     [
      "Natalia Ruiz",
@@ -11163,8 +11397,8 @@
      2
     ],
     [
-     "Natalia de la Puente 🪩",
-     1
+     "Lionel Venero 🌟",
+     2
     ]
    ]
   },
