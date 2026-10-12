@@ -2363,5 +2363,14 @@
     "name": "IV BP ADUZ (Zaragoza)"
    }
   ]
+ },
+ {
+  "base": "https://toex14.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "toex14",
+    "name": "Torneo Express de debate USIL 14"
+   }
+  ]
  }
 ]
