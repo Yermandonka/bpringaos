@@ -1,283 +1,5 @@
 [
  {
-  "base": "https://nacionaluasbecuador2025.calicotab.com",
-  "tournaments": [
-   {
-    "slug": "tnde2025",
-    "name": "Torneo Nacional de Debate Ecuador 2025"
-   },
-   {
-    "slug": "tnde2025dis",
-    "name": "Torneo Nacional de Debate Ecuador 2025 - Competencia de Discursos"
-   }
-  ]
- },
- {
-  "base": "https://precmudeuniandes2027.calicotab.com",
-  "tournaments": [
-   {
-    "slug": "precmudeuniandes2026",
-    "name": "Pre Cmude Uniandes 2026"
-   }
-  ]
- },
- {
-  "base": "https://viiicampeonatoescolardebateesan.calicotab.com",
-  "tournaments": [
-   {
-    "slug": "VIIICAMPEONATOESCOLARDEBATEESAN",
-    "name": "VIII CAMPEONATO ESCOLAR DEBATE ESAN"
-   }
-  ]
- },
- {
-  "base": "https://viprecmudeuam.calicotab.com",
-  "tournaments": [
-   {
-    "slug": "viprecmudeuam",
-    "name": "VI PreCMUDE UAM"
-   }
-  ]
- },
- {
-  "base": "https://viiiprecmudeuam.calicotab.com",
-  "tournaments": [
-   {
-    "slug": "viiiprecmudeuam",
-    "name": "VIII PreCMUDE UAM"
-   }
-  ]
- },
- {
-  "base": "https://xibpuam.calicotab.com",
-  "tournaments": [
-   {
-    "slug": "xibpuam",
-    "name": "XI BP UAM"
-   }
-  ]
- },
- {
-  "base": "https://bpcomplu.calicotab.com",
-  "tournaments": [
-   {
-    "slug": "vibpcomplu",
-    "name": "VI BP Complu (UCM)"
-   }
-  ]
- },
- {
-  "base": "https://iiibpcomplu.calicotab.com",
-  "tournaments": [
-   {
-    "slug": "iiibpcomplu",
-    "name": "III BP Complu (UCM)"
-   }
-  ]
- },
- {
-  "base": "https://ivbpcomplu.calicotab.com",
-  "tournaments": [
-   {
-    "slug": "ivbpcomplu",
-    "name": "IV BP Complu (UCM)"
-   }
-  ]
- },
- {
-  "base": "https://vbpcomplu.calicotab.com",
-  "tournaments": [
-   {
-    "slug": "vbpcomplu",
-    "name": "V BP Complu (UCM)"
-   }
-  ]
- },
- {
-  "base": "https://tndelpde.calicotab.com",
-  "tournaments": [
-   {
-    "slug": "tnde2023",
-    "name": "TNDE Escolar 2023 (Perú)"
-   }
-  ]
- },
- {
-  "base": "https://vprecmudeuam.calicotab.com",
-  "tournaments": [
-   {
-    "slug": "v_precmude",
-    "name": "V PreCMUDE UAM"
-   }
-  ]
- },
- {
-  "base": "https://precmudeuniandes2025.calicotab.com",
-  "tournaments": [
-   {
-    "slug": "precmudeuniandes2025",
-    "name": "PreCMUDE Uniandes 2025"
-   }
-  ]
- },
- {
-  "base": "https://cdc.calicotab.com",
-  "tournaments": [
-   {
-    "slug": "CMUGA23",
-    "name": "CMUGA 2023 (Guatemala)"
-   }
-  ]
- },
- {
-  "base": "https://cocledebatingchampionship.calicotab.com",
-  "tournaments": [
-   {
-    "slug": "cdc2024abierto",
-    "name": "Coclé Debating Championship 2024 (Panamá)"
-   }
-  ]
- },
- {
-  "base": "https://copaandresbellopresencialv.calicotab.com",
-  "tournaments": [
-   {
-    "slug": "vcabpresencial",
-    "name": "V Copa Andrés Bello Presencial (Venezuela)"
-   }
-  ]
- },
- {
-  "base": "https://copazedal.calicotab.com",
-  "tournaments": [
-   {
-    "slug": "copazedal",
-    "name": "Copa ZEDAL"
-   }
-  ]
- },
- {
-  "base": "https://ivcopacat.calicotab.com",
-  "tournaments": [
-   {
-    "slug": "ivcopacat",
-    "name": "IV Copa Catalunya"
-   }
-  ]
- },
- {
-  "base": "https://tadu.calicotab.com",
-  "tournaments": [
-   {
-    "slug": "tadu2024",
-    "name": "Torneo Agustino de Debate Universitario"
-   }
-  ]
- },
- {
-  "base": "https://ucabdebate.calicotab.com",
-  "tournaments": [
-   {
-    "slug": "vcab",
-    "name": "CAB Virtual V (Venezuela)"
-   }
-  ]
- },
- {
-  "base": "https://cimet2021.calicotab.com",
-  "tournaments": [
-   {
-    "slug": "CIMET",
-    "name": "CIMET Virtual 2021"
-   },
-   {
-    "slug": "cimet-masters2021",
-    "name": "CIMET Masters 2021"
-   }
-  ]
- },
- {
-  "base": "https://tde2022.calicotab.com",
-  "tournaments": [
-   {
-    "slug": "tde",
-    "name": "Torneo de Debate Externadista (Colombia)"
-   }
-  ]
- },
- {
-  "base": "https://tdu.calicotab.com",
-  "tournaments": [
-   {
-    "slug": "tdu2026",
-    "name": "Torneo de Debate Uniandino 2026"
-   }
-  ]
- },
- {
-  "base": "https://tdu2024.calicotab.com",
-  "tournaments": [
-   {
-    "slug": "TDU2024",
-    "name": "Torneo de Debate Uniandino 2024"
-   }
-  ]
- },
- {
-  "base": "https://tdu2025.calicotab.com",
-  "tournaments": [
-   {
-    "slug": "tdu2025",
-    "name": "Torneo de Debate Uniandino 2025"
-   }
-  ]
- },
- {
-  "base": "https://tnde2022.calicotab.com",
-  "tournaments": [
-   {
-    "slug": "tnde2022",
-    "name": "TNDE Escolar 2022"
-   }
-  ]
- },
- {
-  "base": "https://tnde2024.calicotab.com",
-  "tournaments": [
-   {
-    "slug": "tnde2024",
-    "name": "Torneo de Debate Escolar 2024"
-   }
-  ]
- },
- {
-  "base": "https://cmude2023masters.calicotab.com",
-  "tournaments": [
-   {
-    "slug": "cmudemasters2023",
-    "name": "CMUDE Masters Panamá 2023"
-   }
-  ]
- },
- {
-  "base": "https://cab3.calicotab.com",
-  "tournaments": [
-   {
-    "slug": "cab3",
-    "name": "Copa Andrés Bello 2022"
-   }
-  ]
- },
- {
-  "base": "https://cmuga.calicotab.com",
-  "tournaments": [
-   {
-    "slug": "ligainterna2026",
-    "name": "CMUGA Liga Interna 2026 (Guatemala)"
-   }
-  ]
- },
- {
   "base": "https://aduz.calicotab.com",
   "tournaments": [
    {
@@ -1686,6 +1408,458 @@
   ]
  },
  {
+  "base": "https://bpcomplu.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "vibpcomplu",
+    "name": "VI BP Complu (UCM)"
+   }
+  ]
+ },
+ {
+  "base": "https://iiibpcomplu.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "iiibpcomplu",
+    "name": "III BP Complu (UCM)"
+   }
+  ]
+ },
+ {
+  "base": "https://ivbpcomplu.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "ivbpcomplu",
+    "name": "IV BP Complu (UCM)"
+   }
+  ]
+ },
+ {
+  "base": "https://vbpcomplu.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "vbpcomplu",
+    "name": "V BP Complu (UCM)"
+   }
+  ]
+ },
+ {
+  "base": "https://tndelpde.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "tnde2023",
+    "name": "TNDE Escolar 2023 (Perú)"
+   }
+  ]
+ },
+ {
+  "base": "https://torneobpregenta.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "RegentaIV",
+    "name": "Torneo BP la Regenta IV"
+   }
+  ]
+ },
+ {
+  "base": "https://bpregenta.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "VRegenta",
+    "name": "V Torneo BP La Regenta en la Universidad de Oviedo"
+   },
+   {
+    "slug": "discursosbpregenta",
+    "name": "Discursos V Torneo BP La Regenta en la Universidad de Oviedo"
+   }
+  ]
+ },
+ {
+  "base": "https://ivbpeliasahuja.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "ivbpeliasahuja",
+    "name": "IV Torneo BP Elías Ahúja"
+   }
+  ]
+ },
+ {
+  "base": "https://bpunedsegoviaretorika.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "bpuned2024",
+    "name": "BP UNED SEGOVIA-RETORIKA 2024"
+   }
+  ]
+ },
+ {
+  "base": "https://torneoandino.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "debate",
+    "name": "Torneo Andino de Debate"
+   },
+   {
+    "slug": "discursos",
+    "name": "Torneo Andino de Discursos"
+   }
+  ]
+ },
+ {
+  "base": "https://toex14.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "toex14",
+    "name": "Torneo Express de debate USIL 14"
+   }
+  ]
+ },
+ {
+  "base": "https://vprecmudeuam.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "v_precmude",
+    "name": "V PreCMUDE UAM"
+   }
+  ]
+ },
+ {
+  "base": "https://precmudeuniandes2025.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "precmudeuniandes2025",
+    "name": "PreCMUDE Uniandes 2025"
+   }
+  ]
+ },
+ {
+  "base": "https://nacionaluasbecuador2025.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "tnde2025",
+    "name": "Torneo Nacional de Debate Ecuador 2025"
+   },
+   {
+    "slug": "tnde2025dis",
+    "name": "Torneo Nacional de Debate Ecuador 2025 - Competencia de Discursos"
+   }
+  ]
+ },
+ {
+  "base": "https://precmudeuniandes2027.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "precmudeuniandes2026",
+    "name": "Pre Cmude Uniandes 2026"
+   }
+  ]
+ },
+ {
+  "base": "https://viiicampeonatoescolardebateesan.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "VIIICAMPEONATOESCOLARDEBATEESAN",
+    "name": "VIII CAMPEONATO ESCOLAR DEBATE ESAN"
+   }
+  ]
+ },
+ {
+  "base": "https://viprecmudeuam.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "viprecmudeuam",
+    "name": "VI PreCMUDE UAM"
+   }
+  ]
+ },
+ {
+  "base": "https://viiiprecmudeuam.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "viiiprecmudeuam",
+    "name": "VIII PreCMUDE UAM"
+   }
+  ]
+ },
+ {
+  "base": "https://xibpuam.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "xibpuam",
+    "name": "XI BP UAM"
+   }
+  ]
+ },
+ {
+  "base": "https://viiprecmudeuam.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "viiprecmudeuam",
+    "name": "VII PreCMUDE UAM"
+   }
+  ]
+ },
+ {
+  "base": "https://bpeliasahuja.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "ahuja23",
+    "name": "BP Elías Ahuja 2023"
+   },
+   {
+    "slug": "ahuja24",
+    "name": "BP Elías Ahuja 2024"
+   }
+  ]
+ },
+ {
+  "base": "https://bpub.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "ivbpub",
+    "name": "IV BP Universitat de Barcelona"
+   }
+  ]
+ },
+ {
+  "base": "https://bpuned2025.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "uned2025",
+    "name": "BP UNED SEGOVIA-RETORIKA 2025"
+   }
+  ]
+ },
+ {
+  "base": "https://iibpub.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "IIBPUB",
+    "name": "II BP Universitat de Barcelona"
+   }
+  ]
+ },
+ {
+  "base": "https://vbpub.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "vbpub",
+    "name": "V BP UB"
+   }
+  ]
+ },
+ {
+  "base": "https://vibpregenta.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "vibpregenta",
+    "name": "VI BP Regenta"
+   }
+  ]
+ },
+ {
+  "base": "https://viibpregenta.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "viibplaregenta",
+    "name": "VII BP La Regenta"
+   }
+  ]
+ },
+ {
+  "base": "https://viiibpgaduab.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "viiigad-uab",
+    "name": "VIII Torneig GAD-UAB"
+   }
+  ]
+ },
+ {
+  "base": "https://cdc.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "CMUGA23",
+    "name": "CMUGA 2023 (Guatemala)"
+   }
+  ]
+ },
+ {
+  "base": "https://cocledebatingchampionship.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "cdc2024abierto",
+    "name": "Coclé Debating Championship 2024 (Panamá)"
+   }
+  ]
+ },
+ {
+  "base": "https://copaandresbellopresencialv.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "vcabpresencial",
+    "name": "V Copa Andrés Bello Presencial (Venezuela)"
+   }
+  ]
+ },
+ {
+  "base": "https://copazedal.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "copazedal",
+    "name": "Copa ZEDAL"
+   }
+  ]
+ },
+ {
+  "base": "https://ivcopacat.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "ivcopacat",
+    "name": "IV Copa Catalunya"
+   }
+  ]
+ },
+ {
+  "base": "https://tadu.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "tadu2024",
+    "name": "Torneo Agustino de Debate Universitario"
+   }
+  ]
+ },
+ {
+  "base": "https://ucabdebate.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "vcab",
+    "name": "CAB Virtual V (Venezuela)"
+   }
+  ]
+ },
+ {
+  "base": "https://cimet2021.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "CIMET",
+    "name": "CIMET Virtual 2021"
+   },
+   {
+    "slug": "cimet-masters2021",
+    "name": "CIMET Masters 2021"
+   }
+  ]
+ },
+ {
+  "base": "https://tde2022.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "tde",
+    "name": "Torneo de Debate Externadista (Colombia)"
+   }
+  ]
+ },
+ {
+  "base": "https://tdu.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "tdu2026",
+    "name": "Torneo de Debate Uniandino 2026"
+   }
+  ]
+ },
+ {
+  "base": "https://tdu2024.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "TDU2024",
+    "name": "Torneo de Debate Uniandino 2024"
+   }
+  ]
+ },
+ {
+  "base": "https://tdu2025.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "tdu2025",
+    "name": "Torneo de Debate Uniandino 2025"
+   }
+  ]
+ },
+ {
+  "base": "https://tnde2022.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "tnde2022",
+    "name": "TNDE Escolar 2022"
+   }
+  ]
+ },
+ {
+  "base": "https://tnde2024.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "tnde2024",
+    "name": "Torneo de Debate Escolar 2024"
+   }
+  ]
+ },
+ {
+  "base": "https://cmude2023masters.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "cmudemasters2023",
+    "name": "CMUDE Masters Panamá 2023"
+   }
+  ]
+ },
+ {
+  "base": "https://cab3.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "cab3",
+    "name": "Copa Andrés Bello 2022"
+   }
+  ]
+ },
+ {
+  "base": "https://cmuga.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "ligainterna2026",
+    "name": "CMUGA Liga Interna 2026 (Guatemala)"
+   }
+  ]
+ },
+ {
+  "base": "https://interpoli2023.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "interpoli2023",
+    "name": "XI BP Interpoli (Valencia)"
+   }
+  ]
+ },
+ {
+  "base": "https://interpoli2024.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "xiiinterpoli",
+    "name": "XII BP Interpoli (Valencia)"
+   }
+  ]
+ },
+ {
+  "base": "https://xiiiinterpoli.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "xiii_interpoli",
+    "name": "XIII BP Interpoli (Valencia)"
+   }
+  ]
+ },
+ {
   "base": "https://aquinasroncalli2022.calicotab.com",
   "tournaments": [
    {
@@ -1856,149 +2030,6 @@
    {
     "slug": "open",
     "name": "CIMET Presencial 2026"
-   }
-  ]
- },
- {
-  "base": "https://viiprecmudeuam.calicotab.com",
-  "tournaments": [
-   {
-    "slug": "viiprecmudeuam",
-    "name": "VII PreCMUDE UAM"
-   }
-  ]
- },
- {
-  "base": "https://interpoli2023.calicotab.com",
-  "tournaments": [
-   {
-    "slug": "interpoli2023",
-    "name": "XI BP Interpoli (Valencia)"
-   }
-  ]
- },
- {
-  "base": "https://interpoli2024.calicotab.com",
-  "tournaments": [
-   {
-    "slug": "xiiinterpoli",
-    "name": "XII BP Interpoli (Valencia)"
-   }
-  ]
- },
- {
-  "base": "https://xiiiinterpoli.calicotab.com",
-  "tournaments": [
-   {
-    "slug": "xiii_interpoli",
-    "name": "XIII BP Interpoli (Valencia)"
-   }
-  ]
- },
- {
-  "base": "https://bpeliasahuja.calicotab.com",
-  "tournaments": [
-   {
-    "slug": "ahuja23",
-    "name": "BP Elías Ahuja 2023"
-   },
-   {
-    "slug": "ahuja24",
-    "name": "BP Elías Ahuja 2024"
-   }
-  ]
- },
- {
-  "base": "https://bpregenta.calicotab.com",
-  "tournaments": [
-   {
-    "slug": "VRegenta",
-    "name": "V Torneo BP La Regenta en la Universidad de Oviedo"
-   },
-   {
-    "slug": "discursosbpregenta",
-    "name": "Discursos V Torneo BP La Regenta en la Universidad de Oviedo"
-   }
-  ]
- },
- {
-  "base": "https://bpub.calicotab.com",
-  "tournaments": [
-   {
-    "slug": "ivbpub",
-    "name": "IV BP Universitat de Barcelona"
-   }
-  ]
- },
- {
-  "base": "https://bpuned2025.calicotab.com",
-  "tournaments": [
-   {
-    "slug": "uned2025",
-    "name": "BP UNED SEGOVIA-RETORIKA 2025"
-   }
-  ]
- },
- {
-  "base": "https://iibpub.calicotab.com",
-  "tournaments": [
-   {
-    "slug": "IIBPUB",
-    "name": "II BP Universitat de Barcelona"
-   }
-  ]
- },
- {
-  "base": "https://ivbpeliasahuja.calicotab.com",
-  "tournaments": [
-   {
-    "slug": "ivbpeliasahuja",
-    "name": "IV Torneo BP Elías Ahúja"
-   }
-  ]
- },
- {
-  "base": "https://torneobpregenta.calicotab.com",
-  "tournaments": [
-   {
-    "slug": "RegentaIV",
-    "name": "Torneo BP la Regenta IV"
-   }
-  ]
- },
- {
-  "base": "https://vbpub.calicotab.com",
-  "tournaments": [
-   {
-    "slug": "vbpub",
-    "name": "V BP UB"
-   }
-  ]
- },
- {
-  "base": "https://vibpregenta.calicotab.com",
-  "tournaments": [
-   {
-    "slug": "vibpregenta",
-    "name": "VI BP Regenta"
-   }
-  ]
- },
- {
-  "base": "https://viibpregenta.calicotab.com",
-  "tournaments": [
-   {
-    "slug": "viibplaregenta",
-    "name": "VII BP La Regenta"
-   }
-  ]
- },
- {
-  "base": "https://viiibpgaduab.calicotab.com",
-  "tournaments": [
-   {
-    "slug": "viiigad-uab",
-    "name": "VIII Torneig GAD-UAB"
    }
   ]
  },
@@ -2325,28 +2356,6 @@
   ]
  },
  {
-  "base": "https://bpunedsegoviaretorika.calicotab.com",
-  "tournaments": [
-   {
-    "slug": "bpuned2024",
-    "name": "BP UNED SEGOVIA-RETORIKA 2024"
-   }
-  ]
- },
- {
-  "base": "https://torneoandino.calicotab.com",
-  "tournaments": [
-   {
-    "slug": "debate",
-    "name": "Torneo Andino de Debate"
-   },
-   {
-    "slug": "discursos",
-    "name": "Torneo Andino de Discursos"
-   }
-  ]
- },
- {
   "base": "https://iiibpaduz.calicotab.com",
   "tournaments": [
    {
@@ -2361,15 +2370,6 @@
    {
     "slug": "ivbpaduz",
     "name": "IV BP ADUZ (Zaragoza)"
-   }
-  ]
- },
- {
-  "base": "https://toex14.calicotab.com",
-  "tournaments": [
-   {
-    "slug": "toex14",
-    "name": "Torneo Express de debate USIL 14"
    }
   ]
  }
