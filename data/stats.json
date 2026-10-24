@@ -47217,8 +47217,8 @@
    "n_rounds": 246,
    "n_elim_rounds": 0,
    "last_date": "2026-09-26",
-   "n_tournaments_6m": 5,
-   "n_rounds_6m": 28,
+   "n_tournaments_6m": 4,
+   "n_rounds_6m": 22,
    "breaks": [
     {
      "t": "sodech__top2023",
@@ -60171,8 +60171,8 @@
    "n_rounds": 212,
    "n_elim_rounds": 0,
    "last_date": "2026-09-26",
-   "n_tournaments_6m": 3,
-   "n_rounds_6m": 17,
+   "n_tournaments_6m": 2,
+   "n_rounds_6m": 11,
    "breaks": [
     {
      "t": "torneobpregenta__RegentaIV",
@@ -136108,8 +136108,8 @@
    "n_rounds": 68,
    "n_elim_rounds": 0,
    "last_date": "2026-04-24",
-   "n_tournaments_6m": 1,
-   "n_rounds_6m": 6,
+   "n_tournaments_6m": 0,
+   "n_rounds_6m": 0,
    "breaks": [
     {
      "t": "uniandesopen2024__uniandesopen2024",
