@@ -2121,7 +2121,7 @@
    "name": "XI BP UAM",
    "slug": "xibpuam",
    "base": "https://xibpuam.calicotab.com",
-   "date": null,
+   "date": "2026-10-23",
    "online": false
   },
   {
@@ -2177,12 +2177,12 @@
  "people": {
   "german": {
    "display": "Germán Mendonça Costa-Frossard",
-   "n_tournaments": 10,
-   "n_rounds": 52,
+   "n_tournaments": 11,
+   "n_rounds": 58,
    "n_elim_rounds": 0,
-   "last_date": "2026-10-10",
-   "n_tournaments_6m": 2,
-   "n_rounds_6m": 9,
+   "last_date": "2026-10-23",
+   "n_tournaments_6m": 3,
+   "n_rounds_6m": 15,
    "breaks": [
     {
      "t": "aquinasroncalli2025__aquinasroncalli2025",
@@ -2298,6 +2298,13 @@
      "date": "2026-10-10",
      "online": true,
      "team": "UCM-COM familia numerosa especial"
+    },
+    {
+     "slug": "xibpuam__xibpuam",
+     "name": "XI BP UAM",
+     "date": "2026-10-23",
+     "online": false,
+     "team": "UCM-COM LA RACHEL Y EL YERMAN"
     }
    ],
    "rows": [
@@ -3496,11 +3503,149 @@
      "chair": "Bea Melo 🇻🇪🇪🇨",
      "venue": "Sala 14",
      "t_avg": 74.7
+    },
+    {
+     "t": "xibpuam__xibpuam",
+     "tname": "XI BP UAM",
+     "date": "2026-10-23",
+     "online": false,
+     "round": "Ronda 1",
+     "seq": 1,
+     "stage": "P",
+     "side": "co",
+     "points": 3,
+     "win": false,
+     "position": 1,
+     "score": 68.0,
+     "iron": false,
+     "room_rank": 1,
+     "motion": "ECCQ que la UE debería endurecer la regulación económica de la carne procesada",
+     "topic": "economía",
+     "team": "UCM-COM LA RACHEL Y EL YERMAN",
+     "mate": "Raquel Martín Luengo",
+     "chair": "Carolina Piñera Gandoy",
+     "venue": "Sala 9",
+     "t_avg": 74.3
+    },
+    {
+     "t": "xibpuam__xibpuam",
+     "tname": "XI BP UAM",
+     "date": "2026-10-23",
+     "online": false,
+     "round": "Ronda 2",
+     "seq": 2,
+     "stage": "P",
+     "side": "oo",
+     "points": 1,
+     "win": false,
+     "position": 2,
+     "score": 74.0,
+     "iron": false,
+     "room_rank": 7,
+     "motion": "EC Priorizaría resolver la ambivalencia en vez de convivir con ella",
+     "topic": "psicología y salud mental",
+     "team": "UCM-COM LA RACHEL Y EL YERMAN",
+     "mate": "Raquel Martín Luengo",
+     "chair": "Amparo Perucho",
+     "venue": "Sala 9",
+     "t_avg": 74.3
+    },
+    {
+     "t": "xibpuam__xibpuam",
+     "tname": "XI BP UAM",
+     "date": "2026-10-23",
+     "online": false,
+     "round": "Ronda 3",
+     "seq": 3,
+     "stage": "P",
+     "side": "og",
+     "points": 1,
+     "win": false,
+     "position": 1,
+     "score": 75.0,
+     "iron": false,
+     "room_rank": 3,
+     "motion": "EC Se opone al var",
+     "topic": "filosofía y ética",
+     "team": "UCM-COM LA RACHEL Y EL YERMAN",
+     "mate": "Raquel Martín Luengo",
+     "chair": "Pedro Tomás",
+     "venue": "Sala 7",
+     "t_avg": 74.3
+    },
+    {
+     "t": "xibpuam__xibpuam",
+     "tname": "XI BP UAM",
+     "date": "2026-10-23",
+     "online": false,
+     "round": "Ronda 4",
+     "seq": 4,
+     "stage": "P",
+     "side": "cg",
+     "points": 0,
+     "win": false,
+     "position": 2,
+     "score": 74.0,
+     "iron": false,
+     "room_rank": 7,
+     "motion": "ECCQ La investigación científica debería priorizar las preferencias mayoritarias de la ciudadanía en vez de las mayoritarias de la comunidad científica",
+     "topic": "política nacional",
+     "team": "UCM-COM LA RACHEL Y EL YERMAN",
+     "mate": "Raquel Martín Luengo",
+     "chair": "Diego García González",
+     "venue": "Sala 10",
+     "t_avg": 74.3
+    },
+    {
+     "t": "xibpuam__xibpuam",
+     "tname": "XI BP UAM",
+     "date": "2026-10-23",
+     "online": false,
+     "round": "Ronda 5",
+     "seq": 5,
+     "stage": "P",
+     "side": "oo",
+     "points": 1,
+     "win": false,
+     "position": 1,
+     "score": 75.0,
+     "iron": false,
+     "room_rank": 5,
+     "motion": "EC Lamenta el auge de inversión en IA generativa",
+     "topic": "economía",
+     "team": "UCM-COM LA RACHEL Y EL YERMAN",
+     "mate": "Raquel Martín Luengo",
+     "chair": "Pedro Tomás",
+     "venue": "Sala 10",
+     "t_avg": 74.3
+    },
+    {
+     "t": "xibpuam__xibpuam",
+     "tname": "XI BP UAM",
+     "date": "2026-10-23",
+     "online": false,
+     "round": "Ronda 6",
+     "seq": 6,
+     "stage": "P",
+     "side": "co",
+     "points": 3,
+     "win": false,
+     "position": 1,
+     "score": 73.0,
+     "iron": false,
+     "room_rank": 3,
+     "motion": "EC apoya que los movimientos de protesta juveniles en Europa rechacen asociarse con partidos políticos tradicionales",
+     "topic": "política nacional",
+     "team": "UCM-COM LA RACHEL Y EL YERMAN",
+     "mate": "Raquel Martín Luengo",
+     "chair": "Mario de la Hoz Guerrero",
+     "venue": "Sala 7",
+     "t_avg": 74.3
     }
    ],
    "elim_rows": [],
-   "avg_speaks": 72.75,
-   "stdev": 3.11,
+   "avg_speaks": 72.79,
+   "stdev": 3.05,
    "best": {
     "t": "torneodeotono2025__otono2025",
     "tname": "Torneo de Otoño 2025",
@@ -3549,47 +3694,47 @@
    },
    "avg_points": 1.5,
    "results_dist": {
-    "3": 14,
+    "3": 16,
     "2": 12,
-    "1": 12,
-    "0": 14
+    "1": 15,
+    "0": 15
    },
    "pos1": {
-    "n": 22,
-    "avg": 71.73
+    "n": 26,
+    "avg": 71.88
    },
    "pos2": {
-    "n": 30,
-    "avg": 73.5
+    "n": 32,
+    "avg": 73.53
    },
    "sides": {
     "og": {
      "label": "Alta Gobierno",
-     "n": 12,
-     "avg_points": 1.58,
-     "avg_speaks": 72.75,
+     "n": 13,
+     "avg_points": 1.54,
+     "avg_speaks": 72.92,
      "firsts": 4
     },
     "oo": {
      "label": "Alta Oposición",
-     "n": 13,
-     "avg_points": 1.77,
-     "avg_speaks": 72.46,
+     "n": 15,
+     "avg_points": 1.67,
+     "avg_speaks": 72.73,
      "firsts": 4
     },
     "cg": {
      "label": "Baja Gobierno",
-     "n": 13,
-     "avg_points": 1.23,
-     "avg_speaks": 72.23,
+     "n": 14,
+     "avg_points": 1.14,
+     "avg_speaks": 72.36,
      "firsts": 2
     },
     "co": {
      "label": "Baja Oposición",
-     "n": 14,
-     "avg_points": 1.43,
-     "avg_speaks": 73.5,
-     "firsts": 4
+     "n": 16,
+     "avg_points": 1.62,
+     "avg_speaks": 73.12,
+     "firsts": 6
     }
    },
    "topics": {
@@ -3599,14 +3744,14 @@
      "avg_speaks": 70.0
     },
     "política nacional": {
-     "n": 11,
-     "avg_points": 0.91,
-     "avg_speaks": 73.73
+     "n": 13,
+     "avg_points": 1,
+     "avg_speaks": 73.69
     },
     "economía": {
-     "n": 9,
-     "avg_points": 1.67,
-     "avg_speaks": 73.44
+     "n": 11,
+     "avg_points": 1.73,
+     "avg_speaks": 73.09
     },
     "otros": {
      "n": 8,
@@ -3634,8 +3779,8 @@
      "avg_speaks": 65.0
     },
     "psicología y salud mental": {
-     "n": 3,
-     "avg_points": 1.67,
+     "n": 4,
+     "avg_points": 1.5,
      "avg_speaks": 74.0
     },
     "relaciones internacionales": {
@@ -3649,9 +3794,9 @@
      "avg_speaks": 75.0
     },
     "filosofía y ética": {
-     "n": 3,
+     "n": 4,
      "avg_points": 1,
-     "avg_speaks": 69.67
+     "avg_speaks": 71.0
     }
    },
    "evolution": [
@@ -3714,6 +3859,12 @@
      "tname": "Torneo Express de debate USIL 14",
      "avg": 75.25,
      "n": 4
+    },
+    {
+     "date": "2026-10-23",
+     "tname": "XI BP UAM",
+     "avg": 73.17,
+     "n": 6
     }
    ],
    "mates": [
@@ -3740,6 +3891,12 @@
      "n": 6,
      "avg_points": 1.5,
      "avg_speaks": 70.83
+    },
+    {
+     "name": "Raquel Martín Luengo",
+     "n": 6,
+     "avg_points": 1.5,
+     "avg_speaks": 73.17
     },
     {
      "name": "Héctor Pinar Galián",
@@ -3774,8 +3931,8 @@
    ],
    "vs_field": -1.15,
    "clutch": {
-    "avg_last_round": 72.9,
-    "delta": 0.15
+    "avg_last_round": 72.91,
+    "delta": 0.12
    },
    "streak_top2": 3,
    "env_online": {
@@ -3784,12 +3941,12 @@
     "avg_points": 1.67
    },
    "env_presencial": {
-    "n": 43,
-    "avg_speaks": 72.14,
+    "n": 49,
+    "avg_speaks": 72.27,
     "avg_points": 1.47
    },
-   "avg_room_rank": 4.19,
-   "room_best_count": 7,
+   "avg_room_rank": 4.21,
+   "room_best_count": 8,
    "chairs": [
     [
      "Álvaro Mora Varela",
@@ -15389,12 +15546,12 @@
   },
   "jaime-rodriguez-sanchez-tabernero": {
    "display": "Jaime Rodríguez Sánchez-Tabernero",
-   "n_tournaments": 42,
-   "n_rounds": 241,
+   "n_tournaments": 43,
+   "n_rounds": 247,
    "n_elim_rounds": 0,
-   "last_date": "2026-09-26",
-   "n_tournaments_6m": 3,
-   "n_rounds_6m": 22,
+   "last_date": "2026-10-23",
+   "n_tournaments_6m": 4,
+   "n_rounds_6m": 28,
    "breaks": [
     {
      "t": "precmudepucp2024__precmudepucp",
@@ -15587,11 +15744,19 @@
      "novice": false,
      "reached": "Final",
      "champion": true
+    },
+    {
+     "t": "xibpuam__xibpuam",
+     "tname": "XI BP UAM",
+     "date": "2026-10-23",
+     "novice": false,
+     "reached": "Final",
+     "champion": false
     }
    ],
-   "n_breaks": 24,
+   "n_breaks": 25,
    "n_breaks_novice": 0,
-   "n_breaks_open": 24,
+   "n_breaks_open": 25,
    "tournaments": [
     {
      "slug": "aquinasroncalli2022__Aquinas",
@@ -15886,6 +16051,13 @@
      "date": "2026-09-26",
      "online": false,
      "team": "UCM-COM PR"
+    },
+    {
+     "slug": "xibpuam__xibpuam",
+     "name": "XI BP UAM",
+     "date": "2026-10-23",
+     "online": false,
+     "team": "UCM-COM INMA Y FONTI"
     }
    ],
    "rows": [
@@ -21431,10 +21603,148 @@
      "chair": "🍆Raúl \"Es corta\" Viñas",
      "venue": "Despachito",
      "t_avg": 77.76
+    },
+    {
+     "t": "xibpuam__xibpuam",
+     "tname": "XI BP UAM",
+     "date": "2026-10-23",
+     "online": false,
+     "round": "Ronda 1",
+     "seq": 1,
+     "stage": "P",
+     "side": "oo",
+     "points": 3,
+     "win": false,
+     "position": 1,
+     "score": 80.0,
+     "iron": false,
+     "room_rank": 1,
+     "motion": "ECCQ que la UE debería endurecer la regulación económica de la carne procesada",
+     "topic": "economía",
+     "team": "UCM-COM INMA Y FONTI",
+     "mate": "Julio Lozano Muñoz",
+     "chair": "Adriana Betancor San Juan",
+     "venue": "Sala 1",
+     "t_avg": 74.3
+    },
+    {
+     "t": "xibpuam__xibpuam",
+     "tname": "XI BP UAM",
+     "date": "2026-10-23",
+     "online": false,
+     "round": "Ronda 2",
+     "seq": 2,
+     "stage": "P",
+     "side": "og",
+     "points": 1,
+     "win": false,
+     "position": 1,
+     "score": 78.0,
+     "iron": false,
+     "room_rank": 5,
+     "motion": "EC Priorizaría resolver la ambivalencia en vez de convivir con ella",
+     "topic": "psicología y salud mental",
+     "team": "UCM-COM INMA Y FONTI",
+     "mate": "Julio Lozano Muñoz",
+     "chair": "Adriana Betancor San Juan",
+     "venue": "Sala 6",
+     "t_avg": 74.3
+    },
+    {
+     "t": "xibpuam__xibpuam",
+     "tname": "XI BP UAM",
+     "date": "2026-10-23",
+     "online": false,
+     "round": "Ronda 3",
+     "seq": 3,
+     "stage": "P",
+     "side": "co",
+     "points": 3,
+     "win": false,
+     "position": 2,
+     "score": 82.0,
+     "iron": false,
+     "room_rank": 1,
+     "motion": "EC Se opone al var",
+     "topic": "filosofía y ética",
+     "team": "UCM-COM INMA Y FONTI",
+     "mate": "Julio Lozano Muñoz",
+     "chair": "Pedro Tomás",
+     "venue": "Sala 7",
+     "t_avg": 74.3
+    },
+    {
+     "t": "xibpuam__xibpuam",
+     "tname": "XI BP UAM",
+     "date": "2026-10-23",
+     "online": false,
+     "round": "Ronda 4",
+     "seq": 4,
+     "stage": "P",
+     "side": "og",
+     "points": 3,
+     "win": false,
+     "position": 2,
+     "score": 81.0,
+     "iron": false,
+     "room_rank": 2,
+     "motion": "ECCQ La investigación científica debería priorizar las preferencias mayoritarias de la ciudadanía en vez de las mayoritarias de la comunidad científica",
+     "topic": "política nacional",
+     "team": "UCM-COM INMA Y FONTI",
+     "mate": "Julio Lozano Muñoz",
+     "chair": "Pau García",
+     "venue": "Sala 7",
+     "t_avg": 74.3
+    },
+    {
+     "t": "xibpuam__xibpuam",
+     "tname": "XI BP UAM",
+     "date": "2026-10-23",
+     "online": false,
+     "round": "Ronda 5",
+     "seq": 5,
+     "stage": "P",
+     "side": "oo",
+     "points": 1,
+     "win": false,
+     "position": 2,
+     "score": 80.0,
+     "iron": false,
+     "room_rank": 4,
+     "motion": "EC Lamenta el auge de inversión en IA generativa",
+     "topic": "economía",
+     "team": "UCM-COM INMA Y FONTI",
+     "mate": "Julio Lozano Muñoz",
+     "chair": "Javier Lara",
+     "venue": "Sala 8",
+     "t_avg": 74.3
+    },
+    {
+     "t": "xibpuam__xibpuam",
+     "tname": "XI BP UAM",
+     "date": "2026-10-23",
+     "online": false,
+     "round": "Ronda 6",
+     "seq": 6,
+     "stage": "P",
+     "side": "cg",
+     "points": 3,
+     "win": false,
+     "position": 2,
+     "score": 82.0,
+     "iron": false,
+     "room_rank": 1,
+     "motion": "EC apoya que los movimientos de protesta juveniles en Europa rechacen asociarse con partidos políticos tradicionales",
+     "topic": "política nacional",
+     "team": "UCM-COM INMA Y FONTI",
+     "mate": "Julio Lozano Muñoz",
+     "chair": "Pau García",
+     "venue": "Sala 4",
+     "t_avg": 74.3
     }
    ],
    "elim_rows": [],
-   "avg_speaks": 77.34,
+   "avg_speaks": 77.42,
    "stdev": 3.35,
    "best": {
     "t": "cnd2026__cnd2026",
@@ -21482,49 +21792,49 @@
     "venue": "Sala 6 Planta 2",
     "t_avg": 73.76
    },
-   "avg_points": 1.93,
+   "avg_points": 1.94,
    "results_dist": {
-    "3": 97,
+    "3": 101,
     "2": 63,
-    "1": 48,
+    "1": 50,
     "0": 33
    },
    "pos1": {
-    "n": 104,
-    "avg": 76.63
+    "n": 106,
+    "avg": 76.68
    },
    "pos2": {
-    "n": 137,
-    "avg": 77.88
+    "n": 141,
+    "avg": 77.98
    },
    "sides": {
     "og": {
      "label": "Alta Gobierno",
-     "n": 64,
+     "n": 66,
      "avg_points": 2.06,
-     "avg_speaks": 77.34,
-     "firsts": 26
+     "avg_speaks": 77.41,
+     "firsts": 27
     },
     "oo": {
      "label": "Alta Oposición",
-     "n": 62,
-     "avg_points": 1.69,
-     "avg_speaks": 77.39,
-     "firsts": 18
+     "n": 64,
+     "avg_points": 1.7,
+     "avg_speaks": 77.47,
+     "firsts": 19
     },
     "cg": {
      "label": "Baja Gobierno",
-     "n": 59,
-     "avg_points": 2.03,
-     "avg_speaks": 77.59,
-     "firsts": 26
+     "n": 60,
+     "avg_points": 2.05,
+     "avg_speaks": 77.67,
+     "firsts": 27
     },
     "co": {
      "label": "Baja Oposición",
-     "n": 56,
-     "avg_points": 1.93,
-     "avg_speaks": 77.04,
-     "firsts": 27
+     "n": 57,
+     "avg_points": 1.95,
+     "avg_speaks": 77.12,
+     "firsts": 28
     }
    },
    "topics": {
@@ -21534,14 +21844,14 @@
      "avg_speaks": 77.75
     },
     "política nacional": {
-     "n": 35,
-     "avg_points": 1.97,
-     "avg_speaks": 76.94
+     "n": 37,
+     "avg_points": 2.03,
+     "avg_speaks": 77.19
     },
     "economía": {
-     "n": 48,
-     "avg_points": 1.81,
-     "avg_speaks": 77.25
+     "n": 50,
+     "avg_points": 1.82,
+     "avg_speaks": 77.36
     },
     "religión": {
      "n": 29,
@@ -21564,9 +21874,9 @@
      "avg_speaks": 76.6
     },
     "filosofía y ética": {
-     "n": 18,
-     "avg_points": 2.06,
-     "avg_speaks": 77.94
+     "n": 19,
+     "avg_points": 2.11,
+     "avg_speaks": 78.16
     },
     "otros": {
      "n": 23,
@@ -21574,9 +21884,9 @@
      "avg_speaks": 77.48
     },
     "psicología y salud mental": {
-     "n": 18,
-     "avg_points": 2.33,
-     "avg_speaks": 78.89
+     "n": 19,
+     "avg_points": 2.26,
+     "avg_speaks": 78.84
     },
     "ciencia y tecnología": {
      "n": 8,
@@ -21841,6 +22151,12 @@
      "tname": "Campeonato Nacional de Debate BP 2026",
      "avg": 80.83,
      "n": 6
+    },
+    {
+     "date": "2026-10-23",
+     "tname": "XI BP UAM",
+     "avg": 80.5,
+     "n": 6
     }
    ],
    "mates": [
@@ -21873,6 +22189,12 @@
      "n": 12,
      "avg_points": 1.67,
      "avg_speaks": 75.42
+    },
+    {
+     "name": "Julio Lozano Muñoz",
+     "n": 12,
+     "avg_points": 2.5,
+     "avg_speaks": 80.25
     },
     {
      "name": "Juan de las Rivas",
@@ -21927,12 +22249,6 @@
      "n": 6,
      "avg_points": 2.33,
      "avg_speaks": 80.83
-    },
-    {
-     "name": "Julio Lozano Muñoz",
-     "n": 6,
-     "avg_points": 2.67,
-     "avg_speaks": 80.0
     },
     {
      "name": "Gregorio Colao Fonseca",
@@ -21995,10 +22311,10 @@
      "avg_speaks": 78.5
     }
    ],
-   "vs_field": 2.81,
+   "vs_field": 2.89,
    "clutch": {
-    "avg_last_round": 77.55,
-    "delta": 0.21
+    "avg_last_round": 77.65,
+    "delta": 0.23
    },
    "streak_top2": 16,
    "env_online": {
@@ -22007,19 +22323,23 @@
     "avg_points": 2.35
    },
    "env_presencial": {
-    "n": 201,
-    "avg_speaks": 77.04,
-    "avg_points": 1.85
+    "n": 207,
+    "avg_speaks": 77.14,
+    "avg_points": 1.86
    },
-   "avg_room_rank": 3.01,
-   "room_best_count": 81,
+   "avg_room_rank": 3.0,
+   "room_best_count": 84,
    "chairs": [
     [
      "Pedro Tomás",
-     5
+     6
     ],
     [
      "Luis Felipe García",
+     5
+    ],
+    [
+     "Pau García",
      5
     ],
     [
@@ -22028,10 +22348,6 @@
     ],
     [
      "Amadeo Gavilano",
-     4
-    ],
-    [
-     "Andrea Marlo",
      4
     ]
    ]
@@ -34281,12 +34597,12 @@
   },
   "raquel-martin-luengo": {
    "display": "Raquel Martín Luengo",
-   "n_tournaments": 4,
-   "n_rounds": 21,
+   "n_tournaments": 5,
+   "n_rounds": 27,
    "n_elim_rounds": 0,
-   "last_date": "2026-02-27",
-   "n_tournaments_6m": 0,
-   "n_rounds_6m": 0,
+   "last_date": "2026-10-23",
+   "n_tournaments_6m": 1,
+   "n_rounds_6m": 6,
    "breaks": [],
    "n_breaks": 0,
    "n_breaks_novice": 0,
@@ -34319,6 +34635,13 @@
      "date": "2026-02-27",
      "online": false,
      "team": "UCM-COM Swing 66"
+    },
+    {
+     "slug": "xibpuam__xibpuam",
+     "name": "XI BP UAM",
+     "date": "2026-10-23",
+     "online": false,
+     "team": "UCM-COM LA RACHEL Y EL YERMAN"
     }
    ],
    "rows": [
@@ -34804,11 +35127,149 @@
      "chair": "Jorge Plaza Marques",
      "venue": "Aulario 109",
      "t_avg": 74.98
+    },
+    {
+     "t": "xibpuam__xibpuam",
+     "tname": "XI BP UAM",
+     "date": "2026-10-23",
+     "online": false,
+     "round": "Ronda 1",
+     "seq": 1,
+     "stage": "P",
+     "side": "co",
+     "points": 3,
+     "win": false,
+     "position": 2,
+     "score": 67.0,
+     "iron": false,
+     "room_rank": 2,
+     "motion": "ECCQ que la UE debería endurecer la regulación económica de la carne procesada",
+     "topic": "economía",
+     "team": "UCM-COM LA RACHEL Y EL YERMAN",
+     "mate": "Germán Mendonça Costa-Frossard",
+     "chair": "Carolina Piñera Gandoy",
+     "venue": "Sala 9",
+     "t_avg": 74.3
+    },
+    {
+     "t": "xibpuam__xibpuam",
+     "tname": "XI BP UAM",
+     "date": "2026-10-23",
+     "online": false,
+     "round": "Ronda 2",
+     "seq": 2,
+     "stage": "P",
+     "side": "oo",
+     "points": 1,
+     "win": false,
+     "position": 1,
+     "score": 75.0,
+     "iron": false,
+     "room_rank": 5,
+     "motion": "EC Priorizaría resolver la ambivalencia en vez de convivir con ella",
+     "topic": "psicología y salud mental",
+     "team": "UCM-COM LA RACHEL Y EL YERMAN",
+     "mate": "Germán Mendonça Costa-Frossard",
+     "chair": "Amparo Perucho",
+     "venue": "Sala 9",
+     "t_avg": 74.3
+    },
+    {
+     "t": "xibpuam__xibpuam",
+     "tname": "XI BP UAM",
+     "date": "2026-10-23",
+     "online": false,
+     "round": "Ronda 3",
+     "seq": 3,
+     "stage": "P",
+     "side": "og",
+     "points": 1,
+     "win": false,
+     "position": 2,
+     "score": 74.0,
+     "iron": false,
+     "room_rank": 6,
+     "motion": "EC Se opone al var",
+     "topic": "filosofía y ética",
+     "team": "UCM-COM LA RACHEL Y EL YERMAN",
+     "mate": "Germán Mendonça Costa-Frossard",
+     "chair": "Pedro Tomás",
+     "venue": "Sala 7",
+     "t_avg": 74.3
+    },
+    {
+     "t": "xibpuam__xibpuam",
+     "tname": "XI BP UAM",
+     "date": "2026-10-23",
+     "online": false,
+     "round": "Ronda 4",
+     "seq": 4,
+     "stage": "P",
+     "side": "cg",
+     "points": 0,
+     "win": false,
+     "position": 1,
+     "score": 74.0,
+     "iron": false,
+     "room_rank": 7,
+     "motion": "ECCQ La investigación científica debería priorizar las preferencias mayoritarias de la ciudadanía en vez de las mayoritarias de la comunidad científica",
+     "topic": "política nacional",
+     "team": "UCM-COM LA RACHEL Y EL YERMAN",
+     "mate": "Germán Mendonça Costa-Frossard",
+     "chair": "Diego García González",
+     "venue": "Sala 10",
+     "t_avg": 74.3
+    },
+    {
+     "t": "xibpuam__xibpuam",
+     "tname": "XI BP UAM",
+     "date": "2026-10-23",
+     "online": false,
+     "round": "Ronda 5",
+     "seq": 5,
+     "stage": "P",
+     "side": "oo",
+     "points": 1,
+     "win": false,
+     "position": 2,
+     "score": 75.0,
+     "iron": false,
+     "room_rank": 5,
+     "motion": "EC Lamenta el auge de inversión en IA generativa",
+     "topic": "economía",
+     "team": "UCM-COM LA RACHEL Y EL YERMAN",
+     "mate": "Germán Mendonça Costa-Frossard",
+     "chair": "Pedro Tomás",
+     "venue": "Sala 10",
+     "t_avg": 74.3
+    },
+    {
+     "t": "xibpuam__xibpuam",
+     "tname": "XI BP UAM",
+     "date": "2026-10-23",
+     "online": false,
+     "round": "Ronda 6",
+     "seq": 6,
+     "stage": "P",
+     "side": "co",
+     "points": 3,
+     "win": false,
+     "position": 2,
+     "score": 75.0,
+     "iron": false,
+     "room_rank": 1,
+     "motion": "EC apoya que los movimientos de protesta juveniles en Europa rechacen asociarse con partidos políticos tradicionales",
+     "topic": "política nacional",
+     "team": "UCM-COM LA RACHEL Y EL YERMAN",
+     "mate": "Germán Mendonça Costa-Frossard",
+     "chair": "Mario de la Hoz Guerrero",
+     "venue": "Sala 7",
+     "t_avg": 74.3
     }
    ],
    "elim_rows": [],
-   "avg_speaks": 70.95,
-   "stdev": 2.94,
+   "avg_speaks": 71.48,
+   "stdev": 3.08,
    "best": {
     "t": "bpgranada2025__bpgranada2025",
     "tname": "IV BP Ciudad de Granada",
@@ -34855,56 +35316,56 @@
     "venue": "Raimundo de Peñaforth",
     "t_avg": 70.22
    },
-   "avg_points": 1.19,
+   "avg_points": 1.26,
    "results_dist": {
-    "3": 2,
+    "3": 4,
     "2": 6,
-    "1": 7,
-    "0": 6
+    "1": 10,
+    "0": 7
    },
    "pos1": {
-    "n": 8,
-    "avg": 70.75
+    "n": 10,
+    "avg": 71.5
    },
    "pos2": {
-    "n": 13,
-    "avg": 71.08
+    "n": 17,
+    "avg": 71.47
    },
    "sides": {
     "og": {
      "label": "Alta Gobierno",
-     "n": 7,
-     "avg_points": 0.71,
-     "avg_speaks": 70.29,
+     "n": 8,
+     "avg_points": 0.75,
+     "avg_speaks": 70.75,
      "firsts": 0
     },
     "oo": {
      "label": "Alta Oposición",
-     "n": 5,
-     "avg_points": 1.4,
-     "avg_speaks": 73.0,
+     "n": 7,
+     "avg_points": 1.29,
+     "avg_speaks": 73.57,
      "firsts": 1
     },
     "cg": {
      "label": "Baja Gobierno",
-     "n": 4,
-     "avg_points": 1.75,
-     "avg_speaks": 70.75,
+     "n": 5,
+     "avg_points": 1.4,
+     "avg_speaks": 71.4,
      "firsts": 0
     },
     "co": {
      "label": "Baja Oposición",
-     "n": 5,
-     "avg_points": 1.2,
-     "avg_speaks": 70.0,
-     "firsts": 1
+     "n": 7,
+     "avg_points": 1.71,
+     "avg_speaks": 70.29,
+     "firsts": 3
     }
    },
    "topics": {
     "economía": {
-     "n": 2,
-     "avg_points": 0,
-     "avg_speaks": 70.5
+     "n": 4,
+     "avg_points": 1,
+     "avg_speaks": 70.75
     },
     "otros": {
      "n": 4,
@@ -34917,9 +35378,9 @@
      "avg_speaks": 72.0
     },
     "filosofía y ética": {
-     "n": 2,
+     "n": 3,
      "avg_points": 1,
-     "avg_speaks": 68.5
+     "avg_speaks": 70.33
     },
     "religión": {
      "n": 4,
@@ -34932,9 +35393,9 @@
      "avg_speaks": 70.5
     },
     "política nacional": {
-     "n": 3,
-     "avg_points": 0.67,
-     "avg_speaks": 69.0
+     "n": 5,
+     "avg_points": 1,
+     "avg_speaks": 71.2
     },
     "feminismo y género": {
      "n": 2,
@@ -34942,8 +35403,8 @@
      "avg_speaks": 72.0
     },
     "psicología y salud mental": {
-     "n": 1,
-     "avg_points": 3,
+     "n": 2,
+     "avg_points": 2,
      "avg_speaks": 75.0
     }
    },
@@ -34971,6 +35432,12 @@
      "tname": "VI BP Comunícate UCM",
      "avg": 72.8,
      "n": 5
+    },
+    {
+     "date": "2026-10-23",
+     "tname": "XI BP UAM",
+     "avg": 73.33,
+     "n": 6
     }
    ],
    "mates": [
@@ -34979,6 +35446,12 @@
      "n": 6,
      "avg_points": 1.5,
      "avg_speaks": 72.0
+    },
+    {
+     "name": "Germán Mendonça Costa-Frossard",
+     "n": 6,
+     "avg_points": 1.5,
+     "avg_speaks": 73.33
     },
     {
      "name": "Francesca Fortino",
@@ -34999,10 +35472,10 @@
      "avg_speaks": 72.8
     }
    ],
-   "vs_field": -1.26,
+   "vs_field": -1.19,
    "clutch": {
-    "avg_last_round": 72.25,
-    "delta": 1.3
+    "avg_last_round": 72.8,
+    "delta": 1.32
    },
    "streak_top2": 2,
    "env_online": {
@@ -35011,16 +35484,20 @@
     "avg_points": null
    },
    "env_presencial": {
-    "n": 21,
-    "avg_speaks": 70.95,
-    "avg_points": 1.19
+    "n": 27,
+    "avg_speaks": 71.48,
+    "avg_points": 1.26
    },
-   "avg_room_rank": 4.48,
-   "room_best_count": 2,
+   "avg_room_rank": 4.44,
+   "room_best_count": 3,
    "chairs": [
     [
      "Eiko Alonso",
      3
+    ],
+    [
+     "Pedro Tomás",
+     2
     ],
     [
      "Alejandro Baena",
@@ -35032,10 +35509,6 @@
     ],
     [
      "Candela Rodríguez 🧚‍♀️",
-     1
-    ],
-    [
-     "Danidepe",
      1
     ]
    ]
@@ -41734,12 +42207,12 @@
   },
   "julio-lozano-munoz": {
    "display": "Julio Lozano Muñoz",
-   "n_tournaments": 32,
-   "n_rounds": 196,
+   "n_tournaments": 33,
+   "n_rounds": 202,
    "n_elim_rounds": 0,
-   "last_date": "2026-01-01",
-   "n_tournaments_6m": 0,
-   "n_rounds_6m": 0,
+   "last_date": "2026-10-23",
+   "n_tournaments_6m": 1,
+   "n_rounds_6m": 6,
    "breaks": [
     {
      "t": "torneobpregenta__RegentaIV",
@@ -41940,11 +42413,19 @@
      "novice": false,
      "reached": "Final",
      "champion": true
+    },
+    {
+     "t": "xibpuam__xibpuam",
+     "tname": "XI BP UAM",
+     "date": "2026-10-23",
+     "novice": false,
+     "reached": "Final",
+     "champion": false
     }
    ],
-   "n_breaks": 25,
+   "n_breaks": 26,
    "n_breaks_novice": 0,
-   "n_breaks_open": 25,
+   "n_breaks_open": 26,
    "tournaments": [
     {
      "slug": "coparaptor__raptor",
@@ -42169,6 +42650,13 @@
      "date": "2026-01-01",
      "online": false,
      "team": "Bayonetta"
+    },
+    {
+     "slug": "xibpuam__xibpuam",
+     "name": "XI BP UAM",
+     "date": "2026-10-23",
+     "online": false,
+     "team": "UCM-COM INMA Y FONTI"
     }
    ],
    "rows": [
@@ -46679,11 +47167,149 @@
      "chair": "Rose Vento",
      "venue": "N-204",
      "t_avg": 65.8
+    },
+    {
+     "t": "xibpuam__xibpuam",
+     "tname": "XI BP UAM",
+     "date": "2026-10-23",
+     "online": false,
+     "round": "Ronda 1",
+     "seq": 1,
+     "stage": "P",
+     "side": "oo",
+     "points": 3,
+     "win": false,
+     "position": 2,
+     "score": 80.0,
+     "iron": false,
+     "room_rank": 1,
+     "motion": "ECCQ que la UE debería endurecer la regulación económica de la carne procesada",
+     "topic": "economía",
+     "team": "UCM-COM INMA Y FONTI",
+     "mate": "Jaime Rodríguez Sánchez-Tabernero",
+     "chair": "Adriana Betancor San Juan",
+     "venue": "Sala 1",
+     "t_avg": 74.3
+    },
+    {
+     "t": "xibpuam__xibpuam",
+     "tname": "XI BP UAM",
+     "date": "2026-10-23",
+     "online": false,
+     "round": "Ronda 2",
+     "seq": 2,
+     "stage": "P",
+     "side": "og",
+     "points": 1,
+     "win": false,
+     "position": 2,
+     "score": 79.0,
+     "iron": false,
+     "room_rank": 3,
+     "motion": "EC Priorizaría resolver la ambivalencia en vez de convivir con ella",
+     "topic": "psicología y salud mental",
+     "team": "UCM-COM INMA Y FONTI",
+     "mate": "Jaime Rodríguez Sánchez-Tabernero",
+     "chair": "Adriana Betancor San Juan",
+     "venue": "Sala 6",
+     "t_avg": 74.3
+    },
+    {
+     "t": "xibpuam__xibpuam",
+     "tname": "XI BP UAM",
+     "date": "2026-10-23",
+     "online": false,
+     "round": "Ronda 3",
+     "seq": 3,
+     "stage": "P",
+     "side": "co",
+     "points": 3,
+     "win": false,
+     "position": 1,
+     "score": 81.0,
+     "iron": false,
+     "room_rank": 2,
+     "motion": "EC Se opone al var",
+     "topic": "filosofía y ética",
+     "team": "UCM-COM INMA Y FONTI",
+     "mate": "Jaime Rodríguez Sánchez-Tabernero",
+     "chair": "Pedro Tomás",
+     "venue": "Sala 7",
+     "t_avg": 74.3
+    },
+    {
+     "t": "xibpuam__xibpuam",
+     "tname": "XI BP UAM",
+     "date": "2026-10-23",
+     "online": false,
+     "round": "Ronda 4",
+     "seq": 4,
+     "stage": "P",
+     "side": "og",
+     "points": 3,
+     "win": false,
+     "position": 1,
+     "score": 82.0,
+     "iron": false,
+     "room_rank": 1,
+     "motion": "ECCQ La investigación científica debería priorizar las preferencias mayoritarias de la ciudadanía en vez de las mayoritarias de la comunidad científica",
+     "topic": "política nacional",
+     "team": "UCM-COM INMA Y FONTI",
+     "mate": "Jaime Rodríguez Sánchez-Tabernero",
+     "chair": "Pau García",
+     "venue": "Sala 7",
+     "t_avg": 74.3
+    },
+    {
+     "t": "xibpuam__xibpuam",
+     "tname": "XI BP UAM",
+     "date": "2026-10-23",
+     "online": false,
+     "round": "Ronda 5",
+     "seq": 5,
+     "stage": "P",
+     "side": "oo",
+     "points": 1,
+     "win": false,
+     "position": 1,
+     "score": 79.0,
+     "iron": false,
+     "room_rank": 6,
+     "motion": "EC Lamenta el auge de inversión en IA generativa",
+     "topic": "economía",
+     "team": "UCM-COM INMA Y FONTI",
+     "mate": "Jaime Rodríguez Sánchez-Tabernero",
+     "chair": "Javier Lara",
+     "venue": "Sala 8",
+     "t_avg": 74.3
+    },
+    {
+     "t": "xibpuam__xibpuam",
+     "tname": "XI BP UAM",
+     "date": "2026-10-23",
+     "online": false,
+     "round": "Ronda 6",
+     "seq": 6,
+     "stage": "P",
+     "side": "cg",
+     "points": 3,
+     "win": false,
+     "position": 1,
+     "score": 82.0,
+     "iron": false,
+     "room_rank": 1,
+     "motion": "EC apoya que los movimientos de protesta juveniles en Europa rechacen asociarse con partidos políticos tradicionales",
+     "topic": "política nacional",
+     "team": "UCM-COM INMA Y FONTI",
+     "mate": "Jaime Rodríguez Sánchez-Tabernero",
+     "chair": "Pau García",
+     "venue": "Sala 4",
+     "t_avg": 74.3
     }
    ],
    "elim_rows": [],
-   "avg_speaks": 78.8,
-   "stdev": 2.38,
+   "avg_speaks": 78.85,
+   "stdev": 2.37,
    "best": {
     "t": "viiibpurjc__viiibpurjc",
     "tname": "VIII BP URJC",
@@ -46730,49 +47356,49 @@
     "venue": "19",
     "t_avg": 74.43
    },
-   "avg_points": 2.13,
+   "avg_points": 2.14,
    "results_dist": {
-    "3": 95,
+    "3": 99,
     "2": 52,
-    "1": 29,
+    "1": 31,
     "0": 20
    },
    "pos1": {
-    "n": 56,
-    "avg": 79.0
+    "n": 60,
+    "avg": 79.13
    },
    "pos2": {
-    "n": 139,
-    "avg": 78.71
+    "n": 141,
+    "avg": 78.72
    },
    "sides": {
     "og": {
      "label": "Alta Gobierno",
-     "n": 52,
-     "avg_points": 2.12,
-     "avg_speaks": 78.67,
-     "firsts": 23
+     "n": 54,
+     "avg_points": 2.11,
+     "avg_speaks": 78.74,
+     "firsts": 24
     },
     "oo": {
      "label": "Alta Oposición",
-     "n": 45,
+     "n": 47,
      "avg_points": 2.02,
-     "avg_speaks": 78.87,
-     "firsts": 17
+     "avg_speaks": 78.89,
+     "firsts": 18
     },
     "cg": {
      "label": "Baja Gobierno",
-     "n": 45,
-     "avg_points": 2.47,
-     "avg_speaks": 79.0,
-     "firsts": 27
+     "n": 46,
+     "avg_points": 2.48,
+     "avg_speaks": 79.07,
+     "firsts": 28
     },
     "co": {
      "label": "Baja Oposición",
-     "n": 48,
-     "avg_points": 2.17,
-     "avg_speaks": 78.67,
-     "firsts": 28
+     "n": 49,
+     "avg_points": 2.18,
+     "avg_speaks": 78.71,
+     "firsts": 29
     }
    },
    "topics": {
@@ -46787,14 +47413,14 @@
      "avg_speaks": 78.83
     },
     "economía": {
-     "n": 35,
-     "avg_points": 2.09,
-     "avg_speaks": 79.11
+     "n": 37,
+     "avg_points": 2.08,
+     "avg_speaks": 79.14
     },
     "política nacional": {
-     "n": 20,
-     "avg_points": 2.15,
-     "avg_speaks": 78.9
+     "n": 22,
+     "avg_points": 2.23,
+     "avg_speaks": 79.18
     },
     "medios y cultura": {
      "n": 10,
@@ -46812,9 +47438,9 @@
      "avg_speaks": 77.25
     },
     "filosofía y ética": {
-     "n": 6,
-     "avg_points": 2.5,
-     "avg_speaks": 78.5
+     "n": 7,
+     "avg_points": 2.57,
+     "avg_speaks": 78.86
     },
     "ciencia y tecnología": {
      "n": 9,
@@ -46837,9 +47463,9 @@
      "avg_speaks": 79.8
     },
     "psicología y salud mental": {
-     "n": 6,
-     "avg_points": 2.83,
-     "avg_speaks": 81.17
+     "n": 7,
+     "avg_points": 2.57,
+     "avg_speaks": 80.86
     }
    },
    "evolution": [
@@ -47028,6 +47654,12 @@
      "tname": "Competencia de Masters 2026",
      "avg": 79.67,
      "n": 3
+    },
+    {
+     "date": "2026-10-23",
+     "tname": "XI BP UAM",
+     "avg": 80.5,
+     "n": 6
     }
    ],
    "mates": [
@@ -47152,6 +47784,12 @@
      "avg_speaks": 80.17
     },
     {
+     "name": "Jaime Rodríguez Sánchez-Tabernero",
+     "n": 6,
+     "avg_points": 2.33,
+     "avg_speaks": 80.5
+    },
+    {
      "name": "Chelu Muñón",
      "n": 5,
      "avg_points": 1.8,
@@ -47170,10 +47808,10 @@
      "avg_speaks": 79.67
     }
    ],
-   "vs_field": 5.14,
+   "vs_field": 5.17,
    "clutch": {
-    "avg_last_round": 79.16,
-    "delta": 0.36
+    "avg_last_round": 79.24,
+    "delta": 0.39
    },
    "streak_top2": 14,
    "env_online": {
@@ -47182,12 +47820,12 @@
     "avg_points": 2.13
    },
    "env_presencial": {
-    "n": 181,
-    "avg_speaks": 78.78,
-    "avg_points": 2.13
+    "n": 187,
+    "avg_speaks": 78.84,
+    "avg_points": 2.14
    },
-   "avg_room_rank": 2.63,
-   "room_best_count": 70,
+   "avg_room_rank": 2.62,
+   "room_best_count": 73,
    "chairs": [
     [
      "Iván Rico González",
@@ -47213,12 +47851,12 @@
   },
   "pablo-ponce-sanchez": {
    "display": "Pablo Ponce Sánchez",
-   "n_tournaments": 44,
-   "n_rounds": 246,
+   "n_tournaments": 45,
+   "n_rounds": 252,
    "n_elim_rounds": 0,
-   "last_date": "2026-09-26",
-   "n_tournaments_6m": 4,
-   "n_rounds_6m": 22,
+   "last_date": "2026-10-23",
+   "n_tournaments_6m": 5,
+   "n_rounds_6m": 28,
    "breaks": [
     {
      "t": "sodech__top2023",
@@ -47419,11 +48057,19 @@
      "novice": false,
      "reached": "Final",
      "champion": true
+    },
+    {
+     "t": "xibpuam__xibpuam",
+     "tname": "XI BP UAM",
+     "date": "2026-10-23",
+     "novice": false,
+     "reached": "Final",
+     "champion": false
     }
    ],
-   "n_breaks": 25,
+   "n_breaks": 26,
    "n_breaks_novice": 0,
-   "n_breaks_open": 25,
+   "n_breaks_open": 26,
    "tournaments": [
     {
      "slug": "ced8__ced8",
@@ -47732,6 +48378,13 @@
      "date": "2026-09-26",
      "online": false,
      "team": "UCM-COM + Nebrija PS"
+    },
+    {
+     "slug": "xibpuam__xibpuam",
+     "name": "XI BP UAM",
+     "date": "2026-10-23",
+     "online": false,
+     "team": "UB-UCM \"An Old Hope\""
     }
    ],
    "rows": [
@@ -53392,11 +54045,149 @@
      "chair": "🫩Antonio Sáez Marín",
      "venue": "Goikito",
      "t_avg": 77.76
+    },
+    {
+     "t": "xibpuam__xibpuam",
+     "tname": "XI BP UAM",
+     "date": "2026-10-23",
+     "online": false,
+     "round": "Ronda 1",
+     "seq": 1,
+     "stage": "P",
+     "side": "oo",
+     "points": 2,
+     "win": false,
+     "position": 1,
+     "score": 79.0,
+     "iron": false,
+     "room_rank": 2,
+     "motion": "ECCQ que la UE debería endurecer la regulación económica de la carne procesada",
+     "topic": "economía",
+     "team": "UB-UCM \"An Old Hope\"",
+     "mate": "Luis Felipe García Aristizabal",
+     "chair": "Antonio Sáez Marín",
+     "venue": "Sala 2",
+     "t_avg": 74.3
+    },
+    {
+     "t": "xibpuam__xibpuam",
+     "tname": "XI BP UAM",
+     "date": "2026-10-23",
+     "online": false,
+     "round": "Ronda 2",
+     "seq": 2,
+     "stage": "P",
+     "side": "co",
+     "points": 3,
+     "win": false,
+     "position": 1,
+     "score": 82.0,
+     "iron": false,
+     "room_rank": 1,
+     "motion": "EC Priorizaría resolver la ambivalencia en vez de convivir con ella",
+     "topic": "psicología y salud mental",
+     "team": "UB-UCM \"An Old Hope\"",
+     "mate": "Luis Felipe García Aristizabal",
+     "chair": "Amparo Perucho",
+     "venue": "Sala 9",
+     "t_avg": 74.3
+    },
+    {
+     "t": "xibpuam__xibpuam",
+     "tname": "XI BP UAM",
+     "date": "2026-10-23",
+     "online": false,
+     "round": "Ronda 3",
+     "seq": 3,
+     "stage": "P",
+     "side": "og",
+     "points": 1,
+     "win": false,
+     "position": 1,
+     "score": 79.0,
+     "iron": false,
+     "room_rank": 6,
+     "motion": "EC Se opone al var",
+     "topic": "filosofía y ética",
+     "team": "UB-UCM \"An Old Hope\"",
+     "mate": "Luis Felipe García Aristizabal",
+     "chair": "Javier Lara",
+     "venue": "Sala 6",
+     "t_avg": 74.3
+    },
+    {
+     "t": "xibpuam__xibpuam",
+     "tname": "XI BP UAM",
+     "date": "2026-10-23",
+     "online": false,
+     "round": "Ronda 4",
+     "seq": 4,
+     "stage": "P",
+     "side": "oo",
+     "points": 3,
+     "win": false,
+     "position": 2,
+     "score": 82.0,
+     "iron": false,
+     "room_rank": 2,
+     "motion": "ECCQ La investigación científica debería priorizar las preferencias mayoritarias de la ciudadanía en vez de las mayoritarias de la comunidad científica",
+     "topic": "política nacional",
+     "team": "UB-UCM \"An Old Hope\"",
+     "mate": "Luis Felipe García Aristizabal",
+     "chair": "Adriana Rodríguez Alonso",
+     "venue": "Sala 4",
+     "t_avg": 74.3
+    },
+    {
+     "t": "xibpuam__xibpuam",
+     "tname": "XI BP UAM",
+     "date": "2026-10-23",
+     "online": false,
+     "round": "Ronda 5",
+     "seq": 5,
+     "stage": "P",
+     "side": "cg",
+     "points": 3,
+     "win": false,
+     "position": 2,
+     "score": 82.0,
+     "iron": false,
+     "room_rank": 2,
+     "motion": "EC Lamenta el auge de inversión en IA generativa",
+     "topic": "economía",
+     "team": "UB-UCM \"An Old Hope\"",
+     "mate": "Luis Felipe García Aristizabal",
+     "chair": "Javier Lara",
+     "venue": "Sala 8",
+     "t_avg": 74.3
+    },
+    {
+     "t": "xibpuam__xibpuam",
+     "tname": "XI BP UAM",
+     "date": "2026-10-23",
+     "online": false,
+     "round": "Ronda 6",
+     "seq": 6,
+     "stage": "P",
+     "side": "og",
+     "points": 2,
+     "win": false,
+     "position": 1,
+     "score": 80.0,
+     "iron": false,
+     "room_rank": 5,
+     "motion": "EC apoya que los movimientos de protesta juveniles en Europa rechacen asociarse con partidos políticos tradicionales",
+     "topic": "política nacional",
+     "team": "UB-UCM \"An Old Hope\"",
+     "mate": "Luis Felipe García Aristizabal",
+     "chair": "Antonio Sáez Marín",
+     "venue": "Sala 3",
+     "t_avg": 74.3
     }
    ],
    "elim_rows": [],
-   "avg_speaks": 77.52,
-   "stdev": 2.59,
+   "avg_speaks": 77.6,
+   "stdev": 2.61,
    "best": {
     "t": "pucpiv2025__pucpiv25",
     "tname": "PUCP IV 2025",
@@ -53443,49 +54234,49 @@
     "venue": "001",
     "t_avg": 74.41
    },
-   "avg_points": 1.89,
+   "avg_points": 1.9,
    "results_dist": {
-    "3": 96,
-    "2": 67,
-    "1": 44,
+    "3": 99,
+    "2": 69,
+    "1": 45,
     "0": 39
    },
    "pos1": {
-    "n": 72,
-    "avg": 77.68
+    "n": 76,
+    "avg": 77.8
    },
    "pos2": {
-    "n": 171,
-    "avg": 77.42
+    "n": 173,
+    "avg": 77.47
    },
    "sides": {
     "og": {
      "label": "Alta Gobierno",
-     "n": 58,
-     "avg_points": 2,
-     "avg_speaks": 77.5,
+     "n": 60,
+     "avg_points": 1.98,
+     "avg_speaks": 77.57,
      "firsts": 21
     },
     "oo": {
      "label": "Alta Oposición",
-     "n": 63,
-     "avg_points": 1.9,
-     "avg_speaks": 77.59,
-     "firsts": 24
+     "n": 65,
+     "avg_points": 1.92,
+     "avg_speaks": 77.68,
+     "firsts": 25
     },
     "cg": {
      "label": "Baja Gobierno",
-     "n": 60,
-     "avg_points": 1.9,
-     "avg_speaks": 77.42,
-     "firsts": 25
+     "n": 61,
+     "avg_points": 1.92,
+     "avg_speaks": 77.49,
+     "firsts": 26
     },
     "co": {
      "label": "Baja Oposición",
-     "n": 59,
-     "avg_points": 1.93,
-     "avg_speaks": 77.54,
-     "firsts": 26
+     "n": 60,
+     "avg_points": 1.95,
+     "avg_speaks": 77.62,
+     "firsts": 27
     }
    },
    "topics": {
@@ -53500,19 +54291,19 @@
      "avg_speaks": 77.52
     },
     "política nacional": {
-     "n": 28,
-     "avg_points": 1.57,
-     "avg_speaks": 76.64
+     "n": 30,
+     "avg_points": 1.63,
+     "avg_speaks": 76.93
     },
     "economía": {
-     "n": 44,
-     "avg_points": 1.86,
-     "avg_speaks": 77.57
+     "n": 46,
+     "avg_points": 1.89,
+     "avg_speaks": 77.7
     },
     "psicología y salud mental": {
-     "n": 12,
-     "avg_points": 1.83,
-     "avg_speaks": 78.0
+     "n": 13,
+     "avg_points": 1.92,
+     "avg_speaks": 78.31
     },
     "medios y cultura": {
      "n": 9,
@@ -53530,9 +54321,9 @@
      "avg_speaks": 77.27
     },
     "filosofía y ética": {
-     "n": 24,
-     "avg_points": 1.92,
-     "avg_speaks": 78.42
+     "n": 25,
+     "avg_points": 1.88,
+     "avg_speaks": 78.44
     },
     "relaciones internacionales": {
      "n": 9,
@@ -53819,6 +54610,12 @@
      "tname": "Campeonato Nacional de Debate BP 2026",
      "avg": 80.83,
      "n": 6
+    },
+    {
+     "date": "2026-10-23",
+     "tname": "XI BP UAM",
+     "avg": 80.67,
+     "n": 6
     }
    ],
    "mates": [
@@ -53943,6 +54740,12 @@
      "avg_speaks": 80.83
     },
     {
+     "name": "Luis Felipe García Aristizabal",
+     "n": 6,
+     "avg_points": 2.33,
+     "avg_speaks": 80.67
+    },
+    {
      "name": "Javier \"Ronnie\" Rodríguez",
      "n": 5,
      "avg_points": 1.2,
@@ -54015,10 +54818,10 @@
      "avg_speaks": 79.67
     }
    ],
-   "vs_field": 3.1,
+   "vs_field": 3.18,
    "clutch": {
-    "avg_last_round": 77.68,
-    "delta": 0.16
+    "avg_last_round": 77.73,
+    "delta": 0.13
    },
    "streak_top2": 10,
    "env_online": {
@@ -54027,12 +54830,12 @@
     "avg_points": 1.68
    },
    "env_presencial": {
-    "n": 205,
-    "avg_speaks": 77.7,
-    "avg_points": 1.94
+    "n": 211,
+    "avg_speaks": 77.79,
+    "avg_points": 1.95
    },
-   "avg_room_rank": 3.07,
-   "room_best_count": 71,
+   "avg_room_rank": 3.06,
+   "room_best_count": 72,
    "chairs": [
     [
      "Pedro Tomás",
@@ -58030,12 +58833,12 @@
   },
   "carmen-alonso-palomo": {
    "display": "Carmen Alonso Palomo",
-   "n_tournaments": 13,
-   "n_rounds": 72,
+   "n_tournaments": 14,
+   "n_rounds": 78,
    "n_elim_rounds": 0,
-   "last_date": "2026-06-19",
-   "n_tournaments_6m": 2,
-   "n_rounds_6m": 11,
+   "last_date": "2026-10-23",
+   "n_tournaments_6m": 3,
+   "n_rounds_6m": 17,
    "breaks": [
     {
      "t": "bpuam2023__bpuam2023",
@@ -58172,6 +58975,13 @@
      "date": "2026-06-19",
      "online": false,
      "team": "UCM-COM Harvey & Mike"
+    },
+    {
+     "slug": "xibpuam__xibpuam",
+     "name": "XI BP UAM",
+     "date": "2026-10-23",
+     "online": false,
+     "team": "UCM-COM PELIRROJAS"
     }
    ],
    "rows": [
@@ -59830,11 +60640,149 @@
      "chair": "Carmen Vallecillo",
      "venue": "Sala 5 - Aula 205.1",
      "t_avg": 76.36
+    },
+    {
+     "t": "xibpuam__xibpuam",
+     "tname": "XI BP UAM",
+     "date": "2026-10-23",
+     "online": false,
+     "round": "Ronda 1",
+     "seq": 1,
+     "stage": "P",
+     "side": "og",
+     "points": 3,
+     "win": false,
+     "position": 1,
+     "score": 81.0,
+     "iron": true,
+     "room_rank": 1,
+     "motion": "ECCQ que la UE debería endurecer la regulación económica de la carne procesada",
+     "topic": "economía",
+     "team": "UCM-COM PELIRROJAS",
+     "mate": "Miryam Sanchez Martin",
+     "chair": "Claudia Pérez Gómez🌙",
+     "venue": "Sala 3",
+     "t_avg": 74.3
+    },
+    {
+     "t": "xibpuam__xibpuam",
+     "tname": "XI BP UAM",
+     "date": "2026-10-23",
+     "online": false,
+     "round": "Ronda 2",
+     "seq": 2,
+     "stage": "P",
+     "side": "co",
+     "points": 0,
+     "win": false,
+     "position": 1,
+     "score": 77.0,
+     "iron": false,
+     "room_rank": 6,
+     "motion": "EC Priorizaría resolver la ambivalencia en vez de convivir con ella",
+     "topic": "psicología y salud mental",
+     "team": "UCM-COM PELIRROJAS",
+     "mate": "Miryam Sanchez Martin",
+     "chair": "Adriana Betancor San Juan",
+     "venue": "Sala 6",
+     "t_avg": 74.3
+    },
+    {
+     "t": "xibpuam__xibpuam",
+     "tname": "XI BP UAM",
+     "date": "2026-10-23",
+     "online": false,
+     "round": "Ronda 3",
+     "seq": 3,
+     "stage": "P",
+     "side": "oo",
+     "points": 3,
+     "win": false,
+     "position": 2,
+     "score": 77.0,
+     "iron": false,
+     "room_rank": 2,
+     "motion": "EC Se opone al var",
+     "topic": "filosofía y ética",
+     "team": "UCM-COM PELIRROJAS",
+     "mate": "Miryam Sanchez Martin",
+     "chair": "Amparo Perucho",
+     "venue": "Sala 9",
+     "t_avg": 74.3
+    },
+    {
+     "t": "xibpuam__xibpuam",
+     "tname": "XI BP UAM",
+     "date": "2026-10-23",
+     "online": false,
+     "round": "Ronda 4",
+     "seq": 4,
+     "stage": "P",
+     "side": "cg",
+     "points": 0,
+     "win": false,
+     "position": 1,
+     "score": 78.0,
+     "iron": false,
+     "room_rank": 7,
+     "motion": "ECCQ La investigación científica debería priorizar las preferencias mayoritarias de la ciudadanía en vez de las mayoritarias de la comunidad científica",
+     "topic": "política nacional",
+     "team": "UCM-COM PELIRROJAS",
+     "mate": "Miryam Sanchez Martin",
+     "chair": "Pau García",
+     "venue": "Sala 7",
+     "t_avg": 74.3
+    },
+    {
+     "t": "xibpuam__xibpuam",
+     "tname": "XI BP UAM",
+     "date": "2026-10-23",
+     "online": false,
+     "round": "Ronda 5",
+     "seq": 5,
+     "stage": "P",
+     "side": "og",
+     "points": 2,
+     "win": false,
+     "position": 1,
+     "score": 74.0,
+     "iron": false,
+     "room_rank": 3,
+     "motion": "EC Lamenta el auge de inversión en IA generativa",
+     "topic": "economía",
+     "team": "UCM-COM PELIRROJAS",
+     "mate": "Miryam Sanchez Martin",
+     "chair": "Gabriel Casati",
+     "venue": "Sala 2",
+     "t_avg": 74.3
+    },
+    {
+     "t": "xibpuam__xibpuam",
+     "tname": "XI BP UAM",
+     "date": "2026-10-23",
+     "online": false,
+     "round": "Ronda 6",
+     "seq": 6,
+     "stage": "P",
+     "side": "oo",
+     "points": 2,
+     "win": false,
+     "position": 1,
+     "score": 77.0,
+     "iron": false,
+     "room_rank": 2,
+     "motion": "EC apoya que los movimientos de protesta juveniles en Europa rechacen asociarse con partidos políticos tradicionales",
+     "topic": "política nacional",
+     "team": "UCM-COM PELIRROJAS",
+     "mate": "Miryam Sanchez Martin",
+     "chair": "Pedro Tomás",
+     "venue": "Sala 9",
+     "t_avg": 74.3
     }
    ],
    "elim_rows": [],
-   "avg_speaks": 74.57,
-   "stdev": 3.5,
+   "avg_speaks": 74.78,
+   "stdev": 3.48,
    "best": {
     "t": "viibpregenta__viibplaregenta",
     "tname": "VII BP La Regenta",
@@ -59881,56 +60829,56 @@
     "venue": "PALAU DE LA MÚSICA",
     "t_avg": 70.58
    },
-   "avg_points": 1.61,
+   "avg_points": 1.62,
    "results_dist": {
-    "3": 21,
-    "2": 17,
+    "3": 23,
+    "2": 19,
     "1": 19,
-    "0": 15
+    "0": 17
    },
    "pos1": {
-    "n": 12,
-    "avg": 74.17
+    "n": 17,
+    "avg": 75.12
    },
    "pos2": {
-    "n": 60,
-    "avg": 74.65
+    "n": 61,
+    "avg": 74.69
    },
    "sides": {
     "og": {
      "label": "Alta Gobierno",
-     "n": 17,
-     "avg_points": 1.35,
-     "avg_speaks": 74.18,
-     "firsts": 3
+     "n": 19,
+     "avg_points": 1.47,
+     "avg_speaks": 74.53,
+     "firsts": 4
     },
     "oo": {
      "label": "Alta Oposición",
-     "n": 18,
-     "avg_points": 2.17,
-     "avg_speaks": 74.94,
-     "firsts": 9
+     "n": 20,
+     "avg_points": 2.2,
+     "avg_speaks": 75.15,
+     "firsts": 10
     },
     "cg": {
      "label": "Baja Gobierno",
-     "n": 20,
-     "avg_points": 1.5,
-     "avg_speaks": 73.65,
+     "n": 21,
+     "avg_points": 1.43,
+     "avg_speaks": 73.86,
      "firsts": 6
     },
     "co": {
      "label": "Baja Oposición",
-     "n": 17,
-     "avg_points": 1.41,
-     "avg_speaks": 75.65,
+     "n": 18,
+     "avg_points": 1.33,
+     "avg_speaks": 75.72,
      "firsts": 3
     }
    },
    "topics": {
     "política nacional": {
-     "n": 8,
-     "avg_points": 1.5,
-     "avg_speaks": 73.62
+     "n": 10,
+     "avg_points": 1.4,
+     "avg_speaks": 74.4
     },
     "otros": {
      "n": 8,
@@ -59938,14 +60886,14 @@
      "avg_speaks": 73.62
     },
     "psicología y salud mental": {
-     "n": 2,
-     "avg_points": 2,
-     "avg_speaks": 71.5
+     "n": 3,
+     "avg_points": 1.33,
+     "avg_speaks": 73.33
     },
     "economía": {
-     "n": 16,
-     "avg_points": 1.81,
-     "avg_speaks": 73.69
+     "n": 18,
+     "avg_points": 1.89,
+     "avg_speaks": 74.11
     },
     "feminismo y género": {
      "n": 5,
@@ -59978,8 +60926,8 @@
      "avg_speaks": 74.33
     },
     "filosofía y ética": {
-     "n": 10,
-     "avg_points": 1.6,
+     "n": 11,
+     "avg_points": 1.73,
      "avg_speaks": 77.0
     },
     "medios y cultura": {
@@ -60066,6 +61014,12 @@
      "tname": "VIII PreCMUDE UAM",
      "avg": 74.5,
      "n": 6
+    },
+    {
+     "date": "2026-10-23",
+     "tname": "XI BP UAM",
+     "avg": 77.33,
+     "n": 6
     }
    ],
    "mates": [
@@ -60112,6 +61066,12 @@
      "avg_speaks": 74.5
     },
     {
+     "name": "Miryam Sanchez Martin",
+     "n": 6,
+     "avg_points": 1.67,
+     "avg_speaks": 77.33
+    },
+    {
      "name": "Roberto Piédrola Fernández",
      "n": 5,
      "avg_points": 1.6,
@@ -60124,10 +61084,10 @@
      "avg_speaks": 71.25
     }
    ],
-   "vs_field": 0.92,
+   "vs_field": 1.08,
    "clutch": {
-    "avg_last_round": 74.46,
-    "delta": -0.11
+    "avg_last_round": 74.64,
+    "delta": -0.14
    },
    "streak_top2": 4,
    "env_online": {
@@ -60136,12 +61096,12 @@
     "avg_points": null
    },
    "env_presencial": {
-    "n": 72,
-    "avg_speaks": 74.57,
-    "avg_points": 1.61
+    "n": 78,
+    "avg_speaks": 74.78,
+    "avg_points": 1.62
    },
-   "avg_room_rank": 3.71,
-   "room_best_count": 16,
+   "avg_room_rank": 3.69,
+   "room_best_count": 17,
    "chairs": [
     [
      "Juanjo García",
@@ -78503,12 +79463,12 @@
   },
   "aitor-talavera-monte": {
    "display": "Aitor Talavera Monte",
-   "n_tournaments": 9,
-   "n_rounds": 41,
+   "n_tournaments": 10,
+   "n_rounds": 47,
    "n_elim_rounds": 0,
-   "last_date": "2026-09-26",
-   "n_tournaments_6m": 2,
-   "n_rounds_6m": 7,
+   "last_date": "2026-10-23",
+   "n_tournaments_6m": 3,
+   "n_rounds_6m": 13,
    "breaks": [
     {
      "t": "vbpsepi__vbpsepi",
@@ -78585,6 +79545,13 @@
      "date": "2026-09-26",
      "online": false,
      "team": "UCM-COM RT"
+    },
+    {
+     "slug": "xibpuam__xibpuam",
+     "name": "XI BP UAM",
+     "date": "2026-10-23",
+     "online": false,
+     "team": "UCM-COM bus de imserso"
     }
    ],
    "rows": [
@@ -79530,11 +80497,149 @@
      "chair": "Javier Lara",
      "venue": "Salón de actos",
      "t_avg": 77.76
+    },
+    {
+     "t": "xibpuam__xibpuam",
+     "tname": "XI BP UAM",
+     "date": "2026-10-23",
+     "online": false,
+     "round": "Ronda 1",
+     "seq": 1,
+     "stage": "P",
+     "side": "cg",
+     "points": 0,
+     "win": false,
+     "position": 2,
+     "score": 75.0,
+     "iron": false,
+     "room_rank": 6,
+     "motion": "ECCQ que la UE debería endurecer la regulación económica de la carne procesada",
+     "topic": "economía",
+     "team": "UCM-COM bus de imserso",
+     "mate": "Javier Rodríguez Ruescas",
+     "chair": "Antonio Sáez Marín",
+     "venue": "Sala 2",
+     "t_avg": 74.3
+    },
+    {
+     "t": "xibpuam__xibpuam",
+     "tname": "XI BP UAM",
+     "date": "2026-10-23",
+     "online": false,
+     "round": "Ronda 2",
+     "seq": 2,
+     "stage": "P",
+     "side": "og",
+     "points": 3,
+     "win": false,
+     "position": 1,
+     "score": 73.0,
+     "iron": false,
+     "room_rank": 2,
+     "motion": "EC Priorizaría resolver la ambivalencia en vez de convivir con ella",
+     "topic": "psicología y salud mental",
+     "team": "UCM-COM bus de imserso",
+     "mate": "Javier Rodríguez Ruescas",
+     "chair": "Adriana Rodríguez Alonso",
+     "venue": "Sala 7",
+     "t_avg": 74.3
+    },
+    {
+     "t": "xibpuam__xibpuam",
+     "tname": "XI BP UAM",
+     "date": "2026-10-23",
+     "online": false,
+     "round": "Ronda 3",
+     "seq": 3,
+     "stage": "P",
+     "side": "co",
+     "points": 2,
+     "win": false,
+     "position": 1,
+     "score": 75.0,
+     "iron": true,
+     "room_rank": 3,
+     "motion": "EC Se opone al var",
+     "topic": "filosofía y ética",
+     "team": "UCM-COM bus de imserso",
+     "mate": "Javier Rodríguez Ruescas",
+     "chair": "Amparo Perucho",
+     "venue": "Sala 9",
+     "t_avg": 74.3
+    },
+    {
+     "t": "xibpuam__xibpuam",
+     "tname": "XI BP UAM",
+     "date": "2026-10-23",
+     "online": false,
+     "round": "Ronda 4",
+     "seq": 4,
+     "stage": "P",
+     "side": "oo",
+     "points": 0,
+     "win": false,
+     "position": 1,
+     "score": 74.0,
+     "iron": true,
+     "room_rank": 7,
+     "motion": "ECCQ La investigación científica debería priorizar las preferencias mayoritarias de la ciudadanía en vez de las mayoritarias de la comunidad científica",
+     "topic": "política nacional",
+     "team": "UCM-COM bus de imserso",
+     "mate": "Javier Rodríguez Ruescas",
+     "chair": "Amparo Perucho",
+     "venue": "Sala 9",
+     "t_avg": 74.3
+    },
+    {
+     "t": "xibpuam__xibpuam",
+     "tname": "XI BP UAM",
+     "date": "2026-10-23",
+     "online": false,
+     "round": "Ronda 5",
+     "seq": 5,
+     "stage": "P",
+     "side": "cg",
+     "points": 3,
+     "win": false,
+     "position": 2,
+     "score": 75.0,
+     "iron": false,
+     "room_rank": 2,
+     "motion": "EC Lamenta el auge de inversión en IA generativa",
+     "topic": "economía",
+     "team": "UCM-COM bus de imserso",
+     "mate": "Javier Rodríguez Ruescas",
+     "chair": "Pau García",
+     "venue": "Sala 5",
+     "t_avg": 74.3
+    },
+    {
+     "t": "xibpuam__xibpuam",
+     "tname": "XI BP UAM",
+     "date": "2026-10-23",
+     "online": false,
+     "round": "Ronda 6",
+     "seq": 6,
+     "stage": "P",
+     "side": "og",
+     "points": 0,
+     "win": false,
+     "position": 1,
+     "score": 75.0,
+     "iron": false,
+     "room_rank": 5,
+     "motion": "EC apoya que los movimientos de protesta juveniles en Europa rechacen asociarse con partidos políticos tradicionales",
+     "topic": "política nacional",
+     "team": "UCM-COM bus de imserso",
+     "mate": "Javier Rodríguez Ruescas",
+     "chair": "Pedro Tomás",
+     "venue": "Sala 9",
+     "t_avg": 74.3
     }
    ],
    "elim_rows": [],
-   "avg_speaks": 73.41,
-   "stdev": 2.7,
+   "avg_speaks": 73.55,
+   "stdev": 2.56,
    "best": {
     "t": "vbpsepi__vbpsepi",
     "tname": "V BP SEPI",
@@ -79581,48 +80686,48 @@
     "venue": "A07 - Concepción Peña Pastor",
     "t_avg": 73.01
    },
-   "avg_points": 1.46,
+   "avg_points": 1.45,
    "results_dist": {
-    "3": 9,
-    "2": 9,
+    "3": 11,
+    "2": 10,
     "1": 15,
-    "0": 8
+    "0": 11
    },
    "pos1": {
-    "n": 7,
-    "avg": 73.57
+    "n": 11,
+    "avg": 73.82
    },
    "pos2": {
-    "n": 34,
-    "avg": 73.38
+    "n": 36,
+    "avg": 73.47
    },
    "sides": {
     "og": {
      "label": "Alta Gobierno",
-     "n": 12,
-     "avg_points": 1.58,
-     "avg_speaks": 73.83,
-     "firsts": 2
+     "n": 14,
+     "avg_points": 1.57,
+     "avg_speaks": 73.86,
+     "firsts": 3
     },
     "oo": {
      "label": "Alta Oposición",
-     "n": 10,
-     "avg_points": 1.3,
-     "avg_speaks": 72.7,
+     "n": 11,
+     "avg_points": 1.18,
+     "avg_speaks": 72.82,
      "firsts": 2
     },
     "cg": {
      "label": "Baja Gobierno",
-     "n": 9,
-     "avg_points": 1.78,
-     "avg_speaks": 73.67,
-     "firsts": 3
+     "n": 11,
+     "avg_points": 1.73,
+     "avg_speaks": 73.91,
+     "firsts": 4
     },
     "co": {
      "label": "Baja Oposición",
-     "n": 10,
-     "avg_points": 1.2,
-     "avg_speaks": 73.4,
+     "n": 11,
+     "avg_points": 1.27,
+     "avg_speaks": 73.55,
      "firsts": 2
     }
    },
@@ -79638,14 +80743,14 @@
      "avg_speaks": 75.67
     },
     "filosofía y ética": {
-     "n": 10,
-     "avg_points": 1.2,
-     "avg_speaks": 74.2
+     "n": 11,
+     "avg_points": 1.27,
+     "avg_speaks": 74.27
     },
     "política nacional": {
-     "n": 5,
-     "avg_points": 1.8,
-     "avg_speaks": 72.6
+     "n": 7,
+     "avg_points": 1.29,
+     "avg_speaks": 73.14
     },
     "relaciones internacionales": {
      "n": 1,
@@ -79653,9 +80758,9 @@
      "avg_speaks": 73.0
     },
     "economía": {
-     "n": 6,
-     "avg_points": 2,
-     "avg_speaks": 73.0
+     "n": 8,
+     "avg_points": 1.88,
+     "avg_speaks": 73.5
     },
     "otros": {
      "n": 4,
@@ -79673,9 +80778,9 @@
      "avg_speaks": 74.0
     },
     "psicología y salud mental": {
-     "n": 3,
-     "avg_points": 0.67,
-     "avg_speaks": 72.33
+     "n": 4,
+     "avg_points": 1.25,
+     "avg_speaks": 72.5
     },
     "educación": {
      "n": 2,
@@ -79737,14 +80842,20 @@
      "tname": "Campeonato Nacional de Debate BP 2026",
      "avg": 72.75,
      "n": 4
+    },
+    {
+     "date": "2026-10-23",
+     "tname": "XI BP UAM",
+     "avg": 74.5,
+     "n": 6
     }
    ],
    "mates": [
     {
      "name": "Javier Rodríguez Ruescas",
-     "n": 13,
-     "avg_points": 1.15,
-     "avg_speaks": 73.38
+     "n": 19,
+     "avg_points": 1.21,
+     "avg_speaks": 73.74
     },
     {
      "name": "Javier Rodríguez",
@@ -79783,10 +80894,10 @@
      "avg_speaks": 78.0
     }
    ],
-   "vs_field": -0.96,
+   "vs_field": -0.81,
    "clutch": {
-    "avg_last_round": 73.78,
-    "delta": 0.37
+    "avg_last_round": 73.9,
+    "delta": 0.35
    },
    "streak_top2": 3,
    "env_online": {
@@ -79795,15 +80906,19 @@
     "avg_points": null
    },
    "env_presencial": {
-    "n": 41,
-    "avg_speaks": 73.41,
-    "avg_points": 1.46
+    "n": 47,
+    "avg_speaks": 73.55,
+    "avg_points": 1.45
    },
-   "avg_room_rank": 4.76,
+   "avg_room_rank": 4.68,
    "room_best_count": 3,
    "chairs": [
     [
      "Pedro Tomás",
+     4
+    ],
+    [
+     "Amparo Perucho",
      3
     ],
     [
@@ -79817,21 +80932,17 @@
     [
      "Javier Abellan",
      2
-    ],
-    [
-     "Beatriz Tavares 🧙🏻‍♀️🧶",
-     2
     ]
    ]
   },
   "javier-rodriguez-ruescas": {
    "display": "Javier Rodríguez Ruescas",
-   "n_tournaments": 17,
-   "n_rounds": 96,
+   "n_tournaments": 18,
+   "n_rounds": 100,
    "n_elim_rounds": 0,
-   "last_date": "2026-09-26",
-   "n_tournaments_6m": 2,
-   "n_rounds_6m": 10,
+   "last_date": "2026-10-23",
+   "n_tournaments_6m": 3,
+   "n_rounds_6m": 14,
    "breaks": [
     {
      "t": "viiibpurjc__viiibpurjc",
@@ -79972,6 +81083,13 @@
      "date": "2026-09-26",
      "online": false,
      "team": "UCM-COM RT"
+    },
+    {
+     "slug": "xibpuam__xibpuam",
+     "name": "XI BP UAM",
+     "date": "2026-10-23",
+     "online": false,
+     "team": "UCM-COM bus de imserso"
     }
    ],
    "rows": [
@@ -82182,11 +83300,103 @@
      "chair": "Javier Lara",
      "venue": "Salón de actos",
      "t_avg": 77.76
+    },
+    {
+     "t": "xibpuam__xibpuam",
+     "tname": "XI BP UAM",
+     "date": "2026-10-23",
+     "online": false,
+     "round": "Ronda 1",
+     "seq": 1,
+     "stage": "P",
+     "side": "cg",
+     "points": 0,
+     "win": false,
+     "position": 1,
+     "score": 74.0,
+     "iron": false,
+     "room_rank": 7,
+     "motion": "ECCQ que la UE debería endurecer la regulación económica de la carne procesada",
+     "topic": "economía",
+     "team": "UCM-COM bus de imserso",
+     "mate": "Aitor Talavera Monte",
+     "chair": "Antonio Sáez Marín",
+     "venue": "Sala 2",
+     "t_avg": 74.3
+    },
+    {
+     "t": "xibpuam__xibpuam",
+     "tname": "XI BP UAM",
+     "date": "2026-10-23",
+     "online": false,
+     "round": "Ronda 2",
+     "seq": 2,
+     "stage": "P",
+     "side": "og",
+     "points": 3,
+     "win": false,
+     "position": 2,
+     "score": 75.0,
+     "iron": false,
+     "room_rank": 1,
+     "motion": "EC Priorizaría resolver la ambivalencia en vez de convivir con ella",
+     "topic": "psicología y salud mental",
+     "team": "UCM-COM bus de imserso",
+     "mate": "Aitor Talavera Monte",
+     "chair": "Adriana Rodríguez Alonso",
+     "venue": "Sala 7",
+     "t_avg": 74.3
+    },
+    {
+     "t": "xibpuam__xibpuam",
+     "tname": "XI BP UAM",
+     "date": "2026-10-23",
+     "online": false,
+     "round": "Ronda 5",
+     "seq": 5,
+     "stage": "P",
+     "side": "cg",
+     "points": 3,
+     "win": false,
+     "position": 1,
+     "score": 76.0,
+     "iron": false,
+     "room_rank": 1,
+     "motion": "EC Lamenta el auge de inversión en IA generativa",
+     "topic": "economía",
+     "team": "UCM-COM bus de imserso",
+     "mate": "Aitor Talavera Monte",
+     "chair": "Pau García",
+     "venue": "Sala 5",
+     "t_avg": 74.3
+    },
+    {
+     "t": "xibpuam__xibpuam",
+     "tname": "XI BP UAM",
+     "date": "2026-10-23",
+     "online": false,
+     "round": "Ronda 6",
+     "seq": 6,
+     "stage": "P",
+     "side": "og",
+     "points": 0,
+     "win": false,
+     "position": 2,
+     "score": 75.0,
+     "iron": false,
+     "room_rank": 5,
+     "motion": "EC apoya que los movimientos de protesta juveniles en Europa rechacen asociarse con partidos políticos tradicionales",
+     "topic": "política nacional",
+     "team": "UCM-COM bus de imserso",
+     "mate": "Aitor Talavera Monte",
+     "chair": "Pedro Tomás",
+     "venue": "Sala 9",
+     "t_avg": 74.3
     }
    ],
    "elim_rows": [],
-   "avg_speaks": 74.18,
-   "stdev": 2.73,
+   "avg_speaks": 74.21,
+   "stdev": 2.68,
    "best": {
     "t": "viiprecmudeuam__viiprecmudeuam",
     "tname": "VII PreCMUDE UAM",
@@ -82235,26 +83445,26 @@
    },
    "avg_points": 1.44,
    "results_dist": {
-    "3": 19,
+    "3": 21,
     "2": 29,
     "1": 23,
-    "0": 25
+    "0": 27
    },
    "pos1": {
-    "n": 77,
-    "avg": 74.05
+    "n": 79,
+    "avg": 74.08
    },
    "pos2": {
-    "n": 19,
-    "avg": 74.68
+    "n": 21,
+    "avg": 74.71
    },
    "sides": {
     "og": {
      "label": "Alta Gobierno",
-     "n": 25,
+     "n": 27,
      "avg_points": 1.48,
-     "avg_speaks": 73.96,
-     "firsts": 5
+     "avg_speaks": 74.04,
+     "firsts": 6
     },
     "oo": {
      "label": "Alta Oposición",
@@ -82265,10 +83475,10 @@
     },
     "cg": {
      "label": "Baja Gobierno",
-     "n": 22,
+     "n": 24,
      "avg_points": 1.5,
-     "avg_speaks": 74.32,
-     "firsts": 6
+     "avg_speaks": 74.38,
+     "firsts": 7
     },
     "co": {
      "label": "Baja Oposición",
@@ -82290,9 +83500,9 @@
      "avg_speaks": 73.55
     },
     "economía": {
-     "n": 15,
-     "avg_points": 1.6,
-     "avg_speaks": 73.27
+     "n": 17,
+     "avg_points": 1.59,
+     "avg_speaks": 73.47
     },
     "medios y cultura": {
      "n": 4,
@@ -82305,9 +83515,9 @@
      "avg_speaks": 74.0
     },
     "política nacional": {
-     "n": 8,
-     "avg_points": 1.38,
-     "avg_speaks": 74.0
+     "n": 9,
+     "avg_points": 1.22,
+     "avg_speaks": 74.11
     },
     "ciencia y tecnología": {
      "n": 3,
@@ -82320,9 +83530,9 @@
      "avg_speaks": 73.75
     },
     "psicología y salud mental": {
-     "n": 8,
-     "avg_points": 1.38,
-     "avg_speaks": 74.88
+     "n": 9,
+     "avg_points": 1.56,
+     "avg_speaks": 74.89
     },
     "religión": {
      "n": 7,
@@ -82447,14 +83657,20 @@
      "tname": "Campeonato Nacional de Debate BP 2026",
      "avg": 73.75,
      "n": 4
+    },
+    {
+     "date": "2026-10-23",
+     "tname": "XI BP UAM",
+     "avg": 75.0,
+     "n": 4
     }
    ],
    "mates": [
     {
      "name": "Aitor Talavera Monte",
-     "n": 15,
-     "avg_points": 1.13,
-     "avg_speaks": 74.47
+     "n": 19,
+     "avg_points": 1.21,
+     "avg_speaks": 74.58
     },
     {
      "name": "Aitor Talavera",
@@ -82529,10 +83745,10 @@
      "avg_speaks": 75.6
     }
    ],
-   "vs_field": 0.14,
+   "vs_field": 0.17,
    "clutch": {
-    "avg_last_round": 74.18,
-    "delta": -0.0
+    "avg_last_round": 74.22,
+    "delta": 0.01
    },
    "streak_top2": 6,
    "env_online": {
@@ -82541,16 +83757,20 @@
     "avg_points": 1.2
    },
    "env_presencial": {
-    "n": 91,
-    "avg_speaks": 74.16,
+    "n": 95,
+    "avg_speaks": 74.2,
     "avg_points": 1.45
    },
-   "avg_room_rank": 4.18,
-   "room_best_count": 15,
+   "avg_room_rank": 4.15,
+   "room_best_count": 17,
    "chairs": [
     [
      "Isabella Vásquez",
      6
+    ],
+    [
+     "Pedro Tomás",
+     4
     ],
     [
      "Carlos Montero",
@@ -82562,10 +83782,6 @@
     ],
     [
      "Amadeo Gavilano 🤖",
-     3
-    ],
-    [
-     "Pedro Tomás",
      3
     ]
    ]
@@ -87952,12 +89168,12 @@
   },
   "miryam-sanchez-martin": {
    "display": "Miryam Sánchez Martín",
-   "n_tournaments": 7,
-   "n_rounds": 41,
+   "n_tournaments": 8,
+   "n_rounds": 46,
    "n_elim_rounds": 0,
-   "last_date": "2026-04-10",
-   "n_tournaments_6m": 0,
-   "n_rounds_6m": 0,
+   "last_date": "2026-10-23",
+   "n_tournaments_6m": 1,
+   "n_rounds_6m": 5,
    "breaks": [],
    "n_breaks": 0,
    "n_breaks_novice": 0,
@@ -88011,6 +89227,13 @@
      "date": "2026-04-10",
      "online": false,
      "team": "UCM-COM Campanera"
+    },
+    {
+     "slug": "xibpuam__xibpuam",
+     "name": "XI BP UAM",
+     "date": "2026-10-23",
+     "online": false,
+     "team": "UCM-COM PELIRROJAS"
     }
    ],
    "rows": [
@@ -88956,33 +90179,148 @@
      "chair": "🕶️Fabian Miulescu",
      "venue": "Aula Farmacia 2",
      "t_avg": 72.75
+    },
+    {
+     "t": "xibpuam__xibpuam",
+     "tname": "XI BP UAM",
+     "date": "2026-10-23",
+     "online": false,
+     "round": "Ronda 2",
+     "seq": 2,
+     "stage": "P",
+     "side": "co",
+     "points": 0,
+     "win": false,
+     "position": 2,
+     "score": 76.0,
+     "iron": false,
+     "room_rank": 7,
+     "motion": "EC Priorizaría resolver la ambivalencia en vez de convivir con ella",
+     "topic": "psicología y salud mental",
+     "team": "UCM-COM PELIRROJAS",
+     "mate": "Carmen Alonso Palomo",
+     "chair": "Adriana Betancor San Juan",
+     "venue": "Sala 6",
+     "t_avg": 74.3
+    },
+    {
+     "t": "xibpuam__xibpuam",
+     "tname": "XI BP UAM",
+     "date": "2026-10-23",
+     "online": false,
+     "round": "Ronda 3",
+     "seq": 3,
+     "stage": "P",
+     "side": "oo",
+     "points": 3,
+     "win": false,
+     "position": 1,
+     "score": 78.0,
+     "iron": false,
+     "room_rank": 1,
+     "motion": "EC Se opone al var",
+     "topic": "filosofía y ética",
+     "team": "UCM-COM PELIRROJAS",
+     "mate": "Carmen Alonso Palomo",
+     "chair": "Amparo Perucho",
+     "venue": "Sala 9",
+     "t_avg": 74.3
+    },
+    {
+     "t": "xibpuam__xibpuam",
+     "tname": "XI BP UAM",
+     "date": "2026-10-23",
+     "online": false,
+     "round": "Ronda 4",
+     "seq": 4,
+     "stage": "P",
+     "side": "cg",
+     "points": 0,
+     "win": false,
+     "position": 2,
+     "score": 76.0,
+     "iron": false,
+     "room_rank": 8,
+     "motion": "ECCQ La investigación científica debería priorizar las preferencias mayoritarias de la ciudadanía en vez de las mayoritarias de la comunidad científica",
+     "topic": "política nacional",
+     "team": "UCM-COM PELIRROJAS",
+     "mate": "Carmen Alonso Palomo",
+     "chair": "Pau García",
+     "venue": "Sala 7",
+     "t_avg": 74.3
+    },
+    {
+     "t": "xibpuam__xibpuam",
+     "tname": "XI BP UAM",
+     "date": "2026-10-23",
+     "online": false,
+     "round": "Ronda 5",
+     "seq": 5,
+     "stage": "P",
+     "side": "og",
+     "points": 2,
+     "win": false,
+     "position": 2,
+     "score": 74.0,
+     "iron": false,
+     "room_rank": 3,
+     "motion": "EC Lamenta el auge de inversión en IA generativa",
+     "topic": "economía",
+     "team": "UCM-COM PELIRROJAS",
+     "mate": "Carmen Alonso Palomo",
+     "chair": "Gabriel Casati",
+     "venue": "Sala 2",
+     "t_avg": 74.3
+    },
+    {
+     "t": "xibpuam__xibpuam",
+     "tname": "XI BP UAM",
+     "date": "2026-10-23",
+     "online": false,
+     "round": "Ronda 6",
+     "seq": 6,
+     "stage": "P",
+     "side": "oo",
+     "points": 2,
+     "win": false,
+     "position": 2,
+     "score": 75.0,
+     "iron": false,
+     "room_rank": 5,
+     "motion": "EC apoya que los movimientos de protesta juveniles en Europa rechacen asociarse con partidos políticos tradicionales",
+     "topic": "política nacional",
+     "team": "UCM-COM PELIRROJAS",
+     "mate": "Carmen Alonso Palomo",
+     "chair": "Pedro Tomás",
+     "venue": "Sala 9",
+     "t_avg": 74.3
     }
    ],
    "elim_rows": [],
-   "avg_speaks": 71.32,
-   "stdev": 3.44,
+   "avg_speaks": 71.8,
+   "stdev": 3.56,
    "best": {
-    "t": "xibpurjc__xibpurjc",
-    "tname": "XI BP URJC",
-    "date": "2025-11-14",
+    "t": "xibpuam__xibpuam",
+    "tname": "XI BP UAM",
+    "date": "2026-10-23",
     "online": false,
-    "round": "Ronda 2",
-    "seq": 2,
+    "round": "Ronda 3",
+    "seq": 3,
     "stage": "P",
-    "side": "og",
-    "points": 2,
+    "side": "oo",
+    "points": 3,
     "win": false,
-    "position": 2,
-    "score": 77.0,
+    "position": 1,
+    "score": 78.0,
     "iron": false,
-    "room_rank": 3,
-    "motion": "EC apoya el modelo de competitividad deportiva regulada.",
-    "topic": "política nacional",
-    "team": "UCM-COM Miss Rubias Gallegas",
-    "mate": "Anxo Boutureira Taboada",
-    "chair": "Cristina Oñate",
-    "venue": "Sala 263",
-    "t_avg": 74.81
+    "room_rank": 1,
+    "motion": "EC Se opone al var",
+    "topic": "filosofía y ética",
+    "team": "UCM-COM PELIRROJAS",
+    "mate": "Carmen Alonso Palomo",
+    "chair": "Amparo Perucho",
+    "venue": "Sala 9",
+    "t_avg": 74.3
    },
    "worst": {
     "t": "iibpcomunicateucm__iiibpcomunicate",
@@ -89007,48 +90345,48 @@
     "venue": "Aula 116B",
     "t_avg": 73.62
    },
-   "avg_points": 1.27,
+   "avg_points": 1.28,
    "results_dist": {
-    "3": 7,
-    "2": 12,
+    "3": 8,
+    "2": 14,
     "1": 7,
-    "0": 15
+    "0": 17
    },
    "pos1": {
-    "n": 8,
-    "avg": 69.0
+    "n": 9,
+    "avg": 70.0
    },
    "pos2": {
-    "n": 33,
-    "avg": 71.88
+    "n": 37,
+    "avg": 72.24
    },
    "sides": {
     "og": {
      "label": "Alta Gobierno",
-     "n": 10,
-     "avg_points": 1.5,
-     "avg_speaks": 72.1,
+     "n": 11,
+     "avg_points": 1.55,
+     "avg_speaks": 72.27,
      "firsts": 2
     },
     "oo": {
      "label": "Alta Oposición",
-     "n": 10,
-     "avg_points": 1.4,
-     "avg_speaks": 72.1,
-     "firsts": 2
+     "n": 12,
+     "avg_points": 1.58,
+     "avg_speaks": 72.83,
+     "firsts": 3
     },
     "cg": {
      "label": "Baja Gobierno",
-     "n": 8,
-     "avg_points": 1.38,
-     "avg_speaks": 71.12,
+     "n": 9,
+     "avg_points": 1.22,
+     "avg_speaks": 71.67,
      "firsts": 1
     },
     "co": {
      "label": "Baja Oposición",
-     "n": 13,
-     "avg_points": 0.92,
-     "avg_speaks": 70.23,
+     "n": 14,
+     "avg_points": 0.86,
+     "avg_speaks": 70.64,
      "firsts": 2
     }
    },
@@ -89074,14 +90412,14 @@
      "avg_speaks": 65.0
     },
     "filosofía y ética": {
-     "n": 6,
-     "avg_points": 1.17,
-     "avg_speaks": 71.67
+     "n": 7,
+     "avg_points": 1.43,
+     "avg_speaks": 72.57
     },
     "política nacional": {
-     "n": 4,
-     "avg_points": 1.25,
-     "avg_speaks": 71.75
+     "n": 6,
+     "avg_points": 1.17,
+     "avg_speaks": 73.0
     },
     "ciencia y tecnología": {
      "n": 3,
@@ -89089,9 +90427,9 @@
      "avg_speaks": 71.0
     },
     "economía": {
-     "n": 6,
-     "avg_points": 0.83,
-     "avg_speaks": 69.33
+     "n": 7,
+     "avg_points": 1,
+     "avg_speaks": 70.0
     },
     "religión": {
      "n": 4,
@@ -89099,9 +90437,9 @@
      "avg_speaks": 73.0
     },
     "psicología y salud mental": {
-     "n": 2,
-     "avg_points": 2.5,
-     "avg_speaks": 74.0
+     "n": 3,
+     "avg_points": 1.67,
+     "avg_speaks": 74.67
     },
     "relaciones internacionales": {
      "n": 1,
@@ -89156,6 +90494,12 @@
      "tname": "V BP UB",
      "avg": 71.83,
      "n": 6
+    },
+    {
+     "date": "2026-10-23",
+     "tname": "XI BP UAM",
+     "avg": 75.8,
+     "n": 5
     }
    ],
    "mates": [
@@ -89182,12 +90526,18 @@
      "n": 6,
      "avg_points": 1.67,
      "avg_speaks": 71.83
+    },
+    {
+     "name": "Carmen Alonso Palomo",
+     "n": 5,
+     "avg_points": 1.4,
+     "avg_speaks": 75.8
     }
    ],
-   "vs_field": -2.49,
+   "vs_field": -2.05,
    "clutch": {
-    "avg_last_round": 70.71,
-    "delta": -0.61
+    "avg_last_round": 71.25,
+    "delta": -0.55
    },
    "streak_top2": 4,
    "env_online": {
@@ -89196,12 +90546,12 @@
     "avg_points": null
    },
    "env_presencial": {
-    "n": 41,
-    "avg_speaks": 71.32,
-    "avg_points": 1.27
+    "n": 46,
+    "avg_speaks": 71.8,
+    "avg_points": 1.28
    },
-   "avg_room_rank": 4.44,
-   "room_best_count": 3,
+   "avg_room_rank": 4.48,
+   "room_best_count": 4,
    "chairs": [
     [
      "Fabian Miulescu 🕶️",
