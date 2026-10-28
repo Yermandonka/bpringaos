@@ -1,6 +1,6 @@
 {
  "generated": true,
- "n_tournaments_scanned": 310,
+ "n_tournaments_scanned": 312,
  "n_people": 103,
  "tournaments_scanned": [
   {
@@ -1506,6 +1506,20 @@
    "slug": "tndeespanol25",
    "base": "https://tnde2025.calicotab.com",
    "date": "2025-08-09",
+   "online": false
+  },
+  {
+   "name": "Torneo Nacional de Debate Ecuador 2026",
+   "slug": "tnde2026",
+   "base": "https://tnde2026.calicotab.com",
+   "date": "2026-01-01",
+   "online": false
+  },
+  {
+   "name": "Torneo Nacional de Debate Ecuador 2026 - Discursos",
+   "slug": "tnde2026discursos",
+   "base": "https://tnde2026.calicotab.com",
+   "date": "2026-01-01",
    "online": false
   },
   {

@@ -56,5 +56,18 @@
     "name": "XI BP UAM"
    }
   ]
+ },
+ {
+  "base": "https://tnde2026.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "tnde2026",
+    "name": "Torneo Nacional de Debate Ecuador 2026"
+   },
+   {
+    "slug": "tnde2026discursos",
+    "name": "Torneo Nacional de Debate Ecuador 2026 - Discursos"
+   }
+  ]
  }
 ]
