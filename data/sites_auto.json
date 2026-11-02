@@ -69,5 +69,289 @@
     "name": "Torneo Nacional de Debate Ecuador 2026 - Discursos"
    }
   ]
+ },
+ {
+  "base": "https://aquinasroncalli2022.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "P",
+    "name": "Prueba"
+   },
+   {
+    "slug": "ToEx",
+    "name": "Discursos ToEx"
+   }
+  ]
+ },
+ {
+  "base": "https://categoriamayormexicodebate2023.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "torneonacionaldiscursosmexicodebatecategoriamayor",
+    "name": "Torneo Nacional de Discursos México Debate Categoría Mayor 18 a 29 años"
+   }
+  ]
+ },
+ {
+  "base": "https://categoriamenormexicodebate2023.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "torneonacionaldiscursosmexicodebatecategoriamenor",
+    "name": "Torneo Nacional de Discursos México Debate Categoría Menor 13 a 17 años"
+   }
+  ]
+ },
+ {
+  "base": "https://cimepresencial2025.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "cimetvirtualdiscursos2025",
+    "name": "Campeonato Interinstitutional Metropolitano Virtual Discursos 2025"
+   }
+  ]
+ },
+ {
+  "base": "https://cimet2026.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "discursos",
+    "name": "Discursos CIMET Presencial 2026"
+   },
+   {
+    "slug": "masters",
+    "name": "Masters CIMET Presencial 2026"
+   }
+  ]
+ },
+ {
+  "base": "https://cocledebatingchampionship.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "cdc2024discursos",
+    "name": "Coclé Debating Championship 2024 Discursos"
+   }
+  ]
+ },
+ {
+  "base": "https://copaandresbellopresencialv.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "cabpresencialvdiscursos",
+    "name": "Discursos Copa Andrés Bello Presencial V"
+   }
+  ]
+ },
+ {
+  "base": "https://cuenca2023.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "cuenca_discursos2023",
+    "name": "Torneo Nacional de Debate Ecuador - Cuenca 2023 Categoria Discursos"
+   }
+  ]
+ },
+ {
+  "base": "https://nacionaluasbecuador2024.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "DiscursosTNDE2024",
+    "name": "Torneo Nacional de Debate Ecuatoriano UASB-E 2024 - Discursos"
+   },
+   {
+    "slug": "discursosandino2024",
+    "name": "Discursos Torneo Andino de Debate UASB-E 2024"
+   }
+  ]
+ },
+ {
+  "base": "https://pucpiv2025.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "pucpiv2",
+    "name": "PUCP IV 2"
+   }
+  ]
+ },
+ {
+  "base": "https://rosarioopen2023.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "rosdiscursos23",
+    "name": "Torneo Virtual Rosario Open Discursos de 2023"
+   }
+  ]
+ },
+ {
+  "base": "https://rosarioopen2024.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "discursosrosarioopen24",
+    "name": "Discursos Rosario Open 2024"
+   }
+  ]
+ },
+ {
+  "base": "https://rosarioopen2025.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "discursos2025",
+    "name": "Rosario Open - Discursos 2025"
+   }
+  ]
+ },
+ {
+  "base": "https://sodech.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "tech_open2026",
+    "name": "Torneo Escolar Cayetano Heredia 2026"
+   },
+   {
+    "slug": "techjunior2026",
+    "name": "Torneo Escolar Cayetano Heredia 2025"
+   }
+  ]
+ },
+ {
+  "base": "https://tnde2025.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "tndeingles2025",
+    "name": "Torneo Nacional Escolar de Debate 2025 - Inglés"
+   }
+  ]
+ },
+ {
+  "base": "https://todi25.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "todidiscursos2025",
+    "name": "Torneo de Debate Interuniversitario - DISCURSOS 2025"
+   }
+  ]
+ },
+ {
+  "base": "https://vibpcomunicateucm.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "discursosvibpcomunicateucm",
+    "name": "Discursos VI BP Comunícate UCM"
+   }
+  ]
+ },
+ {
+  "base": "https://bpcdc.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "bpcdc23",
+    "name": "Beaconhouse Potohar Campus Debating Championship 2023"
+   },
+   {
+    "slug": "fpdc24",
+    "name": "Fast Parliamentary Debating Championship"
+   },
+   {
+    "slug": "bpcdc25",
+    "name": "Beaconhouse Potohar Campus Debating Championship 2025"
+   }
+  ]
+ },
+ {
+  "base": "https://bplaregenta.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "regenta2020",
+    "name": "II BP La Regenta"
+   }
+  ]
+ },
+ {
+  "base": "https://cdc26.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "CDC26",
+    "name": "Capital Debating Championship 2026"
+   }
+  ]
+ },
+ {
+  "base": "https://ixcampeonatoescolardebateesan.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "xicampeonatoescolardebateesan",
+    "name": "IX Campeonato Escolar de Debate ESAN"
+   }
+  ]
+ },
+ {
+  "base": "https://techopen.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "tech-open",
+    "name": "Technion Open 2020"
+   },
+   {
+    "slug": "EnglishOpen2020",
+    "name": "The English Open 2020"
+   }
+  ]
+ },
+ {
+  "base": "https://tnde.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "tndeingles",
+    "name": "Torneo Nacional de Debate Escolar - Inglés"
+   }
+  ]
+ },
+ {
+  "base": "https://tndeespanol.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "tndeespanol25",
+    "name": "Torneo Nacional de Debate Escolar 2025 - Español"
+   },
+   {
+    "slug": "tndeingles2025",
+    "name": "Torneo Nacional Escolar de Debate 2025 - Inglés"
+   }
+  ]
+ },
+ {
+  "base": "https://toex.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "externadista",
+    "name": "Torneo de Debate Externadista"
+   }
+  ]
+ },
+ {
+  "base": "https://torneotrener.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "tdtrener2022",
+    "name": "Torneo de Debate Trener 2022"
+   }
+  ]
+ },
+ {
+  "base": "https://xcampeonatoescolardebateesan.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "xcampeonatoescolardebateesan",
+    "name": "X Campeonato Escolar de Debate ESAN"
+   }
+  ]
+ },
+ {
+  "base": "https://xivinterpoli.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "XIVInterpoli",
+    "name": "XIV BP Interpoli"
+   }
+  ]
  }
 ]
