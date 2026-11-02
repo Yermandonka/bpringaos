@@ -112,5 +112,6 @@
 {"base":"https://tubi2025.calicotab.com","tournaments":[{"slug":"tubi2025","name":"TUBI 2025"},{"slug":"masters2025","name":"TUBI Masters 2025"}]},
 {"base":"https://regionalpanamaa2022.calicotab.com","tournaments":[{"slug":"cnade2022","name":"CNADE Panamá 2022"},{"slug":"cnademaster2022","name":"CNADE Panamá Masters 2022"}]},
 {"base":"https://tonade2023.calicotab.com","tournaments":[{"slug":"tonade2023","name":"TONADE Chile 2023"}]},
-{"base":"https://tonade2024.calicotab.com","tournaments":[{"slug":"TONADE2024","name":"TONADE Chile 2024 Open"},{"slug":"MastersTONADE2024","name":"TONADE Chile 2024 Masters"}]}
+{"base":"https://tonade2024.calicotab.com","tournaments":[{"slug":"TONADE2024","name":"TONADE Chile 2024 Open"},{"slug":"MastersTONADE2024","name":"TONADE Chile 2024 Masters"}]},
+{"base":"https://bpeliasahuja2026.calicotab.com","tournaments":[{"slug":"bpeliasahuja2026","name":"BP Elías Ahúja 2026"}]}
 ]
