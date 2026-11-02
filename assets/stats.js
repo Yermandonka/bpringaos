@@ -5,6 +5,7 @@
   const COLORS = { german: "#e8620c", lucia: "#5fa32b" };
   const UI = { german: "#ff7a1a", lucia: "#97ce4c" };
   const DEF_COL = "#e8620c", DEF_UI = "#ff7a1a";
+  const AVG_COL = "#6ec6ff"; // media acumulada (azul: distinto de las dos personas)
   const ORD = { 3: "#f08326", 2: "#cf6410", 1: "#a1500e", 0: "#7a4012" };
   const POS_LABEL = { 3: "Primeros", 2: "Segundos", 1: "Terceros", 0: "Cuartos" };
   const RANK_TXT = ["4º", "3º", "2º", "1º"];
@@ -158,7 +159,7 @@
   add({
     id: "evolucion", kicker: "estadística 02 · la película",
     title: "Speaks ronda a ronda",
-    quip: "Cada punto es un discurso real ante jueces reales. Eje de 55 a 85 para que el viaje se note. Toca (o pasa el ratón por) cada punto para ver el detalle.",
+    quip: "Cada punto tenue es un discurso real ante jueces reales; la línea azul es la media acumulada, la que dice de verdad si vas a mejor o a peor. Eje de 55 a 85 para que el viaje se note. Toca (o pasa el ratón por) cada punto para ver el detalle.",
     build: (el) => {
       el.innerHTML = `<div class="chart-scroll deck-chart"><svg id="evoChart" role="img" aria-label="Evolución ronda a ronda"></svg></div>`;
     },
@@ -456,7 +457,7 @@
     const mob = innerWidth < 640;
     // en móvil el lienzo es más alto (retrato) y con más margen para etiquetas legibles
     const Wc = 1000, Hc = mob ? 780 : 460;
-    const m = mob ? { t: 26, r: 20, b: 92, l: 70 } : { t: 30, r: 22, b: 66, l: 42 };
+    const m = mob ? { t: 26, r: 20, b: 92, l: 70 } : { t: 30, r: 22, b: 80, l: 42 };
     svg.classList.toggle("evo-mob", mob);
     svg.setAttribute("viewBox", `0 0 ${Wc} ${Hc}`);
     svg.setAttribute("preserveAspectRatio", "xMidYMid meet");
@@ -475,7 +476,7 @@
     // defs: gradiente del área + filtro de brillo
     const defs = mk("defs", {});
     const grad = mk("linearGradient", { id: "evoGrad", x1: 0, y1: 0, x2: 0, y2: 1 }, defs);
-    mk("stop", { offset: "0%", "stop-color": col, "stop-opacity": "0.42" }, grad);
+    mk("stop", { offset: "0%", "stop-color": col, "stop-opacity": "0.16" }, grad);
     mk("stop", { offset: "100%", "stop-color": col, "stop-opacity": "0" }, grad);
     const glow = mk("filter", { id: "evoGlow", x: "-40%", y: "-40%", width: "180%", height: "180%" }, defs);
     mk("feGaussianBlur", { stdDeviation: "3.4", result: "b" }, glow);
@@ -509,7 +510,7 @@
         const nb = bands[k + 1];
         if (!nb || nb.year !== b.year) {
           const cx = (bands[s].x0 + b.x1) / 2;
-          const t = mk("text", { x: cx, y: mob ? Hc - m.b + 26 : Hc - 34, "text-anchor": "middle", class: "tband-label tband-year" });
+          const t = mk("text", { x: cx, y: mob ? Hc - m.b + 26 : Hc - 44, "text-anchor": "middle", class: "tband-label tband-year" });
           t.textContent = b.year || "";
           // tick divisorio entre años
           if (nb) mk("line", { x1: (b.x1 + nb.x0) / 2, x2: (b.x1 + nb.x0) / 2, y1: m.t, y2: Hc - m.b, class: "yeardiv" });
@@ -518,7 +519,9 @@
       });
     } else {
       const lim = mob ? 15 : 22;
-      bands.forEach((b) => {
+      // en escritorio, si las bandas son estrechas, alternamos dos alturas para que no se pisen
+      const stagger = !mob && avgBand < 170;
+      bands.forEach((b, k) => {
         const cx = (b.x0 + b.x1) / 2;
         const lbl = mk("text", { class: "tband-label" });
         lbl.textContent = (b.tname.length > lim ? b.tname.slice(0, lim - 1) + "…" : b.tname).toUpperCase();
@@ -528,7 +531,7 @@
           lbl.setAttribute("text-anchor", "start");
           lbl.setAttribute("transform", `rotate(-90 ${cx} ${ay})`);
         } else {
-          lbl.setAttribute("x", cx); lbl.setAttribute("y", Hc - 36);
+          lbl.setAttribute("x", cx); lbl.setAttribute("y", stagger && k % 2 ? Hc - 32 : Hc - 50);
           lbl.setAttribute("text-anchor", "middle");
         }
       });
@@ -541,6 +544,18 @@
       t.textContent = v;
     }
 
+    // leyenda: discursos (tenue, color de la persona) vs media acumulada (azul)
+    const lg = mk("g", { class: "evo-legend" });
+    const u = mob ? 1.3 : 1;
+    const lx = Wc - m.r - 310 * u, ly = m.t + 2;
+    mk("line", { x1: lx, x2: lx + 26 * u, y1: ly, y2: ly, stroke: col, "stroke-width": 1.6, opacity: 0.45 }, lg);
+    mk("circle", { cx: lx + 13 * u, cy: ly, r: 4 * u, fill: col, opacity: 0.7 }, lg);
+    let lt = mk("text", { x: lx + 34 * u, y: ly + 4.5 * u }, lg);
+    lt.textContent = "cada discurso";
+    mk("line", { x1: lx + 160 * u, x2: lx + 186 * u, y1: ly, y2: ly, stroke: AVG_COL, "stroke-width": 3.5 }, lg);
+    lt = mk("text", { x: lx + 194 * u, y: ly + 4.5 * u }, lg);
+    lt.textContent = "media acumulada";
+
     // área bajo la línea (se revela con clip animado)
     const clip = mk("clipPath", { id: "evoClip" }, defs);
     const clipRect = mk("rect", { x: m.l, y: 0, width: reduced ? Wc : 0, height: Hc }, clip);
@@ -550,11 +565,25 @@
     mk("path", { d: areaD, fill: "url(#evoGrad)", "clip-path": "url(#evoClip)" });
 
     const lineD = rows.map((r, i) => `${i ? "L" : "M"}${xs(i)},${ys(r.score)}`).join("");
-    const path = mk("path", { d: lineD, class: "evo-line", stroke: col, filter: "url(#evoGlow)" });
+    const path = mk("path", { d: lineD, class: "evo-line evo-line-raw", stroke: col });
     const len = path.getTotalLength();
+
+    // media acumulada: la línea que de verdad cuenta la historia
+    const cum = [];
+    let acc = 0;
+    rows.forEach((r, i) => { acc += r.score; cum.push(acc / (i + 1)); });
+    const avgD = cum.map((v, i) => `${i ? "L" : "M"}${xs(i)},${ys(v)}`).join("");
+    const avgPath = mk("path", { d: avgD, class: "evo-line evo-line-avg", stroke: AVG_COL, filter: "url(#evoGlow)" });
+    const avgLen = avgPath.getTotalLength();
+    const last = rows.length - 1;
+    const avgAbove = cum[last] >= rows[last].score; // no pisar la etiqueta del punto
+    const avgLbl = mk("text", { x: xs(last) + 6, y: ys(cum[last]) + (avgAbove ? -14 : 24), "text-anchor": "end",
+                                class: "direct-label avg-label", fill: AVG_COL, opacity: reduced ? 1 : 0 });
+    avgLbl.textContent = `media ${cum[last].toFixed(1)}`;
 
     // chispa que viaja por la línea mientras se dibuja
     const spark = reduced ? null : mk("circle", { r: 7, fill: "#fff", filter: "url(#evoGlow)", opacity: 0 });
+    // la chispa viaja por la media acumulada (la línea protagonista)
 
     const maxV = Math.max(...rows.map((r) => r.score));
     const minV = Math.min(...rows.map((r) => r.score));
@@ -566,6 +595,7 @@
       const tipHTML = `<div class="tt-title">${r.score} speaks${r.iron ? " 🔩" : ""}</div>
           <div class="tt-row">${r.tname} · ${r.round}</div>
           <div class="tt-row">${SIDE[r.side] || r.side} · ${r.points != null ? RANK_TXT[r.points] : "?"} · ${r.position}º orador${r.iron ? " · IRON (2 discursos)" : ""}</div>
+          <div class="tt-row" style="color:${AVG_COL}">media acumulada hasta aquí: ${cum[i].toFixed(2)}</div>
           ${r.motion ? `<div class="tt-row" style="margin-top:4px">«${r.motion.slice(0, 110)}${r.motion.length > 110 ? "…" : ""}»</div>` : ""}`;
       dot.addEventListener("mousemove", (e) => showTip(tipHTML, e.clientX, e.clientY));
       dot.addEventListener("mouseleave", hideTip);
@@ -588,6 +618,8 @@
     // trazado de la línea + área + chispa + pop de dots, todo sincronizado
     path.style.strokeDasharray = len;
     path.style.strokeDashoffset = len;
+    avgPath.style.strokeDasharray = avgLen;
+    avgPath.style.strokeDashoffset = avgLen;
     const DUR = Math.min(3200, 900 + rows.length * 90);
     let t0 = null;
     const popped = new Set();
@@ -596,9 +628,10 @@
       const k = Math.min(1, (ts - t0) / DUR);
       const ease = 1 - Math.pow(1 - k, 2.2);
       path.style.strokeDashoffset = len * (1 - ease);
+      avgPath.style.strokeDashoffset = avgLen * (1 - ease);
       clipRect.setAttribute("width", (Wc - m.l) * ease);
-      // chispa en la punta
-      const pt = path.getPointAtLength(len * ease);
+      // chispa en la punta de la media acumulada
+      const pt = avgPath.getPointAtLength(avgLen * ease);
       if (spark) { spark.setAttribute("cx", pt.x); spark.setAttribute("cy", pt.y); spark.setAttribute("opacity", k < 1 ? 1 : 0); }
       // pop de dots ya alcanzados
       dots.forEach((d, i) => {
@@ -608,7 +641,11 @@
         }
       });
       if (k < 1) requestAnimationFrame(frame);
-      else { dots.forEach((d, i) => { if (!popped.has(i)) popDot(d); }); afterGlow(); }
+      else {
+        dots.forEach((d, i) => { if (!popped.has(i)) popDot(d); });
+        avgLbl.style.transition = "opacity .5s"; avgLbl.style.opacity = 1;
+        afterGlow();
+      }
     }
     function popDot(d) {
       const target = d.best ? 7 : 5;
@@ -641,7 +678,7 @@
       (function sweep(now) {
         const kk = (now - a0) / SW;
         if (kk >= 1) { spark.setAttribute("opacity", 0); return; }
-        const p = path.getPointAtLength(len * kk);
+        const p = avgPath.getPointAtLength(avgLen * kk);
         spark.setAttribute("cx", p.x); spark.setAttribute("cy", p.y);
         spark.setAttribute("opacity", Math.sin(kk * Math.PI) * 0.9);
         spark.setAttribute("r", 5 + 3 * Math.sin(kk * Math.PI));

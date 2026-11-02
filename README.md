@@ -12,6 +12,10 @@ naranja/negro (Comunícate UCM) y humor interdimensional.
 - `assets/` — estilos, JS de portada y del deck.
 - `scraper/` — pipeline de datos:
   - `discover.py hosts.txt out.json` — dado un fichero de hosts, lista los torneos de cada instancia.
+  - `discover_new.py` — autodescubrimiento diario: reescanea los hosts conocidos (slugs nuevos) y
+    prueba la "siguiente edición" de cada serie (tallo + año actual/siguiente, siguiente romano,
+    siguiente edición, con/sin `bp`). `--dry-run --ignore HOST --show HOST` para comprobar que un
+    host saldría como candidato. Escribe en `data/sites_auto.json`.
   - `brute.sh hosts.txt` — comprueba en paralelo qué subdominios de calicotab existen.
   - `fetch.py sites.json` — descarga rondas, mociones, equipos, oradores, jueces y ballots a `data/raw/`.
   - `analyze.py` — cruza todo, busca a las personas objetivo (matching difuso de nombres) y escribe `data/stats.json`.
