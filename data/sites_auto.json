@@ -353,5 +353,32 @@
     "name": "XIV BP Interpoli"
    }
   ]
+ },
+ {
+  "base": "https://debatetrener.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "tdt2021",
+    "name": "Torneo de Debate Trener 2021"
+   }
+  ]
+ },
+ {
+  "base": "https://technionopen26.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "Technion26",
+    "name": "Technion Open 2026"
+   }
+  ]
+ },
+ {
+  "base": "https://tndeingles.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "tnde-ingles",
+    "name": "Torneo Nacional de Debate Escolar - Categoría inglés"
+   }
+  ]
  }
 ]

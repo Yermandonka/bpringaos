@@ -1,6 +1,6 @@
 {
  "generated": true,
- "n_tournaments_scanned": 349,
+ "n_tournaments_scanned": 352,
  "n_people": 103,
  "tournaments_scanned": [
   {
@@ -956,6 +956,13 @@
    "online": false
   },
   {
+   "name": "Torneo de Debate Trener 2021",
+   "slug": "tdt2021",
+   "base": "https://debatetrener.calicotab.com",
+   "date": "2021-01-01",
+   "online": false
+  },
+  {
    "name": "22/23 - Campeonato de España - Masters 2023",
    "slug": "masters23",
    "base": "https://espanadebate.calicotab.com",
@@ -1565,6 +1572,13 @@
    "online": false
   },
   {
+   "name": "Technion Open 2026",
+   "slug": "Technion26",
+   "base": "https://technionopen26.calicotab.com",
+   "date": "2026-05-16",
+   "online": false
+  },
+  {
    "name": "The English Open 2020",
    "slug": "EnglishOpen2020",
    "base": "https://techopen.calicotab.com",
@@ -1737,6 +1751,13 @@
    "slug": "tndeingles2025",
    "base": "https://tndeespanol.calicotab.com",
    "date": "2025-08-09",
+   "online": false
+  },
+  {
+   "name": "Torneo Nacional de Debate Escolar - Categoría inglés",
+   "slug": "tnde-ingles",
+   "base": "https://tndeingles.calicotab.com",
+   "date": null,
    "online": false
   },
   {
@@ -113600,8 +113621,8 @@
   },
   "javier-lara-davila": {
    "display": "Javier Lara Dávila",
-   "n_tournaments": 16,
-   "n_rounds": 91,
+   "n_tournaments": 17,
+   "n_rounds": 95,
    "n_elim_rounds": 0,
    "last_date": "2026-02-27",
    "n_tournaments_6m": 0,
@@ -113638,6 +113659,14 @@
      "novice": false,
      "reached": "Final",
      "champion": true
+    },
+    {
+     "t": "debatetrener__tdt2021",
+     "tname": "Torneo de Debate Trener 2021",
+     "date": "2021-01-01",
+     "novice": false,
+     "reached": "Final",
+     "champion": false
     },
     {
      "t": "ivbpeliasahuja__ivbpeliasahuja",
@@ -113720,9 +113749,9 @@
      "champion": false
     }
    ],
-   "n_breaks": 14,
+   "n_breaks": 15,
    "n_breaks_novice": 0,
-   "n_breaks_open": 14,
+   "n_breaks_open": 15,
    "tournaments": [
     {
      "slug": "ced9__ced9",
@@ -113758,6 +113787,13 @@
      "date": "2021-01-01",
      "online": false,
      "team": "CDA Traspaso de Herencia"
+    },
+    {
+     "slug": "debatetrener__tdt2021",
+     "name": "Torneo de Debate Trener 2021",
+     "date": "2021-01-01",
+     "online": false,
+     "team": "Simplemente, una palta y un aguacat"
     },
     {
      "slug": "ivbpeliasahuja__ivbpeliasahuja",
@@ -114414,6 +114450,29 @@
      "t_avg": 75.91
     },
     {
+     "t": "debatetrener__tdt2021",
+     "tname": "Torneo de Debate Trener 2021",
+     "date": "2021-01-01",
+     "online": false,
+     "round": "Ronda 1",
+     "seq": 1,
+     "stage": "P",
+     "side": "cg",
+     "points": 3,
+     "win": false,
+     "position": 2,
+     "score": 76.0,
+     "iron": false,
+     "room_rank": 2,
+     "motion": "EC, como le científique, no publicaría el descubrimiento",
+     "topic": "rol / actor",
+     "team": "Simplemente, una palta y un aguacat",
+     "mate": "Mateo Cruzatt",
+     "chair": "Ian Naí",
+     "venue": "SALA 3",
+     "t_avg": 72.45
+    },
+    {
      "t": "copaandresbello2021__masters-cab2021",
      "tname": "Másters Copa Andrés Bello 2021",
      "date": "2021-01-01",
@@ -114437,6 +114496,29 @@
      "t_avg": 75.91
     },
     {
+     "t": "debatetrener__tdt2021",
+     "tname": "Torneo de Debate Trener 2021",
+     "date": "2021-01-01",
+     "online": false,
+     "round": "Ronda 2",
+     "seq": 2,
+     "stage": "P",
+     "side": "og",
+     "points": 3,
+     "win": false,
+     "position": 2,
+     "score": 77.0,
+     "iron": false,
+     "room_rank": 2,
+     "motion": "Asumiendo la posibilidad de poder cuantificar el esfuerzo de los alumnos, ECCQ los colegios deberían de optar por un sistema en donde las calificaciones sean basadas en el esfuerzo y los resultados en vez de solo los resultados.",
+     "topic": "otros",
+     "team": "Simplemente, una palta y un aguacat",
+     "mate": "Mateo Cruzatt",
+     "chair": "Kazhia Fernández",
+     "venue": "SALA 1",
+     "t_avg": 72.45
+    },
+    {
      "t": "copaandresbello2021__masters-cab2021",
      "tname": "Másters Copa Andrés Bello 2021",
      "date": "2021-01-01",
@@ -114458,6 +114540,52 @@
      "chair": "Sonia Khalifa",
      "venue": "SALA 02",
      "t_avg": 75.91
+    },
+    {
+     "t": "debatetrener__tdt2021",
+     "tname": "Torneo de Debate Trener 2021",
+     "date": "2021-01-01",
+     "online": false,
+     "round": "Ronda 3",
+     "seq": 3,
+     "stage": "P",
+     "side": "co",
+     "points": 3,
+     "win": false,
+     "position": 1,
+     "score": 79.0,
+     "iron": false,
+     "room_rank": 1,
+     "motion": "EC lamenta la glorificación del emprendimiento",
+     "topic": "educación",
+     "team": "Simplemente, una palta y un aguacat",
+     "mate": "Mateo Cruzatt",
+     "chair": "Santiago Ortiz García",
+     "venue": "SALA 6",
+     "t_avg": 72.45
+    },
+    {
+     "t": "debatetrener__tdt2021",
+     "tname": "Torneo de Debate Trener 2021",
+     "date": "2021-01-01",
+     "online": false,
+     "round": "Ronda 4",
+     "seq": 4,
+     "stage": "P",
+     "side": "oo",
+     "points": 3,
+     "win": false,
+     "position": 2,
+     "score": 79.0,
+     "iron": false,
+     "room_rank": 1,
+     "motion": null,
+     "topic": "otros",
+     "team": "Simplemente, una palta y un aguacat",
+     "mate": "Mateo Cruzatt",
+     "chair": "Alexis Francois Macedo Llaque",
+     "venue": "SALA 3",
+     "t_avg": 72.45
     },
     {
      "t": "ivbpeliasahuja__ivbpeliasahuja",
@@ -115933,8 +116061,8 @@
     }
    ],
    "elim_rows": [],
-   "avg_speaks": 79.96,
-   "stdev": 2.12,
+   "avg_speaks": 79.86,
+   "stdev": 2.14,
    "best": {
     "t": "torneodeinvierno2024__toin2024",
     "tname": "Torneo de Invierno 2024",
@@ -115981,49 +116109,49 @@
     "venue": "Sala Cabo Peñas",
     "t_avg": 73.75
    },
-   "avg_points": 2.41,
+   "avg_points": 2.43,
    "results_dist": {
-    "3": 53,
+    "3": 57,
     "2": 25,
     "1": 10,
     "0": 3
    },
    "pos1": {
-    "n": 60,
-    "avg": 80.1
+    "n": 61,
+    "avg": 80.08
    },
    "pos2": {
-    "n": 31,
-    "avg": 79.68
+    "n": 34,
+    "avg": 79.47
    },
    "sides": {
     "og": {
      "label": "Alta Gobierno",
-     "n": 25,
-     "avg_points": 2.2,
-     "avg_speaks": 79.76,
-     "firsts": 12
+     "n": 26,
+     "avg_points": 2.23,
+     "avg_speaks": 79.65,
+     "firsts": 13
     },
     "oo": {
      "label": "Alta Oposición",
-     "n": 22,
-     "avg_points": 2.36,
-     "avg_speaks": 79.82,
-     "firsts": 12
+     "n": 23,
+     "avg_points": 2.39,
+     "avg_speaks": 79.78,
+     "firsts": 13
     },
     "cg": {
      "label": "Baja Gobierno",
-     "n": 22,
-     "avg_points": 2.64,
-     "avg_speaks": 80.27,
-     "firsts": 15
+     "n": 23,
+     "avg_points": 2.65,
+     "avg_speaks": 80.09,
+     "firsts": 16
     },
     "co": {
      "label": "Baja Oposición",
-     "n": 22,
-     "avg_points": 2.45,
-     "avg_speaks": 80.0,
-     "firsts": 14
+     "n": 23,
+     "avg_points": 2.48,
+     "avg_speaks": 79.96,
+     "firsts": 15
     }
    },
    "topics": {
@@ -116038,14 +116166,14 @@
      "avg_speaks": 80.29
     },
     "rol / actor": {
-     "n": 7,
-     "avg_points": 2.43,
-     "avg_speaks": 81.0
+     "n": 8,
+     "avg_points": 2.5,
+     "avg_speaks": 80.38
     },
     "otros": {
-     "n": 20,
-     "avg_points": 2.75,
-     "avg_speaks": 80.35
+     "n": 22,
+     "avg_points": 2.77,
+     "avg_speaks": 80.14
     },
     "filosofía y ética": {
      "n": 7,
@@ -116068,9 +116196,9 @@
      "avg_speaks": 79.5
     },
     "educación": {
-     "n": 4,
-     "avg_points": 2.75,
-     "avg_speaks": 78.75
+     "n": 5,
+     "avg_points": 2.8,
+     "avg_speaks": 78.8
     },
     "religión": {
      "n": 6,
@@ -116118,6 +116246,12 @@
      "tname": "Másters Copa Andrés Bello 2021",
      "avg": 80.33,
      "n": 3
+    },
+    {
+     "date": "2021-01-01",
+     "tname": "Torneo de Debate Trener 2021",
+     "avg": 77.75,
+     "n": 4
     },
     {
      "date": "2021-11-06",
@@ -116246,12 +116380,18 @@
      "n": 5,
      "avg_points": 3,
      "avg_speaks": 81.2
+    },
+    {
+     "name": "Mateo Cruzatt",
+     "n": 4,
+     "avg_points": 3,
+     "avg_speaks": 77.75
     }
    ],
-   "vs_field": 5.84,
+   "vs_field": 5.82,
    "clutch": {
-    "avg_last_round": 80.25,
-    "delta": 0.29
+    "avg_last_round": 80.18,
+    "delta": 0.32
    },
    "streak_top2": 23,
    "env_online": {
@@ -116260,12 +116400,12 @@
     "avg_points": 2.18
    },
    "env_presencial": {
-    "n": 80,
-    "avg_speaks": 79.84,
-    "avg_points": 2.44
+    "n": 84,
+    "avg_speaks": 79.74,
+    "avg_points": 2.46
    },
-   "avg_room_rank": 2.22,
-   "room_best_count": 41,
+   "avg_room_rank": 2.19,
+   "room_best_count": 43,
    "chairs": [
     [
      "Antonio Sáez Marín",
