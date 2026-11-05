@@ -1446,6 +1446,13 @@
    "online": false
   },
   {
+   "name": "Torneo Escolar Cayetano Heredia - Categoría Junior 2026",
+   "slug": "tech_junior2026",
+   "base": "https://sodech.calicotab.com",
+   "date": "2026-01-01",
+   "online": false
+  },
+  {
    "name": "Torneo Escolar Cayetano Heredia - Categoria Open 2025",
    "slug": "tech_open2025",
    "base": "https://sodech.calicotab.com",
@@ -1453,17 +1460,10 @@
    "online": false
   },
   {
-   "name": "Torneo Escolar Cayetano Heredia 2026",
+   "name": "Torneo Escolar Cayetano Heredia - Categoría Open 2026",
    "slug": "tech_open2026",
    "base": "https://sodech.calicotab.com",
    "date": "2026-01-01",
-   "online": false
-  },
-  {
-   "name": "Torneo Escolar Cayetano Heredia 2025",
-   "slug": "techjunior2026",
-   "base": "https://sodech.calicotab.com",
-   "date": "2025-01-01",
    "online": false
   },
   {
