@@ -384,5 +384,23 @@
     "name": "Torneo Nacional de Debate Escolar - Categoría inglés"
    }
   ]
+ },
+ {
+  "base": "https://tmd2026.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "tmd2026",
+    "name": "Torneo Metropolitano de Debate 2026"
+   }
+  ]
+ },
+ {
+  "base": "https://tnd2026.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "iiitndbra26",
+    "name": "III Torneo Nacional de Debate de Brasil 2026"
+   }
+  ]
  }
 ]

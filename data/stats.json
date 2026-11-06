@@ -1,6 +1,6 @@
 {
  "generated": true,
- "n_tournaments_scanned": 352,
+ "n_tournaments_scanned": 354,
  "n_people": 103,
  "tournaments_scanned": [
   {
@@ -1656,6 +1656,13 @@
    "online": false
   },
   {
+   "name": "Torneo Metropolitano de Debate 2026",
+   "slug": "tmd2026",
+   "base": "https://tmd2026.calicotab.com",
+   "date": "2026-01-01",
+   "online": false
+  },
+  {
    "name": "Torneo Metropolitano de Debate 2022",
    "slug": "TMD2022",
    "base": "https://tmd.calicotab.com",
@@ -1688,6 +1695,13 @@
    "slug": "tnd2021",
    "base": "https://tnd2021.calicotab.com",
    "date": "2021-01-01",
+   "online": false
+  },
+  {
+   "name": "III Torneo Nacional de Debate de Brasil 2026",
+   "slug": "iiitndbra26",
+   "base": "https://tnd2026.calicotab.com",
+   "date": "2026-01-01",
    "online": false
   },
   {
