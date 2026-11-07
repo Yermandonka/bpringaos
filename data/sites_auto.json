@@ -402,5 +402,14 @@
     "name": "III Torneo Nacional de Debate de Brasil 2026"
    }
   ]
+ },
+ {
+  "base": "https://xiibpurjc.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "xiibpurjc",
+    "name": "XII BP URJC"
+   }
+  ]
  }
 ]

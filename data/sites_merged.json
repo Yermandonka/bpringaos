@@ -1696,6 +1696,15 @@
   ]
  },
  {
+  "base": "https://xiibpurjc.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "xiibpurjc",
+    "name": "XII BP URJC"
+   }
+  ]
+ },
+ {
   "base": "https://cdc.calicotab.com",
   "tournaments": [
    {

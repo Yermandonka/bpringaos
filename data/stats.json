@@ -1,6 +1,6 @@
 {
  "generated": true,
- "n_tournaments_scanned": 354,
+ "n_tournaments_scanned": 355,
  "n_people": 103,
  "tournaments_scanned": [
   {
@@ -2430,6 +2430,13 @@
    "slug": "xibpurjc",
    "base": "https://xibpurjc.calicotab.com",
    "date": "2025-11-14",
+   "online": false
+  },
+  {
+   "name": "XII BP URJC",
+   "slug": "xiibpurjc",
+   "base": "https://xiibpurjc.calicotab.com",
+   "date": null,
    "online": false
   },
   {
