@@ -411,5 +411,14 @@
     "name": "XII BP URJC"
    }
   ]
+ },
+ {
+  "base": "https://tdi2026.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "TID2026",
+    "name": "Torneo de Debate Interescolar de la Universidad de Chile 2026"
+   }
+  ]
  }
 ]

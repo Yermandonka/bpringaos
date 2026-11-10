@@ -1,6 +1,6 @@
 {
  "generated": true,
- "n_tournaments_scanned": 355,
+ "n_tournaments_scanned": 356,
  "n_people": 103,
  "tournaments_scanned": [
   {
@@ -1527,6 +1527,13 @@
    "slug": "tdi2025",
    "base": "https://tdi2025.calicotab.com",
    "date": "2025-01-01",
+   "online": false
+  },
+  {
+   "name": "Torneo de Debate Interescolar de la Universidad de Chile 2026",
+   "slug": "TID2026",
+   "base": "https://tdi2026.calicotab.com",
+   "date": "2026-01-01",
    "online": false
   },
   {
