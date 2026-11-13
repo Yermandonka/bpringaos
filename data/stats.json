@@ -1,6 +1,6 @@
 {
  "generated": true,
- "n_tournaments_scanned": 356,
+ "n_tournaments_scanned": 357,
  "n_people": 103,
  "tournaments_scanned": [
   {
@@ -1660,6 +1660,13 @@
    "slug": "tmdmasters2025",
    "base": "https://tmd2025.calicotab.com",
    "date": "2025-11-15",
+   "online": false
+  },
+  {
+   "name": "TMD Masters 2026",
+   "slug": "masters",
+   "base": "https://tmd2026.calicotab.com",
+   "date": "2026-01-01",
    "online": false
   },
   {
