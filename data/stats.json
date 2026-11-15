@@ -1666,14 +1666,14 @@
    "name": "TMD Masters 2026",
    "slug": "masters",
    "base": "https://tmd2026.calicotab.com",
-   "date": "2026-01-01",
+   "date": "2026-11-14",
    "online": false
   },
   {
    "name": "Torneo Metropolitano de Debate 2026",
    "slug": "tmd2026",
    "base": "https://tmd2026.calicotab.com",
-   "date": "2026-01-01",
+   "date": "2026-11-14",
    "online": false
   },
   {
@@ -12763,8 +12763,8 @@
    "n_rounds": 154,
    "n_elim_rounds": 0,
    "last_date": "2026-10-30",
-   "n_tournaments_6m": 7,
-   "n_rounds_6m": 39,
+   "n_tournaments_6m": 6,
+   "n_rounds_6m": 34,
    "breaks": [
     {
      "t": "copaleonii__leondelsurii2025",
@@ -50678,8 +50678,8 @@
    "n_rounds": 255,
    "n_elim_rounds": 0,
    "last_date": "2026-10-23",
-   "n_tournaments_6m": 5,
-   "n_rounds_6m": 28,
+   "n_tournaments_6m": 4,
+   "n_rounds_6m": 23,
    "breaks": [
     {
      "t": "sodech__top2023",
@@ -67129,8 +67129,8 @@
    "n_rounds": 212,
    "n_elim_rounds": 0,
    "last_date": "2026-09-26",
-   "n_tournaments_6m": 2,
-   "n_rounds_6m": 11,
+   "n_tournaments_6m": 1,
+   "n_rounds_6m": 6,
    "breaks": [
     {
      "t": "torneobpregenta__RegentaIV",
@@ -102066,8 +102066,8 @@
    "n_rounds": 125,
    "n_elim_rounds": 0,
    "last_date": "2026-10-02",
-   "n_tournaments_6m": 5,
-   "n_rounds_6m": 32,
+   "n_tournaments_6m": 4,
+   "n_rounds_6m": 27,
    "breaks": [
     {
      "t": "ucabdebate__vcab",
