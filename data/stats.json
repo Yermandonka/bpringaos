@@ -2450,7 +2450,7 @@
    "name": "XII BP URJC",
    "slug": "xiibpurjc",
    "base": "https://xiibpurjc.calicotab.com",
-   "date": null,
+   "date": "2026-11-13",
    "online": false
   },
   {
@@ -2506,12 +2506,12 @@
  "people": {
   "german": {
    "display": "Germán Mendonça Costa-Frossard",
-   "n_tournaments": 12,
-   "n_rounds": 63,
+   "n_tournaments": 13,
+   "n_rounds": 69,
    "n_elim_rounds": 0,
-   "last_date": "2026-10-30",
-   "n_tournaments_6m": 4,
-   "n_rounds_6m": 20,
+   "last_date": "2026-11-13",
+   "n_tournaments_6m": 5,
+   "n_rounds_6m": 26,
    "breaks": [
     {
      "t": "aquinasroncalli2025__aquinasroncalli2025",
@@ -2641,6 +2641,13 @@
      "date": "2026-10-30",
      "online": false,
      "team": "UCM-COM PENETRADOS"
+    },
+    {
+     "slug": "xiibpurjc__xiibpurjc",
+     "name": "XII BP URJC",
+     "date": "2026-11-13",
+     "online": false,
+     "team": "UCM-COM AZUCAR MORENO"
     }
    ],
    "rows": [
@@ -4092,11 +4099,149 @@
      "chair": "Adriana Rodríguez Alonso",
      "venue": "Sala 03",
      "t_avg": 72.97
+    },
+    {
+     "t": "xiibpurjc__xiibpurjc",
+     "tname": "XII BP URJC",
+     "date": "2026-11-13",
+     "online": false,
+     "round": "Ronda 1",
+     "seq": 1,
+     "stage": "P",
+     "side": "co",
+     "points": 1,
+     "win": false,
+     "position": 1,
+     "score": 71.0,
+     "iron": false,
+     "room_rank": 5,
+     "motion": "EC, como Mourinho, sentaría a las estrellas.",
+     "topic": "rol / actor",
+     "team": "UCM-COM AZUCAR MORENO",
+     "mate": "Juan Pablo Sánchez Barriga",
+     "chair": "Paula Parajuá ☂️",
+     "venue": "D11",
+     "t_avg": 73.85
+    },
+    {
+     "t": "xiibpurjc__xiibpurjc",
+     "tname": "XII BP URJC",
+     "date": "2026-11-13",
+     "online": false,
+     "round": "Ronda 2",
+     "seq": 2,
+     "stage": "P",
+     "side": "og",
+     "points": 2,
+     "win": false,
+     "position": 2,
+     "score": 75.0,
+     "iron": false,
+     "room_rank": 3,
+     "motion": "EC, como el BSW, votaría a favor de la investidura del candidato de la AfD como presidente de Sajonia-Anhalt.",
+     "topic": "rol / actor",
+     "team": "UCM-COM AZUCAR MORENO",
+     "mate": "Juan Pablo Sánchez Barriga",
+     "chair": "Abel Recio 🏇",
+     "venue": "D18",
+     "t_avg": 73.85
+    },
+    {
+     "t": "xiibpurjc__xiibpurjc",
+     "tname": "XII BP URJC",
+     "date": "2026-11-13",
+     "online": false,
+     "round": "Ronda 3",
+     "seq": 3,
+     "stage": "P",
+     "side": "oo",
+     "points": 0,
+     "win": false,
+     "position": 1,
+     "score": 70.0,
+     "iron": false,
+     "room_rank": 7,
+     "motion": "EC Implementaría el modelo de vivienda de Viena en España",
+     "topic": "economía",
+     "team": "UCM-COM AZUCAR MORENO",
+     "mate": "Juan Pablo Sánchez Barriga",
+     "chair": "Amadeo Gavilano",
+     "venue": "D02",
+     "t_avg": 73.85
+    },
+    {
+     "t": "xiibpurjc__xiibpurjc",
+     "tname": "XII BP URJC",
+     "date": "2026-11-13",
+     "online": false,
+     "round": "Ronda 4",
+     "seq": 4,
+     "stage": "P",
+     "side": "cg",
+     "points": 2,
+     "win": false,
+     "position": 1,
+     "score": 76.0,
+     "iron": false,
+     "room_rank": 3,
+     "motion": "EC siendo China invadiría Taiwán",
+     "topic": "otros",
+     "team": "UCM-COM AZUCAR MORENO",
+     "mate": "Juan Pablo Sánchez Barriga",
+     "chair": "Pau Garcia",
+     "venue": "D01",
+     "t_avg": 73.85
+    },
+    {
+     "t": "xiibpurjc__xiibpurjc",
+     "tname": "XII BP URJC",
+     "date": "2026-11-13",
+     "online": false,
+     "round": "Ronda 5",
+     "seq": 5,
+     "stage": "P",
+     "side": "cg",
+     "points": 1,
+     "win": false,
+     "position": 1,
+     "score": 72.0,
+     "iron": false,
+     "room_rank": 6,
+     "motion": "EC lamenta la intelectualización de las religiones.",
+     "topic": "filosofía y ética",
+     "team": "UCM-COM AZUCAR MORENO",
+     "mate": "Juan Pablo Sánchez Barriga",
+     "chair": "Daniel Pérez Alonso",
+     "venue": "D23",
+     "t_avg": 73.85
+    },
+    {
+     "t": "xiibpurjc__xiibpurjc",
+     "tname": "XII BP URJC",
+     "date": "2026-11-13",
+     "online": false,
+     "round": "Ronda 6",
+     "seq": 6,
+     "stage": "P",
+     "side": "og",
+     "points": 2,
+     "win": false,
+     "position": 2,
+     "score": 74.0,
+     "iron": false,
+     "room_rank": 3,
+     "motion": "EC apoya el auge de la agenda de la abundancia en el Partido Demócrata.",
+     "topic": "política nacional",
+     "team": "UCM-COM AZUCAR MORENO",
+     "mate": "Juan Pablo Sánchez Barriga",
+     "chair": "Adriana Rodríguez Alonso",
+     "venue": "D24",
+     "t_avg": 73.85
     }
    ],
    "elim_rows": [],
-   "avg_speaks": 72.57,
-   "stdev": 3.09,
+   "avg_speaks": 72.61,
+   "stdev": 3.02,
    "best": {
     "t": "torneodeotono2025__otono2025",
     "tname": "Torneo de Otoño 2025",
@@ -4143,48 +4288,48 @@
     "venue": "Sala 5",
     "t_avg": 73.34
    },
-   "avg_points": 1.48,
+   "avg_points": 1.46,
    "results_dist": {
     "3": 17,
-    "2": 13,
-    "1": 16,
-    "0": 17
+    "2": 16,
+    "1": 18,
+    "0": 18
    },
    "pos1": {
-    "n": 28,
-    "avg": 71.93
+    "n": 32,
+    "avg": 71.97
    },
    "pos2": {
-    "n": 35,
-    "avg": 73.09
+    "n": 37,
+    "avg": 73.16
    },
    "sides": {
     "og": {
      "label": "Alta Gobierno",
-     "n": 15,
-     "avg_points": 1.6,
-     "avg_speaks": 72.47,
+     "n": 17,
+     "avg_points": 1.65,
+     "avg_speaks": 72.71,
      "firsts": 5
     },
     "oo": {
      "label": "Alta Oposición",
-     "n": 16,
-     "avg_points": 1.69,
-     "avg_speaks": 72.44,
+     "n": 17,
+     "avg_points": 1.59,
+     "avg_speaks": 72.29,
      "firsts": 4
     },
     "cg": {
      "label": "Baja Gobierno",
-     "n": 15,
-     "avg_points": 1.07,
-     "avg_speaks": 72.4,
+     "n": 17,
+     "avg_points": 1.12,
+     "avg_speaks": 72.59,
      "firsts": 2
     },
     "co": {
      "label": "Baja Oposición",
-     "n": 17,
-     "avg_points": 1.53,
-     "avg_speaks": 72.94,
+     "n": 18,
+     "avg_points": 1.5,
+     "avg_speaks": 72.83,
      "firsts": 6
     }
    },
@@ -4195,19 +4340,19 @@
      "avg_speaks": 70.0
     },
     "política nacional": {
-     "n": 13,
-     "avg_points": 1,
-     "avg_speaks": 73.69
+     "n": 14,
+     "avg_points": 1.07,
+     "avg_speaks": 73.71
     },
     "economía": {
-     "n": 13,
-     "avg_points": 1.77,
-     "avg_speaks": 72.54
+     "n": 14,
+     "avg_points": 1.64,
+     "avg_speaks": 72.36
     },
     "otros": {
-     "n": 8,
-     "avg_points": 1.5,
-     "avg_speaks": 72.0
+     "n": 9,
+     "avg_points": 1.56,
+     "avg_speaks": 72.44
     },
     "feminismo y género": {
      "n": 6,
@@ -4225,9 +4370,9 @@
      "avg_speaks": 73.6
     },
     "rol / actor": {
-     "n": 2,
+     "n": 4,
      "avg_points": 1.5,
-     "avg_speaks": 65.0
+     "avg_speaks": 69.0
     },
     "psicología y salud mental": {
      "n": 4,
@@ -4245,9 +4390,9 @@
      "avg_speaks": 75.0
     },
     "filosofía y ética": {
-     "n": 5,
-     "avg_points": 0.8,
-     "avg_speaks": 71.4
+     "n": 6,
+     "avg_points": 0.83,
+     "avg_speaks": 71.5
     }
    },
    "evolution": [
@@ -4322,20 +4467,26 @@
      "tname": "BP Elías Ahúja 2026",
      "avg": 70.0,
      "n": 5
+    },
+    {
+     "date": "2026-11-13",
+     "tname": "XII BP URJC",
+     "avg": 73.0,
+     "n": 6
     }
    ],
    "mates": [
+    {
+     "name": "Juan Pablo Sánchez Barriga",
+     "n": 15,
+     "avg_points": 1.33,
+     "avg_speaks": 72.6
+    },
     {
      "name": "Abdelah El Khamlichi",
      "n": 10,
      "avg_points": 1.2,
      "avg_speaks": 73.0
-    },
-    {
-     "name": "Juan Pablo Sánchez Barriga",
-     "n": 9,
-     "avg_points": 1.33,
-     "avg_speaks": 72.33
     },
     {
      "name": "Sergio Pérez Fernández",
@@ -4386,10 +4537,10 @@
      "avg_speaks": 76.0
     }
    ],
-   "vs_field": -1.29,
+   "vs_field": -1.25,
    "clutch": {
-    "avg_last_round": 72.42,
-    "delta": -0.15
+    "avg_last_round": 72.54,
+    "delta": -0.07
    },
    "streak_top2": 3,
    "env_online": {
@@ -4398,11 +4549,11 @@
     "avg_points": 1.67
    },
    "env_presencial": {
-    "n": 54,
-    "avg_speaks": 72.06,
-    "avg_points": 1.44
+    "n": 60,
+    "avg_speaks": 72.15,
+    "avg_points": 1.43
    },
-   "avg_room_rank": 4.27,
+   "avg_room_rank": 4.29,
    "room_best_count": 8,
    "chairs": [
     [
@@ -4418,23 +4569,23 @@
      2
     ],
     [
-     "Carlos Torregrosa Marti",
+     "Amadeo Gavilano",
      2
     ],
     [
-     "Horacio🚀",
+     "Carlos Torregrosa Marti",
      2
     ]
    ]
   },
   "lucia": {
    "display": "Lucía Vadillo",
-   "n_tournaments": 9,
-   "n_rounds": 52,
+   "n_tournaments": 10,
+   "n_rounds": 58,
    "n_elim_rounds": 0,
-   "last_date": "2026-10-16",
-   "n_tournaments_6m": 1,
-   "n_rounds_6m": 6,
+   "last_date": "2026-11-13",
+   "n_tournaments_6m": 2,
+   "n_rounds_6m": 12,
    "breaks": [
     {
      "t": "iiibpmendel__mendel24",
@@ -4527,6 +4678,13 @@
      "date": "2026-10-16",
      "online": false,
      "team": "UCM-COM SANCHUPESCA"
+    },
+    {
+     "slug": "xiibpurjc__xiibpurjc",
+     "name": "XII BP URJC",
+     "date": "2026-11-13",
+     "online": false,
+     "team": "UCM-COM PARTIDO DEL AMOR"
     }
    ],
    "rows": [
@@ -5725,11 +5883,149 @@
      "chair": "Andreu \"Pedro Sánchez\" García",
      "venue": "Sala 7 - 0.1 7J",
      "t_avg": 74.81
+    },
+    {
+     "t": "xiibpurjc__xiibpurjc",
+     "tname": "XII BP URJC",
+     "date": "2026-11-13",
+     "online": false,
+     "round": "Ronda 1",
+     "seq": 1,
+     "stage": "P",
+     "side": "co",
+     "points": 2,
+     "win": false,
+     "position": 2,
+     "score": 76.0,
+     "iron": false,
+     "room_rank": 2,
+     "motion": "EC, como Mourinho, sentaría a las estrellas.",
+     "topic": "rol / actor",
+     "team": "UCM-COM PARTIDO DEL AMOR",
+     "mate": "Sergio Pérez Fernández",
+     "chair": "Abel Recio 🏇",
+     "venue": "D25",
+     "t_avg": 73.85
+    },
+    {
+     "t": "xiibpurjc__xiibpurjc",
+     "tname": "XII BP URJC",
+     "date": "2026-11-13",
+     "online": false,
+     "round": "Ronda 2",
+     "seq": 2,
+     "stage": "P",
+     "side": "cg",
+     "points": 1,
+     "win": false,
+     "position": 2,
+     "score": 75.0,
+     "iron": false,
+     "room_rank": 4,
+     "motion": "EC, como el BSW, votaría a favor de la investidura del candidato de la AfD como presidente de Sajonia-Anhalt.",
+     "topic": "rol / actor",
+     "team": "UCM-COM PARTIDO DEL AMOR",
+     "mate": "Sergio Pérez Fernández",
+     "chair": "Mery García 🔮✨",
+     "venue": "D11",
+     "t_avg": 73.85
+    },
+    {
+     "t": "xiibpurjc__xiibpurjc",
+     "tname": "XII BP URJC",
+     "date": "2026-11-13",
+     "online": false,
+     "round": "Ronda 3",
+     "seq": 3,
+     "stage": "P",
+     "side": "og",
+     "points": 1,
+     "win": false,
+     "position": 1,
+     "score": 73.0,
+     "iron": false,
+     "room_rank": 5,
+     "motion": "EC Implementaría el modelo de vivienda de Viena en España",
+     "topic": "economía",
+     "team": "UCM-COM PARTIDO DEL AMOR",
+     "mate": "Sergio Pérez Fernández",
+     "chair": "Amadeo Gavilano",
+     "venue": "D02",
+     "t_avg": 73.85
+    },
+    {
+     "t": "xiibpurjc__xiibpurjc",
+     "tname": "XII BP URJC",
+     "date": "2026-11-13",
+     "online": false,
+     "round": "Ronda 4",
+     "seq": 4,
+     "stage": "P",
+     "side": "co",
+     "points": 0,
+     "win": false,
+     "position": 2,
+     "score": 75.0,
+     "iron": false,
+     "room_rank": 4,
+     "motion": "EC siendo China invadiría Taiwán",
+     "topic": "otros",
+     "team": "UCM-COM PARTIDO DEL AMOR",
+     "mate": "Sergio Pérez Fernández",
+     "chair": "Álvaro Mora Varela 🫪",
+     "venue": "D16",
+     "t_avg": 73.85
+    },
+    {
+     "t": "xiibpurjc__xiibpurjc",
+     "tname": "XII BP URJC",
+     "date": "2026-11-13",
+     "online": false,
+     "round": "Ronda 5",
+     "seq": 5,
+     "stage": "P",
+     "side": "oo",
+     "points": 2,
+     "win": false,
+     "position": 2,
+     "score": 75.0,
+     "iron": false,
+     "room_rank": 1,
+     "motion": "EC lamenta la intelectualización de las religiones.",
+     "topic": "filosofía y ética",
+     "team": "UCM-COM PARTIDO DEL AMOR",
+     "mate": "Sergio Pérez Fernández",
+     "chair": "Mery García 🔮✨",
+     "venue": "D24",
+     "t_avg": 73.85
+    },
+    {
+     "t": "xiibpurjc__xiibpurjc",
+     "tname": "XII BP URJC",
+     "date": "2026-11-13",
+     "online": false,
+     "round": "Ronda 6",
+     "seq": 6,
+     "stage": "P",
+     "side": "oo",
+     "points": 3,
+     "win": false,
+     "position": 2,
+     "score": 74.0,
+     "iron": false,
+     "room_rank": 1,
+     "motion": "EC apoya el auge de la agenda de la abundancia en el Partido Demócrata.",
+     "topic": "política nacional",
+     "team": "UCM-COM PARTIDO DEL AMOR",
+     "mate": "Sergio Pérez Fernández",
+     "chair": "Araceli Latorre Balsa",
+     "venue": "D01",
+     "t_avg": 73.85
     }
    ],
    "elim_rows": [],
-   "avg_speaks": 75.52,
-   "stdev": 2.42,
+   "avg_speaks": 75.43,
+   "stdev": 2.33,
    "best": {
     "t": "xbpuam__xbpuam",
     "tname": "X BP UAM",
@@ -5776,56 +6072,56 @@
     "venue": "Sala 6 Planta 2",
     "t_avg": 73.76
    },
-   "avg_points": 1.67,
+   "avg_points": 1.66,
    "results_dist": {
-    "3": 14,
-    "2": 16,
-    "1": 13,
-    "0": 9
+    "3": 15,
+    "2": 18,
+    "1": 15,
+    "0": 10
    },
    "pos1": {
-    "n": 21,
-    "avg": 75.0
+    "n": 22,
+    "avg": 74.91
    },
    "pos2": {
-    "n": 31,
-    "avg": 75.87
+    "n": 36,
+    "avg": 75.75
    },
    "sides": {
     "og": {
      "label": "Alta Gobierno",
-     "n": 13,
-     "avg_points": 1.77,
-     "avg_speaks": 75.38,
+     "n": 14,
+     "avg_points": 1.71,
+     "avg_speaks": 75.21,
      "firsts": 3
     },
     "oo": {
      "label": "Alta Oposición",
-     "n": 11,
-     "avg_points": 1.73,
-     "avg_speaks": 75.36,
-     "firsts": 3
+     "n": 13,
+     "avg_points": 1.85,
+     "avg_speaks": 75.23,
+     "firsts": 4
     },
     "cg": {
      "label": "Baja Gobierno",
-     "n": 13,
-     "avg_points": 1.38,
-     "avg_speaks": 75.38,
+     "n": 14,
+     "avg_points": 1.36,
+     "avg_speaks": 75.36,
      "firsts": 2
     },
     "co": {
      "label": "Baja Oposición",
-     "n": 15,
-     "avg_points": 1.8,
-     "avg_speaks": 75.87,
+     "n": 17,
+     "avg_points": 1.71,
+     "avg_speaks": 75.82,
      "firsts": 6
     }
    },
    "topics": {
     "política nacional": {
-     "n": 5,
-     "avg_points": 2.4,
-     "avg_speaks": 75.6
+     "n": 6,
+     "avg_points": 2.5,
+     "avg_speaks": 75.33
     },
     "relaciones internacionales": {
      "n": 2,
@@ -5843,9 +6139,9 @@
      "avg_speaks": 73.2
     },
     "economía": {
-     "n": 8,
-     "avg_points": 1.25,
-     "avg_speaks": 75.88
+     "n": 9,
+     "avg_points": 1.22,
+     "avg_speaks": 75.56
     },
     "medios y cultura": {
      "n": 4,
@@ -5853,14 +6149,14 @@
      "avg_speaks": 75.75
     },
     "rol / actor": {
-     "n": 2,
-     "avg_points": 2,
-     "avg_speaks": 75.0
+     "n": 4,
+     "avg_points": 1.75,
+     "avg_speaks": 75.25
     },
     "otros": {
-     "n": 5,
-     "avg_points": 1.2,
-     "avg_speaks": 74.6
+     "n": 6,
+     "avg_points": 1,
+     "avg_speaks": 74.67
     },
     "feminismo y género": {
      "n": 3,
@@ -5873,9 +6169,9 @@
      "avg_speaks": 77.0
     },
     "filosofía y ética": {
-     "n": 9,
+     "n": 10,
      "avg_points": 2,
-     "avg_speaks": 77.0
+     "avg_speaks": 76.8
     },
     "ciencia y tecnología": {
      "n": 4,
@@ -5937,6 +6233,12 @@
      "tname": "XIV BP Interpoli",
      "avg": 74.0,
      "n": 6
+    },
+    {
+     "date": "2026-11-13",
+     "tname": "XII BP URJC",
+     "avg": 74.67,
+     "n": 6
     }
    ],
    "mates": [
@@ -5971,16 +6273,22 @@
      "avg_speaks": 74.0
     },
     {
+     "name": "Sergio Pérez Fernández",
+     "n": 6,
+     "avg_points": 1.5,
+     "avg_speaks": 74.67
+    },
+    {
      "name": "Gaizka Pérez",
      "n": 5,
      "avg_points": 1.4,
      "avg_speaks": 72.4
     }
    ],
-   "vs_field": 1.76,
+   "vs_field": 1.66,
    "clutch": {
-    "avg_last_round": 76.22,
-    "delta": 0.7
+    "avg_last_round": 76.0,
+    "delta": 0.57
    },
    "streak_top2": 5,
    "env_online": {
@@ -5989,12 +6297,12 @@
     "avg_points": null
    },
    "env_presencial": {
-    "n": 52,
-    "avg_speaks": 75.52,
-    "avg_points": 1.67
+    "n": 58,
+    "avg_speaks": 75.43,
+    "avg_points": 1.66
    },
-   "avg_room_rank": 3.79,
-   "room_best_count": 9,
+   "avg_room_rank": 3.69,
+   "room_best_count": 11,
    "chairs": [
     [
      "Horacio",
@@ -6005,15 +6313,15 @@
      3
     ],
     [
+     "Mery García 🔮✨",
+     3
+    ],
+    [
      "Bruno Gomez",
      3
     ],
     [
      "Rocío Alberola",
-     2
-    ],
-    [
-     "Luis Felipe García",
      2
     ]
    ]
@@ -11711,12 +12019,12 @@
   },
   "juan-pablo-sanchez-barriga": {
    "display": "Juan Pablo Sánchez Barriga",
-   "n_tournaments": 6,
-   "n_rounds": 32,
+   "n_tournaments": 7,
+   "n_rounds": 38,
    "n_elim_rounds": 0,
-   "last_date": "2026-10-30",
-   "n_tournaments_6m": 3,
-   "n_rounds_6m": 15,
+   "last_date": "2026-11-13",
+   "n_tournaments_6m": 4,
+   "n_rounds_6m": 21,
    "breaks": [
     {
      "t": "ivbpaduz__ivbpaduz",
@@ -11772,6 +12080,13 @@
      "date": "2026-10-30",
      "online": false,
      "team": "UCM-COM PENETRADOS"
+    },
+    {
+     "slug": "xiibpurjc__xiibpurjc",
+     "name": "XII BP URJC",
+     "date": "2026-11-13",
+     "online": false,
+     "team": "UCM-COM AZUCAR MORENO"
     }
    ],
    "rows": [
@@ -12510,11 +12825,149 @@
      "chair": "Adriana Rodríguez Alonso",
      "venue": "Sala 03",
      "t_avg": 72.97
+    },
+    {
+     "t": "xiibpurjc__xiibpurjc",
+     "tname": "XII BP URJC",
+     "date": "2026-11-13",
+     "online": false,
+     "round": "Ronda 1",
+     "seq": 1,
+     "stage": "P",
+     "side": "co",
+     "points": 1,
+     "win": false,
+     "position": 2,
+     "score": 70.0,
+     "iron": false,
+     "room_rank": 6,
+     "motion": "EC, como Mourinho, sentaría a las estrellas.",
+     "topic": "rol / actor",
+     "team": "UCM-COM AZUCAR MORENO",
+     "mate": "Germán Mendonça Costa-Frossard",
+     "chair": "Paula Parajuá ☂️",
+     "venue": "D11",
+     "t_avg": 73.85
+    },
+    {
+     "t": "xiibpurjc__xiibpurjc",
+     "tname": "XII BP URJC",
+     "date": "2026-11-13",
+     "online": false,
+     "round": "Ronda 2",
+     "seq": 2,
+     "stage": "P",
+     "side": "og",
+     "points": 2,
+     "win": false,
+     "position": 1,
+     "score": 76.0,
+     "iron": false,
+     "room_rank": 2,
+     "motion": "EC, como el BSW, votaría a favor de la investidura del candidato de la AfD como presidente de Sajonia-Anhalt.",
+     "topic": "rol / actor",
+     "team": "UCM-COM AZUCAR MORENO",
+     "mate": "Germán Mendonça Costa-Frossard",
+     "chair": "Abel Recio 🏇",
+     "venue": "D18",
+     "t_avg": 73.85
+    },
+    {
+     "t": "xiibpurjc__xiibpurjc",
+     "tname": "XII BP URJC",
+     "date": "2026-11-13",
+     "online": false,
+     "round": "Ronda 3",
+     "seq": 3,
+     "stage": "P",
+     "side": "oo",
+     "points": 0,
+     "win": false,
+     "position": 2,
+     "score": 70.0,
+     "iron": false,
+     "room_rank": 7,
+     "motion": "EC Implementaría el modelo de vivienda de Viena en España",
+     "topic": "economía",
+     "team": "UCM-COM AZUCAR MORENO",
+     "mate": "Germán Mendonça Costa-Frossard",
+     "chair": "Amadeo Gavilano",
+     "venue": "D02",
+     "t_avg": 73.85
+    },
+    {
+     "t": "xiibpurjc__xiibpurjc",
+     "tname": "XII BP URJC",
+     "date": "2026-11-13",
+     "online": false,
+     "round": "Ronda 4",
+     "seq": 4,
+     "stage": "P",
+     "side": "cg",
+     "points": 2,
+     "win": false,
+     "position": 2,
+     "score": 76.0,
+     "iron": false,
+     "room_rank": 3,
+     "motion": "EC siendo China invadiría Taiwán",
+     "topic": "otros",
+     "team": "UCM-COM AZUCAR MORENO",
+     "mate": "Germán Mendonça Costa-Frossard",
+     "chair": "Pau Garcia",
+     "venue": "D01",
+     "t_avg": 73.85
+    },
+    {
+     "t": "xiibpurjc__xiibpurjc",
+     "tname": "XII BP URJC",
+     "date": "2026-11-13",
+     "online": false,
+     "round": "Ronda 5",
+     "seq": 5,
+     "stage": "P",
+     "side": "cg",
+     "points": 1,
+     "win": false,
+     "position": 2,
+     "score": 72.0,
+     "iron": false,
+     "room_rank": 6,
+     "motion": "EC lamenta la intelectualización de las religiones.",
+     "topic": "filosofía y ética",
+     "team": "UCM-COM AZUCAR MORENO",
+     "mate": "Germán Mendonça Costa-Frossard",
+     "chair": "Daniel Pérez Alonso",
+     "venue": "D23",
+     "t_avg": 73.85
+    },
+    {
+     "t": "xiibpurjc__xiibpurjc",
+     "tname": "XII BP URJC",
+     "date": "2026-11-13",
+     "online": false,
+     "round": "Ronda 6",
+     "seq": 6,
+     "stage": "P",
+     "side": "og",
+     "points": 2,
+     "win": false,
+     "position": 1,
+     "score": 72.0,
+     "iron": false,
+     "room_rank": 5,
+     "motion": "EC apoya el auge de la agenda de la abundancia en el Partido Demócrata.",
+     "topic": "política nacional",
+     "team": "UCM-COM AZUCAR MORENO",
+     "mate": "Germán Mendonça Costa-Frossard",
+     "chair": "Adriana Rodríguez Alonso",
+     "venue": "D24",
+     "t_avg": 73.85
     }
    ],
    "elim_rows": [],
-   "avg_speaks": 71.59,
-   "stdev": 2.74,
+   "avg_speaks": 71.76,
+   "stdev": 2.73,
    "best": {
     "t": "toex14__toex14",
     "tname": "Torneo Express de debate USIL 14",
@@ -12561,60 +13014,60 @@
     "venue": "Aula 03",
     "t_avg": 72.59
    },
-   "avg_points": 1.31,
+   "avg_points": 1.32,
    "results_dist": {
     "3": 7,
-    "2": 6,
-    "1": 9,
-    "0": 10
+    "2": 9,
+    "1": 11,
+    "0": 11
    },
    "pos1": {
-    "n": 24,
-    "avg": 71.67
+    "n": 26,
+    "avg": 71.85
    },
    "pos2": {
-    "n": 8,
-    "avg": 71.38
+    "n": 12,
+    "avg": 71.58
    },
    "sides": {
     "og": {
      "label": "Alta Gobierno",
-     "n": 9,
-     "avg_points": 1.78,
-     "avg_speaks": 72.0,
+     "n": 11,
+     "avg_points": 1.82,
+     "avg_speaks": 72.36,
      "firsts": 4
     },
     "oo": {
      "label": "Alta Oposición",
-     "n": 8,
-     "avg_points": 1.12,
-     "avg_speaks": 70.75,
+     "n": 9,
+     "avg_points": 1,
+     "avg_speaks": 70.67,
      "firsts": 1
     },
     "cg": {
      "label": "Baja Gobierno",
-     "n": 8,
-     "avg_points": 1.38,
-     "avg_speaks": 72.62,
+     "n": 10,
+     "avg_points": 1.4,
+     "avg_speaks": 72.9,
      "firsts": 2
     },
     "co": {
      "label": "Baja Oposición",
-     "n": 7,
-     "avg_points": 0.86,
-     "avg_speaks": 70.86,
+     "n": 8,
+     "avg_points": 0.88,
+     "avg_speaks": 70.75,
      "firsts": 0
     }
    },
    "topics": {
     "rol / actor": {
-     "n": 2,
-     "avg_points": 3,
+     "n": 4,
+     "avg_points": 2.25,
      "avg_speaks": 73.0
     },
     "filosofía y ética": {
-     "n": 6,
-     "avg_points": 1.5,
+     "n": 7,
+     "avg_points": 1.43,
      "avg_speaks": 72.0
     },
     "relaciones internacionales": {
@@ -12623,9 +13076,9 @@
      "avg_speaks": 70.33
     },
     "economía": {
-     "n": 4,
-     "avg_points": 1.75,
-     "avg_speaks": 70.75
+     "n": 5,
+     "avg_points": 1.4,
+     "avg_speaks": 70.6
     },
     "feminismo y género": {
      "n": 3,
@@ -12653,9 +13106,14 @@
      "avg_speaks": 72.0
     },
     "otros": {
-     "n": 3,
-     "avg_points": 1.33,
-     "avg_speaks": 73.67
+     "n": 4,
+     "avg_points": 1.5,
+     "avg_speaks": 74.25
+    },
+    "política nacional": {
+     "n": 1,
+     "avg_points": 2,
+     "avg_speaks": 72.0
     }
    },
    "evolution": [
@@ -12694,6 +13152,12 @@
      "tname": "BP Elías Ahúja 2026",
      "avg": 70.8,
      "n": 5
+    },
+    {
+     "date": "2026-11-13",
+     "tname": "XII BP URJC",
+     "avg": 72.67,
+     "n": 6
     }
    ],
    "mates": [
@@ -12705,9 +13169,9 @@
     },
     {
      "name": "Germán Mendonça Costa-Frossard",
-     "n": 9,
+     "n": 15,
      "avg_points": 1.33,
-     "avg_speaks": 73.11
+     "avg_speaks": 72.93
     },
     {
      "name": "Inmaculada Ibáñez Coca",
@@ -12716,10 +13180,10 @@
      "avg_speaks": 70.83
     }
    ],
-   "vs_field": -1.63,
+   "vs_field": -1.56,
    "clutch": {
-    "avg_last_round": 71.17,
-    "delta": -0.42
+    "avg_last_round": 71.29,
+    "delta": -0.47
    },
    "streak_top2": 3,
    "env_online": {
@@ -12728,11 +13192,11 @@
     "avg_points": 1.5
    },
    "env_presencial": {
-    "n": 28,
-    "avg_speaks": 70.96,
+    "n": 34,
+    "avg_speaks": 71.26,
     "avg_points": 1.29
    },
-   "avg_room_rank": 4.34,
+   "avg_room_rank": 4.42,
    "room_best_count": 3,
    "chairs": [
     [
@@ -12759,12 +13223,12 @@
   },
   "jose-tomas-sanchez-galan": {
    "display": "José Tomás Sánchez Galán",
-   "n_tournaments": 27,
-   "n_rounds": 154,
+   "n_tournaments": 28,
+   "n_rounds": 160,
    "n_elim_rounds": 0,
-   "last_date": "2026-10-30",
-   "n_tournaments_6m": 6,
-   "n_rounds_6m": 34,
+   "last_date": "2026-11-13",
+   "n_tournaments_6m": 7,
+   "n_rounds_6m": 40,
    "breaks": [
     {
      "t": "copaleonii__leondelsurii2025",
@@ -13007,6 +13471,13 @@
      "date": "2026-10-30",
      "online": false,
      "team": "CIV Sin sal por favor"
+    },
+    {
+     "slug": "xiibpurjc__xiibpurjc",
+     "name": "XII BP URJC",
+     "date": "2026-11-13",
+     "online": false,
+     "team": "UNED SS"
     }
    ],
    "rows": [
@@ -16551,11 +17022,149 @@
      "chair": "Mario de la Hoz",
      "venue": "Sala 02",
      "t_avg": 72.97
+    },
+    {
+     "t": "xiibpurjc__xiibpurjc",
+     "tname": "XII BP URJC",
+     "date": "2026-11-13",
+     "online": false,
+     "round": "Ronda 1",
+     "seq": 1,
+     "stage": "P",
+     "side": "co",
+     "points": 3,
+     "win": false,
+     "position": 2,
+     "score": 78.0,
+     "iron": false,
+     "room_rank": 2,
+     "motion": "EC, como Mourinho, sentaría a las estrellas.",
+     "topic": "rol / actor",
+     "team": "UNED SS",
+     "mate": "Juan José Solanes \"Jaka\"",
+     "chair": "Clara Domingo🌼",
+     "venue": "A02",
+     "t_avg": 73.85
+    },
+    {
+     "t": "xiibpurjc__xiibpurjc",
+     "tname": "XII BP URJC",
+     "date": "2026-11-13",
+     "online": false,
+     "round": "Ronda 2",
+     "seq": 2,
+     "stage": "P",
+     "side": "og",
+     "points": 2,
+     "win": false,
+     "position": 1,
+     "score": 78.0,
+     "iron": false,
+     "room_rank": 4,
+     "motion": "EC, como el BSW, votaría a favor de la investidura del candidato de la AfD como presidente de Sajonia-Anhalt.",
+     "topic": "rol / actor",
+     "team": "UNED SS",
+     "mate": "Juan José Solanes \"Jaka\"",
+     "chair": "Álvaro Mora Varela 🫪",
+     "venue": "D02",
+     "t_avg": 73.85
+    },
+    {
+     "t": "xiibpurjc__xiibpurjc",
+     "tname": "XII BP URJC",
+     "date": "2026-11-13",
+     "online": false,
+     "round": "Ronda 3",
+     "seq": 3,
+     "stage": "P",
+     "side": "oo",
+     "points": 1,
+     "win": false,
+     "position": 1,
+     "score": 77.0,
+     "iron": false,
+     "room_rank": 5,
+     "motion": "EC Implementaría el modelo de vivienda de Viena en España",
+     "topic": "economía",
+     "team": "UNED SS",
+     "mate": "Juan José Solanes \"Jaka\"",
+     "chair": "Daniel Pérez Alonso",
+     "venue": "D23",
+     "t_avg": 73.85
+    },
+    {
+     "t": "xiibpurjc__xiibpurjc",
+     "tname": "XII BP URJC",
+     "date": "2026-11-13",
+     "online": false,
+     "round": "Ronda 4",
+     "seq": 4,
+     "stage": "P",
+     "side": "cg",
+     "points": 0,
+     "win": false,
+     "position": 2,
+     "score": 74.0,
+     "iron": false,
+     "room_rank": 7,
+     "motion": "EC siendo China invadiría Taiwán",
+     "topic": "otros",
+     "team": "UNED SS",
+     "mate": "Juan José Solanes \"Jaka\"",
+     "chair": "Raúl viñas",
+     "venue": "D19",
+     "t_avg": 73.85
+    },
+    {
+     "t": "xiibpurjc__xiibpurjc",
+     "tname": "XII BP URJC",
+     "date": "2026-11-13",
+     "online": false,
+     "round": "Ronda 5",
+     "seq": 5,
+     "stage": "P",
+     "side": "co",
+     "points": 3,
+     "win": false,
+     "position": 2,
+     "score": 78.0,
+     "iron": false,
+     "room_rank": 2,
+     "motion": "EC lamenta la intelectualización de las religiones.",
+     "topic": "filosofía y ética",
+     "team": "UNED SS",
+     "mate": "Juan José Solanes \"Jaka\"",
+     "chair": "Isabella 💻",
+     "venue": "D19",
+     "t_avg": 73.85
+    },
+    {
+     "t": "xiibpurjc__xiibpurjc",
+     "tname": "XII BP URJC",
+     "date": "2026-11-13",
+     "online": false,
+     "round": "Ronda 6",
+     "seq": 6,
+     "stage": "P",
+     "side": "og",
+     "points": 2,
+     "win": false,
+     "position": 1,
+     "score": 77.0,
+     "iron": false,
+     "room_rank": 4,
+     "motion": "EC apoya el auge de la agenda de la abundancia en el Partido Demócrata.",
+     "topic": "política nacional",
+     "team": "UNED SS",
+     "mate": "Juan José Solanes \"Jaka\"",
+     "chair": "Pau Garcia",
+     "venue": "D25",
+     "t_avg": 73.85
     }
    ],
    "elim_rows": [],
-   "avg_speaks": 75.12,
-   "stdev": 3.95,
+   "avg_speaks": 75.19,
+   "stdev": 3.9,
    "best": {
     "t": "bpcomplu__vibpcomplu",
     "tname": "VI BP COMPLU",
@@ -16602,61 +17211,61 @@
     "venue": "1.10 - The Face",
     "t_avg": 73.35
    },
-   "avg_points": 1.61,
+   "avg_points": 1.62,
    "results_dist": {
-    "3": 43,
-    "2": 43,
-    "1": 33,
-    "0": 35
+    "3": 45,
+    "2": 45,
+    "1": 34,
+    "0": 36
    },
    "pos1": {
-    "n": 72,
-    "avg": 74.39
+    "n": 75,
+    "avg": 74.51
    },
    "pos2": {
-    "n": 82,
-    "avg": 75.76
+    "n": 85,
+    "avg": 75.79
    },
    "sides": {
     "og": {
      "label": "Alta Gobierno",
-     "n": 36,
+     "n": 38,
      "avg_points": 1.89,
-     "avg_speaks": 75.67,
+     "avg_speaks": 75.76,
      "firsts": 13
     },
     "oo": {
      "label": "Alta Oposición",
-     "n": 40,
-     "avg_points": 1.3,
-     "avg_speaks": 74.45,
+     "n": 41,
+     "avg_points": 1.29,
+     "avg_speaks": 74.51,
      "firsts": 8
     },
     "cg": {
      "label": "Baja Gobierno",
-     "n": 41,
-     "avg_points": 1.54,
-     "avg_speaks": 75.32,
+     "n": 42,
+     "avg_points": 1.5,
+     "avg_speaks": 75.29,
      "firsts": 7
     },
     "co": {
      "label": "Baja Oposición",
-     "n": 37,
-     "avg_points": 1.76,
-     "avg_speaks": 75.08,
-     "firsts": 15
+     "n": 39,
+     "avg_points": 1.82,
+     "avg_speaks": 75.23,
+     "firsts": 17
     }
    },
    "topics": {
     "otros": {
-     "n": 21,
-     "avg_points": 1.48,
-     "avg_speaks": 74.81
+     "n": 22,
+     "avg_points": 1.41,
+     "avg_speaks": 74.77
     },
     "economía": {
-     "n": 33,
-     "avg_points": 1.48,
-     "avg_speaks": 75.09
+     "n": 34,
+     "avg_points": 1.47,
+     "avg_speaks": 75.15
     },
     "psicología y salud mental": {
      "n": 12,
@@ -16674,9 +17283,9 @@
      "avg_speaks": 76.56
     },
     "política nacional": {
-     "n": 12,
-     "avg_points": 1.42,
-     "avg_speaks": 73.67
+     "n": 13,
+     "avg_points": 1.46,
+     "avg_speaks": 73.92
     },
     "feminismo y género": {
      "n": 14,
@@ -16689,9 +17298,9 @@
      "avg_speaks": 74.67
     },
     "rol / actor": {
-     "n": 9,
-     "avg_points": 1.78,
-     "avg_speaks": 74.22
+     "n": 11,
+     "avg_points": 1.91,
+     "avg_speaks": 74.91
     },
     "medios y cultura": {
      "n": 3,
@@ -16699,9 +17308,9 @@
      "avg_speaks": 74.67
     },
     "filosofía y ética": {
-     "n": 13,
-     "avg_points": 2,
-     "avg_speaks": 76.31
+     "n": 14,
+     "avg_points": 2.07,
+     "avg_speaks": 76.43
     },
     "medioambiente": {
      "n": 1,
@@ -16876,6 +17485,12 @@
      "tname": "BP Elías Ahúja 2026",
      "avg": 77.8,
      "n": 5
+    },
+    {
+     "date": "2026-11-13",
+     "tname": "XII BP URJC",
+     "avg": 77.0,
+     "n": 6
     }
    ],
    "mates": [
@@ -16970,6 +17585,12 @@
      "avg_speaks": 76.67
     },
     {
+     "name": "Juan José Solanes \"Jaka\"",
+     "n": 6,
+     "avg_points": 1.83,
+     "avg_speaks": 77.0
+    },
+    {
      "name": "Manuel Jimenez Arias",
      "n": 5,
      "avg_points": 2,
@@ -17000,9 +17621,9 @@
      "avg_speaks": 77.8
     }
    ],
-   "vs_field": 1.05,
+   "vs_field": 1.13,
    "clutch": {
-    "avg_last_round": 75.22,
+    "avg_last_round": 75.29,
     "delta": 0.1
    },
    "streak_top2": 8,
@@ -17012,9 +17633,9 @@
     "avg_points": 1.76
    },
    "env_presencial": {
-    "n": 129,
-    "avg_speaks": 74.91,
-    "avg_points": 1.58
+    "n": 135,
+    "avg_speaks": 75.01,
+    "avg_points": 1.59
    },
    "avg_room_rank": 3.89,
    "room_best_count": 29,
@@ -39411,12 +40032,12 @@
   },
   "sergio-perez-fernandez": {
    "display": "Sergio Pérez Fernández",
-   "n_tournaments": 7,
-   "n_rounds": 35,
+   "n_tournaments": 8,
+   "n_rounds": 41,
    "n_elim_rounds": 0,
-   "last_date": "2026-03-20",
-   "n_tournaments_6m": 0,
-   "n_rounds_6m": 0,
+   "last_date": "2026-11-13",
+   "n_tournaments_6m": 1,
+   "n_rounds_6m": 6,
    "breaks": [
     {
      "t": "vibpcomunicateucm__discursosvibpcomunicateucm",
@@ -39495,6 +40116,13 @@
      "date": "2026-03-20",
      "online": false,
      "team": "UCM-COM Pura fé"
+    },
+    {
+     "slug": "xiibpurjc__xiibpurjc",
+     "name": "XII BP URJC",
+     "date": "2026-11-13",
+     "online": false,
+     "team": "UCM-COM PARTIDO DEL AMOR"
     }
    ],
    "rows": [
@@ -40302,11 +40930,149 @@
      "chair": "Jorge Godos 💻",
      "venue": "24-I",
      "t_avg": 74.12
+    },
+    {
+     "t": "xiibpurjc__xiibpurjc",
+     "tname": "XII BP URJC",
+     "date": "2026-11-13",
+     "online": false,
+     "round": "Ronda 1",
+     "seq": 1,
+     "stage": "P",
+     "side": "co",
+     "points": 2,
+     "win": false,
+     "position": 1,
+     "score": 76.0,
+     "iron": false,
+     "room_rank": 2,
+     "motion": "EC, como Mourinho, sentaría a las estrellas.",
+     "topic": "rol / actor",
+     "team": "UCM-COM PARTIDO DEL AMOR",
+     "mate": "Lucía Vadillo Martín",
+     "chair": "Abel Recio 🏇",
+     "venue": "D25",
+     "t_avg": 73.85
+    },
+    {
+     "t": "xiibpurjc__xiibpurjc",
+     "tname": "XII BP URJC",
+     "date": "2026-11-13",
+     "online": false,
+     "round": "Ronda 2",
+     "seq": 2,
+     "stage": "P",
+     "side": "cg",
+     "points": 1,
+     "win": false,
+     "position": 1,
+     "score": 72.0,
+     "iron": false,
+     "room_rank": 6,
+     "motion": "EC, como el BSW, votaría a favor de la investidura del candidato de la AfD como presidente de Sajonia-Anhalt.",
+     "topic": "rol / actor",
+     "team": "UCM-COM PARTIDO DEL AMOR",
+     "mate": "Lucía Vadillo Martín",
+     "chair": "Mery García 🔮✨",
+     "venue": "D11",
+     "t_avg": 73.85
+    },
+    {
+     "t": "xiibpurjc__xiibpurjc",
+     "tname": "XII BP URJC",
+     "date": "2026-11-13",
+     "online": false,
+     "round": "Ronda 3",
+     "seq": 3,
+     "stage": "P",
+     "side": "og",
+     "points": 1,
+     "win": false,
+     "position": 2,
+     "score": 73.0,
+     "iron": false,
+     "room_rank": 5,
+     "motion": "EC Implementaría el modelo de vivienda de Viena en España",
+     "topic": "economía",
+     "team": "UCM-COM PARTIDO DEL AMOR",
+     "mate": "Lucía Vadillo Martín",
+     "chair": "Amadeo Gavilano",
+     "venue": "D02",
+     "t_avg": 73.85
+    },
+    {
+     "t": "xiibpurjc__xiibpurjc",
+     "tname": "XII BP URJC",
+     "date": "2026-11-13",
+     "online": false,
+     "round": "Ronda 4",
+     "seq": 4,
+     "stage": "P",
+     "side": "co",
+     "points": 0,
+     "win": false,
+     "position": 1,
+     "score": 74.0,
+     "iron": false,
+     "room_rank": 8,
+     "motion": "EC siendo China invadiría Taiwán",
+     "topic": "otros",
+     "team": "UCM-COM PARTIDO DEL AMOR",
+     "mate": "Lucía Vadillo Martín",
+     "chair": "Álvaro Mora Varela 🫪",
+     "venue": "D16",
+     "t_avg": 73.85
+    },
+    {
+     "t": "xiibpurjc__xiibpurjc",
+     "tname": "XII BP URJC",
+     "date": "2026-11-13",
+     "online": false,
+     "round": "Ronda 5",
+     "seq": 5,
+     "stage": "P",
+     "side": "oo",
+     "points": 2,
+     "win": false,
+     "position": 1,
+     "score": 74.0,
+     "iron": false,
+     "room_rank": 4,
+     "motion": "EC lamenta la intelectualización de las religiones.",
+     "topic": "filosofía y ética",
+     "team": "UCM-COM PARTIDO DEL AMOR",
+     "mate": "Lucía Vadillo Martín",
+     "chair": "Mery García 🔮✨",
+     "venue": "D24",
+     "t_avg": 73.85
+    },
+    {
+     "t": "xiibpurjc__xiibpurjc",
+     "tname": "XII BP URJC",
+     "date": "2026-11-13",
+     "online": false,
+     "round": "Ronda 6",
+     "seq": 6,
+     "stage": "P",
+     "side": "oo",
+     "points": 3,
+     "win": false,
+     "position": 1,
+     "score": 74.0,
+     "iron": false,
+     "room_rank": 1,
+     "motion": "EC apoya el auge de la agenda de la abundancia en el Partido Demócrata.",
+     "topic": "política nacional",
+     "team": "UCM-COM PARTIDO DEL AMOR",
+     "mate": "Lucía Vadillo Martín",
+     "chair": "Araceli Latorre Balsa",
+     "venue": "D01",
+     "t_avg": 73.85
     }
    ],
    "elim_rows": [],
-   "avg_speaks": 73.4,
-   "stdev": 3.13,
+   "avg_speaks": 73.46,
+   "stdev": 2.93,
    "best": {
     "t": "vibpcomunicateucm__discursosvibpcomunicateucm",
     "tname": "Discursos VI BP Comunícate UCM",
@@ -40353,61 +41119,61 @@
     "venue": "Iglesia",
     "t_avg": 70.12
    },
-   "avg_points": 1.4,
+   "avg_points": 1.41,
    "results_dist": {
-    "3": 6,
-    "2": 11,
-    "1": 9,
-    "0": 9
+    "3": 7,
+    "2": 13,
+    "1": 11,
+    "0": 10
    },
    "pos1": {
-    "n": 22,
+    "n": 27,
     "avg": 74.0
    },
    "pos2": {
-    "n": 13,
-    "avg": 72.38
+    "n": 14,
+    "avg": 72.43
    },
    "sides": {
     "og": {
      "label": "Alta Gobierno",
-     "n": 8,
-     "avg_points": 1.88,
-     "avg_speaks": 72.75,
+     "n": 9,
+     "avg_points": 1.78,
+     "avg_speaks": 72.78,
      "firsts": 2
     },
     "oo": {
      "label": "Alta Oposición",
-     "n": 8,
-     "avg_points": 1.75,
-     "avg_speaks": 73.5,
-     "firsts": 2
+     "n": 10,
+     "avg_points": 1.9,
+     "avg_speaks": 73.6,
+     "firsts": 3
     },
     "cg": {
      "label": "Baja Gobierno",
-     "n": 9,
-     "avg_points": 1.33,
-     "avg_speaks": 73.0,
+     "n": 10,
+     "avg_points": 1.3,
+     "avg_speaks": 72.9,
      "firsts": 2
     },
     "co": {
      "label": "Baja Oposición",
-     "n": 7,
-     "avg_points": 1.14,
-     "avg_speaks": 72.71,
+     "n": 9,
+     "avg_points": 1.11,
+     "avg_speaks": 73.22,
      "firsts": 0
     }
    },
    "topics": {
     "política nacional": {
-     "n": 6,
-     "avg_points": 1,
-     "avg_speaks": 74.17
+     "n": 7,
+     "avg_points": 1.29,
+     "avg_speaks": 74.14
     },
     "economía": {
-     "n": 4,
-     "avg_points": 1.5,
-     "avg_speaks": 74.0
+     "n": 5,
+     "avg_points": 1.4,
+     "avg_speaks": 73.8
     },
     "medios y cultura": {
      "n": 3,
@@ -40415,14 +41181,14 @@
      "avg_speaks": 72.0
     },
     "otros": {
-     "n": 3,
-     "avg_points": 1.67,
-     "avg_speaks": 70.33
+     "n": 4,
+     "avg_points": 1.25,
+     "avg_speaks": 71.25
     },
     "rol / actor": {
-     "n": 1,
-     "avg_points": 3,
-     "avg_speaks": 73.0
+     "n": 3,
+     "avg_points": 2,
+     "avg_speaks": 73.67
     },
     "religión": {
      "n": 5,
@@ -40440,9 +41206,9 @@
      "avg_speaks": 74.5
     },
     "filosofía y ética": {
-     "n": 4,
-     "avg_points": 1.75,
-     "avg_speaks": 72.0
+     "n": 5,
+     "avg_points": 1.8,
+     "avg_speaks": 72.4
     },
     "educación": {
      "n": 2,
@@ -40502,6 +41268,12 @@
      "tname": "VI BP COMPLU",
      "avg": 75.6,
      "n": 5
+    },
+    {
+     "date": "2026-11-13",
+     "tname": "XII BP URJC",
+     "avg": 73.83,
+     "n": 6
     }
    ],
    "mates": [
@@ -40516,6 +41288,12 @@
      "n": 6,
      "avg_points": 1.67,
      "avg_speaks": 74.5
+    },
+    {
+     "name": "Lucía Vadillo Martín",
+     "n": 6,
+     "avg_points": 1.5,
+     "avg_speaks": 73.83
     },
     {
      "name": "David Fernández Tejedor",
@@ -40536,10 +41314,10 @@
      "avg_speaks": 75.6
     }
    ],
-   "vs_field": 0.49,
+   "vs_field": 0.42,
    "clutch": {
-    "avg_last_round": 73.14,
-    "delta": -0.26
+    "avg_last_round": 73.25,
+    "delta": -0.21
    },
    "streak_top2": 3,
    "env_online": {
@@ -40548,20 +41326,20 @@
     "avg_points": null
    },
    "env_presencial": {
-    "n": 35,
-    "avg_speaks": 73.4,
-    "avg_points": 1.4
+    "n": 41,
+    "avg_speaks": 73.46,
+    "avg_points": 1.41
    },
-   "avg_room_rank": 3.43,
-   "room_best_count": 7,
+   "avg_room_rank": 3.56,
+   "room_best_count": 8,
    "chairs": [
     [
-     "Ana Cortés Sen",
+     "Amadeo Gavilano",
      3
     ],
     [
-     "Amadeo Gavilano",
-     2
+     "Ana Cortés Sen",
+     3
     ],
     [
      "José Luis Muñoz - Reja Rodríguez",
@@ -41197,12 +41975,12 @@
   },
   "javier-guaman-beltran": {
    "display": "Javier Guamán Beltrán",
-   "n_tournaments": 3,
-   "n_rounds": 12,
+   "n_tournaments": 4,
+   "n_rounds": 18,
    "n_elim_rounds": 0,
-   "last_date": "2026-03-20",
-   "n_tournaments_6m": 0,
-   "n_rounds_6m": 0,
+   "last_date": "2026-11-13",
+   "n_tournaments_6m": 1,
+   "n_rounds_6m": 6,
    "breaks": [],
    "n_breaks": 0,
    "n_breaks_novice": 0,
@@ -41228,6 +42006,13 @@
      "date": "2026-03-20",
      "online": false,
      "team": "UCM-COM Pura fé"
+    },
+    {
+     "slug": "xiibpurjc__xiibpurjc",
+     "name": "XII BP URJC",
+     "date": "2026-11-13",
+     "online": false,
+     "team": "UCM-COM PURA FÉ"
     }
    ],
    "rows": [
@@ -41506,11 +42291,149 @@
      "chair": "Jorge Godos 💻",
      "venue": "24-I",
      "t_avg": 74.12
+    },
+    {
+     "t": "xiibpurjc__xiibpurjc",
+     "tname": "XII BP URJC",
+     "date": "2026-11-13",
+     "online": false,
+     "round": "Ronda 1",
+     "seq": 1,
+     "stage": "P",
+     "side": "cg",
+     "points": 2,
+     "win": false,
+     "position": 2,
+     "score": 73.0,
+     "iron": false,
+     "room_rank": 3,
+     "motion": "EC, como Mourinho, sentaría a las estrellas.",
+     "topic": "rol / actor",
+     "team": "UCM-COM PURA FÉ",
+     "mate": "Miguel Calvo Valcarcel",
+     "chair": "Raúl viñas",
+     "venue": "D12",
+     "t_avg": 73.85
+    },
+    {
+     "t": "xiibpurjc__xiibpurjc",
+     "tname": "XII BP URJC",
+     "date": "2026-11-13",
+     "online": false,
+     "round": "Ronda 2",
+     "seq": 2,
+     "stage": "P",
+     "side": "oo",
+     "points": 0,
+     "win": false,
+     "position": 2,
+     "score": 71.0,
+     "iron": false,
+     "room_rank": 6,
+     "motion": "EC, como el BSW, votaría a favor de la investidura del candidato de la AfD como presidente de Sajonia-Anhalt.",
+     "topic": "rol / actor",
+     "team": "UCM-COM PURA FÉ",
+     "mate": "Miguel Calvo Valcarcel",
+     "chair": "Daniel Pérez Alonso",
+     "venue": "D17",
+     "t_avg": 73.85
+    },
+    {
+     "t": "xiibpurjc__xiibpurjc",
+     "tname": "XII BP URJC",
+     "date": "2026-11-13",
+     "online": false,
+     "round": "Ronda 3",
+     "seq": 3,
+     "stage": "P",
+     "side": "co",
+     "points": 0,
+     "win": false,
+     "position": 2,
+     "score": 69.0,
+     "iron": false,
+     "room_rank": 7,
+     "motion": "EC Implementaría el modelo de vivienda de Viena en España",
+     "topic": "economía",
+     "team": "UCM-COM PURA FÉ",
+     "mate": "Miguel Calvo Valcarcel",
+     "chair": "Natalia Ruiz 💫",
+     "venue": "D21",
+     "t_avg": 73.85
+    },
+    {
+     "t": "xiibpurjc__xiibpurjc",
+     "tname": "XII BP URJC",
+     "date": "2026-11-13",
+     "online": false,
+     "round": "Ronda 4",
+     "seq": 4,
+     "stage": "P",
+     "side": "og",
+     "points": 3,
+     "win": false,
+     "position": 2,
+     "score": 74.0,
+     "iron": false,
+     "room_rank": 1,
+     "motion": "EC siendo China invadiría Taiwán",
+     "topic": "otros",
+     "team": "UCM-COM PURA FÉ",
+     "mate": "Miguel Calvo Valcarcel",
+     "chair": "Araceli Latorre Balsa",
+     "venue": "D21",
+     "t_avg": 73.85
+    },
+    {
+     "t": "xiibpurjc__xiibpurjc",
+     "tname": "XII BP URJC",
+     "date": "2026-11-13",
+     "online": false,
+     "round": "Ronda 5",
+     "seq": 5,
+     "stage": "P",
+     "side": "og",
+     "points": 0,
+     "win": false,
+     "position": 2,
+     "score": 68.0,
+     "iron": false,
+     "room_rank": 7,
+     "motion": "EC lamenta la intelectualización de las religiones.",
+     "topic": "filosofía y ética",
+     "team": "UCM-COM PURA FÉ",
+     "mate": "Miguel Calvo Valcarcel",
+     "chair": "Paula Parajuá ☂️",
+     "venue": "D16",
+     "t_avg": 73.85
+    },
+    {
+     "t": "xiibpurjc__xiibpurjc",
+     "tname": "XII BP URJC",
+     "date": "2026-11-13",
+     "online": false,
+     "round": "Ronda 6",
+     "seq": 6,
+     "stage": "P",
+     "side": "oo",
+     "points": 2,
+     "win": false,
+     "position": 2,
+     "score": 72.0,
+     "iron": false,
+     "room_rank": 3,
+     "motion": "EC apoya el auge de la agenda de la abundancia en el Partido Demócrata.",
+     "topic": "política nacional",
+     "team": "UCM-COM PURA FÉ",
+     "mate": "Miguel Calvo Valcarcel",
+     "chair": "Paula Parajuá ☂️",
+     "venue": "D23",
+     "t_avg": 73.85
     }
    ],
    "elim_rows": [],
-   "avg_speaks": 70.75,
-   "stdev": 5.08,
+   "avg_speaks": 70.89,
+   "stdev": 4.33,
    "best": {
     "t": "vibpcomunicateucm__discursosvibpcomunicateucm",
     "tname": "Discursos VI BP Comunícate UCM",
@@ -41557,61 +42480,61 @@
     "venue": "8",
     "t_avg": 70.4
    },
-   "avg_points": 0.75,
+   "avg_points": 0.89,
    "results_dist": {
-    "3": 1,
-    "2": 1,
+    "3": 2,
+    "2": 3,
     "1": 4,
-    "0": 6
+    "0": 9
    },
    "pos1": {
     "n": 7,
     "avg": 71.14
    },
    "pos2": {
-    "n": 5,
-    "avg": 70.2
+    "n": 11,
+    "avg": 70.73
    },
    "sides": {
     "og": {
      "label": "Alta Gobierno",
-     "n": 2,
-     "avg_points": 1,
-     "avg_speaks": 73.0,
-     "firsts": 0
+     "n": 4,
+     "avg_points": 1.25,
+     "avg_speaks": 72.0,
+     "firsts": 1
     },
     "oo": {
      "label": "Alta Oposición",
-     "n": 3,
-     "avg_points": 0.67,
-     "avg_speaks": 68.33,
+     "n": 5,
+     "avg_points": 0.8,
+     "avg_speaks": 69.6,
      "firsts": 0
     },
     "cg": {
      "label": "Baja Gobierno",
-     "n": 1,
-     "avg_points": 3,
-     "avg_speaks": 72.0,
+     "n": 2,
+     "avg_points": 2.5,
+     "avg_speaks": 72.5,
      "firsts": 1
     },
     "co": {
      "label": "Baja Oposición",
-     "n": 3,
-     "avg_points": 0.67,
-     "avg_speaks": 70.67,
+     "n": 4,
+     "avg_points": 0.5,
+     "avg_speaks": 70.25,
      "firsts": 0
     }
    },
    "topics": {
     "política nacional": {
-     "n": 1,
-     "avg_points": 0,
-     "avg_speaks": 73.0
+     "n": 2,
+     "avg_points": 1,
+     "avg_speaks": 72.5
     },
     "economía": {
-     "n": 2,
-     "avg_points": 0.5,
-     "avg_speaks": 71.0
+     "n": 3,
+     "avg_points": 0.33,
+     "avg_speaks": 70.33
     },
     "medios y cultura": {
      "n": 1,
@@ -41619,14 +42542,14 @@
      "avg_speaks": 64.0
     },
     "rol / actor": {
-     "n": 1,
-     "avg_points": 0,
-     "avg_speaks": 71.0
+     "n": 3,
+     "avg_points": 0.67,
+     "avg_speaks": 71.67
     },
     "filosofía y ética": {
-     "n": 1,
+     "n": 2,
      "avg_points": 0,
-     "avg_speaks": 63.0
+     "avg_speaks": 65.5
     },
     "relaciones internacionales": {
      "n": 1,
@@ -41652,6 +42575,11 @@
      "n": 1,
      "avg_points": 1,
      "avg_speaks": 77.0
+    },
+    "otros": {
+     "n": 1,
+     "avg_points": 3,
+     "avg_speaks": 74.0
     }
    },
    "evolution": [
@@ -41672,9 +42600,21 @@
      "tname": "VI BP COMPLU",
      "avg": 74.4,
      "n": 5
+    },
+    {
+     "date": "2026-11-13",
+     "tname": "XII BP URJC",
+     "avg": 71.17,
+     "n": 6
     }
    ],
    "mates": [
+    {
+     "name": "Miguel Calvo Valcarcel",
+     "n": 6,
+     "avg_points": 1.17,
+     "avg_speaks": 71.17
+    },
     {
      "name": "Sergio Pérez Fernández",
      "n": 5,
@@ -41688,10 +42628,10 @@
      "avg_speaks": 65.75
     }
    ],
-   "vs_field": -1.44,
+   "vs_field": -1.85,
    "clutch": {
-    "avg_last_round": 68.0,
-    "delta": -2.75
+    "avg_last_round": 69.0,
+    "delta": -1.89
    },
    "streak_top2": 2,
    "env_online": {
@@ -41700,15 +42640,19 @@
     "avg_points": null
    },
    "env_presencial": {
-    "n": 12,
-    "avg_speaks": 70.75,
-    "avg_points": 0.75
+    "n": 18,
+    "avg_speaks": 70.89,
+    "avg_points": 0.89
    },
-   "avg_room_rank": 4.83,
-   "room_best_count": 1,
+   "avg_room_rank": 4.72,
+   "room_best_count": 2,
    "chairs": [
     [
      "Candela Rodríguez",
+     2
+    ],
+    [
+     "Paula Parajuá ☂️",
      2
     ],
     [
@@ -41721,10 +42665,6 @@
     ],
     [
      "Carlos Torregrosa Martí",
-     1
-    ],
-    [
-     "Arun Bhojwani Vaswani",
      1
     ]
    ]
@@ -42703,12 +43643,12 @@
   },
   "miguel-calvo-valcarcel": {
    "display": "Miguel Calvo Valcarcel",
-   "n_tournaments": 3,
-   "n_rounds": 16,
+   "n_tournaments": 4,
+   "n_rounds": 22,
    "n_elim_rounds": 0,
-   "last_date": "2026-10-30",
-   "n_tournaments_6m": 1,
-   "n_rounds_6m": 5,
+   "last_date": "2026-11-13",
+   "n_tournaments_6m": 2,
+   "n_rounds_6m": 11,
    "breaks": [],
    "n_breaks": 0,
    "n_breaks_novice": 0,
@@ -42734,6 +43674,13 @@
      "date": "2026-10-30",
      "online": false,
      "team": "UCM-COM BRITH"
+    },
+    {
+     "slug": "xiibpurjc__xiibpurjc",
+     "name": "XII BP URJC",
+     "date": "2026-11-13",
+     "online": false,
+     "team": "UCM-COM PURA FÉ"
     }
    ],
    "rows": [
@@ -43104,11 +44051,149 @@
      "chair": "Andreu Garcia",
      "venue": "Sala 06",
      "t_avg": 72.97
+    },
+    {
+     "t": "xiibpurjc__xiibpurjc",
+     "tname": "XII BP URJC",
+     "date": "2026-11-13",
+     "online": false,
+     "round": "Ronda 1",
+     "seq": 1,
+     "stage": "P",
+     "side": "cg",
+     "points": 2,
+     "win": false,
+     "position": 1,
+     "score": 76.0,
+     "iron": false,
+     "room_rank": 2,
+     "motion": "EC, como Mourinho, sentaría a las estrellas.",
+     "topic": "rol / actor",
+     "team": "UCM-COM PURA FÉ",
+     "mate": "Javier Guamán Beltrán",
+     "chair": "Raúl viñas",
+     "venue": "D12",
+     "t_avg": 73.85
+    },
+    {
+     "t": "xiibpurjc__xiibpurjc",
+     "tname": "XII BP URJC",
+     "date": "2026-11-13",
+     "online": false,
+     "round": "Ronda 2",
+     "seq": 2,
+     "stage": "P",
+     "side": "oo",
+     "points": 0,
+     "win": false,
+     "position": 1,
+     "score": 71.0,
+     "iron": false,
+     "room_rank": 6,
+     "motion": "EC, como el BSW, votaría a favor de la investidura del candidato de la AfD como presidente de Sajonia-Anhalt.",
+     "topic": "rol / actor",
+     "team": "UCM-COM PURA FÉ",
+     "mate": "Javier Guamán Beltrán",
+     "chair": "Daniel Pérez Alonso",
+     "venue": "D17",
+     "t_avg": 73.85
+    },
+    {
+     "t": "xiibpurjc__xiibpurjc",
+     "tname": "XII BP URJC",
+     "date": "2026-11-13",
+     "online": false,
+     "round": "Ronda 3",
+     "seq": 3,
+     "stage": "P",
+     "side": "co",
+     "points": 0,
+     "win": false,
+     "position": 1,
+     "score": 69.0,
+     "iron": false,
+     "room_rank": 7,
+     "motion": "EC Implementaría el modelo de vivienda de Viena en España",
+     "topic": "economía",
+     "team": "UCM-COM PURA FÉ",
+     "mate": "Javier Guamán Beltrán",
+     "chair": "Natalia Ruiz 💫",
+     "venue": "D21",
+     "t_avg": 73.85
+    },
+    {
+     "t": "xiibpurjc__xiibpurjc",
+     "tname": "XII BP URJC",
+     "date": "2026-11-13",
+     "online": false,
+     "round": "Ronda 4",
+     "seq": 4,
+     "stage": "P",
+     "side": "og",
+     "points": 3,
+     "win": false,
+     "position": 1,
+     "score": 74.0,
+     "iron": false,
+     "room_rank": 1,
+     "motion": "EC siendo China invadiría Taiwán",
+     "topic": "otros",
+     "team": "UCM-COM PURA FÉ",
+     "mate": "Javier Guamán Beltrán",
+     "chair": "Araceli Latorre Balsa",
+     "venue": "D21",
+     "t_avg": 73.85
+    },
+    {
+     "t": "xiibpurjc__xiibpurjc",
+     "tname": "XII BP URJC",
+     "date": "2026-11-13",
+     "online": false,
+     "round": "Ronda 5",
+     "seq": 5,
+     "stage": "P",
+     "side": "og",
+     "points": 0,
+     "win": false,
+     "position": 1,
+     "score": 68.0,
+     "iron": false,
+     "room_rank": 7,
+     "motion": "EC lamenta la intelectualización de las religiones.",
+     "topic": "filosofía y ética",
+     "team": "UCM-COM PURA FÉ",
+     "mate": "Javier Guamán Beltrán",
+     "chair": "Paula Parajuá ☂️",
+     "venue": "D16",
+     "t_avg": 73.85
+    },
+    {
+     "t": "xiibpurjc__xiibpurjc",
+     "tname": "XII BP URJC",
+     "date": "2026-11-13",
+     "online": false,
+     "round": "Ronda 6",
+     "seq": 6,
+     "stage": "P",
+     "side": "oo",
+     "points": 2,
+     "win": false,
+     "position": 1,
+     "score": 72.0,
+     "iron": false,
+     "room_rank": 3,
+     "motion": "EC apoya el auge de la agenda de la abundancia en el Partido Demócrata.",
+     "topic": "política nacional",
+     "team": "UCM-COM PURA FÉ",
+     "mate": "Javier Guamán Beltrán",
+     "chair": "Paula Parajuá ☂️",
+     "venue": "D23",
+     "t_avg": 73.85
     }
    ],
    "elim_rows": [],
-   "avg_speaks": 70.0,
-   "stdev": 7.38,
+   "avg_speaks": 70.45,
+   "stdev": 6.5,
    "best": {
     "t": "bpeliasahuja2026__bpeliasahuja2026",
     "tname": "BP Elías Ahúja 2026",
@@ -43155,16 +44240,16 @@
     "venue": "008",
     "t_avg": 73.83
    },
-   "avg_points": 1.25,
+   "avg_points": 1.23,
    "results_dist": {
-    "3": 2,
-    "2": 5,
+    "3": 3,
+    "2": 7,
     "1": 4,
-    "0": 5
+    "0": 8
    },
    "pos1": {
-    "n": 9,
-    "avg": 67.56
+    "n": 15,
+    "avg": 69.2
    },
    "pos2": {
     "n": 7,
@@ -43173,43 +44258,43 @@
    "sides": {
     "og": {
      "label": "Alta Gobierno",
-     "n": 4,
-     "avg_points": 0.5,
-     "avg_speaks": 69.75,
-     "firsts": 0
+     "n": 6,
+     "avg_points": 0.83,
+     "avg_speaks": 70.17,
+     "firsts": 1
     },
     "oo": {
      "label": "Alta Oposición",
-     "n": 4,
+     "n": 6,
      "avg_points": 1,
-     "avg_speaks": 68.25,
+     "avg_speaks": 69.33,
      "firsts": 0
     },
     "cg": {
      "label": "Baja Gobierno",
-     "n": 4,
+     "n": 5,
      "avg_points": 2,
-     "avg_speaks": 74.0,
+     "avg_speaks": 74.4,
      "firsts": 1
     },
     "co": {
      "label": "Baja Oposición",
-     "n": 4,
-     "avg_points": 1.5,
-     "avg_speaks": 68.0,
+     "n": 5,
+     "avg_points": 1.2,
+     "avg_speaks": 68.2,
      "firsts": 1
     }
    },
    "topics": {
     "rol / actor": {
-     "n": 2,
+     "n": 4,
      "avg_points": 1,
-     "avg_speaks": 73.0
+     "avg_speaks": 73.25
     },
     "filosofía y ética": {
-     "n": 4,
-     "avg_points": 2,
-     "avg_speaks": 74.25
+     "n": 5,
+     "avg_points": 1.6,
+     "avg_speaks": 73.0
     },
     "relaciones internacionales": {
      "n": 2,
@@ -43217,9 +44302,9 @@
      "avg_speaks": 73.5
     },
     "economía": {
-     "n": 4,
-     "avg_points": 1.25,
-     "avg_speaks": 68.5
+     "n": 5,
+     "avg_points": 1,
+     "avg_speaks": 68.6
     },
     "feminismo y género": {
      "n": 2,
@@ -43235,6 +44320,16 @@
      "n": 1,
      "avg_points": 1,
      "avg_speaks": 73.0
+    },
+    "otros": {
+     "n": 1,
+     "avg_points": 3,
+     "avg_speaks": 74.0
+    },
+    "política nacional": {
+     "n": 1,
+     "avg_points": 2,
+     "avg_speaks": 72.0
     }
    },
    "evolution": [
@@ -43255,6 +44350,12 @@
      "tname": "BP Elías Ahúja 2026",
      "avg": 68.4,
      "n": 5
+    },
+    {
+     "date": "2026-11-13",
+     "tname": "XII BP URJC",
+     "avg": 71.67,
+     "n": 6
     }
    ],
    "mates": [
@@ -43265,16 +44366,22 @@
      "avg_speaks": 70.73
     },
     {
+     "name": "Javier Guamán Beltrán",
+     "n": 6,
+     "avg_points": 1.17,
+     "avg_speaks": 71.67
+    },
+    {
      "name": "Nane Melikyan Torosyan",
      "n": 5,
      "avg_points": 1.2,
      "avg_speaks": 68.4
     }
    ],
-   "vs_field": -2.49,
+   "vs_field": -2.41,
    "clutch": {
-    "avg_last_round": 57.67,
-    "delta": -12.33
+    "avg_last_round": 61.25,
+    "delta": -9.2
    },
    "streak_top2": 1,
    "env_online": {
@@ -43283,12 +44390,12 @@
     "avg_points": null
    },
    "env_presencial": {
-    "n": 16,
-    "avg_speaks": 70.0,
-    "avg_points": 1.25
+    "n": 22,
+    "avg_speaks": 70.45,
+    "avg_points": 1.23
    },
-   "avg_room_rank": 4.25,
-   "room_best_count": 2,
+   "avg_room_rank": 4.27,
+   "room_best_count": 3,
    "chairs": [
     [
      "Fabian Miulescu",
@@ -43299,15 +44406,15 @@
      2
     ],
     [
+     "Paula Parajuá ☂️",
+     2
+    ],
+    [
      "Mery García Muñoz",
      1
     ],
     [
      "Andreu Garcia Raurell",
-     1
-    ],
-    [
-     "Javier Rufo CotoTAB 👾",
      1
     ]
    ]
@@ -67125,12 +68232,12 @@
   },
   "fernanda-roig-angeles": {
    "display": "Fernanda Roig Angeles",
-   "n_tournaments": 35,
-   "n_rounds": 212,
+   "n_tournaments": 36,
+   "n_rounds": 218,
    "n_elim_rounds": 0,
-   "last_date": "2026-09-26",
-   "n_tournaments_6m": 1,
-   "n_rounds_6m": 6,
+   "last_date": "2026-11-13",
+   "n_tournaments_6m": 2,
+   "n_rounds_6m": 12,
    "breaks": [
     {
      "t": "torneobpregenta__RegentaIV",
@@ -67283,11 +68390,19 @@
      "novice": false,
      "reached": "Final",
      "champion": false
+    },
+    {
+     "t": "xiibpurjc__xiibpurjc",
+     "tname": "XII BP URJC",
+     "date": "2026-11-13",
+     "novice": false,
+     "reached": "Final",
+     "champion": false
     }
    ],
-   "n_breaks": 19,
+   "n_breaks": 20,
    "n_breaks_novice": 0,
-   "n_breaks_open": 19,
+   "n_breaks_open": 20,
    "tournaments": [
     {
      "slug": "torneobpregenta__RegentaIV",
@@ -67533,6 +68648,13 @@
      "date": "2026-09-26",
      "online": false,
      "team": "Ha ganado una champions"
+    },
+    {
+     "slug": "xiibpurjc__xiibpurjc",
+     "name": "XII BP URJC",
+     "date": "2026-11-13",
+     "online": false,
+     "team": "Corruption is only bad if I'm not"
     }
    ],
    "rows": [
@@ -72411,11 +73533,149 @@
      "chair": "Javier Lara",
      "venue": "Salón de actos",
      "t_avg": 77.76
+    },
+    {
+     "t": "xiibpurjc__xiibpurjc",
+     "tname": "XII BP URJC",
+     "date": "2026-11-13",
+     "online": false,
+     "round": "Ronda 1",
+     "seq": 1,
+     "stage": "P",
+     "side": "co",
+     "points": 3,
+     "win": false,
+     "position": 1,
+     "score": 79.0,
+     "iron": false,
+     "room_rank": 1,
+     "motion": "EC, como Mourinho, sentaría a las estrellas.",
+     "topic": "rol / actor",
+     "team": "Corruption is only bad if I'm not",
+     "mate": "Luis \"Netumbo\" Roldán",
+     "chair": "Aya Laftouh Zaidi",
+     "venue": "D14",
+     "t_avg": 73.85
+    },
+    {
+     "t": "xiibpurjc__xiibpurjc",
+     "tname": "XII BP URJC",
+     "date": "2026-11-13",
+     "online": false,
+     "round": "Ronda 2",
+     "seq": 2,
+     "stage": "P",
+     "side": "oo",
+     "points": 2,
+     "win": false,
+     "position": 1,
+     "score": 79.0,
+     "iron": false,
+     "room_rank": 2,
+     "motion": "EC, como el BSW, votaría a favor de la investidura del candidato de la AfD como presidente de Sajonia-Anhalt.",
+     "topic": "rol / actor",
+     "team": "Corruption is only bad if I'm not",
+     "mate": "Luis \"Netumbo\" Roldán",
+     "chair": "Adriana Rodríguez Alonso",
+     "venue": "D24",
+     "t_avg": 73.85
+    },
+    {
+     "t": "xiibpurjc__xiibpurjc",
+     "tname": "XII BP URJC",
+     "date": "2026-11-13",
+     "online": false,
+     "round": "Ronda 3",
+     "seq": 3,
+     "stage": "P",
+     "side": "cg",
+     "points": 3,
+     "win": false,
+     "position": 1,
+     "score": 80.0,
+     "iron": false,
+     "room_rank": 1,
+     "motion": "EC Implementaría el modelo de vivienda de Viena en España",
+     "topic": "economía",
+     "team": "Corruption is only bad if I'm not",
+     "mate": "Luis \"Netumbo\" Roldán",
+     "chair": "Daniel Pérez Alonso",
+     "venue": "D23",
+     "t_avg": 73.85
+    },
+    {
+     "t": "xiibpurjc__xiibpurjc",
+     "tname": "XII BP URJC",
+     "date": "2026-11-13",
+     "online": false,
+     "round": "Ronda 4",
+     "seq": 4,
+     "stage": "P",
+     "side": "co",
+     "points": 2,
+     "win": false,
+     "position": 1,
+     "score": 81.0,
+     "iron": false,
+     "room_rank": 2,
+     "motion": "EC siendo China invadiría Taiwán",
+     "topic": "otros",
+     "team": "Corruption is only bad if I'm not",
+     "mate": "Luis \"Netumbo\" Roldán",
+     "chair": "Carmen Vallecillo",
+     "venue": "D13",
+     "t_avg": 73.85
+    },
+    {
+     "t": "xiibpurjc__xiibpurjc",
+     "tname": "XII BP URJC",
+     "date": "2026-11-13",
+     "online": false,
+     "round": "Ronda 5",
+     "seq": 5,
+     "stage": "P",
+     "side": "og",
+     "points": 0,
+     "win": false,
+     "position": 1,
+     "score": 79.0,
+     "iron": false,
+     "room_rank": 4,
+     "motion": "EC lamenta la intelectualización de las religiones.",
+     "topic": "filosofía y ética",
+     "team": "Corruption is only bad if I'm not",
+     "mate": "Luis \"Netumbo\" Roldán",
+     "chair": "Pau Garcia",
+     "venue": "D13",
+     "t_avg": 73.85
+    },
+    {
+     "t": "xiibpurjc__xiibpurjc",
+     "tname": "XII BP URJC",
+     "date": "2026-11-13",
+     "online": false,
+     "round": "Ronda 6",
+     "seq": 6,
+     "stage": "P",
+     "side": "cg",
+     "points": 3,
+     "win": false,
+     "position": 1,
+     "score": 81.0,
+     "iron": false,
+     "room_rank": 1,
+     "motion": "EC apoya el auge de la agenda de la abundancia en el Partido Demócrata.",
+     "topic": "política nacional",
+     "team": "Corruption is only bad if I'm not",
+     "mate": "Luis \"Netumbo\" Roldán",
+     "chair": "Daniel Pérez Alonso",
+     "venue": "D19",
+     "t_avg": 73.85
     }
    ],
    "elim_rows": [],
-   "avg_speaks": 77.45,
-   "stdev": 2.28,
+   "avg_speaks": 77.52,
+   "stdev": 2.29,
    "best": {
     "t": "bpmurcia__umu24",
     "tname": "BP UMU 2024",
@@ -72462,16 +73722,16 @@
     "venue": "Sala 07",
     "t_avg": 74.49
    },
-   "avg_points": 1.85,
+   "avg_points": 1.86,
    "results_dist": {
-    "3": 78,
-    "2": 57,
+    "3": 81,
+    "2": 59,
     "1": 45,
-    "0": 32
+    "0": 33
    },
    "pos1": {
-    "n": 158,
-    "avg": 77.65
+    "n": 164,
+    "avg": 77.73
    },
    "pos2": {
     "n": 51,
@@ -72480,31 +73740,31 @@
    "sides": {
     "og": {
      "label": "Alta Gobierno",
-     "n": 47,
-     "avg_points": 1.98,
-     "avg_speaks": 77.32,
+     "n": 48,
+     "avg_points": 1.94,
+     "avg_speaks": 77.35,
      "firsts": 18
     },
     "oo": {
      "label": "Alta Oposición",
-     "n": 51,
-     "avg_points": 1.86,
-     "avg_speaks": 77.22,
+     "n": 52,
+     "avg_points": 1.87,
+     "avg_speaks": 77.25,
      "firsts": 15
     },
     "cg": {
      "label": "Baja Gobierno",
-     "n": 50,
-     "avg_points": 2,
-     "avg_speaks": 77.8,
-     "firsts": 22
+     "n": 52,
+     "avg_points": 2.04,
+     "avg_speaks": 77.9,
+     "firsts": 24
     },
     "co": {
      "label": "Baja Oposición",
-     "n": 58,
-     "avg_points": 1.74,
-     "avg_speaks": 77.5,
-     "firsts": 23
+     "n": 60,
+     "avg_points": 1.77,
+     "avg_speaks": 77.58,
+     "firsts": 24
     }
    },
    "topics": {
@@ -72514,14 +73774,14 @@
      "avg_speaks": 77.35
     },
     "otros": {
-     "n": 48,
-     "avg_points": 1.77,
-     "avg_speaks": 77.1
+     "n": 49,
+     "avg_points": 1.78,
+     "avg_speaks": 77.18
     },
     "economía": {
-     "n": 30,
-     "avg_points": 1.93,
-     "avg_speaks": 77.47
+     "n": 31,
+     "avg_points": 1.97,
+     "avg_speaks": 77.55
     },
     "medios y cultura": {
      "n": 11,
@@ -72534,9 +73794,9 @@
      "avg_speaks": 79.5
     },
     "política nacional": {
-     "n": 19,
-     "avg_points": 2,
-     "avg_speaks": 78.0
+     "n": 20,
+     "avg_points": 2.05,
+     "avg_speaks": 78.15
     },
     "educación": {
      "n": 8,
@@ -72544,9 +73804,9 @@
      "avg_speaks": 76.25
     },
     "filosofía y ética": {
-     "n": 15,
-     "avg_points": 2.2,
-     "avg_speaks": 77.8
+     "n": 16,
+     "avg_points": 2.06,
+     "avg_speaks": 77.88
     },
     "ciencia y tecnología": {
      "n": 8,
@@ -72564,9 +73824,9 @@
      "avg_speaks": 77.6
     },
     "rol / actor": {
-     "n": 10,
-     "avg_points": 1.3,
-     "avg_speaks": 78.0
+     "n": 12,
+     "avg_points": 1.5,
+     "avg_speaks": 78.17
     },
     "psicología y salud mental": {
      "n": 10,
@@ -72778,6 +74038,12 @@
      "tname": "Campeonato Nacional de Debate BP 2026",
      "avg": 79.5,
      "n": 6
+    },
+    {
+     "date": "2026-11-13",
+     "tname": "XII BP URJC",
+     "avg": 79.83,
+     "n": 6
     }
    ],
    "mates": [
@@ -72890,6 +74156,12 @@
      "avg_speaks": 78.0
     },
     {
+     "name": "Luis \"Netumbo\" Roldán",
+     "n": 6,
+     "avg_points": 2.17,
+     "avg_speaks": 79.83
+    },
+    {
      "name": "Don Sergio Mateos🏰",
      "n": 5,
      "avg_points": 2,
@@ -72932,10 +74204,10 @@
      "avg_speaks": 76.33
     }
    ],
-   "vs_field": 3.07,
+   "vs_field": 3.15,
    "clutch": {
-    "avg_last_round": 77.31,
-    "delta": -0.14
+    "avg_last_round": 77.42,
+    "delta": -0.1
    },
    "streak_top2": 14,
    "env_online": {
@@ -72944,12 +74216,12 @@
     "avg_points": 1.73
    },
    "env_presencial": {
-    "n": 190,
-    "avg_speaks": 77.49,
-    "avg_points": 1.87
+    "n": 196,
+    "avg_speaks": 77.57,
+    "avg_points": 1.88
    },
-   "avg_room_rank": 3.07,
-   "room_best_count": 57,
+   "avg_room_rank": 3.03,
+   "room_best_count": 60,
    "chairs": [
     [
      "Angel Moreno Huaccha",
@@ -85579,12 +86851,12 @@
   },
   "aitor-talavera-monte": {
    "display": "Aitor Talavera Monte",
-   "n_tournaments": 11,
-   "n_rounds": 51,
+   "n_tournaments": 12,
+   "n_rounds": 57,
    "n_elim_rounds": 0,
-   "last_date": "2026-10-23",
-   "n_tournaments_6m": 4,
-   "n_rounds_6m": 17,
+   "last_date": "2026-11-13",
+   "n_tournaments_6m": 5,
+   "n_rounds_6m": 23,
    "breaks": [
     {
      "t": "vbpsepi__vbpsepi",
@@ -85675,6 +86947,13 @@
      "date": "2026-10-23",
      "online": false,
      "team": "UCM-COM bus de imserso"
+    },
+    {
+     "slug": "xiibpurjc__xiibpurjc",
+     "name": "XII BP URJC",
+     "date": "2026-11-13",
+     "online": false,
+     "team": "UCM-COM yayos de la hoz"
     }
    ],
    "rows": [
@@ -86850,10 +88129,148 @@
      "chair": "Pedro Tomás",
      "venue": "Sala 9",
      "t_avg": 74.3
+    },
+    {
+     "t": "xiibpurjc__xiibpurjc",
+     "tname": "XII BP URJC",
+     "date": "2026-11-13",
+     "online": false,
+     "round": "Ronda 1",
+     "seq": 1,
+     "stage": "P",
+     "side": "og",
+     "points": 2,
+     "win": false,
+     "position": 1,
+     "score": 76.0,
+     "iron": false,
+     "room_rank": 4,
+     "motion": "EC, como Mourinho, sentaría a las estrellas.",
+     "topic": "rol / actor",
+     "team": "UCM-COM yayos de la hoz",
+     "mate": "Javier Rodríguez Ruescas",
+     "chair": "Daniel Pérez Alonso",
+     "venue": "D21",
+     "t_avg": 73.85
+    },
+    {
+     "t": "xiibpurjc__xiibpurjc",
+     "tname": "XII BP URJC",
+     "date": "2026-11-13",
+     "online": false,
+     "round": "Ronda 2",
+     "seq": 2,
+     "stage": "P",
+     "side": "cg",
+     "points": 2,
+     "win": false,
+     "position": 2,
+     "score": 77.0,
+     "iron": false,
+     "room_rank": 4,
+     "motion": "EC, como el BSW, votaría a favor de la investidura del candidato de la AfD como presidente de Sajonia-Anhalt.",
+     "topic": "rol / actor",
+     "team": "UCM-COM yayos de la hoz",
+     "mate": "Javier Rodríguez Ruescas",
+     "chair": "Amadeo Gavilano",
+     "venue": "D22",
+     "t_avg": 73.85
+    },
+    {
+     "t": "xiibpurjc__xiibpurjc",
+     "tname": "XII BP URJC",
+     "date": "2026-11-13",
+     "online": false,
+     "round": "Ronda 3",
+     "seq": 3,
+     "stage": "P",
+     "side": "co",
+     "points": 0,
+     "win": false,
+     "position": 2,
+     "score": 74.0,
+     "iron": false,
+     "room_rank": 7,
+     "motion": "EC Implementaría el modelo de vivienda de Viena en España",
+     "topic": "economía",
+     "team": "UCM-COM yayos de la hoz",
+     "mate": "Javier Rodríguez Ruescas",
+     "chair": "Isabella 💻",
+     "venue": "D13",
+     "t_avg": 73.85
+    },
+    {
+     "t": "xiibpurjc__xiibpurjc",
+     "tname": "XII BP URJC",
+     "date": "2026-11-13",
+     "online": false,
+     "round": "Ronda 4",
+     "seq": 4,
+     "stage": "P",
+     "side": "oo",
+     "points": 3,
+     "win": false,
+     "position": 1,
+     "score": 76.0,
+     "iron": false,
+     "room_rank": 2,
+     "motion": "EC siendo China invadiría Taiwán",
+     "topic": "otros",
+     "team": "UCM-COM yayos de la hoz",
+     "mate": "Javier Rodríguez Ruescas",
+     "chair": "Clara Domingo🌼",
+     "venue": "D24",
+     "t_avg": 73.85
+    },
+    {
+     "t": "xiibpurjc__xiibpurjc",
+     "tname": "XII BP URJC",
+     "date": "2026-11-13",
+     "online": false,
+     "round": "Ronda 5",
+     "seq": 5,
+     "stage": "P",
+     "side": "oo",
+     "points": 2,
+     "win": false,
+     "position": 1,
+     "score": 77.0,
+     "iron": false,
+     "room_rank": 4,
+     "motion": "EC lamenta la intelectualización de las religiones.",
+     "topic": "filosofía y ética",
+     "team": "UCM-COM yayos de la hoz",
+     "mate": "Javier Rodríguez Ruescas",
+     "chair": "Álvaro Mora Varela 🫪",
+     "venue": "D03",
+     "t_avg": 73.85
+    },
+    {
+     "t": "xiibpurjc__xiibpurjc",
+     "tname": "XII BP URJC",
+     "date": "2026-11-13",
+     "online": false,
+     "round": "Ronda 6",
+     "seq": 6,
+     "stage": "P",
+     "side": "co",
+     "points": 1,
+     "win": false,
+     "position": 2,
+     "score": 77.0,
+     "iron": false,
+     "room_rank": 4,
+     "motion": "EC apoya el auge de la agenda de la abundancia en el Partido Demócrata.",
+     "topic": "política nacional",
+     "team": "UCM-COM yayos de la hoz",
+     "mate": "Javier Rodríguez Ruescas",
+     "chair": "Pau Garcia",
+     "venue": "D25",
+     "t_avg": 73.85
     }
    ],
    "elim_rows": [],
-   "avg_speaks": 73.67,
+   "avg_speaks": 73.93,
    "stdev": 2.53,
    "best": {
     "t": "vbpsepi__vbpsepi",
@@ -86901,48 +88318,48 @@
     "venue": "A07 - Concepción Peña Pastor",
     "t_avg": 73.01
    },
-   "avg_points": 1.51,
+   "avg_points": 1.53,
    "results_dist": {
-    "3": 13,
-    "2": 11,
-    "1": 16,
-    "0": 11
+    "3": 14,
+    "2": 14,
+    "1": 17,
+    "0": 12
    },
    "pos1": {
-    "n": 13,
-    "avg": 74.08
+    "n": 16,
+    "avg": 74.5
    },
    "pos2": {
-    "n": 38,
-    "avg": 73.53
+    "n": 41,
+    "avg": 73.71
    },
    "sides": {
     "og": {
      "label": "Alta Gobierno",
-     "n": 15,
-     "avg_points": 1.6,
-     "avg_speaks": 73.87,
+     "n": 16,
+     "avg_points": 1.62,
+     "avg_speaks": 74.0,
      "firsts": 3
     },
     "oo": {
      "label": "Alta Oposición",
-     "n": 12,
-     "avg_points": 1.33,
-     "avg_speaks": 73.17,
-     "firsts": 3
+     "n": 14,
+     "avg_points": 1.5,
+     "avg_speaks": 73.64,
+     "firsts": 4
     },
     "cg": {
      "label": "Baja Gobierno",
-     "n": 12,
-     "avg_points": 1.67,
-     "avg_speaks": 73.83,
+     "n": 13,
+     "avg_points": 1.69,
+     "avg_speaks": 74.08,
      "firsts": 4
     },
     "co": {
      "label": "Baja Oposición",
-     "n": 12,
-     "avg_points": 1.42,
-     "avg_speaks": 73.75,
+     "n": 14,
+     "avg_points": 1.29,
+     "avg_speaks": 74.0,
      "firsts": 3
     }
    },
@@ -86958,14 +88375,14 @@
      "avg_speaks": 75.67
     },
     "filosofía y ética": {
-     "n": 11,
-     "avg_points": 1.27,
-     "avg_speaks": 74.27
+     "n": 12,
+     "avg_points": 1.33,
+     "avg_speaks": 74.5
     },
     "política nacional": {
-     "n": 7,
-     "avg_points": 1.29,
-     "avg_speaks": 73.14
+     "n": 8,
+     "avg_points": 1.25,
+     "avg_speaks": 73.62
     },
     "relaciones internacionales": {
      "n": 1,
@@ -86973,14 +88390,14 @@
      "avg_speaks": 73.0
     },
     "economía": {
-     "n": 8,
-     "avg_points": 1.88,
-     "avg_speaks": 73.5
+     "n": 9,
+     "avg_points": 1.67,
+     "avg_speaks": 73.56
     },
     "otros": {
-     "n": 5,
-     "avg_points": 1.6,
-     "avg_speaks": 74.4
+     "n": 6,
+     "avg_points": 1.83,
+     "avg_speaks": 74.67
     },
     "medios y cultura": {
      "n": 3,
@@ -86988,9 +88405,9 @@
      "avg_speaks": 74.67
     },
     "rol / actor": {
-     "n": 1,
-     "avg_points": 1,
-     "avg_speaks": 74.0
+     "n": 3,
+     "avg_points": 1.67,
+     "avg_speaks": 75.67
     },
     "psicología y salud mental": {
      "n": 4,
@@ -87074,14 +88491,20 @@
      "tname": "XI BP UAM",
      "avg": 74.5,
      "n": 6
+    },
+    {
+     "date": "2026-11-13",
+     "tname": "XII BP URJC",
+     "avg": 76.17,
+     "n": 6
     }
    ],
    "mates": [
     {
      "name": "Javier Rodríguez Ruescas",
-     "n": 23,
-     "avg_points": 1.39,
-     "avg_speaks": 73.96
+     "n": 29,
+     "avg_points": 1.45,
+     "avg_speaks": 74.41
     },
     {
      "name": "Javier Rodríguez",
@@ -87120,9 +88543,9 @@
      "avg_speaks": 78.0
     }
    ],
-   "vs_field": -0.73,
+   "vs_field": -0.41,
    "clutch": {
-    "avg_last_round": 73.91,
+    "avg_last_round": 74.17,
     "delta": 0.24
    },
    "streak_top2": 3,
@@ -87132,11 +88555,11 @@
     "avg_points": null
    },
    "env_presencial": {
-    "n": 51,
-    "avg_speaks": 73.67,
-    "avg_points": 1.51
+    "n": 57,
+    "avg_speaks": 73.93,
+    "avg_points": 1.53
    },
-   "avg_room_rank": 4.57,
+   "avg_room_rank": 4.53,
    "room_best_count": 3,
    "chairs": [
     [
@@ -87163,12 +88586,12 @@
   },
   "javier-rodriguez-ruescas": {
    "display": "Javier Rodríguez Ruescas",
-   "n_tournaments": 20,
-   "n_rounds": 106,
+   "n_tournaments": 21,
+   "n_rounds": 112,
    "n_elim_rounds": 0,
-   "last_date": "2026-10-23",
-   "n_tournaments_6m": 4,
-   "n_rounds_6m": 18,
+   "last_date": "2026-11-13",
+   "n_tournaments_6m": 5,
+   "n_rounds_6m": 24,
    "breaks": [
     {
      "t": "viiibpurjc__viiibpurjc",
@@ -87330,6 +88753,13 @@
      "date": "2026-10-23",
      "online": false,
      "team": "UCM-COM bus de imserso"
+    },
+    {
+     "slug": "xiibpurjc__xiibpurjc",
+     "name": "XII BP URJC",
+     "date": "2026-11-13",
+     "online": false,
+     "team": "UCM-COM yayos de la hoz"
     }
    ],
    "rows": [
@@ -89770,11 +91200,149 @@
      "chair": "Pedro Tomás",
      "venue": "Sala 9",
      "t_avg": 74.3
+    },
+    {
+     "t": "xiibpurjc__xiibpurjc",
+     "tname": "XII BP URJC",
+     "date": "2026-11-13",
+     "online": false,
+     "round": "Ronda 1",
+     "seq": 1,
+     "stage": "P",
+     "side": "og",
+     "points": 2,
+     "win": false,
+     "position": 2,
+     "score": 78.0,
+     "iron": false,
+     "room_rank": 1,
+     "motion": "EC, como Mourinho, sentaría a las estrellas.",
+     "topic": "rol / actor",
+     "team": "UCM-COM yayos de la hoz",
+     "mate": "Aitor Talavera Monte",
+     "chair": "Daniel Pérez Alonso",
+     "venue": "D21",
+     "t_avg": 73.85
+    },
+    {
+     "t": "xiibpurjc__xiibpurjc",
+     "tname": "XII BP URJC",
+     "date": "2026-11-13",
+     "online": false,
+     "round": "Ronda 2",
+     "seq": 2,
+     "stage": "P",
+     "side": "cg",
+     "points": 2,
+     "win": false,
+     "position": 1,
+     "score": 78.0,
+     "iron": false,
+     "room_rank": 3,
+     "motion": "EC, como el BSW, votaría a favor de la investidura del candidato de la AfD como presidente de Sajonia-Anhalt.",
+     "topic": "rol / actor",
+     "team": "UCM-COM yayos de la hoz",
+     "mate": "Aitor Talavera Monte",
+     "chair": "Amadeo Gavilano",
+     "venue": "D22",
+     "t_avg": 73.85
+    },
+    {
+     "t": "xiibpurjc__xiibpurjc",
+     "tname": "XII BP URJC",
+     "date": "2026-11-13",
+     "online": false,
+     "round": "Ronda 3",
+     "seq": 3,
+     "stage": "P",
+     "side": "co",
+     "points": 0,
+     "win": false,
+     "position": 1,
+     "score": 75.0,
+     "iron": false,
+     "room_rank": 6,
+     "motion": "EC Implementaría el modelo de vivienda de Viena en España",
+     "topic": "economía",
+     "team": "UCM-COM yayos de la hoz",
+     "mate": "Aitor Talavera Monte",
+     "chair": "Isabella 💻",
+     "venue": "D13",
+     "t_avg": 73.85
+    },
+    {
+     "t": "xiibpurjc__xiibpurjc",
+     "tname": "XII BP URJC",
+     "date": "2026-11-13",
+     "online": false,
+     "round": "Ronda 4",
+     "seq": 4,
+     "stage": "P",
+     "side": "oo",
+     "points": 3,
+     "win": false,
+     "position": 2,
+     "score": 77.0,
+     "iron": false,
+     "room_rank": 1,
+     "motion": "EC siendo China invadiría Taiwán",
+     "topic": "otros",
+     "team": "UCM-COM yayos de la hoz",
+     "mate": "Aitor Talavera Monte",
+     "chair": "Clara Domingo🌼",
+     "venue": "D24",
+     "t_avg": 73.85
+    },
+    {
+     "t": "xiibpurjc__xiibpurjc",
+     "tname": "XII BP URJC",
+     "date": "2026-11-13",
+     "online": false,
+     "round": "Ronda 5",
+     "seq": 5,
+     "stage": "P",
+     "side": "oo",
+     "points": 2,
+     "win": false,
+     "position": 2,
+     "score": 78.0,
+     "iron": false,
+     "room_rank": 3,
+     "motion": "EC lamenta la intelectualización de las religiones.",
+     "topic": "filosofía y ética",
+     "team": "UCM-COM yayos de la hoz",
+     "mate": "Aitor Talavera Monte",
+     "chair": "Álvaro Mora Varela 🫪",
+     "venue": "D03",
+     "t_avg": 73.85
+    },
+    {
+     "t": "xiibpurjc__xiibpurjc",
+     "tname": "XII BP URJC",
+     "date": "2026-11-13",
+     "online": false,
+     "round": "Ronda 6",
+     "seq": 6,
+     "stage": "P",
+     "side": "co",
+     "points": 1,
+     "win": false,
+     "position": 1,
+     "score": 77.0,
+     "iron": false,
+     "room_rank": 4,
+     "motion": "EC apoya el auge de la agenda de la abundancia en el Partido Demócrata.",
+     "topic": "política nacional",
+     "team": "UCM-COM yayos de la hoz",
+     "mate": "Aitor Talavera Monte",
+     "chair": "Pau Garcia",
+     "venue": "D25",
+     "t_avg": 73.85
     }
    ],
    "elim_rows": [],
-   "avg_speaks": 74.31,
-   "stdev": 2.66,
+   "avg_speaks": 74.46,
+   "stdev": 2.68,
    "best": {
     "t": "viiprecmudeuam__viiprecmudeuam",
     "tname": "VII PreCMUDE UAM",
@@ -89821,48 +91389,48 @@
     "venue": "Reuniones de decanato",
     "t_avg": 72.35
    },
-   "avg_points": 1.52,
+   "avg_points": 1.53,
    "results_dist": {
-    "3": 24,
-    "2": 30,
-    "1": 24,
-    "0": 27
+    "3": 25,
+    "2": 33,
+    "1": 25,
+    "0": 28
    },
    "pos1": {
-    "n": 83,
-    "avg": 74.16
+    "n": 86,
+    "avg": 74.25
    },
    "pos2": {
-    "n": 23,
-    "avg": 74.83
+    "n": 26,
+    "avg": 75.15
    },
    "sides": {
     "og": {
      "label": "Alta Gobierno",
-     "n": 28,
-     "avg_points": 1.5,
-     "avg_speaks": 74.04,
+     "n": 29,
+     "avg_points": 1.52,
+     "avg_speaks": 74.17,
      "firsts": 6
     },
     "oo": {
      "label": "Alta Oposición",
-     "n": 24,
-     "avg_points": 1.5,
-     "avg_speaks": 74.62,
-     "firsts": 5
+     "n": 26,
+     "avg_points": 1.58,
+     "avg_speaks": 74.85,
+     "firsts": 6
     },
     "cg": {
      "label": "Baja Gobierno",
-     "n": 25,
-     "avg_points": 1.48,
-     "avg_speaks": 74.36,
+     "n": 26,
+     "avg_points": 1.5,
+     "avg_speaks": 74.5,
      "firsts": 7
     },
     "co": {
      "label": "Baja Oposición",
-     "n": 27,
-     "avg_points": 1.41,
-     "avg_speaks": 74.11,
+     "n": 29,
+     "avg_points": 1.34,
+     "avg_speaks": 74.24,
      "firsts": 5
     }
    },
@@ -89873,14 +91441,14 @@
      "avg_speaks": 75.11
     },
     "otros": {
-     "n": 21,
-     "avg_points": 1.29,
-     "avg_speaks": 73.57
+     "n": 22,
+     "avg_points": 1.36,
+     "avg_speaks": 73.73
     },
     "economía": {
-     "n": 17,
-     "avg_points": 1.59,
-     "avg_speaks": 73.47
+     "n": 18,
+     "avg_points": 1.5,
+     "avg_speaks": 73.56
     },
     "medios y cultura": {
      "n": 5,
@@ -89893,9 +91461,9 @@
      "avg_speaks": 74.0
     },
     "política nacional": {
-     "n": 9,
-     "avg_points": 1.22,
-     "avg_speaks": 74.11
+     "n": 10,
+     "avg_points": 1.2,
+     "avg_speaks": 74.4
     },
     "ciencia y tecnología": {
      "n": 4,
@@ -89903,9 +91471,9 @@
      "avg_speaks": 74.0
     },
     "filosofía y ética": {
-     "n": 8,
-     "avg_points": 1.12,
-     "avg_speaks": 73.75
+     "n": 9,
+     "avg_points": 1.22,
+     "avg_speaks": 74.22
     },
     "psicología y salud mental": {
      "n": 10,
@@ -89923,9 +91491,9 @@
      "avg_speaks": 74.67
     },
     "rol / actor": {
-     "n": 8,
-     "avg_points": 1.88,
-     "avg_speaks": 75.25
+     "n": 10,
+     "avg_points": 1.9,
+     "avg_speaks": 75.8
     },
     "educación": {
      "n": 3,
@@ -90053,14 +91621,20 @@
      "tname": "XI BP UAM",
      "avg": 75.0,
      "n": 4
+    },
+    {
+     "date": "2026-11-13",
+     "tname": "XII BP URJC",
+     "avg": 77.17,
+     "n": 6
     }
    ],
    "mates": [
     {
      "name": "Aitor Talavera Monte",
-     "n": 23,
-     "avg_points": 1.39,
-     "avg_speaks": 74.78
+     "n": 29,
+     "avg_points": 1.45,
+     "avg_speaks": 75.28
     },
     {
      "name": "Aitor Talavera",
@@ -90135,10 +91709,10 @@
      "avg_speaks": 75.6
     }
    ],
-   "vs_field": 0.28,
+   "vs_field": 0.45,
    "clutch": {
-    "avg_last_round": 74.3,
-    "delta": -0.01
+    "avg_last_round": 74.43,
+    "delta": -0.03
    },
    "streak_top2": 6,
    "env_online": {
@@ -90147,12 +91721,12 @@
     "avg_points": 1.2
    },
    "env_presencial": {
-    "n": 101,
-    "avg_speaks": 74.3,
-    "avg_points": 1.53
+    "n": 107,
+    "avg_speaks": 74.46,
+    "avg_points": 1.54
    },
-   "avg_room_rank": 4.02,
-   "room_best_count": 20,
+   "avg_room_rank": 3.96,
+   "room_best_count": 22,
    "chairs": [
     [
      "Isabella Vásquez",
@@ -90171,7 +91745,7 @@
      3
     ],
     [
-     "Amadeo Gavilano 🤖",
+     "Amadeo Gavilano",
      3
     ]
    ]
@@ -144453,6 +146027,108 @@
     "side": "og",
     "points": 3,
     "score": 79.0
+   }
+  },
+  {
+   "t": "XII BP URJC",
+   "date": "2026-11-13",
+   "round": "Ronda 1",
+   "same_team": false,
+   "motion": "EC, como Mourinho, sentaría a las estrellas.",
+   "german": {
+    "side": "co",
+    "points": 1,
+    "score": 71.0
+   },
+   "lucia": {
+    "side": "co",
+    "points": 2,
+    "score": 76.0
+   }
+  },
+  {
+   "t": "XII BP URJC",
+   "date": "2026-11-13",
+   "round": "Ronda 2",
+   "same_team": false,
+   "motion": "EC, como el BSW, votaría a favor de la investidura del candidato de la AfD como presidente de Sajonia-Anhalt.",
+   "german": {
+    "side": "og",
+    "points": 2,
+    "score": 75.0
+   },
+   "lucia": {
+    "side": "cg",
+    "points": 1,
+    "score": 75.0
+   }
+  },
+  {
+   "t": "XII BP URJC",
+   "date": "2026-11-13",
+   "round": "Ronda 3",
+   "same_team": false,
+   "motion": "EC Implementaría el modelo de vivienda de Viena en España",
+   "german": {
+    "side": "oo",
+    "points": 0,
+    "score": 70.0
+   },
+   "lucia": {
+    "side": "og",
+    "points": 1,
+    "score": 73.0
+   }
+  },
+  {
+   "t": "XII BP URJC",
+   "date": "2026-11-13",
+   "round": "Ronda 4",
+   "same_team": false,
+   "motion": "EC siendo China invadiría Taiwán",
+   "german": {
+    "side": "cg",
+    "points": 2,
+    "score": 76.0
+   },
+   "lucia": {
+    "side": "co",
+    "points": 0,
+    "score": 75.0
+   }
+  },
+  {
+   "t": "XII BP URJC",
+   "date": "2026-11-13",
+   "round": "Ronda 5",
+   "same_team": false,
+   "motion": "EC lamenta la intelectualización de las religiones.",
+   "german": {
+    "side": "cg",
+    "points": 1,
+    "score": 72.0
+   },
+   "lucia": {
+    "side": "oo",
+    "points": 2,
+    "score": 75.0
+   }
+  },
+  {
+   "t": "XII BP URJC",
+   "date": "2026-11-13",
+   "round": "Ronda 6",
+   "same_team": false,
+   "motion": "EC apoya el auge de la agenda de la abundancia en el Partido Demócrata.",
+   "german": {
+    "side": "og",
+    "points": 2,
+    "score": 74.0
+   },
+   "lucia": {
+    "side": "oo",
+    "points": 3,
+    "score": 74.0
    }
   }
  ]
