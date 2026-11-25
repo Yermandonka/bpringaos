@@ -18,6 +18,8 @@ naranja/negro (Comunícate UCM) y humor interdimensional.
     host saldría como candidato. Escribe en `data/sites_auto.json`.
   - `brute.sh hosts.txt` — comprueba en paralelo qué subdominios de calicotab existen.
   - `fetch.py sites.json` — descarga rondas, mociones, equipos, oradores, jueces y ballots a `data/raw/`.
+  - `mark_refresh.py` — borra de `data/raw/` los torneos con posibles novedades para que `fetch.py` los rebaje
+    (año en curso o anterior, rondas de los últimos 60 días, o sin fechas y sin cerrar). `--dry-run` sólo los lista.
   - `analyze.py` — cruza todo, busca a las personas objetivo (matching difuso de nombres) y escribe `data/stats.json`.
 - `data/raw/` — JSON crudo por torneo (~150 torneos hispanos).
 

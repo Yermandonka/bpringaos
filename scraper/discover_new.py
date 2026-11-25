@@ -47,7 +47,7 @@ ROMAN_IDX = {r: i + 1 for i, r in enumerate(ROMAN)}          # "iv" -> 4
 RE_ROMAN = r"(?:x{0,2}(?:ix|iv|v?i{0,3}))"                   # i..xxxix (puede ser vacío)
 STOP = {"de", "del", "la", "el", "los", "las", "y", "e", "en", "edicion", "torneo",
         "campeonato", "copa", "open", "abierto"}
-HEADERS = {"User-Agent": "bpringaos/1.1 (descubrimiento de torneos; contacto lufrossard@yahoo.es)"}
+HEADERS = {"User-Agent": "bpringaos/1.1 (descubrimiento de torneos)"}
 HOST_OK = re.compile(r"^[a-z0-9][a-z0-9-]{2,62}$")
 
 

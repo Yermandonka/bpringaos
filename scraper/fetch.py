@@ -15,7 +15,7 @@ from pathlib import Path
 RAW = Path(__file__).resolve().parent.parent / "data" / "raw"
 RAW.mkdir(parents=True, exist_ok=True)
 
-HEADERS = {"User-Agent": "bpringaos-stats/1.0 (proyecto estadistico; contacto lufrossard@yahoo.es)"}
+HEADERS = {"User-Agent": "bpringaos-stats/1.0 (proyecto estadistico)"}
 
 
 def get(url, retries=3, timeout=25):
