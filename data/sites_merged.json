@@ -2664,5 +2664,14 @@
     "name": "V BP Complu (UCM)"
    }
   ]
+ },
+ {
+  "base": "https://rosarioopen2026.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "open",
+    "name": "Rosario Open 2026"
+   }
+  ]
  }
 ]

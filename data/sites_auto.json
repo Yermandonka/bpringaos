@@ -424,5 +424,14 @@
     "name": "Torneo de Debate Interescolar de la Universidad de Chile 2026"
    }
   ]
+ },
+ {
+  "base": "https://rosarioopen2026.calicotab.com",
+  "tournaments": [
+   {
+    "slug": "open",
+    "name": "Rosario Open 2026"
+   }
+  ]
  }
 ]

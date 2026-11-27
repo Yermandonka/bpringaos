@@ -1,6 +1,6 @@
 {
  "generated": true,
- "n_tournaments_scanned": 357,
+ "n_tournaments_scanned": 358,
  "n_people": 103,
  "tournaments_scanned": [
   {
@@ -1422,6 +1422,13 @@
    "slug": "rosarioopen2025",
    "base": "https://rosarioopen2025.calicotab.com",
    "date": "2025-11-21",
+   "online": true
+  },
+  {
+   "name": "Rosario Open 2026",
+   "slug": "open",
+   "base": "https://rosarioopen2026.calicotab.com",
+   "date": "2026-01-01",
    "online": true
   },
   {
